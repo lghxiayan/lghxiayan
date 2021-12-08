@@ -1,29 +1,43 @@
-#!/usr/bin/conda python
-# -*- coding: utf-8 -*-
-# @Time : 2021/11/24 17:27
-# @Author : xiayan
-# @Email : lghxiayan@163.com
+class Restaurant:
+    """模拟餐厅"""
+
+    def __init__(self, restaurant_name, cuisine_type):
+        """初始化"""
+        self.name = restaurant_name
+        self.type = cuisine_type
+        self.number_served = 0
+
+    def describe_restaurant(self):
+        """描述餐厅"""
+        print(f"{self.name} 是一家 {self.type}")
+
+    def open_restaurant(self):
+        """餐厅正在营业"""
+        print(f"{self.name} 正在营业")
+
+    def print_number_served(self):
+        """打印服务过的人数"""
+        print(f"{self.name} 一共服务过 {self.number_served} 人")
+
+    def update_number_served(self, number):
+        """更新服务过的人数"""
+        self.number_served = number
+
+    def today_number_served(self, today_num):
+        """今天共服务过的人数"""
+        print(f"今天服务过 {today_num} 人")
+        self.number_served += today_num
+
+    def set_number_served(self, number):
+        """设置最多就餐人数"""
+        print(f"{self.name} 最多可以就餐 {number} 人")
 
 
-def two_d_list_sort2(sort_index):  # 动态的根据传入的元素索引进行排序
-    list = [["1", "c++", "demo"],
-            ["1", "c", "test"],
-            ["2", "java", ""],
-            ["8", "golang", "google"],
-            ["4", "python", "gil"],
-            ["5", "swift", "apple"]
-            ]
-    key_set = ""
-    for item in sort_index.split(","):
-        key_set += "ele[" + item + "]+"
-    key_set = key_set.rstrip("+")
-    print(key_set)
-    list.sort(key=lambda ele: eval(key_set))
-    print("排序索引:", sort_index, list)
-
-
-if __name__ == "__main__":
-    two_d_list_sort2("0")
-    two_d_list_sort2("1")
-    two_d_list_sort2("2")
-    two_d_list_sort2("1,0")
+ct1 = Restaurant('斯斯科餐厅', '西餐厅')
+ct1.describe_restaurant()
+ct1.open_restaurant()
+# ct1.number_served = 33
+ct1.update_number_served(22)
+ct1.today_number_served(20)
+ct1.print_number_served()
+ct1.set_number_served(11)
