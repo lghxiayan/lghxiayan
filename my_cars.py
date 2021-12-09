@@ -4,11 +4,11 @@
 # @Author : xiayan
 # @Email : lghxiayan@163.com
 
-from car import Car, ElectricCar
-import car
+from car import Car
+from electric_car import ElectricCar
 
-my_beetle = car.Car('volkswagen', 'beetle', 2019)
-my_beetle.get_describe()
+my_beetle = Car('volkswagen', 'beetle', 2019)
+print(my_beetle.descriptive_name())
 
-my_tesla = car.ElectricCar('tesla', 'model s', 2018)
-my_tesla.get_describe()
+my_tesla = ElectricCar('tesla', 'model s', 2018)
+print(my_tesla.descriptive_name())
