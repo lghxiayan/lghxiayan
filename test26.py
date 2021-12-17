@@ -1,21 +1,25 @@
-class AnonymousSurvey:
-    """匿名调查"""
+import unittest
 
-    def __init__(self, question):
-        """初始化"""
-        self.question = question
-        self.responses = []
+from employee import Employee
 
-    def show_question(self):
-        """显示问题"""
-        print(self.question)
 
-    def store_response(self, new_response):
-        """存储问题"""
-        self.responses.append(new_response)
+class TestEmployee(unittest.TestCase):
+    """定义测试类"""
 
-    def show_result(self):
-        """显示结果"""
-        print("Survey result:")
-        for response in self.responses:
-            print(f"- {response}")
+    def setUp(self):
+        """定义共用实例"""
+        self.my_employee = Employee('xia', 'yan', 100)
+
+    def test_give_default_raise(self):
+        """测试默认增加值"""
+        self.my_employee.give_raise()
+        self.assertEqual(5100, self.my_employee.salary)
+
+    def test_give_custom_raise(self):
+        """测试自定义增加值"""
+        self.my_employee.give_raise(3000)
+        self.assertEqual(3100, self.my_employee.salary)
+
+
+if __name__ == '__main__':
+    unittest.main()
