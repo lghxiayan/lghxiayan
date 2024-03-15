@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c18484f3-9386-45fb-8e17-f00361f4945c" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/alien_invasion/PYG02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alien_invasion/PYG04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alien_invasion/images/PYG02-ball.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alien_invasion/images/PYG03-flower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alien_invasion/test27.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/16-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/33-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/44.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/CTF99_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/FourCip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/Iamclassical.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/a2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/bin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/ctf99_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/ctf99_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/ctf99_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/cvs_url_sqlmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/keyboard.pcapng" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/keyboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/keyboard1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/keyboard2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/logtime.pcapng" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/mouse.pcapng" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/mouse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/pyshark_test01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/test01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/usb_keyboard_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/usbdata-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctf/usbdata.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day100/day1_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mywowfishing-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mywowfishing-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mywowfishing-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mywowfishing-master/fishing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mywowfishing-master/record.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mywowfishing-master/var/fishing_float.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mywowfishing-master/var/fishing_session.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/PySide2_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/build/test/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/build/test/COLLECT-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/build/test/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/build/test/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/build/test/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/build/test/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/build/test/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/build/test/test.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/build/test/test.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/build/test/test.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/build/test/warn-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/build/test/xref-test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/http_port_test.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/Qt5Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/Qt5DBus.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/Qt5Gui.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/Qt5Network.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/Qt5Pdf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/Qt5Qml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/Qt5QmlModels.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/Qt5Quick.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/Qt5Svg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/Qt5VirtualKeyboard.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/Qt5WebSockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/Qt5Widgets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/Qt5Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/QtCore.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/QtGui.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/QtNetwork.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/QtUiTools.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/QtWidgets.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/QtXml.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/d3dcompiler_47.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/libEGL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/libGLESv2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/msvcp140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/msvcp140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/opengl32sw.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/bearer/qgenericbearer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/iconengines/qsvgicon.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/imageformats/qgif.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/imageformats/qicns.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/imageformats/qico.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/imageformats/qjpeg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/imageformats/qpdf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/imageformats/qsvg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/imageformats/qtga.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/imageformats/qtiff.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/imageformats/qwbmp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/imageformats/qwebp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/platforminputcontexts/qtvirtualkeyboardplugin.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/platforms/qdirect2d.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/platforms/qminimal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/platforms/qoffscreen.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/platforms/qwebgl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/platforms/qwindows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/platformthemes/qxdgdesktopportal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/plugins/styles/qwindowsvistastyle.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/pyside2.abi3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_ar.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_ca.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_cs.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_fi.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_gd.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_he.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_hu.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_it.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_ja.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_lv.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_sk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_tr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/translations/qtbase_zh_TW.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/PySide2/vcruntime140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/_bz2.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/_decimal.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/_hashlib.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/_lzma.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/_socket.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/_ssl.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/http_port_test.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/libcrypto-1_1-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/libssl-1_1-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/msvcp140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/python3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/python39.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/select.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/shiboken2/shiboken2.abi3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/shiboken2/shiboken2.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/shiboken2/vcruntime140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/test.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/ucrtbase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/unicodedata.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/vcruntime140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/dist/test/vcruntime140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/drive_fs.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/http_port_test.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/httpclient.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/test.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/test_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/ui/drive_fs.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/ui/first.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/ui/http_port_test.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pySide2/ui_mainwindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_bmi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_file_upload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_input_group.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_input_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_popup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_put_loading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_put_processbar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_put_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_scope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_slider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_test_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pywebio/pywebio_test_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/aes_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/aes_01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/aes_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/bs4_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/bs4_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/caijia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/cookie_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/cookie_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/cookie_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/cookie_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/csv_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/data1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/data4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/dict_new_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/eggs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/encrypted.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/movie.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/mybaidu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/new_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/new_data_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/re_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/re_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/request_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/requests_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/requests_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/test01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/xpath_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/xpath_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/xpath_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests/xpath_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/newfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/test.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow-fish-bot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow-fish-bot/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow-fish-bot/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow-fish-bot/wow-fish-bot-app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow-fish-bot/wow-fish-bot-area.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow-fish-bot/wow-fish-bot.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow-fish-bot/wow-fish-bot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow-fish-bot/wow-fish-bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow-fish-bot/wow-fish-bot.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/fullscreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/haha.jpe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/out1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/record.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/recording.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test07_fin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test08_fin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/test_notepad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/testfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/wowJump.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/wowPress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/wow_fish.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wow/截图.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mooc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mooc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/study1/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/study1/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/study1/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/study1/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BatchInstall.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/BatchInstall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalHamletV1.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/CalHamletV1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalPiV2.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/CalPiV2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalThreeKingDomsV1.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/CalThreeKingDomsV1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GovRptWordCloudV1.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/GovRptWordCloudV1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KochDrawV2.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/KochDrawV2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KochDrawV2.spec" beforeDir="false" afterPath="$PROJECT_DIR$/study1/KochDrawV2.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatchAnalysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/MatchAnalysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonDraw.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/PythonDraw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/study1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SevenDigitsDrawV1.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/SevenDigitsDrawV1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SevenDigitsDrawV1.spec" beforeDir="false" afterPath="$PROJECT_DIR$/study1/SevenDigitsDrawV1.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TempConvert.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/TempConvert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeKingdoms.png" beforeDir="false" afterPath="$PROJECT_DIR$/study1/ThreeKingdoms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study1/abc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calStatisticsV1.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/calStatisticsV1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/city_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/study1/code.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/study1/code3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/study1/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/study1/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/study1/data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/electric_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/electric_car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/employee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fivestar.png" beforeDir="false" afterPath="$PROJECT_DIR$/study1/fivestar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fivestar2.png" beforeDir="false" afterPath="$PROJECT_DIR$/study1/fivestar2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest_book.txt" beforeDir="false" afterPath="$PROJECT_DIR$/study1/guest_book.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hamlet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/study1/hamlet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/study1/icon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/items.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/study1/items.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language_survey.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/language_survey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex.log" beforeDir="false" afterPath="$PROJECT_DIR$/study1/latex.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/like_number.json" beforeDir="false" afterPath="$PROJECT_DIR$/study1/like_number.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cars.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/my_cars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_eletric_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/my_eletric_car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypro_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study1/mypro_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypro_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/study1/mypro_config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/name_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/name_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/names.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/names.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ctf/22.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numbers.json" beforeDir="false" afterPath="$PROJECT_DIR$/study1/numbers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/study1/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pi_digits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/study1/pi_digits.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pi_million_digits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/study1/pi_million_digits.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/pizza.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pywcloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/study1/pywcloud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/survey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ctf/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test03.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test04.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test05.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test06.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test06.spec" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test06.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test07.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test08.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test09.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test10.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test11.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test12.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test13.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test14.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test15.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test16.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test17.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test18.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test19.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test20.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test21.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test22.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test23.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test23.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test24.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test24.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test25.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test25.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test26.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test26.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cities.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test_cities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_name_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test_name_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_survey.py" beforeDir="false" afterPath="$PROJECT_DIR$/study1/test_survey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threekingdoms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/study1/threekingdoms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/username.json" beforeDir="false" afterPath="$PROJECT_DIR$/study1/username.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/study1/users.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/关于实施乡村振兴战略的意见.txt" beforeDir="false" afterPath="$PROJECT_DIR$/study1/关于实施乡村振兴战略的意见.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新时代中国特色社会主义.txt" beforeDir="false" afterPath="$PROJECT_DIR$/study1/新时代中国特色社会主义.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/沉默的羔羊.txt" beforeDir="false" afterPath="$PROJECT_DIR$/study1/沉默的羔羊.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="480085fb-e9e0-4a1f-b91b-8a5172f9a9c2" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/study1/test.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study1/threekingdoms.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study1/hamlet.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study1/test03.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study1/test09.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study1/test08.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study1/test07.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study1/test06.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study1/test01.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study1/CalThreeKingDomsV1.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study1/calStatisticsV1.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study1/CalHamletV1.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1zo4XTEG3xmbOKn4vOLlDv3eDqo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last.edited.regexp" value="示例文本" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pySide2/ui" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\pySide2\ui" />
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\pywebio" />
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\requests" />
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\ctf" />
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\wow" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\study1" />
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\alien_invasion" />
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\alien_invasion\images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="PySide2_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mooc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pySide2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pySide2/PySide2_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="mooc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\xiayan\OneDrive\python_study\mooc\study1\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mooc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pySide2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pySide2/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mooc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study1/test02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mooc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wow/test14.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_notepad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mooc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wow/test_notepad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.PySide2_01" />
+        <item itemvalue="Python.test14" />
+        <item itemvalue="Python.test_notepad" />
+        <item itemvalue="Python.test02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\xiayan\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c18484f3-9386-45fb-8e17-f00361f4945c" name="变更" comment="" />
+      <created>1634801145420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634801145420</updated>
+      <workItem from="1634801185104" duration="511000" />
+      <workItem from="1634906079792" duration="251000" />
+      <workItem from="1634906347772" duration="777000" />
+      <workItem from="1634907500929" duration="15376000" />
+      <workItem from="1635150054425" duration="18811000" />
+      <workItem from="1635306916605" duration="6277000" />
+      <workItem from="1635341930141" duration="39558000" />
+      <workItem from="1635558464846" duration="452000" />
+      <workItem from="1635558945586" duration="914000" />
+      <workItem from="1635560105971" duration="23000" />
+      <workItem from="1635578175315" duration="6532000" />
+      <workItem from="1635589650401" duration="2621000" />
+      <workItem from="1635643014552" duration="3393000" />
+      <workItem from="1635681312478" duration="603000" />
+      <workItem from="1635726120190" duration="3738000" />
+      <workItem from="1635730840555" duration="6847000" />
+      <workItem from="1635812099064" duration="48221000" />
+      <workItem from="1636118371877" duration="3029000" />
+      <workItem from="1636275283777" duration="23493000" />
+      <workItem from="1636418618822" duration="250000" />
+      <workItem from="1636420467499" duration="25556000" />
+      <workItem from="1636515618942" duration="15737000" />
+      <workItem from="1637028122887" duration="7178000" />
+      <workItem from="1637047710256" duration="20474000" />
+      <workItem from="1637714308701" duration="17749000" />
+      <workItem from="1638404187868" duration="35514000" />
+      <workItem from="1638882026251" duration="63882000" />
+      <workItem from="1639450318240" duration="4737000" />
+      <workItem from="1639489944776" duration="126000" />
+      <workItem from="1639490096112" duration="65000" />
+      <workItem from="1639492705428" duration="4040000" />
+      <workItem from="1639613841533" duration="18902000" />
+      <workItem from="1639974233089" duration="18973000" />
+      <workItem from="1640219434935" duration="21755000" />
+      <workItem from="1641870586020" duration="1224000" />
+      <workItem from="1641946963299" duration="602000" />
+      <workItem from="1595118235509" duration="518000" />
+      <workItem from="1642465990967" duration="4814000" />
+      <workItem from="1647479985305" duration="8000" />
+      <workItem from="1647480017899" duration="397000" />
+      <workItem from="1647480440758" duration="17103000" />
+      <workItem from="1648464616487" duration="107000" />
+      <workItem from="1648626809138" duration="180000" />
+      <workItem from="1648627315763" duration="50609000" />
+      <workItem from="1649079586197" duration="68030000" />
+      <workItem from="1650240336003" duration="17164000" />
+      <workItem from="1650768039231" duration="15730000" />
+      <workItem from="1651362612638" duration="47479000" />
+      <workItem from="1652227375749" duration="2728000" />
+      <workItem from="1652316148282" duration="19280000" />
+      <workItem from="1653270091338" duration="613000" />
+      <workItem from="1657243105966" duration="1188000" />
+      <workItem from="1657437872054" duration="1735000" />
+      <workItem from="1657443088146" duration="1025000" />
+      <workItem from="1657444142806" duration="1945000" />
+      <workItem from="1657522868457" duration="599000" />
+      <workItem from="1657552161813" duration="12137000" />
+      <workItem from="1657843308818" duration="17000" />
+      <workItem from="1659166804981" duration="4952000" />
+      <workItem from="1659315296303" duration="677000" />
+      <workItem from="1659321599487" duration="6747000" />
+      <workItem from="1659490626834" duration="4902000" />
+      <workItem from="1659971384019" duration="96000" />
+      <workItem from="1660115121255" duration="1667000" />
+      <workItem from="1660131119678" duration="9925000" />
+      <workItem from="1660961343054" duration="107461000" />
+      <workItem from="1661731228090" duration="81742000" />
+      <workItem from="1662955912231" duration="710000" />
+      <workItem from="1663546158812" duration="600000" />
+      <workItem from="1664351166020" duration="4780000" />
+      <workItem from="1664673904239" duration="3485000" />
+      <workItem from="1666599446075" duration="428000" />
+      <workItem from="1666599899754" duration="55798000" />
+      <workItem from="1667003914222" duration="14284000" />
+      <workItem from="1667293494915" duration="597000" />
+      <workItem from="1667383904885" duration="6040000" />
+    </task>
+    <task id="LOCAL-00001" summary="test14.py">
+      <created>1637714671453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637714671453</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test15.py">
+      <created>1637717438875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637717438875</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test15.py">
+      <created>1638846941507</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638846941507</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test15.py">
+      <created>1638881313380</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638881313380</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test15.py">
+      <created>1638881987342</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638881987342</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test15.py">
+      <created>1638928377601</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638928377601</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test15.py">
+      <created>1639013164138</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639013164138</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test15.py">
+      <created>1639037829506</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639037829506</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test15.py">
+      <created>1639039954267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1639039954267</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test15.py">
+      <created>1639040575009</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1639040575009</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test15.py">
+      <created>1639128325644</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1639128325644</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test15.py">
+      <created>1639443434413</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1639443434413</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test15.py">
+      <created>1639450753765</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1639450753765</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test15.py">
+      <created>1639489831648</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1639489831648</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test15.py">
+      <created>1639643563740</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1639643563740</updated>
+    </task>
+    <task id="LOCAL-00016" summary="test15.py">
+      <created>1639727438155</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1639727438155</updated>
+    </task>
+    <task id="LOCAL-00017" summary="test15.py">
+      <created>1639730886741</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1639730886741</updated>
+    </task>
+    <task id="LOCAL-00018" summary="test15.py">
+      <created>1640069691465</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1640069691465</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="test14.py" />
+    <MESSAGE value="test15.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="test15.py" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/study1/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day100/day1_1.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.output" />
+        <watch expression="self.output" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mooc$test19.coverage" NAME="test19 覆盖结果" MODIFIED="1638864798371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$test04.coverage" NAME="test04 覆盖结果" MODIFIED="1648772542385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$bs4_02.coverage" NAME="bs4_02 覆盖结果" MODIFIED="1661496230664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$name_function.coverage" NAME="name_function 覆盖结果" MODIFIED="1639453817518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$CalThreeKingDomsV1.coverage" NAME="CalThreeKingDomsV1 覆盖结果" MODIFIED="1636286865294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_put_processbar.coverage" NAME="pywebio_put_processbar 覆盖结果" MODIFIED="1666758414249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$fishing.coverage" NAME="fishing 覆盖结果" MODIFIED="1648196784038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mywowfishing-master" />
+    <SUITE FILE_PATH="coverage/mooc$.coverage" NAME=" 覆盖结果" MODIFIED="1640048191417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$GovRptWordCloudV1.coverage" NAME="GovRptWordCloudV1 覆盖结果" MODIFIED="1636425866672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$keyboard.coverage" NAME="keyboard 覆盖结果" MODIFIED="1662682778321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctf" />
+    <SUITE FILE_PATH="coverage/mooc$PySide2_01.coverage" NAME="PySide2_01 覆盖结果" MODIFIED="1667547998424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pySide2" />
+    <SUITE FILE_PATH="coverage/mooc$test13.coverage" NAME="test13 覆盖结果" MODIFIED="1658370867764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$xpath_02.coverage" NAME="xpath_02 覆盖结果" MODIFIED="1661325139510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_slider.coverage" NAME="pywebio_slider 覆盖结果" MODIFIED="1666686755201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$test22.coverage" NAME="test22 覆盖结果" MODIFIED="1639041421060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_file_upload.coverage" NAME="pywebio_file_upload 覆盖结果" MODIFIED="1666686165800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$settings.coverage" NAME="settings 覆盖结果" MODIFIED="1640068041440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alien_invasion" />
+    <SUITE FILE_PATH="coverage/mooc$ctf99_4.coverage" NAME="ctf99_4 覆盖结果" MODIFIED="1659323069661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctf" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_test_02.coverage" NAME="pywebio_test_02 覆盖结果" MODIFIED="1666856284878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$test14.coverage" NAME="test14 覆盖结果" MODIFIED="1639037718928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$test09.coverage" NAME="test09 覆盖结果" MODIFIED="1648775438016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$re_01.coverage" NAME="re_01 覆盖结果" MODIFIED="1661140448425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$xpath_01.coverage" NAME="xpath_01 覆盖结果" MODIFIED="1661325938419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$PYG04.coverage" NAME="PYG04 覆盖结果" MODIFIED="1642490359665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alien_invasion" />
+    <SUITE FILE_PATH="coverage/mooc$re_02.coverage" NAME="re_02 覆盖结果" MODIFIED="1661156268377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$test27__1_.coverage" NAME="test27 (1) 覆盖结果" MODIFIED="1642491825635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alien_invasion" />
+    <SUITE FILE_PATH="coverage/mooc$test21.coverage" NAME="test21 覆盖结果" MODIFIED="1639038175380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$test03.coverage" NAME="test03 覆盖结果" MODIFIED="1649901075679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$language_survey.coverage" NAME="language_survey 覆盖结果" MODIFIED="1639656401694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$xpath_03.coverage" NAME="xpath_03 覆盖结果" MODIFIED="1661417049193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_input_group.coverage" NAME="pywebio_input_group 覆盖结果" MODIFIED="1666689906588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$CTF99_3.coverage" NAME="CTF99_3 覆盖结果" MODIFIED="1658904181969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctf" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_04.coverage" NAME="pywebio_04 覆盖结果" MODIFIED="1666685189198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$names.coverage" NAME="names 覆盖结果" MODIFIED="1639452264578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$main.coverage" NAME="main 覆盖结果" MODIFIED="1634909719933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$wowPress.coverage" NAME="wowPress 覆盖结果" MODIFIED="1652860357645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$alien_invasion.coverage" NAME="alien_invasion 覆盖结果" MODIFIED="1640069124279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alien_invasion" />
+    <SUITE FILE_PATH="coverage/mooc$cookie_04.coverage" NAME="cookie_04 覆盖结果" MODIFIED="1662090756983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$CalHamletV1.coverage" NAME="CalHamletV1 覆盖结果" MODIFIED="1636103036991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$PYG02.coverage" NAME="PYG02 覆盖结果" MODIFIED="1641871200321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alien_invasion" />
+    <SUITE FILE_PATH="coverage/mooc$electric_car.coverage" NAME="electric_car 覆盖结果" MODIFIED="1639009474817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$test23.coverage" NAME="test23 覆盖结果" MODIFIED="1639101145638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_scope.coverage" NAME="pywebio_scope 覆盖结果" MODIFIED="1666751460512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$test17.coverage" NAME="test17 覆盖结果" MODIFIED="1638932104268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$usb_keyboard_1.coverage" NAME="usb_keyboard_1 覆盖结果" MODIFIED="1657598963679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctf" />
+    <SUITE FILE_PATH="coverage/mooc$keyboard2.coverage" NAME="keyboard2 覆盖结果" MODIFIED="1658146670614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctf" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_06.coverage" NAME="pywebio_06 覆盖结果" MODIFIED="1666684864676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$test12.coverage" NAME="test12 覆盖结果" MODIFIED="1637032997675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$cvs_url_sqlmap.coverage" NAME="cvs_url_sqlmap 覆盖结果" MODIFIED="1657439000231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctf" />
+    <SUITE FILE_PATH="coverage/mooc$ctf99_2.coverage" NAME="ctf99_2 覆盖结果" MODIFIED="1657947483236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctf" />
+    <SUITE FILE_PATH="coverage/mooc$first.coverage" NAME="first 覆盖结果" MODIFIED="1666922464923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pySide2" />
+    <SUITE FILE_PATH="coverage/mooc$SevenDigitsDrawV1.coverage" NAME="SevenDigitsDrawV1 覆盖结果" MODIFIED="1635726566692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$test06.coverage" NAME="test06 覆盖结果" MODIFIED="1648630285455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_01.coverage" NAME="pywebio_01 覆盖结果" MODIFIED="1666602269575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$calStatisticsV1.coverage" NAME="calStatisticsV1 覆盖结果" MODIFIED="1636289971649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$test07.coverage" NAME="test07 覆盖结果" MODIFIED="1648783357962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$my_cars.coverage" NAME="my_cars 覆盖结果" MODIFIED="1639040174953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$my_eletric_car.coverage" NAME="my_eletric_car 覆盖结果" MODIFIED="1639040252154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$cookie_02.coverage" NAME="cookie_02 覆盖结果" MODIFIED="1661912601636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_test.coverage" NAME="pywebio_test 覆盖结果" MODIFIED="1666855351479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$test10.coverage" NAME="test10 覆盖结果" MODIFIED="1649661386563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$test01.coverage" NAME="test01 覆盖结果" MODIFIED="1666929177559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study1" />
+    <SUITE FILE_PATH="coverage/mooc$aes_02.coverage" NAME="aes_02 覆盖结果" MODIFIED="1664674314926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$test.coverage" NAME="test 覆盖结果" MODIFIED="1667548024798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pySide2" />
+    <SUITE FILE_PATH="coverage/mooc$test07_fin.coverage" NAME="test07_fin 覆盖结果" MODIFIED="1648773653052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$test25.coverage" NAME="test25 覆盖结果" MODIFIED="1639442869736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$BatchInstall.coverage" NAME="BatchInstall 覆盖结果" MODIFIED="1636515942171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$wowJump.coverage" NAME="wowJump 覆盖结果" MODIFIED="1652171857240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_02.coverage" NAME="pywebio_02 覆盖结果" MODIFIED="1666659469484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$requests_02.coverage" NAME="requests_02 覆盖结果" MODIFIED="1660124079222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$PythonDraw.coverage" NAME="PythonDraw 覆盖结果" MODIFIED="1635133389376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$test01__1_.coverage" NAME="test01 (1) 覆盖结果" MODIFIED="1661153517300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$test16.coverage" NAME="test16 覆盖结果" MODIFIED="1638925228377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$ctf99_1.coverage" NAME="ctf99_1 覆盖结果" MODIFIED="1659349438096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctf" />
+    <SUITE FILE_PATH="coverage/mooc$test20.coverage" NAME="test20 覆盖结果" MODIFIED="1639040633386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$cookie_01.coverage" NAME="cookie_01 覆盖结果" MODIFIED="1661496533277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$ship.coverage" NAME="ship 覆盖结果" MODIFIED="1640069121422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alien_invasion" />
+    <SUITE FILE_PATH="coverage/mooc$task.coverage" NAME="task 覆盖结果" MODIFIED="1657243303685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctf" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_052.coverage" NAME="pywebio_052 覆盖结果" MODIFIED="1666667460596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_03.coverage" NAME="pywebio_03 覆盖结果" MODIFIED="1666681770815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$FourCip.coverage" NAME="FourCip 覆盖结果" MODIFIED="1657591355081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctf" />
+    <SUITE FILE_PATH="coverage/mooc$test15.coverage" NAME="test15 覆盖结果" MODIFIED="1639017940138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$ui_mainwindow.coverage" NAME="ui_mainwindow 覆盖结果" MODIFIED="1666921947416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pySide2" />
+    <SUITE FILE_PATH="coverage/mooc$test08.coverage" NAME="test08 覆盖结果" MODIFIED="1636434956548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$test_01.coverage" NAME="test_01 覆盖结果" MODIFIED="1667007676375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pySide2" />
+    <SUITE FILE_PATH="coverage/mooc$wow_fish.coverage" NAME="wow_fish 覆盖结果" MODIFIED="1648176690339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$requests_03.coverage" NAME="requests_03 覆盖结果" MODIFIED="1660965301608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$pyshark.coverage" NAME="pyshark 覆盖结果" MODIFIED="1657445589276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctf" />
+    <SUITE FILE_PATH="coverage/mooc$aes_01.coverage" NAME="aes_01 覆盖结果" MODIFIED="1664351696819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$pyshark_test01.coverage" NAME="pyshark_test01 覆盖结果" MODIFIED="1658909114871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctf" />
+    <SUITE FILE_PATH="coverage/mooc$test24.coverage" NAME="test24 覆盖结果" MODIFIED="1639442577382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$test27.coverage" NAME="test27 覆盖结果" MODIFIED="1642491702113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_put_loading.coverage" NAME="pywebio_put_loading 覆盖结果" MODIFIED="1666771715029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$keyboard1.coverage" NAME="keyboard1 覆盖结果" MODIFIED="1662682819883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctf" />
+    <SUITE FILE_PATH="coverage/mooc$test18.coverage" NAME="test18 覆盖结果" MODIFIED="1638927884073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_07.coverage" NAME="pywebio_07 覆盖结果" MODIFIED="1666685287726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_test_01__1_.coverage" NAME="pywebio_test_01 (1) 覆盖结果" MODIFIED="1666855990767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$test02.coverage" NAME="test02 覆盖结果" MODIFIED="1667010141776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study1" />
+    <SUITE FILE_PATH="coverage/mooc$bs4_01.coverage" NAME="bs4_01 覆盖结果" MODIFIED="1661223913044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$test08_fin.coverage" NAME="test08_fin 覆盖结果" MODIFIED="1648772798441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$day1_1.coverage" NAME="day1_1 覆盖结果" MODIFIED="1660032268343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day100" />
+    <SUITE FILE_PATH="coverage/mooc$request_01.coverage" NAME="request_01 覆盖结果" MODIFIED="1660050407705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_popup.coverage" NAME="pywebio_popup 覆盖结果" MODIFIED="1666842852284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_input_update.coverage" NAME="pywebio_input_update 覆盖结果" MODIFIED="1666700946885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$CalPiV2.coverage" NAME="CalPiV2 覆盖结果" MODIFIED="1635471003567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$MatchAnalysis.coverage" NAME="MatchAnalysis 覆盖结果" MODIFIED="1637047900235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mooc$pywebio_put_table.coverage" NAME="pywebio_put_table 覆盖结果" MODIFIED="1666831584401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pywebio" />
+    <SUITE FILE_PATH="coverage/mooc$test11.coverage" NAME="test11 覆盖结果" MODIFIED="1649894159692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$test_notepad.coverage" NAME="test_notepad 覆盖结果" MODIFIED="1667384532647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$test05.coverage" NAME="test05 覆盖结果" MODIFIED="1649289869109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wow" />
+    <SUITE FILE_PATH="coverage/mooc$cookie_03.coverage" NAME="cookie_03 覆盖结果" MODIFIED="1662077768909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$csv_01.coverage" NAME="csv_01 覆盖结果" MODIFIED="1661154304988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/mooc$xpath_04.coverage" NAME="xpath_04 覆盖结果" MODIFIED="1661478138473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+  </component>
+</project>

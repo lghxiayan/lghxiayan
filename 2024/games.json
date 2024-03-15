@@ -1,0 +1,25 @@
+{
+  "games": {
+    "仙剑奇侠传": {
+      "identifier": "仙剑奇侠传",
+      "name": {
+        "zh-Hans": "仙剑奇侠传",
+        "zh-Hant": "仙劍奇俠傳",
+        "en": "The Legend of Sword and Fairy"
+      },
+      "releaseYear": 1995,
+      "executable": "PAL!.EXE",
+      "keymaps": {
+        "←→↑↓": "移动",
+        "Alt": "显示菜单、取消操作",
+        "Enter/Ctrl/Space": "对话、调查、菜单选择"
+      },
+      "links": {
+        "仙劍奇俠傳攻略": "https://chiuinan.github.io/game/game/intro/ch/c11/pal/"
+      },
+      "coverFilename": "cover.png",
+      "sha256": "ef209d15734a9e2e533d9a73f2550b3524be5c4cfd5b0ed68c82df6638784adb",
+      "filesize": 20272189
+    }
+  }
+}
