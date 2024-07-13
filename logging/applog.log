@@ -1,0 +1,70 @@
+2024-06-06 08:24:56 | applog       | DEBUG    | logging_03_config.py:12 | Something bad could happen!debug
+2024-06-06 08:24:56 | applog       | INFO     | logging_03_config.py:13 | Something bad could happen!info
+2024-06-06 08:24:56 | applog       | WARNING  | logging_03_config.py:14 | Something bad could happen!warning
+2024-06-06 08:24:56 | applog       | ERROR    | logging_03_config.py:15 | Aw snap! Everything failed.error
+2024-06-06 08:24:56 | applog       | CRITICAL | logging_03_config.py:16 | You are running the program.critical
+2024-06-06 08:24:56 | applog       | ERROR    | logging_03_config.py:22 | invalid literal for int() with base 10: 'abc'
+Traceback (most recent call last):
+  File "C:\Users\xiayan\OneDrive\python_study\mooc\logging\logging_03_config.py", line 20, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'
+[37m2024-06-06 08:31:40 | applog       | DEBUG    | logging_03_config.py:12 | Something bad could happen!debug[0m
+[32m2024-06-06 08:31:40 | applog       | INFO     | logging_03_config.py:13 | Something bad could happen!info[0m
+[33m2024-06-06 08:31:40 | applog       | WARNING  | logging_03_config.py:14 | Something bad could happen!warning[0m
+[31m2024-06-06 08:31:40 | applog       | ERROR    | logging_03_config.py:15 | Aw snap! Everything failed.error[0m
+[1;31m2024-06-06 08:31:40 | applog       | CRITICAL | logging_03_config.py:16 | You are running the program.critical[0m
+[31m2024-06-06 08:31:40 | applog       | ERROR    | logging_03_config.py:22 | invalid literal for int() with base 10: 'abc'[0m
+Traceback (most recent call last):
+  File "C:\Users\xiayan\OneDrive\python_study\mooc\logging\logging_03_config.py", line 20, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'
+2024-06-06 08:33:27 | applog       | DEBUG    | logging_03_config.py:12 | Something bad could happen!debug
+2024-06-06 08:33:27 | applog       | INFO     | logging_03_config.py:13 | Something bad could happen!info
+2024-06-06 08:33:27 | applog       | WARNING  | logging_03_config.py:14 | Something bad could happen!warning
+2024-06-06 08:33:27 | applog       | ERROR    | logging_03_config.py:15 | Aw snap! Everything failed.error
+2024-06-06 08:33:27 | applog       | CRITICAL | logging_03_config.py:16 | You are running the program.critical
+2024-06-06 08:33:27 | applog       | ERROR    | logging_03_config.py:22 | invalid literal for int() with base 10: 'abc'
+Traceback (most recent call last):
+  File "C:\Users\xiayan\OneDrive\python_study\mooc\logging\logging_03_config.py", line 20, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'
+2024-06-06 08:45:09 | applog       | DEBUG    | logging_03_config.py:12 | Something bad could happen!debug
+2024-06-06 08:45:09 | applog       | INFO     | logging_03_config.py:13 | Something bad could happen!info
+2024-06-06 08:45:09 | applog       | WARNING  | logging_03_config.py:14 | Something bad could happen!warning
+2024-06-06 08:45:09 | applog       | ERROR    | logging_03_config.py:15 | Aw snap! Everything failed.error
+2024-06-06 08:45:09 | applog       | CRITICAL | logging_03_config.py:16 | You are running the program.critical
+2024-06-06 08:45:09 | applog       | ERROR    | logging_03_config.py:22 | invalid literal for int() with base 10: 'abc'
+Traceback (most recent call last):
+  File "C:\Users\xiayan\OneDrive\python_study\mooc\logging\logging_03_config.py", line 20, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'
+2024-06-06 08:45:15 | applog       | DEBUG    | logging_03_config.py:13 | Something bad could happen!debug
+2024-06-06 08:45:15 | applog       | INFO     | logging_03_config.py:14 | Something bad could happen!info
+2024-06-06 08:45:15 | applog       | WARNING  | logging_03_config.py:15 | Something bad could happen!warning
+2024-06-06 08:45:15 | applog       | ERROR    | logging_03_config.py:16 | Aw snap! Everything failed.error
+2024-06-06 08:45:15 | applog       | CRITICAL | logging_03_config.py:17 | You are running the program.critical
+2024-06-06 08:45:15 | applog       | ERROR    | logging_03_config.py:23 | invalid literal for int() with base 10: 'abc'
+Traceback (most recent call last):
+  File "C:\Users\xiayan\OneDrive\python_study\mooc\logging\logging_03_config.py", line 21, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'
+2024-06-06 08:45:27 | applog       | DEBUG    | logging_03_config.py:13 | Something bad could happen!debug
+2024-06-06 08:45:27 | applog       | INFO     | logging_03_config.py:14 | Something bad could happen!info
+2024-06-06 08:45:27 | applog       | WARNING  | logging_03_config.py:15 | Something bad could happen!warning
+2024-06-06 08:45:27 | applog       | ERROR    | logging_03_config.py:16 | Aw snap! Everything failed.error
+2024-06-06 08:45:27 | applog       | CRITICAL | logging_03_config.py:17 | You are running the program.critical
+2024-06-06 08:45:27 | applog       | ERROR    | logging_03_config.py:23 | invalid literal for int() with base 10: 'abc'
+Traceback (most recent call last):
+  File "C:\Users\xiayan\OneDrive\python_study\mooc\logging\logging_03_config.py", line 21, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'
+2024-06-06 08:48:36 | applog       | DEBUG    | logging_03_config.py:12 | Something bad could happen!debug
+2024-06-06 08:48:36 | applog       | INFO     | logging_03_config.py:13 | Something bad could happen!info
+2024-06-06 08:48:36 | applog       | WARNING  | logging_03_config.py:14 | Something bad could happen!warning
+2024-06-06 08:48:36 | applog       | ERROR    | logging_03_config.py:15 | Aw snap! Everything failed.error
+2024-06-06 08:48:36 | applog       | CRITICAL | logging_03_config.py:16 | You are running the program.critical
+2024-06-06 08:48:36 | applog       | ERROR    | logging_03_config.py:22 | invalid literal for int() with base 10: 'abc'
+Traceback (most recent call last):
+  File "C:\Users\xiayan\OneDrive\python_study\mooc\logging\logging_03_config.py", line 20, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'

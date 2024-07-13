@@ -1,0 +1,76 @@
+2024-06-05 11:15:40 applog       DEBUG    Something bad could happen!debug
+2024-06-05 11:15:40 applog       INFO     Something bad could happen!info
+2024-06-05 11:15:40 applog       WARNING  Something bad could happen!warning
+2024-06-05 11:15:40 applog       ERROR    Aw snap! Everything failed.error
+2024-06-05 11:15:40 applog       CRITICAL You are running the program.critical
+2024-06-05 11:16:37 applog       DEBUG    Something bad could happen!debug
+2024-06-05 11:16:37 applog       INFO     Something bad could happen!info
+2024-06-05 11:16:37 applog       WARNING  Something bad could happen!warning
+2024-06-05 11:16:37 applog       ERROR    Aw snap! Everything failed.error
+2024-06-05 11:16:37 applog       CRITICAL You are running the program.critical
+2024-06-05 11:18:14 applog       DEBUG    Something bad could happen!debug
+2024-06-05 11:18:14 applog       INFO     Something bad could happen!info
+2024-06-05 11:18:14 applog       WARNING  Something bad could happen!warning
+2024-06-05 11:18:14 applog       ERROR    Aw snap! Everything failed.error
+2024-06-05 11:18:14 applog       CRITICAL You are running the program.critical
+2024-06-05 11:18:38 applog       DEBUG    Something bad could happen!debug
+2024-06-05 11:18:38 applog       INFO     Something bad could happen!info
+2024-06-05 11:18:38 applog       WARNING  Something bad could happen!warning
+2024-06-05 11:18:38 applog       ERROR    Aw snap! Everything failed.error
+2024-06-05 11:18:38 applog       CRITICAL You are running the program.critical
+2024-06-05 11:25:27 applog       DEBUG    Something bad could happen!debug
+2024-06-05 11:25:27 applog       INFO     Something bad could happen!info
+2024-06-05 11:25:27 applog       WARNING  Something bad could happen!warning
+2024-06-05 11:25:27 applog       ERROR    Aw snap! Everything failed.error
+2024-06-05 11:25:27 applog       CRITICAL You are running the program.critical
+2024-06-05 11:29:33 | applog       | DEBUG    | logging_03_config.py:11 | Something bad could happen!debug
+2024-06-05 11:29:33 | applog       | INFO     | logging_03_config.py:12 | Something bad could happen!info
+2024-06-05 11:29:33 | applog       | WARNING  | logging_03_config.py:13 | Something bad could happen!warning
+2024-06-05 11:29:33 | applog       | ERROR    | logging_03_config.py:14 | Aw snap! Everything failed.error
+2024-06-05 11:29:33 | applog       | CRITICAL | logging_03_config.py:15 | You are running the program.critical
+2024-06-05 11:30:50 | applog       | DEBUG    | logging_03_config.py:11 | Something bad could happen!debug
+2024-06-05 11:30:50 | applog       | INFO     | logging_03_config.py:12 | Something bad could happen!info
+2024-06-05 11:30:50 | applog       | WARNING  | logging_03_config.py:13 | Something bad could happen!warning
+2024-06-05 11:30:50 | applog       | ERROR    | logging_03_config.py:14 | Aw snap! Everything failed.error
+2024-06-05 11:30:50 | applog       | CRITICAL | logging_03_config.py:15 | You are running the program.critical
+2024-06-05 11:30:50 | applog       | ERROR    | logging_03_config.py:21 | invalid literal for int() with base 10: 'abc'
+2024-06-05 11:31:52 | applog       | DEBUG    | logging_03_config.py:11 | Something bad could happen!debug
+2024-06-05 11:31:52 | applog       | INFO     | logging_03_config.py:12 | Something bad could happen!info
+2024-06-05 11:31:52 | applog       | WARNING  | logging_03_config.py:13 | Something bad could happen!warning
+2024-06-05 11:31:52 | applog       | ERROR    | logging_03_config.py:14 | Aw snap! Everything failed.error
+2024-06-05 11:31:52 | applog       | CRITICAL | logging_03_config.py:15 | You are running the program.critical
+2024-06-05 11:31:52 | applog       | ERROR    | logging_03_config.py:21 | invalid literal for int() with base 10: 'abc'
+Traceback (most recent call last):
+  File "C:\Users\xiayan\OneDrive\python_study\mooc\logging\logging_03_config.py", line 19, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'
+2024-06-05 16:04:00 | applog       | DEBUG    | logging_03_config.py:11 | Something bad could happen!debug
+2024-06-05 16:04:00 | applog       | INFO     | logging_03_config.py:12 | Something bad could happen!info
+2024-06-05 16:04:00 | applog       | WARNING  | logging_03_config.py:13 | Something bad could happen!warning
+2024-06-05 16:04:00 | applog       | ERROR    | logging_03_config.py:14 | Aw snap! Everything failed.error
+2024-06-05 16:04:00 | applog       | CRITICAL | logging_03_config.py:15 | You are running the program.critical
+2024-06-05 16:04:00 | applog       | ERROR    | logging_03_config.py:21 | invalid literal for int() with base 10: 'abc'
+Traceback (most recent call last):
+  File "C:\Users\xiayan\OneDrive\python_study\mooc\logging\logging_03_config.py", line 19, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'
+2024-06-05 17:16:42 | applog       | DEBUG    | logging_03_config.py:11 | Something bad could happen!debug
+2024-06-05 17:16:42 | applog       | INFO     | logging_03_config.py:12 | Something bad could happen!info
+2024-06-05 17:16:42 | applog       | WARNING  | logging_03_config.py:13 | Something bad could happen!warning
+2024-06-05 17:16:42 | applog       | ERROR    | logging_03_config.py:14 | Aw snap! Everything failed.error
+2024-06-05 17:16:42 | applog       | CRITICAL | logging_03_config.py:15 | You are running the program.critical
+2024-06-05 17:16:42 | applog       | ERROR    | logging_03_config.py:21 | invalid literal for int() with base 10: 'abc'
+Traceback (most recent call last):
+  File "C:\Users\xiayan\OneDrive\python_study\mooc\logging\logging_03_config.py", line 19, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'
+[37m2024-06-05 17:34:57 | applog       | DEBUG    | logging_03_config.py:12 | Something bad could happen!debug[0m
+[32m2024-06-05 17:34:57 | applog       | INFO     | logging_03_config.py:13 | Something bad could happen!info[0m
+[33m2024-06-05 17:34:57 | applog       | WARNING  | logging_03_config.py:14 | Something bad could happen!warning[0m
+[31m2024-06-05 17:34:57 | applog       | ERROR    | logging_03_config.py:15 | Aw snap! Everything failed.error[0m
+[1;31m2024-06-05 17:34:57 | applog       | CRITICAL | logging_03_config.py:16 | You are running the program.critical[0m
+[31m2024-06-05 17:34:57 | applog       | ERROR    | logging_03_config.py:22 | invalid literal for int() with base 10: 'abc'[0m
+Traceback (most recent call last):
+  File "C:\Users\xiayan\OneDrive\python_study\mooc\logging\logging_03_config.py", line 20, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'

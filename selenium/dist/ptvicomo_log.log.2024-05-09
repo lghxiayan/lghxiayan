@@ -1,0 +1,16 @@
+2024-07-07 00:05:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:130 | Connected to MariaDB successfully!
+2024-07-07 00:05:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:100 | 象岛农庄 【紫色象甜薯叶 - 作物成熟 - 开售中】
+农作物已成熟，保质期至下周六晚24:00
+紫色象甜薯叶的价格是801.0，保质期至下周六晚24:00，要马上进货吗？
+
+输入进货数量(剩余配货量为150kg 提升等级以获得更高配货量) 点击进货 !
+2024-07-07 00:05:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:166 | 数据插入成功！
+2024-07-07 00:05:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:167 | ------------------------------
+2024-07-07 12:05:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:130 | Connected to MariaDB successfully!
+2024-07-07 12:05:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:100 | 象岛农庄 【紫色象甜薯叶 - 作物成熟 - 开售中】
+农作物已成熟，保质期至下周六晚24:00
+紫色象甜薯叶的价格是801.0，保质期至下周六晚24:00，要马上进货吗？
+
+输入进货数量(剩余配货量为0kg 提升等级以获得更高配货量) 点击进货 !
+2024-07-07 12:05:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:166 | 数据插入成功！
+2024-07-07 12:05:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:167 | ------------------------------

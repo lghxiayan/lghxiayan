@@ -1,0 +1,4 @@
+2024-06-06 08:44:14,384 - baidu.com.applog - INFO       - Something bad could happen!info
+2024-06-06 08:44:14,384 - baidu.com.applog - WARNING    - Something bad could happen!warning
+2024-06-06 08:44:14,384 - baidu.com.applog - ERROR      - Aw snap! Everything failed.error
+2024-06-06 08:44:14,384 - baidu.com.applog - CRITICAL   - You are running the program.critical

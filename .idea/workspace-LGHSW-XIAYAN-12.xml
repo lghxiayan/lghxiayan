@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c18484f3-9386-45fb-8e17-f00361f4945c" name="变更" comment="test15.py">
+      <change afterPath="$PROJECT_DIR$/2024/docker_pull.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/addDemo.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/applog.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/applog.log.2024-06-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/logging.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/logging_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/logging_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/logging_03_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/program.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/program_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/tcpserver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyppeteer/pyppeteer_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyppeteer/pyppeteer_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyppeteer/request_xdjswj99_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest/pytest_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest/test_bilibili.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest/test_searchHelloWorld.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest/test_searchHelloWorld2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schedule/schedule_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/20240414.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/build/selenium_ptvicomo_cookie_01/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/build/selenium_ptvicomo_cookie_01/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/build/selenium_ptvicomo_cookie_01/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/build/selenium_ptvicomo_cookie_01/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/build/selenium_ptvicomo_cookie_01/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/build/selenium_ptvicomo_cookie_01/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/build/selenium_ptvicomo_cookie_01/selenium_ptvicomo_cookie_01.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/build/selenium_ptvicomo_cookie_01/warn-selenium_ptvicomo_cookie_01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/build/selenium_ptvicomo_cookie_01/xref-selenium_ptvicomo_cookie_01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/config_ptvicomo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/config_ptvicomo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/logging_ptvicomo.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/ptvicomo_log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/ptvicomo_log.log.2024-04-08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/ptvicomo_log.log.2024-04-09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/ptvicomo_log.log.2024-04-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/ptvicomo_log.log.2024-04-11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/ptvicomo_log.log.2024-04-12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/ptvicomo_log.log.2024-04-13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/ptvicomo_log.log.2024-04-14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/ptvicomo_log.log.2024-04-15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/ptvicomo_log.log.2024-04-16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/ptvicomo_log.log.2024-04-17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/ptvicomo_log.log.2024-04-18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/ptvicomo_log.log.2024-04-19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/dist/selenium_ptvicomo_cookie_01.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/el.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/logging_ptvicomo.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/page.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/ptvicomo_log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/ptvicomo_log.log.2024-04-07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_bilibili.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_chrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_chrome_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_edge1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_edge2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_firefox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_hbsw_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_hgsw_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_hgsw_cookie_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_j3_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_ptvicomo_cookie_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_ptvicomo_cookie_01.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_test_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_test_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/selenium_tpass99_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bysms/mgr/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bysms/mgr/customer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requests/request_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/requests/request_01.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="480085fb-e9e0-4a1f-b91b-8a5172f9a9c2" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="1zo4XTEG3xmbOKn4vOLlDv3eDqo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python 测试.Python 测试 (pytest_01.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.Python 测试 (test_bilibili.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.Python 测试 (test_searchHelloWorld.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.pytest_01.Test 的 Python 测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.pytest_01.Test.test_01 的 Python 测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.pytest_01.Test.test_02 的 Python 测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.pytest_01.test_02 的 Python 测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.test_bilibili.test_bilibili 的 Python 测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.test_searchHelloWorld.TestSearchHelloWorld 的 Python 测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.test_searchHelloWorld.TestSearchHelloWorld.test_searchHelloWorld 的 Python 测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.test_searchHelloWorld2.TestSearchHelloWorld 的 Python 测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.test_searchHelloWorld2.TestSearchHelloWorld.test_searchHelloWorld 的 Python 测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python.action_chains.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logging_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logging_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logging_03_config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.schedule_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_bilibili (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_hbsw_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_hgsw_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_hgsw_cookie_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_ptvicomo_cookie_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_test_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_tpass99_01.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/xiayan/OneDrive/python_study/mooc/selenium&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\selenium" />
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\logging" />
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\2024" />
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\pySide2\ui" />
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\pywebio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\pytest" />
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\selenium" />
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\study1" />
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\alien_invasion" />
+      <recent name="C:\Users\xiayan\OneDrive\python_study\mooc\alien_invasion\images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.selenium_ptvicomo_cookie_01">
+    <configuration name="logging_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mooc" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logging" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logging/logging_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logging_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mooc" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logging" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logging/logging_02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logging_03_config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mooc" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logging" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logging/logging_03_config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="mooc" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\xiayan\OneDrive\python_study\mooc\study1\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="schedule_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mooc" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/schedule" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/schedule/schedule_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="selenium_bilibili (1)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="mooc" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium/selenium_bilibili.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="selenium_ptvicomo_cookie_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mooc" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium/selenium_ptvicomo_cookie_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wowJump" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="mooc" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\xiayan\.conda\envs\wowjump\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wow" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wow/wowJump.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.selenium_ptvicomo_cookie_01" />
+        <item itemvalue="Python.logging_03_config" />
+        <item itemvalue="Python.logging_02" />
+        <item itemvalue="Python.logging_01" />
+        <item itemvalue="Python.schedule_01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\xiayan\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c18484f3-9386-45fb-8e17-f00361f4945c" name="变更" comment="" />
+      <created>1634801145420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634801145420</updated>
+      <workItem from="1634801185104" duration="511000" />
+      <workItem from="1634906079792" duration="251000" />
+      <workItem from="1634906347772" duration="777000" />
+      <workItem from="1634907500929" duration="15376000" />
+      <workItem from="1635150054425" duration="18811000" />
+      <workItem from="1635306916605" duration="6277000" />
+      <workItem from="1635341930141" duration="39558000" />
+      <workItem from="1635558464846" duration="452000" />
+      <workItem from="1635558945586" duration="914000" />
+      <workItem from="1635560105971" duration="23000" />
+      <workItem from="1635578175315" duration="6532000" />
+      <workItem from="1635589650401" duration="2621000" />
+      <workItem from="1635643014552" duration="3393000" />
+      <workItem from="1635681312478" duration="603000" />
+      <workItem from="1635726120190" duration="3738000" />
+      <workItem from="1635730840555" duration="6847000" />
+      <workItem from="1635812099064" duration="48221000" />
+      <workItem from="1636118371877" duration="3029000" />
+      <workItem from="1636275283777" duration="23493000" />
+      <workItem from="1636418618822" duration="250000" />
+      <workItem from="1636420467499" duration="25556000" />
+      <workItem from="1636515618942" duration="15737000" />
+      <workItem from="1637028122887" duration="7178000" />
+      <workItem from="1637047710256" duration="20474000" />
+      <workItem from="1637714308701" duration="17749000" />
+      <workItem from="1638404187868" duration="35514000" />
+      <workItem from="1638882026251" duration="63882000" />
+      <workItem from="1639450318240" duration="4737000" />
+      <workItem from="1639489944776" duration="126000" />
+      <workItem from="1639490096112" duration="65000" />
+      <workItem from="1639492705428" duration="4040000" />
+      <workItem from="1639613841533" duration="18902000" />
+      <workItem from="1639974233089" duration="18973000" />
+      <workItem from="1640219434935" duration="21755000" />
+      <workItem from="1641870586020" duration="1224000" />
+      <workItem from="1641946963299" duration="602000" />
+      <workItem from="1595118235509" duration="518000" />
+      <workItem from="1642465990967" duration="4814000" />
+      <workItem from="1647479985305" duration="8000" />
+      <workItem from="1647480017899" duration="397000" />
+      <workItem from="1647480440758" duration="17103000" />
+      <workItem from="1648464616487" duration="107000" />
+      <workItem from="1648626809138" duration="180000" />
+      <workItem from="1648627315763" duration="50609000" />
+      <workItem from="1649079586197" duration="68030000" />
+      <workItem from="1650240336003" duration="17164000" />
+      <workItem from="1650768039231" duration="15730000" />
+      <workItem from="1651362612638" duration="47479000" />
+      <workItem from="1652227375749" duration="2728000" />
+      <workItem from="1652316148282" duration="19280000" />
+      <workItem from="1653270091338" duration="613000" />
+      <workItem from="1657243105966" duration="1188000" />
+      <workItem from="1657437872054" duration="1735000" />
+      <workItem from="1657443088146" duration="1025000" />
+      <workItem from="1657444142806" duration="1945000" />
+      <workItem from="1657522868457" duration="599000" />
+      <workItem from="1657552161813" duration="12137000" />
+      <workItem from="1657843308818" duration="17000" />
+      <workItem from="1659166804981" duration="4952000" />
+      <workItem from="1659315296303" duration="677000" />
+      <workItem from="1659321599487" duration="6747000" />
+      <workItem from="1659490626834" duration="4902000" />
+      <workItem from="1659971384019" duration="96000" />
+      <workItem from="1660115121255" duration="1667000" />
+      <workItem from="1660131119678" duration="9925000" />
+      <workItem from="1660961343054" duration="107461000" />
+      <workItem from="1661731228090" duration="81742000" />
+      <workItem from="1662955912231" duration="710000" />
+      <workItem from="1663546158812" duration="600000" />
+      <workItem from="1664351166020" duration="4780000" />
+      <workItem from="1664673904239" duration="3485000" />
+      <workItem from="1666599446075" duration="428000" />
+      <workItem from="1666599899754" duration="55798000" />
+      <workItem from="1667003914222" duration="14284000" />
+      <workItem from="1667293494915" duration="597000" />
+      <workItem from="1667383904885" duration="6040000" />
+      <workItem from="1667474437952" duration="759000" />
+      <workItem from="1667612801346" duration="5306000" />
+      <workItem from="1668015816839" duration="602000" />
+      <workItem from="1668389022066" duration="1405000" />
+      <workItem from="1668741302422" duration="217000" />
+      <workItem from="1668750280225" duration="609000" />
+      <workItem from="1676507149362" duration="807000" />
+      <workItem from="1677126479549" duration="1207000" />
+      <workItem from="1680663998816" duration="166000" />
+      <workItem from="1681378346139" duration="11000" />
+      <workItem from="1681378377488" duration="1261000" />
+      <workItem from="1689470426755" duration="41000" />
+      <workItem from="1692616336692" duration="397000" />
+      <workItem from="1692787424444" duration="1934000" />
+      <workItem from="1692960295880" duration="1707000" />
+      <workItem from="1694082793284" duration="608000" />
+      <workItem from="1694094916869" duration="246000" />
+      <workItem from="1694871402472" duration="1296000" />
+      <workItem from="1695293289661" duration="626000" />
+      <workItem from="1695377506306" duration="623000" />
+      <workItem from="1695460266666" duration="3666000" />
+      <workItem from="1695948899226" duration="11381000" />
+      <workItem from="1696324688883" duration="9841000" />
+      <workItem from="1697341703965" duration="6577000" />
+      <workItem from="1697633824462" duration="703000" />
+      <workItem from="1697859310739" duration="19466000" />
+      <workItem from="1698580497917" duration="1369000" />
+      <workItem from="1698762910892" duration="2465000" />
+      <workItem from="1699089027573" duration="10423000" />
+      <workItem from="1700738739051" duration="3116000" />
+      <workItem from="1706620197238" duration="988000" />
+      <workItem from="1710498207246" duration="171000" />
+      <workItem from="1710498389804" duration="364000" />
+      <workItem from="1713581469591" duration="620000" />
+      <workItem from="1713583920149" duration="132000" />
+      <workItem from="1714532021104" duration="483000" />
+      <workItem from="1714532518257" duration="4256000" />
+    </task>
+    <task id="LOCAL-00001" summary="test14.py">
+      <created>1637714671453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637714671453</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test15.py">
+      <created>1637717438875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637717438875</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test15.py">
+      <created>1638846941507</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638846941507</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test15.py">
+      <created>1638881313380</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638881313380</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test15.py">
+      <created>1638881987342</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638881987342</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test15.py">
+      <created>1638928377601</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638928377601</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test15.py">
+      <created>1639013164138</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639013164138</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test15.py">
+      <created>1639037829506</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639037829506</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test15.py">
+      <created>1639039954267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1639039954267</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test15.py">
+      <created>1639040575009</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1639040575009</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test15.py">
+      <created>1639128325644</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1639128325644</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test15.py">
+      <created>1639443434413</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1639443434413</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test15.py">
+      <created>1639450753765</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1639450753765</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test15.py">
+      <created>1639489831648</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1639489831648</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test15.py">
+      <created>1639643563740</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1639643563740</updated>
+    </task>
+    <task id="LOCAL-00016" summary="test15.py">
+      <created>1639727438155</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1639727438155</updated>
+    </task>
+    <task id="LOCAL-00017" summary="test15.py">
+      <created>1639730886741</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1639730886741</updated>
+    </task>
+    <task id="LOCAL-00018" summary="test15.py">
+      <created>1640069691465</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1640069691465</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="test14.py" />
+    <MESSAGE value="test15.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="test15.py" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/study1/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day100/day1_1.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.output" language="Python" />
+        <watch expression="self.output" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

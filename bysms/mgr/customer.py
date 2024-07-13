@@ -79,7 +79,7 @@ def modify_customer(request):
         }
 
     if 'name' in newdata:
-        customer.name = newdata['name']
+        customer.my_name = newdata['name']
     if 'phone_number' in newdata:
         customer.phone_number = newdata['phone_number']
     if 'address' in newdata:
