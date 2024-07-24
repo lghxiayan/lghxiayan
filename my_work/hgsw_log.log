@@ -1,0 +1,828 @@
+2024-07-24 13:11:43 | hgsw_log     | INFO     | requests_hgsw.py:86 | 连接MYSQL数据库成功!
+2024-07-24 13:13:06 | hgsw_log     | INFO     | requests_hgsw.py:33 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:13:06 | hgsw_log     | INFO     | requests_hgsw.py:86 | 连接MYSQL数据库成功!
+2024-07-24 13:16:00 | hgsw_log     | INFO     | requests_hgsw.py:33 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:16:00 | hgsw_log     | INFO     | requests_hgsw.py:86 | 连接MYSQL数据库成功!
+2024-07-24 13:17:11 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:17:11 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:17:11 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:17:11 | hgsw_log     | INFO     | requests_hgsw.py:88 | 连接MYSQL数据库成功!
+2024-07-24 13:20:01 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:20:01 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:20:01 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:20:01 | hgsw_log     | INFO     | requests_hgsw.py:88 | 连接MYSQL数据库成功!
+2024-07-24 13:20:01 | hgsw_log     | INFO     | requests_hgsw.py:56 | 响应内容: {'success': False}
+2024-07-24 13:20:01 | hgsw_log     | INFO     | requests_hgsw.py:56 | 响应内容: {'success': False}
+2024-07-24 13:20:01 | hgsw_log     | INFO     | requests_hgsw.py:56 | 响应内容: {'success': False}
+2024-07-24 13:20:01 | hgsw_log     | INFO     | requests_hgsw.py:56 | 响应内容: {'success': False}
+2024-07-24 13:20:45 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:20:45 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:20:45 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:20:45 | hgsw_log     | INFO     | requests_hgsw.py:89 | 连接MYSQL数据库成功!
+2024-07-24 13:20:45 | hgsw_log     | INFO     | requests_hgsw.py:56 | 响应状态码: 200
+2024-07-24 13:20:45 | hgsw_log     | INFO     | requests_hgsw.py:57 | 响应内容: {"success":false}
+2024-07-24 13:20:45 | hgsw_log     | INFO     | requests_hgsw.py:56 | 响应状态码: 200
+2024-07-24 13:20:45 | hgsw_log     | INFO     | requests_hgsw.py:57 | 响应内容: {"success":false}
+2024-07-24 13:20:45 | hgsw_log     | INFO     | requests_hgsw.py:56 | 响应状态码: 200
+2024-07-24 13:20:45 | hgsw_log     | INFO     | requests_hgsw.py:57 | 响应内容: {"success":false}
+2024-07-24 13:20:45 | hgsw_log     | INFO     | requests_hgsw.py:56 | 响应状态码: 200
+2024-07-24 13:20:45 | hgsw_log     | INFO     | requests_hgsw.py:57 | 响应内容: {"success":false}
+2024-07-24 13:21:40 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:21:40 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:21:40 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:21:40 | hgsw_log     | INFO     | requests_hgsw.py:90 | 连接MYSQL数据库成功!
+2024-07-24 13:21:40 | hgsw_log     | INFO     | requests_hgsw.py:56 | 响应状态码: 200
+2024-07-24 13:21:40 | hgsw_log     | INFO     | requests_hgsw.py:56 | 响应状态码: 200
+2024-07-24 13:21:40 | hgsw_log     | INFO     | requests_hgsw.py:56 | 响应状态码: 200
+2024-07-24 13:21:40 | hgsw_log     | INFO     | requests_hgsw.py:56 | 响应状态码: 200
+2024-07-24 13:25:27 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:25:27 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:25:27 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:25:27 | hgsw_log     | INFO     | requests_hgsw.py:93 | 连接MYSQL数据库成功!
+2024-07-24 13:25:27 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:25:27 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:25:27 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:25:27 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:29:56 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:29:56 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:29:56 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:29:56 | hgsw_log     | INFO     | requests_hgsw.py:93 | 连接MYSQL数据库成功!
+2024-07-24 13:29:56 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:29:56 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:29:56 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:29:56 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:30:58 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:30:58 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:30:58 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:30:58 | hgsw_log     | INFO     | requests_hgsw.py:93 | 连接MYSQL数据库成功!
+2024-07-24 13:30:58 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:30:58 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:30:58 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:30:58 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:31:51 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:31:51 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:31:51 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:31:51 | hgsw_log     | INFO     | requests_hgsw.py:93 | 连接MYSQL数据库成功!
+2024-07-24 13:31:52 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:31:52 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:31:52 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:31:52 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:32:55 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:32:55 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:32:55 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:32:55 | hgsw_log     | INFO     | requests_hgsw.py:93 | 连接MYSQL数据库成功!
+2024-07-24 13:32:56 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:32:56 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:32:56 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:32:56 | hgsw_log     | INFO     | requests_hgsw.py:59 | 响应状态码: 200
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:95 | 连接MYSQL数据库成功!
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:58 | 请求URL: http://84.52.16.1/admin_user_gettable.action?swjg_dm=14211280000
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:59 | 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:58 | 请求URL: http://84.52.16.1/admin_user_gettable.action?swjg_dm=14211288500
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:59 | 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:58 | 请求URL: http://84.52.16.1/admin_user_gettable.action?swjg_dm=14211288100
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:59 | 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:58 | 请求URL: http://84.52.16.1/admin_user_gettable.action?swjg_dm=24211290300
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:59 | 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:33:33 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:34:54 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:34:54 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:34:54 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:34:54 | hgsw_log     | INFO     | requests_hgsw.py:95 | 连接MYSQL数据库成功!
+2024-07-24 13:34:54 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:34:54 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:34:54 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:34:54 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:34:54 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:34:54 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:34:54 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:34:54 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:35:55 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:35:55 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:35:55 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:35:55 | hgsw_log     | INFO     | requests_hgsw.py:95 | 连接MYSQL数据库成功!
+2024-07-24 13:35:56 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:35:56 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:35:56 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:35:56 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:35:56 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:35:56 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:35:56 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:35:56 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:36:44 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:36:44 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:36:44 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:36:44 | hgsw_log     | INFO     | requests_hgsw.py:95 | 连接MYSQL数据库成功!
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"total":6,"rows":[{"czry_dm":"14211250513","czry_mc":"方华光","dldm":"j250513","xybz":"Y"},
+{"czry_dm":"14211289106","czry_mc":"吉爱虹","dldm":"j289106","xybz":"Y"},
+{"czry_dm":"14211250014","czry_mc":"陈鹰","dldm":"j250014","xybz":"Y"},
+{"czry_dm":"14211289303","czry_mc":"陈勇","dldm":"j289303","xybz":"Y"},
+{"czry_dm":"14211280005","czry_mc":"邱文","dldm":"j280005","xybz":"N"},
+{"czry_dm":"14211280000","czry_mc":"龙感湖系统管理","dldm":"j280000","xybz":"N"}]}
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211250513 czry_mc: 方华光
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289106 czry_mc: 吉爱虹
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211250014 czry_mc: 陈鹰
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289303 czry_mc: 陈勇
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"total":10,"rows":[{"czry_dm":"14211289210","czry_mc":"夏军华","dldm":"j289210","xybz":"Y"},
+{"czry_dm":"14211289308","czry_mc":"程振雄","dldm":"j289308","xybz":"Y"},
+{"czry_dm":"24211001686","czry_mc":"罗来文","dldm":"d001686","xybz":"Y"},
+{"czry_dm":"14211289310","czry_mc":"程刚","dldm":"j289310","xybz":"Y"},
+{"czry_dm":"24211001119","czry_mc":"严淑良","dldm":"d001119","xybz":"Y"},
+{"czry_dm":"14211289215","czry_mc":"李俊","dldm":"j289215","xybz":"Y"},
+{"czry_dm":"54211280012","czry_mc":"陶冬冬","dldm":"54211280012","xybz":"Y"},
+{"czry_dm":"14211289305","czry_mc":"冯向军","dldm":"j289305","xybz":"Y"},
+{"czry_dm":"24211001110","czry_mc":"陈军","dldm":"d001110","xybz":"Y"},
+{"czry_dm":"54211280010","czry_mc":"郝婷婷","dldm":"54211280010","xybz":"Y"}]}
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289210 czry_mc: 夏军华
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289308 czry_mc: 程振雄
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001686 czry_mc: 罗来文
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289310 czry_mc: 程刚
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001119 czry_mc: 严淑良
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289215 czry_mc: 李俊
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280012 czry_mc: 陶冬冬
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289305 czry_mc: 冯向军
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001110 czry_mc: 陈军
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280010 czry_mc: 郝婷婷
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"total":12,"rows":[{"czry_dm":"24211001638","czry_mc":"胡建琴","dldm":"d001638","xybz":"Y"},
+{"czry_dm":"14211289609","czry_mc":"夏宇婷","dldm":"j289609","xybz":"Y"},
+{"czry_dm":"24211001111","czry_mc":"段永波","dldm":"d001111","xybz":"Y"},
+{"czry_dm":"14211289103","czry_mc":"夏燕","dldm":"j289103","xybz":"Y"},
+{"czry_dm":"14211289255","czry_mc":"余兵","dldm":"j289255","xybz":"Y"},
+{"czry_dm":"54211280013","czry_mc":"韩俊涛","dldm":"54211280013","xybz":"Y"},
+{"czry_dm":"54211280014","czry_mc":"董文文","dldm":"54211280014","xybz":"Y"},
+{"czry_dm":"54211280015","czry_mc":"肖天名","dldm":"54211280015","xybz":"Y"},
+{"czry_dm":"14211289222","czry_mc":"鲁玉宇","dldm":"j289222","xybz":"Y"},
+{"czry_dm":"24211001113","czry_mc":"胡百年","dldm":"d001113","xybz":"Y"},
+{"czry_dm":"14211289313","czry_mc":"商丽群","dldm":"j289313","xybz":"N"},
+{"czry_dm":"14211289999","czry_mc":"张晋","dldm":"j289999","xybz":"N"}]}
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001638 czry_mc: 胡建琴
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289609 czry_mc: 夏宇婷
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001111 czry_mc: 段永波
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289103 czry_mc: 夏燕
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289255 czry_mc: 余兵
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280013 czry_mc: 韩俊涛
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280014 czry_mc: 董文文
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280015 czry_mc: 肖天名
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289222 czry_mc: 鲁玉宇
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001113 czry_mc: 胡百年
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"total":11,"rows":[{"czry_dm":"24211001685","czry_mc":"陈焱","dldm":"d001685","xybz":"Y"},
+{"czry_dm":"14211289610","czry_mc":"龙垚垚","dldm":"j289610","xybz":"Y"},
+{"czry_dm":"14211289401","czry_mc":"赵雪萍","dldm":"j289401","xybz":"Y"},
+{"czry_dm":"14211289402","czry_mc":"严淑文","dldm":"j289402","xybz":"Y"},
+{"czry_dm":"24211001112","czry_mc":"桂宏华","dldm":"d001112","xybz":"Y"},
+{"czry_dm":"14211289403","czry_mc":"吴勇","dldm":"j289403","xybz":"Y"},
+{"czry_dm":"14211289611","czry_mc":"杨景皓","dldm":"j289611","xybz":"Y"},
+{"czry_dm":"14211289612","czry_mc":"杨赋城","dldm":"j289000","xybz":"Y"},
+{"czry_dm":"54211280009","czry_mc":"张澜子","dldm":"54211280009","xybz":"Y"},
+{"czry_dm":"54211280011","czry_mc":"张雯","dldm":"54211280011","xybz":"Y"},
+{"czry_dm":"14211289202","czry_mc":"李艳龙","dldm":"j289202","xybz":"N"}]}
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001685 czry_mc: 陈焱
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289610 czry_mc: 龙垚垚
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289401 czry_mc: 赵雪萍
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289402 czry_mc: 严淑文
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001112 czry_mc: 桂宏华
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289403 czry_mc: 吴勇
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289611 czry_mc: 杨景皓
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289612 czry_mc: 杨赋城
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280009 czry_mc: 张澜子
+2024-07-24 13:36:45 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280011 czry_mc: 张雯
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:95 | 连接MYSQL数据库成功!
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"total":6,"rows":[{"czry_dm":"14211250513","czry_mc":"方华光","dldm":"j250513","xybz":"Y"},
+{"czry_dm":"14211289106","czry_mc":"吉爱虹","dldm":"j289106","xybz":"Y"},
+{"czry_dm":"14211250014","czry_mc":"陈鹰","dldm":"j250014","xybz":"Y"},
+{"czry_dm":"14211289303","czry_mc":"陈勇","dldm":"j289303","xybz":"Y"},
+{"czry_dm":"14211280005","czry_mc":"邱文","dldm":"j280005","xybz":"N"},
+{"czry_dm":"14211280000","czry_mc":"龙感湖系统管理","dldm":"j280000","xybz":"N"}]}
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211250513 czry_mc: 方华光
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289106 czry_mc: 吉爱虹
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211250014 czry_mc: 陈鹰
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289303 czry_mc: 陈勇
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"total":10,"rows":[{"czry_dm":"14211289210","czry_mc":"夏军华","dldm":"j289210","xybz":"Y"},
+{"czry_dm":"14211289308","czry_mc":"程振雄","dldm":"j289308","xybz":"Y"},
+{"czry_dm":"24211001686","czry_mc":"罗来文","dldm":"d001686","xybz":"Y"},
+{"czry_dm":"14211289310","czry_mc":"程刚","dldm":"j289310","xybz":"Y"},
+{"czry_dm":"24211001119","czry_mc":"严淑良","dldm":"d001119","xybz":"Y"},
+{"czry_dm":"14211289215","czry_mc":"李俊","dldm":"j289215","xybz":"Y"},
+{"czry_dm":"54211280012","czry_mc":"陶冬冬","dldm":"54211280012","xybz":"Y"},
+{"czry_dm":"14211289305","czry_mc":"冯向军","dldm":"j289305","xybz":"Y"},
+{"czry_dm":"24211001110","czry_mc":"陈军","dldm":"d001110","xybz":"Y"},
+{"czry_dm":"54211280010","czry_mc":"郝婷婷","dldm":"54211280010","xybz":"Y"}]}
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289210 czry_mc: 夏军华
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289308 czry_mc: 程振雄
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001686 czry_mc: 罗来文
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289310 czry_mc: 程刚
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001119 czry_mc: 严淑良
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289215 czry_mc: 李俊
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280012 czry_mc: 陶冬冬
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289305 czry_mc: 冯向军
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001110 czry_mc: 陈军
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280010 czry_mc: 郝婷婷
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"total":12,"rows":[{"czry_dm":"24211001638","czry_mc":"胡建琴","dldm":"d001638","xybz":"Y"},
+{"czry_dm":"14211289609","czry_mc":"夏宇婷","dldm":"j289609","xybz":"Y"},
+{"czry_dm":"24211001111","czry_mc":"段永波","dldm":"d001111","xybz":"Y"},
+{"czry_dm":"14211289103","czry_mc":"夏燕","dldm":"j289103","xybz":"Y"},
+{"czry_dm":"14211289255","czry_mc":"余兵","dldm":"j289255","xybz":"Y"},
+{"czry_dm":"54211280013","czry_mc":"韩俊涛","dldm":"54211280013","xybz":"Y"},
+{"czry_dm":"54211280014","czry_mc":"董文文","dldm":"54211280014","xybz":"Y"},
+{"czry_dm":"54211280015","czry_mc":"肖天名","dldm":"54211280015","xybz":"Y"},
+{"czry_dm":"14211289222","czry_mc":"鲁玉宇","dldm":"j289222","xybz":"Y"},
+{"czry_dm":"24211001113","czry_mc":"胡百年","dldm":"d001113","xybz":"Y"},
+{"czry_dm":"14211289313","czry_mc":"商丽群","dldm":"j289313","xybz":"N"},
+{"czry_dm":"14211289999","czry_mc":"张晋","dldm":"j289999","xybz":"N"}]}
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001638 czry_mc: 胡建琴
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289609 czry_mc: 夏宇婷
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001111 czry_mc: 段永波
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289103 czry_mc: 夏燕
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289255 czry_mc: 余兵
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280013 czry_mc: 韩俊涛
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280014 czry_mc: 董文文
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280015 czry_mc: 肖天名
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289222 czry_mc: 鲁玉宇
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001113 czry_mc: 胡百年
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"total":11,"rows":[{"czry_dm":"24211001685","czry_mc":"陈焱","dldm":"d001685","xybz":"Y"},
+{"czry_dm":"14211289610","czry_mc":"龙垚垚","dldm":"j289610","xybz":"Y"},
+{"czry_dm":"14211289401","czry_mc":"赵雪萍","dldm":"j289401","xybz":"Y"},
+{"czry_dm":"14211289402","czry_mc":"严淑文","dldm":"j289402","xybz":"Y"},
+{"czry_dm":"24211001112","czry_mc":"桂宏华","dldm":"d001112","xybz":"Y"},
+{"czry_dm":"14211289403","czry_mc":"吴勇","dldm":"j289403","xybz":"Y"},
+{"czry_dm":"14211289611","czry_mc":"杨景皓","dldm":"j289611","xybz":"Y"},
+{"czry_dm":"14211289612","czry_mc":"杨赋城","dldm":"j289000","xybz":"Y"},
+{"czry_dm":"54211280009","czry_mc":"张澜子","dldm":"54211280009","xybz":"Y"},
+{"czry_dm":"54211280011","czry_mc":"张雯","dldm":"54211280011","xybz":"Y"},
+{"czry_dm":"14211289202","czry_mc":"李艳龙","dldm":"j289202","xybz":"N"}]}
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001685 czry_mc: 陈焱
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289610 czry_mc: 龙垚垚
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289401 czry_mc: 赵雪萍
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289402 czry_mc: 严淑文
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001112 czry_mc: 桂宏华
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289403 czry_mc: 吴勇
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289611 czry_mc: 杨景皓
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289612 czry_mc: 杨赋城
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280009 czry_mc: 张澜子
+2024-07-24 13:38:55 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280011 czry_mc: 张雯
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=lYyNmgXG7JNFgJGVNWt02n8t6QnRvWfsLVyDpKGgnJySYnMrhVw0!-2102725246'}
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:95 | 连接MYSQL数据库成功!
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"total":6,"rows":[{"czry_dm":"14211250513","czry_mc":"方华光","dldm":"j250513","xybz":"Y"},
+{"czry_dm":"14211289106","czry_mc":"吉爱虹","dldm":"j289106","xybz":"Y"},
+{"czry_dm":"14211250014","czry_mc":"陈鹰","dldm":"j250014","xybz":"Y"},
+{"czry_dm":"14211289303","czry_mc":"陈勇","dldm":"j289303","xybz":"Y"},
+{"czry_dm":"14211280005","czry_mc":"邱文","dldm":"j280005","xybz":"N"},
+{"czry_dm":"14211280000","czry_mc":"龙感湖系统管理","dldm":"j280000","xybz":"N"}]}
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211250513 czry_mc: 方华光
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289106 czry_mc: 吉爱虹
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211250014 czry_mc: 陈鹰
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289303 czry_mc: 陈勇
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"total":10,"rows":[{"czry_dm":"14211289210","czry_mc":"夏军华","dldm":"j289210","xybz":"Y"},
+{"czry_dm":"14211289308","czry_mc":"程振雄","dldm":"j289308","xybz":"Y"},
+{"czry_dm":"24211001686","czry_mc":"罗来文","dldm":"d001686","xybz":"Y"},
+{"czry_dm":"14211289310","czry_mc":"程刚","dldm":"j289310","xybz":"Y"},
+{"czry_dm":"24211001119","czry_mc":"严淑良","dldm":"d001119","xybz":"Y"},
+{"czry_dm":"14211289215","czry_mc":"李俊","dldm":"j289215","xybz":"Y"},
+{"czry_dm":"54211280012","czry_mc":"陶冬冬","dldm":"54211280012","xybz":"Y"},
+{"czry_dm":"14211289305","czry_mc":"冯向军","dldm":"j289305","xybz":"Y"},
+{"czry_dm":"24211001110","czry_mc":"陈军","dldm":"d001110","xybz":"Y"},
+{"czry_dm":"54211280010","czry_mc":"郝婷婷","dldm":"54211280010","xybz":"Y"}]}
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289210 czry_mc: 夏军华
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289308 czry_mc: 程振雄
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001686 czry_mc: 罗来文
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289310 czry_mc: 程刚
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001119 czry_mc: 严淑良
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289215 czry_mc: 李俊
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280012 czry_mc: 陶冬冬
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289305 czry_mc: 冯向军
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001110 czry_mc: 陈军
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280010 czry_mc: 郝婷婷
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"total":12,"rows":[{"czry_dm":"24211001638","czry_mc":"胡建琴","dldm":"d001638","xybz":"Y"},
+{"czry_dm":"14211289609","czry_mc":"夏宇婷","dldm":"j289609","xybz":"Y"},
+{"czry_dm":"24211001111","czry_mc":"段永波","dldm":"d001111","xybz":"Y"},
+{"czry_dm":"14211289103","czry_mc":"夏燕","dldm":"j289103","xybz":"Y"},
+{"czry_dm":"14211289255","czry_mc":"余兵","dldm":"j289255","xybz":"Y"},
+{"czry_dm":"54211280013","czry_mc":"韩俊涛","dldm":"54211280013","xybz":"Y"},
+{"czry_dm":"54211280014","czry_mc":"董文文","dldm":"54211280014","xybz":"Y"},
+{"czry_dm":"54211280015","czry_mc":"肖天名","dldm":"54211280015","xybz":"Y"},
+{"czry_dm":"14211289222","czry_mc":"鲁玉宇","dldm":"j289222","xybz":"Y"},
+{"czry_dm":"24211001113","czry_mc":"胡百年","dldm":"d001113","xybz":"Y"},
+{"czry_dm":"14211289313","czry_mc":"商丽群","dldm":"j289313","xybz":"N"},
+{"czry_dm":"14211289999","czry_mc":"张晋","dldm":"j289999","xybz":"N"}]}
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001638 czry_mc: 胡建琴
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289609 czry_mc: 夏宇婷
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001111 czry_mc: 段永波
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289103 czry_mc: 夏燕
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289255 czry_mc: 余兵
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280013 czry_mc: 韩俊涛
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280014 czry_mc: 董文文
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280015 czry_mc: 肖天名
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289222 czry_mc: 鲁玉宇
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001113 czry_mc: 胡百年
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"total":11,"rows":[{"czry_dm":"24211001685","czry_mc":"陈焱","dldm":"d001685","xybz":"Y"},
+{"czry_dm":"14211289610","czry_mc":"龙垚垚","dldm":"j289610","xybz":"Y"},
+{"czry_dm":"14211289401","czry_mc":"赵雪萍","dldm":"j289401","xybz":"Y"},
+{"czry_dm":"14211289402","czry_mc":"严淑文","dldm":"j289402","xybz":"Y"},
+{"czry_dm":"24211001112","czry_mc":"桂宏华","dldm":"d001112","xybz":"Y"},
+{"czry_dm":"14211289403","czry_mc":"吴勇","dldm":"j289403","xybz":"Y"},
+{"czry_dm":"14211289611","czry_mc":"杨景皓","dldm":"j289611","xybz":"Y"},
+{"czry_dm":"14211289612","czry_mc":"杨赋城","dldm":"j289000","xybz":"Y"},
+{"czry_dm":"54211280009","czry_mc":"张澜子","dldm":"54211280009","xybz":"Y"},
+{"czry_dm":"54211280011","czry_mc":"张雯","dldm":"54211280011","xybz":"Y"},
+{"czry_dm":"14211289202","czry_mc":"李艳龙","dldm":"j289202","xybz":"N"}]}
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001685 czry_mc: 陈焱
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289610 czry_mc: 龙垚垚
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289401 czry_mc: 赵雪萍
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289402 czry_mc: 严淑文
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 24211001112 czry_mc: 桂宏华
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289403 czry_mc: 吴勇
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289611 czry_mc: 杨景皓
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 14211289612 czry_mc: 杨赋城
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280009 czry_mc: 张澜子
+2024-07-24 13:39:06 | hgsw_log     | INFO     | requests_hgsw.py:125 | 数据未变动，无需更新！czry_dm: 54211280011 czry_mc: 张雯
+2024-07-24 13:42:19 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:42:19 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246
+2024-07-24 13:42:19 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246'}
+2024-07-24 13:42:19 | hgsw_log     | INFO     | requests_hgsw.py:95 | 连接MYSQL数据库成功!
+2024-07-24 13:42:19 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:42:19 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:42:19 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:42:19 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:42:19 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:42:19 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:42:19 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:42:19 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:42:43 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:42:43 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246
+2024-07-24 13:42:43 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246'}
+2024-07-24 13:42:43 | hgsw_log     | INFO     | requests_hgsw.py:95 | 连接MYSQL数据库成功!
+2024-07-24 13:42:43 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:42:43 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:42:43 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:42:43 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:42:43 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:42:43 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:42:43 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:42:43 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:43:09 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:43:09 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246
+2024-07-24 13:43:09 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246'}
+2024-07-24 13:43:09 | hgsw_log     | INFO     | requests_hgsw.py:95 | 连接MYSQL数据库成功!
+2024-07-24 13:43:09 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:43:09 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:43:09 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:43:09 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:43:09 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:43:09 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:43:09 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:43:09 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:44:05 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:44:05 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246
+2024-07-24 13:44:05 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246'}
+2024-07-24 13:44:05 | hgsw_log     | INFO     | requests_hgsw.py:95 | 连接MYSQL数据库成功!
+2024-07-24 13:44:05 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:44:05 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:44:05 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:44:05 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:44:05 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:44:05 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:44:05 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:44:05 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:44:32 | hgsw_log     | INFO     | requests_hgsw.py:24 | Cookie: <CookieJar[<Cookie JSESSIONID=G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:44:32 | hgsw_log     | INFO     | requests_hgsw.py:34 | JSESSIONID: G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246
+2024-07-24 13:44:32 | hgsw_log     | INFO     | requests_hgsw.py:43 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246'}
+2024-07-24 13:44:33 | hgsw_log     | INFO     | requests_hgsw.py:95 | 连接MYSQL数据库成功!
+2024-07-24 13:44:33 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:44:33 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:44:33 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:44:33 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:44:33 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:44:33 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:44:33 | hgsw_log     | INFO     | requests_hgsw.py:61 | 响应状态码: 200
+2024-07-24 13:44:33 | hgsw_log     | INFO     | requests_hgsw.py:63 | 响应内容: {"success":false}
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:27 | Cookie: <CookieJar[<Cookie JSESSIONID=G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:37 | JSESSIONID: G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:46 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=G86rmgRfdZHJ6SKvS1V5qWxcL9t5G9RhMhbZhF5LZ5nQpjtZ1sN6!-2102725246'}
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:98 | 连接MYSQL数据库成功!
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:64 | 响应状态码: 200
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:66 | 响应内容: {"total":6,"rows":[{"czry_dm":"14211250513","czry_mc":"方华光","dldm":"j250513","xybz":"Y"},
+{"czry_dm":"14211289106","czry_mc":"吉爱虹","dldm":"j289106","xybz":"Y"},
+{"czry_dm":"14211250014","czry_mc":"陈鹰","dldm":"j250014","xybz":"Y"},
+{"czry_dm":"14211289303","czry_mc":"陈勇","dldm":"j289303","xybz":"Y"},
+{"czry_dm":"14211280005","czry_mc":"邱文","dldm":"j280005","xybz":"N"},
+{"czry_dm":"14211280000","czry_mc":"龙感湖系统管理","dldm":"j280000","xybz":"N"}]}
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211250513 czry_mc: 方华光
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289106 czry_mc: 吉爱虹
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211250014 czry_mc: 陈鹰
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289303 czry_mc: 陈勇
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:64 | 响应状态码: 200
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:66 | 响应内容: {"total":10,"rows":[{"czry_dm":"14211289210","czry_mc":"夏军华","dldm":"j289210","xybz":"Y"},
+{"czry_dm":"14211289308","czry_mc":"程振雄","dldm":"j289308","xybz":"Y"},
+{"czry_dm":"24211001686","czry_mc":"罗来文","dldm":"d001686","xybz":"Y"},
+{"czry_dm":"14211289310","czry_mc":"程刚","dldm":"j289310","xybz":"Y"},
+{"czry_dm":"24211001119","czry_mc":"严淑良","dldm":"d001119","xybz":"Y"},
+{"czry_dm":"14211289215","czry_mc":"李俊","dldm":"j289215","xybz":"Y"},
+{"czry_dm":"54211280012","czry_mc":"陶冬冬","dldm":"54211280012","xybz":"Y"},
+{"czry_dm":"14211289305","czry_mc":"冯向军","dldm":"j289305","xybz":"Y"},
+{"czry_dm":"24211001110","czry_mc":"陈军","dldm":"d001110","xybz":"Y"},
+{"czry_dm":"54211280010","czry_mc":"郝婷婷","dldm":"54211280010","xybz":"Y"}]}
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289210 czry_mc: 夏军华
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289308 czry_mc: 程振雄
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001686 czry_mc: 罗来文
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289310 czry_mc: 程刚
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001119 czry_mc: 严淑良
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289215 czry_mc: 李俊
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280012 czry_mc: 陶冬冬
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289305 czry_mc: 冯向军
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001110 czry_mc: 陈军
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280010 czry_mc: 郝婷婷
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:64 | 响应状态码: 200
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:66 | 响应内容: {"total":12,"rows":[{"czry_dm":"24211001638","czry_mc":"胡建琴","dldm":"d001638","xybz":"Y"},
+{"czry_dm":"14211289609","czry_mc":"夏宇婷","dldm":"j289609","xybz":"Y"},
+{"czry_dm":"24211001111","czry_mc":"段永波","dldm":"d001111","xybz":"Y"},
+{"czry_dm":"14211289103","czry_mc":"夏燕","dldm":"j289103","xybz":"Y"},
+{"czry_dm":"14211289255","czry_mc":"余兵","dldm":"j289255","xybz":"Y"},
+{"czry_dm":"54211280013","czry_mc":"韩俊涛","dldm":"54211280013","xybz":"Y"},
+{"czry_dm":"54211280014","czry_mc":"董文文","dldm":"54211280014","xybz":"Y"},
+{"czry_dm":"54211280015","czry_mc":"肖天名","dldm":"54211280015","xybz":"Y"},
+{"czry_dm":"14211289222","czry_mc":"鲁玉宇","dldm":"j289222","xybz":"Y"},
+{"czry_dm":"24211001113","czry_mc":"胡百年","dldm":"d001113","xybz":"Y"},
+{"czry_dm":"14211289313","czry_mc":"商丽群","dldm":"j289313","xybz":"N"},
+{"czry_dm":"14211289999","czry_mc":"张晋","dldm":"j289999","xybz":"N"}]}
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001638 czry_mc: 胡建琴
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289609 czry_mc: 夏宇婷
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001111 czry_mc: 段永波
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289103 czry_mc: 夏燕
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289255 czry_mc: 余兵
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280013 czry_mc: 韩俊涛
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280014 czry_mc: 董文文
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280015 czry_mc: 肖天名
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289222 czry_mc: 鲁玉宇
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001113 czry_mc: 胡百年
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:64 | 响应状态码: 200
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:66 | 响应内容: {"total":11,"rows":[{"czry_dm":"24211001685","czry_mc":"陈焱","dldm":"d001685","xybz":"Y"},
+{"czry_dm":"14211289610","czry_mc":"龙垚垚","dldm":"j289610","xybz":"Y"},
+{"czry_dm":"14211289401","czry_mc":"赵雪萍","dldm":"j289401","xybz":"Y"},
+{"czry_dm":"14211289402","czry_mc":"严淑文","dldm":"j289402","xybz":"Y"},
+{"czry_dm":"24211001112","czry_mc":"桂宏华","dldm":"d001112","xybz":"Y"},
+{"czry_dm":"14211289403","czry_mc":"吴勇","dldm":"j289403","xybz":"Y"},
+{"czry_dm":"14211289611","czry_mc":"杨景皓","dldm":"j289611","xybz":"Y"},
+{"czry_dm":"14211289612","czry_mc":"杨赋城","dldm":"j289000","xybz":"Y"},
+{"czry_dm":"54211280009","czry_mc":"张澜子","dldm":"54211280009","xybz":"Y"},
+{"czry_dm":"54211280011","czry_mc":"张雯","dldm":"54211280011","xybz":"Y"},
+{"czry_dm":"14211289202","czry_mc":"李艳龙","dldm":"j289202","xybz":"N"}]}
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001685 czry_mc: 陈焱
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289610 czry_mc: 龙垚垚
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289401 czry_mc: 赵雪萍
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289402 czry_mc: 严淑文
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001112 czry_mc: 桂宏华
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289403 czry_mc: 吴勇
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289611 czry_mc: 杨景皓
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289612 czry_mc: 杨赋城
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280009 czry_mc: 张澜子
+2024-07-24 13:51:12 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280011 czry_mc: 张雯
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:27 | Cookie: <CookieJar[<Cookie JSESSIONID=JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:37 | JSESSIONID: JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:46 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246'}
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:98 | 连接MYSQL数据库成功!
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:64 | 响应状态码: 200
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:66 | 响应内容: {"total":6,"rows":[{"czry_dm":"14211250513","czry_mc":"方华光","dldm":"j250513","xybz":"Y"},
+{"czry_dm":"14211289106","czry_mc":"吉爱虹","dldm":"j289106","xybz":"Y"},
+{"czry_dm":"14211250014","czry_mc":"陈鹰","dldm":"j250014","xybz":"Y"},
+{"czry_dm":"14211289303","czry_mc":"陈勇","dldm":"j289303","xybz":"Y"},
+{"czry_dm":"14211280005","czry_mc":"邱文","dldm":"j280005","xybz":"N"},
+{"czry_dm":"14211280000","czry_mc":"龙感湖系统管理","dldm":"j280000","xybz":"N"}]}
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211250513 czry_mc: 方华光
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289106 czry_mc: 吉爱虹
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211250014 czry_mc: 陈鹰
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289303 czry_mc: 陈勇
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:64 | 响应状态码: 200
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:66 | 响应内容: {"total":10,"rows":[{"czry_dm":"14211289210","czry_mc":"夏军华","dldm":"j289210","xybz":"Y"},
+{"czry_dm":"14211289308","czry_mc":"程振雄","dldm":"j289308","xybz":"Y"},
+{"czry_dm":"24211001686","czry_mc":"罗来文","dldm":"d001686","xybz":"Y"},
+{"czry_dm":"14211289310","czry_mc":"程刚","dldm":"j289310","xybz":"Y"},
+{"czry_dm":"24211001119","czry_mc":"严淑良","dldm":"d001119","xybz":"Y"},
+{"czry_dm":"14211289215","czry_mc":"李俊","dldm":"j289215","xybz":"Y"},
+{"czry_dm":"54211280012","czry_mc":"陶冬冬","dldm":"54211280012","xybz":"Y"},
+{"czry_dm":"14211289305","czry_mc":"冯向军","dldm":"j289305","xybz":"Y"},
+{"czry_dm":"24211001110","czry_mc":"陈军","dldm":"d001110","xybz":"Y"},
+{"czry_dm":"54211280010","czry_mc":"郝婷婷","dldm":"54211280010","xybz":"Y"}]}
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289210 czry_mc: 夏军华
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289308 czry_mc: 程振雄
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001686 czry_mc: 罗来文
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289310 czry_mc: 程刚
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001119 czry_mc: 严淑良
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289215 czry_mc: 李俊
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280012 czry_mc: 陶冬冬
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289305 czry_mc: 冯向军
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001110 czry_mc: 陈军
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280010 czry_mc: 郝婷婷
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:64 | 响应状态码: 200
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:66 | 响应内容: {"total":12,"rows":[{"czry_dm":"24211001638","czry_mc":"胡建琴","dldm":"d001638","xybz":"Y"},
+{"czry_dm":"14211289609","czry_mc":"夏宇婷","dldm":"j289609","xybz":"Y"},
+{"czry_dm":"24211001111","czry_mc":"段永波","dldm":"d001111","xybz":"Y"},
+{"czry_dm":"14211289103","czry_mc":"夏燕","dldm":"j289103","xybz":"Y"},
+{"czry_dm":"14211289255","czry_mc":"余兵","dldm":"j289255","xybz":"Y"},
+{"czry_dm":"54211280013","czry_mc":"韩俊涛","dldm":"54211280013","xybz":"Y"},
+{"czry_dm":"54211280014","czry_mc":"董文文","dldm":"54211280014","xybz":"Y"},
+{"czry_dm":"54211280015","czry_mc":"肖天名","dldm":"54211280015","xybz":"Y"},
+{"czry_dm":"14211289222","czry_mc":"鲁玉宇","dldm":"j289222","xybz":"Y"},
+{"czry_dm":"24211001113","czry_mc":"胡百年","dldm":"d001113","xybz":"Y"},
+{"czry_dm":"14211289313","czry_mc":"商丽群","dldm":"j289313","xybz":"N"},
+{"czry_dm":"14211289999","czry_mc":"张晋","dldm":"j289999","xybz":"N"}]}
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001638 czry_mc: 胡建琴
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289609 czry_mc: 夏宇婷
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001111 czry_mc: 段永波
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289103 czry_mc: 夏燕
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289255 czry_mc: 余兵
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280013 czry_mc: 韩俊涛
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280014 czry_mc: 董文文
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280015 czry_mc: 肖天名
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289222 czry_mc: 鲁玉宇
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001113 czry_mc: 胡百年
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:64 | 响应状态码: 200
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:66 | 响应内容: {"total":11,"rows":[{"czry_dm":"24211001685","czry_mc":"陈焱","dldm":"d001685","xybz":"Y"},
+{"czry_dm":"14211289610","czry_mc":"龙垚垚","dldm":"j289610","xybz":"Y"},
+{"czry_dm":"14211289401","czry_mc":"赵雪萍","dldm":"j289401","xybz":"Y"},
+{"czry_dm":"14211289402","czry_mc":"严淑文","dldm":"j289402","xybz":"Y"},
+{"czry_dm":"24211001112","czry_mc":"桂宏华","dldm":"d001112","xybz":"Y"},
+{"czry_dm":"14211289403","czry_mc":"吴勇","dldm":"j289403","xybz":"Y"},
+{"czry_dm":"14211289611","czry_mc":"杨景皓","dldm":"j289611","xybz":"Y"},
+{"czry_dm":"14211289612","czry_mc":"杨赋城","dldm":"j289000","xybz":"Y"},
+{"czry_dm":"54211280009","czry_mc":"张澜子","dldm":"54211280009","xybz":"Y"},
+{"czry_dm":"54211280011","czry_mc":"张雯","dldm":"54211280011","xybz":"Y"},
+{"czry_dm":"14211289202","czry_mc":"李艳龙","dldm":"j289202","xybz":"N"}]}
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001685 czry_mc: 陈焱
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289610 czry_mc: 龙垚垚
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289401 czry_mc: 赵雪萍
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289402 czry_mc: 严淑文
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001112 czry_mc: 桂宏华
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289403 czry_mc: 吴勇
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289611 czry_mc: 杨景皓
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289612 czry_mc: 杨赋城
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280009 czry_mc: 张澜子
+2024-07-24 13:51:54 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280011 czry_mc: 张雯
+2024-07-24 13:52:36 | hgsw_log     | INFO     | requests_hgsw.py:27 | Cookie: <CookieJar[<Cookie JSESSIONID=JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:52:36 | hgsw_log     | INFO     | requests_hgsw.py:37 | JSESSIONID: JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246
+2024-07-24 13:52:36 | hgsw_log     | INFO     | requests_hgsw.py:46 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246'}
+2024-07-24 13:52:36 | hgsw_log     | INFO     | requests_hgsw.py:98 | 连接MYSQL数据库成功!
+2024-07-24 13:52:36 | hgsw_log     | INFO     | requests_hgsw.py:61 | 请求URL: http://84.52.16.1/admin_user_gettable.action?swjg_dm=14211280000
+2024-07-24 13:52:36 | hgsw_log     | INFO     | requests_hgsw.py:62 | 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246'}
+2024-07-24 13:52:36 | hgsw_log     | INFO     | requests_hgsw.py:64 | 响应状态码: 200
+2024-07-24 13:52:36 | hgsw_log     | INFO     | requests_hgsw.py:66 | 响应内容: {"total":6,"rows":[{"czry_dm":"14211250513","czry_mc":"方华光","dldm":"j250513","xybz":"Y"},
+{"czry_dm":"14211289106","czry_mc":"吉爱虹","dldm":"j289106","xybz":"Y"},
+{"czry_dm":"14211250014","czry_mc":"陈鹰","dldm":"j250014","xybz":"Y"},
+{"czry_dm":"14211289303","czry_mc":"陈勇","dldm":"j289303","xybz":"Y"},
+{"czry_dm":"14211280005","czry_mc":"邱文","dldm":"j280005","xybz":"N"},
+{"czry_dm":"14211280000","czry_mc":"龙感湖系统管理","dldm":"j280000","xybz":"N"}]}
+2024-07-24 13:52:36 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211250513 czry_mc: 方华光
+2024-07-24 13:52:36 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289106 czry_mc: 吉爱虹
+2024-07-24 13:52:36 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211250014 czry_mc: 陈鹰
+2024-07-24 13:52:36 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289303 czry_mc: 陈勇
+2024-07-24 13:52:36 | hgsw_log     | INFO     | requests_hgsw.py:61 | 请求URL: http://84.52.16.1/admin_user_gettable.action?swjg_dm=14211288500
+2024-07-24 13:52:36 | hgsw_log     | INFO     | requests_hgsw.py:62 | 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246'}
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:64 | 响应状态码: 200
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:66 | 响应内容: {"total":10,"rows":[{"czry_dm":"14211289210","czry_mc":"夏军华","dldm":"j289210","xybz":"Y"},
+{"czry_dm":"14211289308","czry_mc":"程振雄","dldm":"j289308","xybz":"Y"},
+{"czry_dm":"24211001686","czry_mc":"罗来文","dldm":"d001686","xybz":"Y"},
+{"czry_dm":"14211289310","czry_mc":"程刚","dldm":"j289310","xybz":"Y"},
+{"czry_dm":"24211001119","czry_mc":"严淑良","dldm":"d001119","xybz":"Y"},
+{"czry_dm":"14211289215","czry_mc":"李俊","dldm":"j289215","xybz":"Y"},
+{"czry_dm":"54211280012","czry_mc":"陶冬冬","dldm":"54211280012","xybz":"Y"},
+{"czry_dm":"14211289305","czry_mc":"冯向军","dldm":"j289305","xybz":"Y"},
+{"czry_dm":"24211001110","czry_mc":"陈军","dldm":"d001110","xybz":"Y"},
+{"czry_dm":"54211280010","czry_mc":"郝婷婷","dldm":"54211280010","xybz":"Y"}]}
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289210 czry_mc: 夏军华
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289308 czry_mc: 程振雄
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001686 czry_mc: 罗来文
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289310 czry_mc: 程刚
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001119 czry_mc: 严淑良
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289215 czry_mc: 李俊
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280012 czry_mc: 陶冬冬
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289305 czry_mc: 冯向军
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001110 czry_mc: 陈军
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280010 czry_mc: 郝婷婷
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:61 | 请求URL: http://84.52.16.1/admin_user_gettable.action?swjg_dm=14211288100
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:62 | 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246'}
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:64 | 响应状态码: 200
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:66 | 响应内容: {"total":12,"rows":[{"czry_dm":"24211001638","czry_mc":"胡建琴","dldm":"d001638","xybz":"Y"},
+{"czry_dm":"14211289609","czry_mc":"夏宇婷","dldm":"j289609","xybz":"Y"},
+{"czry_dm":"24211001111","czry_mc":"段永波","dldm":"d001111","xybz":"Y"},
+{"czry_dm":"14211289103","czry_mc":"夏燕","dldm":"j289103","xybz":"Y"},
+{"czry_dm":"14211289255","czry_mc":"余兵","dldm":"j289255","xybz":"Y"},
+{"czry_dm":"54211280013","czry_mc":"韩俊涛","dldm":"54211280013","xybz":"Y"},
+{"czry_dm":"54211280014","czry_mc":"董文文","dldm":"54211280014","xybz":"Y"},
+{"czry_dm":"54211280015","czry_mc":"肖天名","dldm":"54211280015","xybz":"Y"},
+{"czry_dm":"14211289222","czry_mc":"鲁玉宇","dldm":"j289222","xybz":"Y"},
+{"czry_dm":"24211001113","czry_mc":"胡百年","dldm":"d001113","xybz":"Y"},
+{"czry_dm":"14211289313","czry_mc":"商丽群","dldm":"j289313","xybz":"N"},
+{"czry_dm":"14211289999","czry_mc":"张晋","dldm":"j289999","xybz":"N"}]}
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001638 czry_mc: 胡建琴
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289609 czry_mc: 夏宇婷
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001111 czry_mc: 段永波
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289103 czry_mc: 夏燕
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289255 czry_mc: 余兵
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280013 czry_mc: 韩俊涛
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280014 czry_mc: 董文文
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280015 czry_mc: 肖天名
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289222 czry_mc: 鲁玉宇
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001113 czry_mc: 胡百年
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:61 | 请求URL: http://84.52.16.1/admin_user_gettable.action?swjg_dm=24211290300
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:62 | 请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246'}
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:64 | 响应状态码: 200
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:66 | 响应内容: {"total":11,"rows":[{"czry_dm":"24211001685","czry_mc":"陈焱","dldm":"d001685","xybz":"Y"},
+{"czry_dm":"14211289610","czry_mc":"龙垚垚","dldm":"j289610","xybz":"Y"},
+{"czry_dm":"14211289401","czry_mc":"赵雪萍","dldm":"j289401","xybz":"Y"},
+{"czry_dm":"14211289402","czry_mc":"严淑文","dldm":"j289402","xybz":"Y"},
+{"czry_dm":"24211001112","czry_mc":"桂宏华","dldm":"d001112","xybz":"Y"},
+{"czry_dm":"14211289403","czry_mc":"吴勇","dldm":"j289403","xybz":"Y"},
+{"czry_dm":"14211289611","czry_mc":"杨景皓","dldm":"j289611","xybz":"Y"},
+{"czry_dm":"14211289612","czry_mc":"杨赋城","dldm":"j289000","xybz":"Y"},
+{"czry_dm":"54211280009","czry_mc":"张澜子","dldm":"54211280009","xybz":"Y"},
+{"czry_dm":"54211280011","czry_mc":"张雯","dldm":"54211280011","xybz":"Y"},
+{"czry_dm":"14211289202","czry_mc":"李艳龙","dldm":"j289202","xybz":"N"}]}
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001685 czry_mc: 陈焱
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289610 czry_mc: 龙垚垚
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289401 czry_mc: 赵雪萍
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289402 czry_mc: 严淑文
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 24211001112 czry_mc: 桂宏华
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289403 czry_mc: 吴勇
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289611 czry_mc: 杨景皓
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 14211289612 czry_mc: 杨赋城
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280009 czry_mc: 张澜子
+2024-07-24 13:52:37 | hgsw_log     | INFO     | requests_hgsw.py:128 | 数据未变动，无需更新！czry_dm: 54211280011 czry_mc: 张雯
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:28 | Cookie: <CookieJar[<Cookie JSESSIONID=JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:38 | JSESSIONID: JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:47 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246'}
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:99 | 连接MYSQL数据库成功!
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:65 | 响应状态码: 200
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:67 | 响应内容: {"total":6,"rows":[{"czry_dm":"14211250513","czry_mc":"方华光","dldm":"j250513","xybz":"Y"},
+{"czry_dm":"14211289106","czry_mc":"吉爱虹","dldm":"j289106","xybz":"Y"},
+{"czry_dm":"14211250014","czry_mc":"陈鹰","dldm":"j250014","xybz":"Y"},
+{"czry_dm":"14211289303","czry_mc":"陈勇","dldm":"j289303","xybz":"Y"},
+{"czry_dm":"14211280005","czry_mc":"邱文","dldm":"j280005","xybz":"N"},
+{"czry_dm":"14211280000","czry_mc":"龙感湖系统管理","dldm":"j280000","xybz":"N"}]}
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211250513 czry_mc: 方华光
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289106 czry_mc: 吉爱虹
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211250014 czry_mc: 陈鹰
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289303 czry_mc: 陈勇
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:65 | 响应状态码: 200
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:67 | 响应内容: {"total":10,"rows":[{"czry_dm":"14211289210","czry_mc":"夏军华","dldm":"j289210","xybz":"Y"},
+{"czry_dm":"14211289308","czry_mc":"程振雄","dldm":"j289308","xybz":"Y"},
+{"czry_dm":"24211001686","czry_mc":"罗来文","dldm":"d001686","xybz":"Y"},
+{"czry_dm":"14211289310","czry_mc":"程刚","dldm":"j289310","xybz":"Y"},
+{"czry_dm":"24211001119","czry_mc":"严淑良","dldm":"d001119","xybz":"Y"},
+{"czry_dm":"14211289215","czry_mc":"李俊","dldm":"j289215","xybz":"Y"},
+{"czry_dm":"54211280012","czry_mc":"陶冬冬","dldm":"54211280012","xybz":"Y"},
+{"czry_dm":"14211289305","czry_mc":"冯向军","dldm":"j289305","xybz":"Y"},
+{"czry_dm":"24211001110","czry_mc":"陈军","dldm":"d001110","xybz":"Y"},
+{"czry_dm":"54211280010","czry_mc":"郝婷婷","dldm":"54211280010","xybz":"Y"}]}
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289210 czry_mc: 夏军华
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289308 czry_mc: 程振雄
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001686 czry_mc: 罗来文
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289310 czry_mc: 程刚
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001119 czry_mc: 严淑良
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289215 czry_mc: 李俊
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 54211280012 czry_mc: 陶冬冬
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289305 czry_mc: 冯向军
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001110 czry_mc: 陈军
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 54211280010 czry_mc: 郝婷婷
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:65 | 响应状态码: 200
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:67 | 响应内容: {"total":12,"rows":[{"czry_dm":"24211001638","czry_mc":"胡建琴","dldm":"d001638","xybz":"Y"},
+{"czry_dm":"14211289609","czry_mc":"夏宇婷","dldm":"j289609","xybz":"Y"},
+{"czry_dm":"24211001111","czry_mc":"段永波","dldm":"d001111","xybz":"Y"},
+{"czry_dm":"14211289103","czry_mc":"夏燕","dldm":"j289103","xybz":"Y"},
+{"czry_dm":"14211289255","czry_mc":"余兵","dldm":"j289255","xybz":"Y"},
+{"czry_dm":"54211280013","czry_mc":"韩俊涛","dldm":"54211280013","xybz":"Y"},
+{"czry_dm":"54211280014","czry_mc":"董文文","dldm":"54211280014","xybz":"Y"},
+{"czry_dm":"54211280015","czry_mc":"肖天名","dldm":"54211280015","xybz":"Y"},
+{"czry_dm":"14211289222","czry_mc":"鲁玉宇","dldm":"j289222","xybz":"Y"},
+{"czry_dm":"24211001113","czry_mc":"胡百年","dldm":"d001113","xybz":"Y"},
+{"czry_dm":"14211289313","czry_mc":"商丽群","dldm":"j289313","xybz":"N"},
+{"czry_dm":"14211289999","czry_mc":"张晋","dldm":"j289999","xybz":"N"}]}
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001638 czry_mc: 胡建琴
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289609 czry_mc: 夏宇婷
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001111 czry_mc: 段永波
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289103 czry_mc: 夏燕
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289255 czry_mc: 余兵
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 54211280013 czry_mc: 韩俊涛
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 54211280014 czry_mc: 董文文
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 54211280015 czry_mc: 肖天名
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289222 czry_mc: 鲁玉宇
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001113 czry_mc: 胡百年
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:65 | 响应状态码: 200
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:67 | 响应内容: {"total":11,"rows":[{"czry_dm":"24211001685","czry_mc":"陈焱","dldm":"d001685","xybz":"Y"},
+{"czry_dm":"14211289610","czry_mc":"龙垚垚","dldm":"j289610","xybz":"Y"},
+{"czry_dm":"14211289401","czry_mc":"赵雪萍","dldm":"j289401","xybz":"Y"},
+{"czry_dm":"14211289402","czry_mc":"严淑文","dldm":"j289402","xybz":"Y"},
+{"czry_dm":"24211001112","czry_mc":"桂宏华","dldm":"d001112","xybz":"Y"},
+{"czry_dm":"14211289403","czry_mc":"吴勇","dldm":"j289403","xybz":"Y"},
+{"czry_dm":"14211289611","czry_mc":"杨景皓","dldm":"j289611","xybz":"Y"},
+{"czry_dm":"14211289612","czry_mc":"杨赋城","dldm":"j289000","xybz":"Y"},
+{"czry_dm":"54211280009","czry_mc":"张澜子","dldm":"54211280009","xybz":"Y"},
+{"czry_dm":"54211280011","czry_mc":"张雯","dldm":"54211280011","xybz":"Y"},
+{"czry_dm":"14211289202","czry_mc":"李艳龙","dldm":"j289202","xybz":"N"}]}
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001685 czry_mc: 陈焱
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289610 czry_mc: 龙垚垚
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289401 czry_mc: 赵雪萍
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289402 czry_mc: 严淑文
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001112 czry_mc: 桂宏华
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289403 czry_mc: 吴勇
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289611 czry_mc: 杨景皓
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289612 czry_mc: 杨赋城
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 54211280009 czry_mc: 张澜子
+2024-07-24 13:54:44 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 54211280011 czry_mc: 张雯
+2024-07-24 13:55:30 | hgsw_log     | INFO     | requests_hgsw.py:28 | Cookie: <CookieJar[<Cookie JSESSIONID=JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:55:30 | hgsw_log     | INFO     | requests_hgsw.py:38 | JSESSIONID: JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246
+2024-07-24 13:55:30 | hgsw_log     | INFO     | requests_hgsw.py:47 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246'}
+2024-07-24 13:55:30 | hgsw_log     | INFO     | requests_hgsw.py:99 | 连接MYSQL数据库成功!
+2024-07-24 13:55:30 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211250513 czry_mc: 方华光
+2024-07-24 13:55:30 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289106 czry_mc: 吉爱虹
+2024-07-24 13:55:30 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211250014 czry_mc: 陈鹰
+2024-07-24 13:55:30 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289303 czry_mc: 陈勇
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289210 czry_mc: 夏军华
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289308 czry_mc: 程振雄
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001686 czry_mc: 罗来文
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289310 czry_mc: 程刚
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001119 czry_mc: 严淑良
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289215 czry_mc: 李俊
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 54211280012 czry_mc: 陶冬冬
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289305 czry_mc: 冯向军
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001110 czry_mc: 陈军
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 54211280010 czry_mc: 郝婷婷
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001638 czry_mc: 胡建琴
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289609 czry_mc: 夏宇婷
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001111 czry_mc: 段永波
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289103 czry_mc: 夏燕
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289255 czry_mc: 余兵
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 54211280013 czry_mc: 韩俊涛
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 54211280014 czry_mc: 董文文
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 54211280015 czry_mc: 肖天名
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289222 czry_mc: 鲁玉宇
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001113 czry_mc: 胡百年
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001685 czry_mc: 陈焱
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289610 czry_mc: 龙垚垚
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289401 czry_mc: 赵雪萍
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289402 czry_mc: 严淑文
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 24211001112 czry_mc: 桂宏华
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289403 czry_mc: 吴勇
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289611 czry_mc: 杨景皓
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 14211289612 czry_mc: 杨赋城
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 54211280009 czry_mc: 张澜子
+2024-07-24 13:55:31 | hgsw_log     | INFO     | requests_hgsw.py:129 | 数据未变动，无需更新！czry_dm: 54211280011 czry_mc: 张雯
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:29 | Cookie: <CookieJar[<Cookie JSESSIONID=JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246 for 84.52.16.1/>]>
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:39 | JSESSIONID: JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:48 | 新的请求头: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'http://84.52.16.1', 'DNT': '1', 'Connection': 'keep-alive', 'Referer': 'http://84.52.16.1/s-admin/org-user.html?v=20191202', 'Cookie': 'JSESSIONID=JbJ2mgTHDTCMvnQhGLqLf8hbLdSZYDBcyCYvKh1FzxhSlLdnkqsn!-2102725246'}
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:100 | 连接MYSQL数据库成功!
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211250513 czry_mc: 方华光
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289106 czry_mc: 吉爱虹
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211250014 czry_mc: 陈鹰
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289303 czry_mc: 陈勇
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289210 czry_mc: 夏军华
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289308 czry_mc: 程振雄
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 24211001686 czry_mc: 罗来文
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289310 czry_mc: 程刚
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 24211001119 czry_mc: 严淑良
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289215 czry_mc: 李俊
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 54211280012 czry_mc: 陶冬冬
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289305 czry_mc: 冯向军
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 24211001110 czry_mc: 陈军
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 54211280010 czry_mc: 郝婷婷
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 24211001638 czry_mc: 胡建琴
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289609 czry_mc: 夏宇婷
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 24211001111 czry_mc: 段永波
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289103 czry_mc: 夏燕
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289255 czry_mc: 余兵
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 54211280013 czry_mc: 韩俊涛
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 54211280014 czry_mc: 董文文
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 54211280015 czry_mc: 肖天名
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289222 czry_mc: 鲁玉宇
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 24211001113 czry_mc: 胡百年
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 24211001685 czry_mc: 陈焱
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289610 czry_mc: 龙垚垚
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289401 czry_mc: 赵雪萍
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289402 czry_mc: 严淑文
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 24211001112 czry_mc: 桂宏华
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289403 czry_mc: 吴勇
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289611 czry_mc: 杨景皓
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 14211289612 czry_mc: 杨赋城
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 54211280009 czry_mc: 张澜子
+2024-07-24 13:59:18 | hgsw_log     | INFO     | requests_hgsw.py:130 | 数据未变动，无需更新！czry_dm: 54211280011 czry_mc: 张雯

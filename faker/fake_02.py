@@ -1,27 +1,20 @@
-import re
+def check_id_card(id_number):
+    if len(id_number) != 18:
+        return False
 
-# 定义一个包含中国省份和直辖市的列表
-provinces_municipalities = [
-    "北京市", "天津市", "上海市", "重庆市", "河北省", "山西省", "辽宁省", "吉林省",
-    "黑龙江省", "江苏省", "浙江省", "安徽省", "福建省", "江西省", "山东省", "河南省",
-    "湖北省", "湖南省", "广东省", "海南省", "四川省", "贵州省", "云南省", "陕西省",
-    "甘肃省", "青海省", "台湾省", "内蒙古自治区", "广西壮族自治区", "西藏自治区",
-    "宁夏回族自治区", "新疆维吾尔自治区", "香港特别行政区", "澳门特别行政区"
-]
+    coefficients = [7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2]
+    check_codes = ['1', '0', 'X', '9', '8', '7', '6', '5', '4', '3', '2']
 
-# 定义一个正则表达式，匹配列表中的省份和直辖市
-province_municipality_pattern = f"({'|'.join(provinces_municipalities)})"
+    # 计算校验码
+    sum = 0
+    for i in range(17):
+        sum += int(id_number[i]) * coefficients[i]
+    mod = sum % 11
 
-# 示例地址
-addresses = [
-    "海南省惠州县沈北新张路W座",
-    "重庆市昆明市金平王街m座 799846"
-]
+    # 检查校验位
+    return check_codes[mod] == id_number[-1]
 
-# 提取省份和直辖市名称
-for address in addresses:
-    match = re.search(province_municipality_pattern, address)
-    if match:
-        print(f"地址: {address} 中提取的省份/直辖市: {match.group(0)}")
-    else:
-        print(f"在地址: {address} 中没有找到匹配的省份/直辖市")
+
+# 测试
+id_number = "123456789012345678"  # 替换为需要检验的身份证号码
+print(check_id_card(id_number))

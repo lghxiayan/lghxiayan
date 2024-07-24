@@ -1,6 +1,6 @@
 @echo off
 mode con cols=85 lines=35
-ver | find "�汾" > NUL && title ��ˮ��KMS�ű� V23.02.13 || title Cangshui's KMS script V23.02.13
+ver | find "版本" > NUL && title 沧水的KMS脚本 V23.02.13 || title Cangshui's KMS script V23.02.13
 setlocal EnableDelayedExpansion&color 70 & cd /d "%~dp0"
 %1 %2
 ver | find "5."> NUL && goto :start
@@ -30,57 +30,57 @@ ver | find "6.1." > NUL &&  set winv=7
 ver | find "6.2." > NUL &&  set winv=8
 ver | find "6.3." > NUL &&  set winv=8.1
 ver | find "10.0." > NUL &&  set winv=10
-ver | find "�汾" >NUL && set syslang=cn
-ver | find "�汾" >nul && echo ���ʽ���������http://kms.cangshui.net || echo Feedback and Tip: http://kms.cangshui.net
-ver | find "�汾" >nul && echo �������������http://shop.cangshui.net
+ver | find "版本" >NUL && set syslang=cn
+ver | find "版本" >nul && echo 提问建议请留言http://kms.cangshui.net || echo Feedback and Tip: http://kms.cangshui.net
+ver | find "版本" >nul && echo 捐赠赞助请访问http://shop.cangshui.net
 echo.
-ver | find "�汾" >nul && echo �X�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T֪ʶ��������Э��T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�[|| echo �X�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�TCreative Commons License Agreement�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�[
-ver | find "�汾" >nul && echo �U ��ˮ��KMS�ű� �� Cangshui ���� ֪ʶ����                                          �U || echo �U Cangshui's KMS script by Cangshui is licensed under a Creative Commons           �U
-ver | find "�汾" >nul && echo �U ����-����ҵ��ʹ��-��ͬ��ʽ���� 4.0 ���� ����Э��������ɡ�                       �U || echo �U Attribution-NonCommercial-ShareAlike 4.0 International License.                  �U
+ver | find "版本" >nul && echo ╔════════════════════════════════知识共享许可协议══════════════════════════════════╗|| echo ╔════════════════════════Creative Commons License Agreement════════════════════════╗
+ver | find "版本" >nul && echo ║ 沧水的KMS脚本 由 Cangshui 采用 知识共享                                          ║ || echo ║ Cangshui's KMS script by Cangshui is licensed under a Creative Commons           ║
+ver | find "版本" >nul && echo ║ 署名-非商业性使用-相同方式共享 4.0 国际 许可协议进行许可。                       ║ || echo ║ Attribution-NonCommercial-ShareAlike 4.0 International License.                  ║
 echo.
 if  "%syslang%"=="cn" (
-  if  "%systabs%"=="1" ( echo �X�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T����ѡ��T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�[ )
-  echo �U��A��KMS����Windows                                                               �U
-  echo �U��B��KMS����Office                                                                �U
-  echo �U��C�����Windows KMS                                                              �U
-  echo �U��D�����Office KMS                                                               �U
-  echo �U��E���鿴֧�ֵ�windows�汾                                                        �U
+  if  "%systabs%"=="1" ( echo ╔════════════════════════════════════激活选项══════════════════════════════════════╗ )
+  echo ║【A】KMS激活Windows                                                               ║
+  echo ║【B】KMS激活Office                                                                ║
+  echo ║【C】清除Windows KMS                                                              ║
+  echo ║【D】清除Office KMS                                                               ║
+  echo ║【E】查看支持的windows版本                                                        ║
   ) else (
-  if  "%systabs%"=="1" ( echo �X�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�TActivation option�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�[ )
-  echo �U[A] KMS activate windows                                                          �U
-  echo �U[B] KMS activate Office                                                           �U
-  echo �U[C] Clear Windows KMS                                                             �U
-  echo �U[D] Clear Office KMS                                                              �U
-  echo �U[E] Supported windows version                                                     �U
+  if  "%systabs%"=="1" ( echo ╔════════════════════════════════Activation option═════════════════════════════════╗ )
+  echo ║[A] KMS activate windows                                                          ║
+  echo ║[B] KMS activate Office                                                           ║
+  echo ║[C] Clear Windows KMS                                                             ║
+  echo ║[D] Clear Office KMS                                                              ║
+  echo ║[E] Supported windows version                                                     ║
 )
 if  "%syslang%"=="cn" (
-  if  "%systabs%"=="1" ( echo �d�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�������ߨT�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�g )
-  echo �U��1��ȥ��Office��ʾ������֤�������桱                                             �U 
-  echo �U��2��ȥ����ݷ�ʽС��ͷ                                                           �U
-  echo �U��3���ָ���ݷ�ʽС��ͷ                                                           �U
-  echo �U��4��Win11�л��ɰ������Ҽ��˵�                                                    �U
-  echo �U��5��Win11�ָ��°������Ҽ��˵�                                                    �U 
-  echo �U��6��ȥ����ݷ�ʽС����                                                           �U
-  echo �U��7���ָ���ݷ�ʽС����                                                           �U 
-  echo �U��8��ȥ��������ݷ�ʽʱ�ĺ�׺��-��ݷ�ʽ��                                        �U
-  echo �U��9��ȥ�����п�ִ���ļ�ʱ�ľ��浯��                                               �U
-  echo �U��10�����������ӡ��˵��ԡ�ͼ��                                                    �U
-  if  "%systabs%"=="1" ( echo �d�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T����ѡ��T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�g )
+  if  "%systabs%"=="1" ( echo ╠═════════════════════════════════════其他工具═════════════════════════════════════╣ )
+  echo ║【1】去除Office显示“许可证并非正版”                                             ║ 
+  echo ║【2】去除快捷方式小箭头                                                           ║
+  echo ║【3】恢复快捷方式小箭头                                                           ║
+  echo ║【4】Win11切换旧版桌面右键菜单                                                    ║
+  echo ║【5】Win11恢复新版桌面右键菜单                                                    ║ 
+  echo ║【6】去除快捷方式小盾牌                                                           ║
+  echo ║【7】恢复快捷方式小盾牌                                                           ║ 
+  echo ║【8】去除创建快捷方式时的后缀“-快捷方式”                                        ║
+  echo ║【9】去除运行可执行文件时的警告弹窗                                               ║
+  echo ║【10】向桌面添加“此电脑”图标                                                    ║
+  if  "%systabs%"=="1" ( echo ╠═════════════════════════════════════输入选择═════════════════════════════════════╣ )
   ) else (
-  if  "%systabs%"=="1" ( echo �X�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�TOther Tool�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�[ )
-  echo �U[1] Remove Office from showing "License is not genuine"                           �U 
-  echo �U[2] Removing the shortcut arrow                                                   �U
-  echo �U[3] Restore shortcut small arrow                                                  �U
-  echo �U[4] Win11 switch the old desktop right-click menu                                 �U
-  echo �U[5] Win11 restores the new version of the desktop right-click menu                �U 
-  echo �U[6] Remove shortcut small shield                                                  �U
-  echo �U[7] Restore shortcut small shield                                                 �U 
-  echo �U[8] Remove the suffix "-shortcut" when creating shortcuts                         �U
-  echo �U[9] Remove the warning popup when running executable files                        �U
-  echo �U[10]Add the "This PC" icon to the desktop                                         �U
-  if  "%systabs%"=="1" ( echo �d�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�TPlease enter options�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�g )
+  if  "%systabs%"=="1" ( echo ╔════════════════════════════════════Other Tool════════════════════════════════════╗ )
+  echo ║[1] Remove Office from showing "License is not genuine"                           ║ 
+  echo ║[2] Removing the shortcut arrow                                                   ║
+  echo ║[3] Restore shortcut small arrow                                                  ║
+  echo ║[4] Win11 switch the old desktop right-click menu                                 ║
+  echo ║[5] Win11 restores the new version of the desktop right-click menu                ║ 
+  echo ║[6] Remove shortcut small shield                                                  ║
+  echo ║[7] Restore shortcut small shield                                                 ║ 
+  echo ║[8] Remove the suffix "-shortcut" when creating shortcuts                         ║
+  echo ║[9] Remove the warning popup when running executable files                        ║
+  echo ║[10]Add the "This PC" icon to the desktop                                         ║
+  if  "%systabs%"=="1" ( echo ╠══════════════════════════════Please enter options════════════════════════════════╣ )
 )
-ver | find "�汾" >nul && set /p xuanze=�U ���������ѡ��: || set /p xuanze=�U Please enter your choice:
+ver | find "版本" >nul && set /p xuanze=║ 请输入你的选择: || set /p xuanze=║ Please enter your choice:
 if /i "%xuanze%"=="a" cls&goto start1
 if /i "%xuanze%"=="b" cls&goto start2
 if /i "%xuanze%"=="c" cls&goto start3
@@ -101,24 +101,24 @@ if /i "%xuanze%"=="10" cls&goto addmypcico
 :start2
 cls
 echo.
-ver | find "�汾" >nul && echo ���ʽ���������http://kms.cangshui.net || echo Feedback and Tip: http://kms.cangshui.net
-ver | find "�汾" >nul && echo �������������http://shop.cangshui.net
+ver | find "版本" >nul && echo 提问建议请留言http://kms.cangshui.net || echo Feedback and Tip: http://kms.cangshui.net
+ver | find "版本" >nul && echo 捐赠赞助请访问http://shop.cangshui.net
 echo.
 if  "%KMS_Sev%"=="kms-shanghai01.cangshui.net" (
-    ver | find "�汾" >nul && echo ���ڼ���ܷ����ӵ�KMS��������...|| echo Checking if we can connect to the KMS master server...
+    ver | find "版本" >nul && echo 正在检查能否连接到KMS主服务器...|| echo Checking if we can connect to the KMS master server...
     ) else (
-    ver | find "�汾" >nul && echo ���ӵ�KMS��������ʧ�ܣ����л������÷�����...|| echo Checking if we can connect to the KMS master server...
+    ver | find "版本" >nul && echo 连接到KMS主服务器失败，已切换至备用服务器...|| echo Checking if we can connect to the KMS master server...
 )
 dir /a "tcping.exe" | find "258,560"  > NUL && set tcpingstatus=successful
 if  "%tcpingstatus%"=="successful" (
-    echo tcping�������...���ȴ�ʱ�䳬��60��ɳ����������нű� && tcping.exe %KMS_Sev% 1688 | find "0 successful" > NUL && goto failb
+    echo tcping命令可用...若等待时间超过60秒可尝试重新运行脚本 && tcping.exe %KMS_Sev% 1688 | find "0 successful" > NUL && goto failb
     ) else (
        if  "%winv%"=="10" (
-          echo ======================================��ʾ��Ϣ=======================================
-          echo ��ϵͳ�Դ���ping�����޷�׼ȷ�жϷ������Ƿ���ã���˽��Զ�����TCPing����
-          echo TCPingΪ��ȫ�Ŀ�Դ���ߣ���Դ��ַΪhttps://github.com/jtilander/tcping
-          echo ��������TCPing�������...
-          echo ======================================��ʾ��Ϣ=======================================          
+          echo ======================================提示信息=======================================
+          echo 因系统自带的ping命令无法准确判断服务器是否可用，因此将自动下载TCPing工具
+          echo TCPing为安全的开源工具，开源地址为https://github.com/jtilander/tcping
+          echo 尝试下载TCPing测试组件...
+          echo ======================================提示信息=======================================          
           curl --ssl-no-revoke --connect-timeout 3 -m 10 -s -O https://cangshui.net/-otherweb/kms/tcping.exe    
         ) else (
           echo. 
@@ -128,50 +128,50 @@ if  "%tcpingstatus%"=="successful" (
 
 dir /a "tcping.exe" | find "258,560"  > NUL && set tcpingstatus2=successful
 if  "%tcpingstatus2%"=="successful" (
-    if "%tcpingstatus%"=="successful" ( echo. ) else ( echo tcping�������...���ȴ�ʱ�䳬��60��ɳ����������нű� && tcping.exe %KMS_Sev% 1688 | find "0 successful" > NUL && goto failb)
+    if "%tcpingstatus%"=="successful" ( echo. ) else ( echo tcping命令可用...若等待时间超过60秒可尝试重新运行脚本 && tcping.exe %KMS_Sev% 1688 | find "0 successful" > NUL && goto failb)
 ) else (
         if  "%winv%"=="10" (
-          echo TCPing������ʧ�ܻ�����ԭ���²����ã�����ping�����������Ƿ���ã����Ĳ��Խ������һ��׼ȷ   
+          echo TCPing因下载失败或其他原因导致不可用，采用ping来检测服务器是否可用，它的测试结果并不一定准确   
         ) else (
-          echo ======================================��ʾ��Ϣ=======================================
-          echo ���ϵͳ��windows10�����ϰ汾 �޷��Զ�����TCPing����
-          echo ���ֻ����ping�����������Ƿ���ã����Ĳ��Խ������һ��׼ȷ
-          echo ������������ش� https://cangshui.net/-otherweb/kms/tcping.exe ������
-          echo ��������ڱ��ű�ͬĿ¼�£��������нű�����
-          echo TCPing���߽�Ϊ���������Ƿ���ã�ȱʧҲ������������ϵͳ
-          echo TCPingΪ��ȫ�Ŀ�Դ���ߣ���Դ��ַΪhttps://github.com/jtilander/tcping
-          echo ======================================��ʾ��Ϣ=======================================
+          echo ======================================提示信息=======================================
+          echo 你的系统非windows10及以上版本 无法自动下载TCPing工具
+          echo 因此只采用ping来检测服务器是否可用，它的测试结果并不一定准确
+          echo 你可以自行下载从 https://cangshui.net/-otherweb/kms/tcping.exe 下载它
+          echo 将其放置在本脚本同目录下，重新运行脚本即可
+          echo TCPing工具仅为检测服务器是否可用，缺失也可以正常激活系统
+          echo TCPing为安全的开源工具，开源地址为https://github.com/jtilander/tcping
+          echo ======================================提示信息=======================================
         )
     echo.
-    echo ��ʼPing����...���ȴ�ʱ�䳬��60��ɳ����������нű�
-    ping %KMS_Sev% | find "100% ��ʧ"  > NUL &&  goto failb
+    echo 开始Ping测试...若等待时间超过60秒可尝试重新运行脚本
+    ping %KMS_Sev% | find "100% 丢失"  > NUL &&  goto failb
     ping %KMS_Sev% | find "100% loss"  > NUL &&  goto failb
-    ping %KMS_Sev% | find "�Ҳ�������"  > NUL &&  goto failb
+    ping %KMS_Sev% | find "找不到主机"  > NUL &&  goto failb
     ping %KMS_Sev% | find "not find host"  > NUL &&  goto failb
-    ping %KMS_Sev% | find "ʧ��"  > NUL &&  goto failb
+    ping %KMS_Sev% | find "失败"  > NUL &&  goto failb
     ping %KMS_Sev% | find "fail"  > NUL &&  goto failb    
 )
 
 
 if  "%KMS_Sev%"=="kms-shanghai01.cangshui.net" (
-    echo �����ܹ���������KMS��������...
+    echo 本机能够正常连接KMS主服务器...
     ) else (
-    echo �����ܹ���������KMS���÷�����...
+    echo 本机能够正常连接KMS备用服务器...
 )
 goto office
 
 :office
-echo ��鰲װ��office����
+echo 检查安装的office……
 call :GetOfficePath 14 Office2010
 call :ActOffice 14 Office2010
 call :GetOfficePath 15 Office2013
 call :ActOffice 15 Office2013
 if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" set _Office16Path=%ProgramFiles%\Microsoft Office\Office16
 if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" set _Office16Path=%ProgramFiles(x86)%\Microsoft Office\Office16
-if DEFINED _Office16Path (echo.&echo �ѷ��� Office2016ϵ������[����2016/2019/365/2021]
+if DEFINED _Office16Path (echo.&echo 已发现 Office2016系列软件[包括2016/2019/365/2021]
     ping 127.0.0.1 -n 2 > nul
     call :ActOffice 16 Office2016
-  ) else (echo.&echo δ���� Office2016ϵ������[����2016/2019/365/2021])
+  ) else (echo.&echo 未发现 Office2016系列软件[包括2016/2019/365/2021])
 
 
 echo.&pause
@@ -181,16 +181,16 @@ exit
 if DEFINED _Office%1Path (
     cd /d "!_Office%1Path!"
     if %1 EQU 16 call :Licens16
-    echo.&echo ���Լ�������Office ...&echo.
+    echo.&echo 尝试激活您的Office ...&echo.
 cscript //nologo ospp.vbs /sethst:%KMS_Sev% > NUL
 cscript //nologo ospp.vbs /act | find /i "successful" && (
-        echo.&echo ***** ����ɹ� *****   & echo.) || (echo.&echo ***** ����ʧ�� ***** & echo.)
+        echo.&echo ***** 激活成功 *****   & echo.) || (echo.&echo ***** 激活失败 ***** & echo.)
 )    
 cd /d "%~dp0"
 goto :EOF
 
 :GetOfficePath
-echo.&echo ���ڼ�� %2 ϵ�в�Ʒ�İ�װ·��...
+echo.&echo 正在检测 %2 系列产品的安装路径...
 set _Office%1Path=
 set _Reg32=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\%1.0\Common\InstallRoot
 set _Reg64=HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\%1.0\Common\InstallRoot
@@ -200,23 +200,23 @@ if DEFINED _OfficePath1 (if exist "%_OfficePath1%ospp.vbs" set _Office%1Path=!_O
 if DEFINED _OfficePath2 (if exist "%_OfficePath2%ospp.vbs" set _Office%1Path=!_OfficePath2!)
 set _OfficePath1=
 set _OfficePath2=
-if DEFINED _Office%1Path (echo.&echo �ѷ��� %2) else (echo.&echo δ���� %2)
+if DEFINED _Office%1Path (echo.&echo 已发现 %2) else (echo.&echo 未发现 %2)
 goto :EOF
 
 :Licens16
 cls
-echo ��A������ΪOffice2021�汾(��2021�����ϰ汾��ѡ)
-echo ��B������ΪOffice2019�汾(��2019�����ϰ汾��ѡ)
-echo ��C������ΪOffice2016�汾(ȫ�汾ͨ��)
-echo PS��Office365�汾��û�����������ģ��������365�汾ѡC����
-set /p xuanze=��ѡ��...
+echo 【A】激活为Office2021版本(仅2021及以上版本可选)
+echo 【B】激活为Office2019版本(仅2019及以上版本可选)
+echo 【C】激活为Office2016版本(全版本通用)
+echo PS：Office365版本是没有批量激活版的，如果你是365版本选C即可
+set /p xuanze=请选择...
 if /i "%xuanze%"=="a" cls&goto installOffice21
 if /i "%xuanze%"=="b" cls&goto installOffice19
 if /i "%xuanze%"=="c" cls&goto installOffice16
 
 
 :installOffice21
-echo ��װ2021֤��
+echo 安装2021证书
 for /f %%x in ('dir /b ..\root\Licenses16\proplus2021vl_mak*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" > NUL
 for /f %%x in ('dir /b ..\root\Licenses16\proplus2021vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" > NUL
 for /f %%x in ('dir /b ..\root\Licenses16\proplus2021previewvl_mak*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" > NUL
@@ -239,7 +239,7 @@ goto :EOF
 exit
 
 :installOffice19
-echo ��װ2019֤��
+echo 安装2019证书
 for /f %%x in ('dir /b ..\root\Licenses16\proplus2019xc2rvl*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" > NUL
 for /f %%x in ('dir /b ..\root\Licenses16\proplus2019vl_mak*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" > NUL
 for /f %%x in ('dir /b ..\root\Licenses16\proplus2019vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" > NUL
@@ -260,7 +260,7 @@ exit
 
 
 :installOffice16
-echo ��װ2016֤��
+echo 安装2016证书
 for /f %%x in ('dir /b ..\root\Licenses16\proplusvl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" > NUL
 for /f %%x in ('dir /b ..\root\Licenses16\proplusvl_mak*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" > NUL
 for /f %%x in ('dir /b ..\root\Licenses16\client-issuance*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" > NUL
@@ -285,25 +285,25 @@ exit
 
 :start1
 cls
-ver | find "�汾" >nul && echo ���ʽ���������http://kms.cangshui.net || echo Feedback and Tip: http://kms.cangshui.net
-ver | find "�汾" >nul && echo �������������http://shop.cangshui.net 
+ver | find "版本" >nul && echo 提问建议请留言http://kms.cangshui.net || echo Feedback and Tip: http://kms.cangshui.net
+ver | find "版本" >nul && echo 捐赠赞助请访问http://shop.cangshui.net 
 echo.
 if  "%KMS_Sev%"=="kms-shanghai01.cangshui.net" (
-    ver | find "�汾" >nul && echo ���ڼ���ܷ����ӵ�KMS��������... || echo Checking if we can connect to the KMS master server...
+    ver | find "版本" >nul && echo 正在检查能否连接到KMS主服务器... || echo Checking if we can connect to the KMS master server...
     ) else (
-    ver | find "�汾" >nul && echo ���ӵ�KMS��������ʧ�ܣ����л������÷�����... || echo Connection to KMS primary server failed, switched to standby server...
+    ver | find "版本" >nul && echo 连接到KMS主服务器失败，已切换至备用服务器... || echo Connection to KMS primary server failed, switched to standby server...
 )
 dir /a "tcping.exe" | find "258,560"  > NUL && set tcpingstatus=successful
 if  "%tcpingstatus%"=="successful" (
-    ver | find "�汾" >nul && echo tcping�������...���ȴ�ʱ�䳬��60��ɳ����������нű� || echo The tcping command is available... If you wait longer than 60 seconds, try running the script again
+    ver | find "版本" >nul && echo tcping命令可用...若等待时间超过60秒可尝试重新运行脚本 || echo The tcping command is available... If you wait longer than 60 seconds, try running the script again
 	tcping.exe %KMS_Sev% 1688 | find "0 successful" > NUL && goto faila
 ) else (
        if  "%winv%"=="10" (
-          ver | find "�汾" >nul && echo ======================================��ʾ��Ϣ=======================================
-          ver | find "�汾" >nul && echo ��ϵͳ�Դ���ping�����޷�׼ȷ�жϷ������Ƿ���ã���˽��Զ�����TCPing����
-          ver | find "�汾" >nul && echo TCPingΪ��ȫ�Ŀ�Դ���ߣ���Դ��ַΪhttps://github.com/jtilander/tcping
-          ver | find "�汾" >nul && echo ��������TCPing�������...
-          ver | find "�汾" >nul && echo ======================================��ʾ��Ϣ=======================================     
+          ver | find "版本" >nul && echo ======================================提示信息=======================================
+          ver | find "版本" >nul && echo 因系统自带的ping命令无法准确判断服务器是否可用，因此将自动下载TCPing工具
+          ver | find "版本" >nul && echo TCPing为安全的开源工具，开源地址为https://github.com/jtilander/tcping
+          ver | find "版本" >nul && echo 尝试下载TCPing测试组件...
+          ver | find "版本" >nul && echo ======================================提示信息=======================================     
           curl --ssl-no-revoke --connect-timeout 3 -m 10 -s -O https://cangshui.net/-otherweb/kms/tcping.exe   
         ) else (
           echo.
@@ -314,48 +314,48 @@ if  "%tcpingstatus%"=="successful" (
 
 dir /a "tcping.exe" | find "258,560"  > NUL && set tcpingstatus2=successful
 if  "%tcpingstatus2%"=="successful" (
-    if "%tcpingstatus%"=="successful" ( echo. ) else ( ver | find "�汾" >nul && echo tcping�������...���ȴ�ʱ�䳬��60��ɳ����������нű� && tcping.exe %KMS_Sev% 1688 | find "0 successful" > NUL && goto faila)
+    if "%tcpingstatus%"=="successful" ( echo. ) else ( ver | find "版本" >nul && echo tcping命令可用...若等待时间超过60秒可尝试重新运行脚本 && tcping.exe %KMS_Sev% 1688 | find "0 successful" > NUL && goto faila)
 ) else (
     if  "%winv%"=="10" (
-          ver | find "�汾" >nul && echo TCPing������ʧ�ܻ�����ԭ���²����ã�����ping�����������Ƿ���ã����Ĳ��Խ������һ��׼ȷ   
+          ver | find "版本" >nul && echo TCPing因下载失败或其他原因导致不可用，采用ping来检测服务器是否可用，它的测试结果并不一定准确   
         ) else (
-          ver | find "�汾" >nul && echo ======================================��ʾ��Ϣ=======================================
-          ver | find "�汾" >nul && echo ���ϵͳΪwindows7 �޷��Զ�����TCPing����
-          ver | find "�汾" >nul && echo ���ֻ����ping�����������Ƿ���ã����Ĳ��Խ������һ��׼ȷ
-          ver | find "�汾" >nul && echo ������������ش� https://cangshui.net/-otherweb/kms/tcping.exe ������
-          ver | find "�汾" >nul && echo ��������ڱ��ű�ͬĿ¼�£��������нű�����
-          ver | find "�汾" >nul && echo TCPing���߽�Ϊ���������Ƿ���ã�ȱʧҲ������������ϵͳ
-          ver | find "�汾" >nul && echo TCPingΪ��ȫ�Ŀ�Դ���ߣ���Դ��ַΪhttps://github.com/jtilander/tcping
-          ver | find "�汾" >nul && echo ======================================��ʾ��Ϣ=======================================
+          ver | find "版本" >nul && echo ======================================提示信息=======================================
+          ver | find "版本" >nul && echo 你的系统为windows7 无法自动下载TCPing工具
+          ver | find "版本" >nul && echo 因此只采用ping来检测服务器是否可用，它的测试结果并不一定准确
+          ver | find "版本" >nul && echo 你可以自行下载从 https://cangshui.net/-otherweb/kms/tcping.exe 下载它
+          ver | find "版本" >nul && echo 将其放置在本脚本同目录下，重新运行脚本即可
+          ver | find "版本" >nul && echo TCPing工具仅为检测服务器是否可用，缺失也可以正常激活系统
+          ver | find "版本" >nul && echo TCPing为安全的开源工具，开源地址为https://github.com/jtilander/tcping
+          ver | find "版本" >nul && echo ======================================提示信息=======================================
         )
     echo.
-    ver | find "�汾" >nul && echo ��ʼPing����...���ȴ�ʱ�䳬��60��ɳ����������нű� || echo Start Ping test... If you wait longer than 60 seconds, try running the script again
-    ping %KMS_Sev% | find "100% ��ʧ"  > NUL &&  goto faila
+    ver | find "版本" >nul && echo 开始Ping测试...若等待时间超过60秒可尝试重新运行脚本 || echo Start Ping test... If you wait longer than 60 seconds, try running the script again
+    ping %KMS_Sev% | find "100% 丢失"  > NUL &&  goto faila
     ping %KMS_Sev% | find "100% loss"  > NUL &&  goto faila
-    ping %KMS_Sev% | find "�Ҳ�������"  > NUL &&  goto faila
+    ping %KMS_Sev% | find "找不到主机"  > NUL &&  goto faila
     ping %KMS_Sev% | find "not find host"  > NUL &&  goto faila
-    ping %KMS_Sev% | find "ʧ��"  > NUL &&  goto faila
+    ping %KMS_Sev% | find "失败"  > NUL &&  goto faila
     ping %KMS_Sev% | find "fail"  > NUL &&  goto faila    
 )
 
 if  "%KMS_Sev%"=="kms-shanghai01.cangshui.net" (
-    ver | find "�汾" >nul && echo �����ܹ���������KMS��������...  || echo The machine is able to connect to the main KMS server properly...
+    ver | find "版本" >nul && echo 本机能够正常连接KMS主服务器...  || echo The machine is able to connect to the main KMS server properly...
     ) else (
-    ver | find "�汾" >nul && echo �����ܹ���������KMS���÷�����...  || echo The machine is able to connect properly to the KMS standby server...  
+    ver | find "版本" >nul && echo 本机能够正常连接KMS备用服务器...  || echo The machine is able to connect properly to the KMS standby server...  
     )
 
-ver | find "�汾" >nul && echo ======================================������Ϣ======================================= || echo =====================================information====================================
+ver | find "版本" >nul && echo ======================================激活信息======================================= || echo =====================================information====================================
 
 ver | find "6.0." > NUL &&  goto winvista
 ver | find "6.1." > NUL &&  goto win7
 ver | find "6.2." > NUL &&  goto win8
 ver | find "6.3." > NUL &&  goto win81
 ver | find "10.0." > NUL &&  goto win10
-ver | find "�汾" >nul && echo δ�ҵ����ʵ�NT6ϵͳ��������WinXP��Win2003��  || echo No suitable NT6 system found, possibly WinXP or Win2003.
+ver | find "版本" >nul && echo 未找到合适的NT6系统，可能是WinXP或Win2003。  || echo No suitable NT6 system found, possibly WinXP or Win2003.
 goto office
 
 :winvista
-echo ��ǰΪWindows Vista/2008��
+echo 当前为Windows Vista/2008。
 set Business=YFKBB-PQJJV-G996G-VWGXY-2V3X8
 set BusinessN=HMBQG-8H2RH-C77VX-27R82-VMQBT
 set Enterprise=VKK3X-68KWM-X2YGT-QR4M6-4BWMV
@@ -372,10 +372,10 @@ set ServerEnterpriseIA64=4DWFP-JF3DJ-B7DTH-78FJB-PDRHK
 goto windowsstart
 
 :win7
-ver | find "�汾" >nul && echo ��ǰΪWindows 7/2008 R2�� || echo Currently Windows 7/2008 R2.
+ver | find "版本" >nul && echo 当前为Windows 7/2008 R2。 || echo Currently Windows 7/2008 R2.
 for /f "tokens=*" %%i in ('reg QUERY "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v "ProductName"') do set ProductNamea=%%i
 echo "%ProductNamea%" | find "Ultimate" >nul && (  
-  msg %username% /time:99999999 "Windows7 �콢���޷�ʹ��KMS��������ϵͳ�汾���ȡ������ʽ����ϵͳ��"
+  msg %username% /time:99999999 "Windows7 旗舰版无法使用KMS激活！请更换系统版本或采取其他方式激活系统！"
   pause
   exit
   ) || (  
@@ -396,7 +396,7 @@ set ServerEnterpriseIA64=GT63C-RJFQ3-4GMB6-BRFB9-CB83V
 goto windowsstart
 
 :win8
-ver | find "�汾" >nul && echo ��ǰΪWindows 8/2012�� || echo Currently Windows 8/2012.
+ver | find "版本" >nul && echo 当前为Windows 8/2012。 || echo Currently Windows 8/2012.
 set Professional=NG4HW-VH26C-733KW-K6F98-J8CK4
 set ProfessionalN=XCVCF-2NXM9-723PB-MHCB7-2RYQQ
 set Core=BN3D2-R7TKB-3YPBD-8DRP2-27GG4
@@ -412,7 +412,7 @@ set ServerDatacenter=48HP8-DN98B-MYWDG-T2DCC-8W83P
 goto windowsstart
 
 :win81
-ver | find "�汾" >nul && echo ��ǰΪWindows 8.1�� || echo Currently Windows 8.1.
+ver | find "版本" >nul && echo 当前为Windows 8.1。 || echo Currently Windows 8.1.
 set Professional=GCRJD-8NW9H-F2CDX-CCM8D-9D6T9
 set ProfessionalN=HMCNV-VVBFX-7HMBH-CTY9B-B4FXY
 set Enterprise=MHF9N-XY6XB-WVXMC-BTDCT-MKKG7
@@ -431,7 +431,7 @@ echo "%ProductNameb%" | find "Server" >nul && (
     echo "%ProductNameb%" | find "Enterprise" >nul && (  
       goto win10Enterprise
       ) || (  
-      ver | find "�汾" >nul && echo ��ǰΪWindows 10�� || echo Currently for Windows 10.
+      ver | find "版本" >nul && echo 当前为Windows 10。 || echo Currently for Windows 10.
       )
 )
 set Core=TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
@@ -453,28 +453,28 @@ goto windowsstart
 :win10Enterprise
 for /f "tokens=*" %%i in ('reg QUERY "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v "ProductName"') do set ProductNameh=%%i
 echo "%ProductNameh%" | findstr "2021" >nul && ( 
-  echo ��ǰΪWindows Enterprise LTSC 2021�� 
+  echo 当前为Windows Enterprise LTSC 2021。 
   set IoTEnterpriseS=M7XTQ-FN8P6-TTKYV-9D4CC-J462D
   set IoTEnterpriseSN=92NFX-8DJQP-P6BBQ-THF9C-7CG2H
   set EnterpriseS=M7XTQ-FN8P6-TTKYV-9D4CC-J462D
   set EnterpriseSN=92NFX-8DJQP-P6BBQ-THF9C-7CG2H
   ) || (      
      echo "%ProductNameh%" | findstr "2019" >nul && ( 
-      echo ��ǰΪWindows Enterprise LTSC 2019�� 
+      echo 当前为Windows Enterprise LTSC 2019。 
       set EnterpriseS=M7XTQ-FN8P6-TTKYV-9D4CC-J462D
       set EnterpriseSN=92NFX-8DJQP-P6BBQ-THF9C-7CG2H
       ) || ( 
          echo "%ProductNameh%" | findstr "2016" >nul && ( 
-           echo ��ǰΪWindows Enterprise LTSB 2016�� 
+           echo 当前为Windows Enterprise LTSB 2016。 
            set EnterpriseS=DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ
            set EnterpriseSN=QFFDN-GRT3P-VKWWX-X7T3R-8B639
            ) || (
                 echo "%ProductNameh%" | findstr "2015" >nul && ( 
-                  echo ��ǰΪWindows Enterprise LTSB 2015��
+                  echo 当前为Windows Enterprise LTSB 2015。
                   set EnterpriseS=WNMTR-4C88C-JK8YV-HQ7T2-76DF9
                   set EnterpriseSN=2F77B-TNFGY-69QQF-B8YKP-D69TJ
                   ) || (
-                  echo ������ĳ����ҵ���ư汾...����֤�ܼ���ɹ�...
+                  echo 可能是某种企业定制版本...不保证能激活成功...
                   set EnterpriseS=M7XTQ-FN8P6-TTKYV-9D4CC-J462D
                   set EnterpriseSN=92NFX-8DJQP-P6BBQ-THF9C-7CG2H
                   set EnterpriseG=YYVX9-NTFWV-6MDM3-9PT4T-4M68B
@@ -493,24 +493,24 @@ goto windowsstart
 :win10Server
 for /f "tokens=*" %%i in ('reg QUERY "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v "ProductName"') do set ProductNamec=%%i
 echo "%ProductNamec%" | findstr "2022" >nul && ( 
-  ver | find "�汾" >nul && echo ��ǰΪWindows server 2022�� || echo Currently Windows server 2022.
+  ver | find "版本" >nul && echo 当前为Windows server 2022。 || echo Currently Windows server 2022.
   set ServerDatacenter=WX4NM-KYWYW-QJJR4-XV3QB-6VM33
   set ServerStandard=VDYBN-27WPP-V4HQT-9VMD4-VMK7H
   ) || ( 
        echo "%ProductNamec%" | findstr "2019" >nul && ( 
-         ver | find "�汾" >nul && echo ��ǰΪWindows server 2019��  || echo Currently Windows server 2019.
+         ver | find "版本" >nul && echo 当前为Windows server 2019。  || echo Currently Windows server 2019.
          set ServerDatacenter=WMDGN-G9PQG-XVVXX-R3X43-63DFG
          set ServerStandard=N69G4-B89J2-4G8F4-WWYCC-J464C
          set ServerEssentials=WVDHN-86M7X-466P6-VHXV7-YY726
          set ServerRdsh=CPWHC-NT2C7-VYW78-DHDB2-PG3GK
          ) || ( 
               echo "%ProductNamec%" | findstr "2016" >nul && ( 
-                ver | find "�汾" >nul && echo ��ǰΪWindows server 2016��  || echo Currently Windows server 2016.
+                ver | find "版本" >nul && echo 当前为Windows server 2016。  || echo Currently Windows server 2016.
                 set ServerDatacenter=CB7KF-BWN84-R7R2Y-793K2-8XDDG
                 set ServerStandard=WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY
                 set ServerEssentials=JCKRF-N37P4-C2D82-9YXRT-4M63B
                 ) || ( 
-                ver | find "�汾" >nul && echo �޷�ʶ��ϵͳ�汾����   || echo Unrecognized system version ......
+                ver | find "版本" >nul && echo 无法识别系统版本……   || echo Unrecognized system version ......
                 goto Feedback
               )
           
@@ -521,17 +521,17 @@ goto windowsstart
 
 
 :windowsstart
-ver | find "�汾" >nul && echo ����Windows Update ����Ϊ�Զ�������... || echo Set the Windows Update service to automatic and run...
+ver | find "版本" >nul && echo 设置Windows Update 服务为自动并运行... || echo Set the Windows Update service to automatic and run...
 sc config wuauserv start=auto > NUL
 set winupdate=0
 net start | find "Windows Update" > NUL && set winupdate=1
 if "%winupdate%"==0 ( echo. > NUL ) else ( net start wuauserv > NUL )
 for /f "tokens=3 delims= " %%i in ('reg QUERY "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v "EditionID"') do set EditionID=%%i
 if defined %EditionID% (
-  ver | find "�汾" >nul && echo �汾IDΪ%EditionID%  || echo The version ID is%EditionID%
+  ver | find "版本" >nul && echo 版本ID为%EditionID%  || echo The version ID is%EditionID%
   goto windowsstart2
 ) else (
-  ver | find "�汾" >nul && echo �Ҳ������кš��� || echo Serial number not found ......
+  ver | find "版本" >nul && echo 找不到序列号…… || echo Serial number not found ......
   goto Feedback
 )
 echo.&pause
@@ -540,21 +540,21 @@ exit
 :windowsstart2
 for /f "delims=" %%i in ('cscript //Nologo %windir%\system32\slmgr.vbs /ipk !%EditionID%!') do set kmsresulta=%%i
 echo %kmsresulta%
-echo %kmsresulta% | find "�Ǻ��İ汾�ļ����" > NUL && goto keyerror
+echo %kmsresulta% | find "非核心版本的计算机" > NUL && goto keyerror
 echo %kmsresulta% | find "Windows non-core edition" > NUL && goto keyerror
 cscript //Nologo %windir%\system32\slmgr.vbs /skms %KMS_Sev%
 for /f "delims=" %%i in ('cscript //Nologo %windir%\system32\slmgr.vbs /ato') do set kmsresultc=%%i
 echo %kmsresultc%
-echo %kmsresultc% | find "�޷���ϵ�κ���Կ��������" > NUL && set retrya=1 && goto networkerror
+echo %kmsresultc% | find "无法联系任何密钥管理服务" > NUL && set retrya=1 && goto networkerror
 echo %kmsresultc% | find "could be contacted" > NUL && set retrya=1 && goto networkerror 
-ver | find "�汾" >nul && echo ======================================������Ϣ====================================== || echo =====================================information====================================
+ver | find "版本" >nul && echo ======================================激活信息====================================== || echo =====================================information====================================
 echo.&pause
 exit
 
 :start4
 set nextunnum=0
-echo �Ƿ����Ҫ���Office��KMS����(��֧��Office2016�����ϰ汾)��
-set /p xuanze=��Y������   ��N���ر�
+echo 是否真的要清除Office的KMS激活(仅支持Office2016及以上版本)？
+set /p xuanze=【Y】继续   【N】关闭
 if /i "%xuanze%"=="y" goto nextun
 if /i "%xuanze%"=="n" exit
 
@@ -573,7 +573,7 @@ cscript  "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" /unpkey:%office5key
 cscript  "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" /remhst > NUL
 set /a nextunnum+=1
 cls
-echo �������%nextunnum%/10
+echo 清除进度%nextunnum%/10
 if "%nextunnum%"=="10" ( goto nextunsuccess )
 goto nextun64
 pause
@@ -587,7 +587,7 @@ cscript  "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" /unpkey:%offic
 cscript  "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" /remhst > NUL
 set /a nextunnum+=1
 cls
-echo �������%nextunnum%/10
+echo 清除进度%nextunnum%/10
 if "%nextunnum%"=="10" ( goto nextunsuccess )
 goto nextun32
 pause
@@ -595,12 +595,12 @@ exit
 
 :nextunsuccess
 cls
-echo ������
+echo 清除完成
 pause
 exit
 
 :start3
-set /p xuanze=�Ƿ����Ҫ���Windows��KMS����Y������   ��N���ر�
+set /p xuanze=是否真的要清除Windows的KMS？【Y】继续   【N】关闭
 if /i "%xuanze%"=="y" goto nextunw
 if /i "%xuanze%"=="n" exit
 :nextunw
@@ -608,7 +608,7 @@ slmgr /upk
 slmgr /ckms
 slmgr /rearm
 cls
-echo �����ɣ�����������
+echo 清除完成，请重启电脑
 ping 127.0.0.1 -n 10 > nul
 
 
@@ -616,32 +616,32 @@ ping 127.0.0.1 -n 10 > nul
 :start5
 cls
 echo.
-echo windows 11��
-echo Windows 11 ������                    Windows 11 רҵ������
-echo Windows 11 ��ҵ��                    Windows 11 רҵ����վ��
-echo Windows 11 רҵ��    
+echo windows 11：
+echo Windows 11 教育版                    Windows 11 专业教育版
+echo Windows 11 企业版                    Windows 11 专业工作站版
+echo Windows 11 专业版    
 echo. 
-echo Windows 10��
-echo Windows 10 ������                    Windows 10 רҵ������
-echo Windows 10 ��ҵ��                    Windows 10 רҵ����վ�� 
-echo Windows 10 רҵ��                 
+echo Windows 10：
+echo Windows 10 教育版                    Windows 10 专业教育版
+echo Windows 10 企业版                    Windows 10 专业工作站版 
+echo Windows 10 专业版                 
 echo. 
-echo Windows Server��
-echo Windows Server version 1709-1909 �������İ�  Windows Server version 1709-1909 ��׼��
-echo Windows Server 2012 �������İ�                         Windows Server 2012 ��׼��
-echo Windows Server 2016 �������İ�                         Windows Server 2016 ��׼��
-echo Windows Server 2019 �������İ�                         Windows Server 2019 ��׼��
-echo Windows Server 2022 �������İ�                         Windows Server 2022 ��׼��
+echo Windows Server：
+echo Windows Server version 1709-1909 数据中心版  Windows Server version 1709-1909 标准版
+echo Windows Server 2012 数据中心版                         Windows Server 2012 标准版
+echo Windows Server 2016 数据中心版                         Windows Server 2016 标准版
+echo Windows Server 2019 数据中心版                         Windows Server 2019 标准版
+echo Windows Server 2022 数据中心版                         Windows Server 2022 标准版
 echo.
-echo Windows Enterprise��
+echo Windows Enterprise：
 echo Windows LTSC 2019                   Windows LTSB 2016
 echo Windows LTSB 2015
 echo. 
-echo Windows 8.1��
-echo Windows 8.1 רҵ��                    Windows 8.1 ��ҵ��
+echo Windows 8.1：
+echo Windows 8.1 专业版                    Windows 8.1 企业版
 echo. 
-echo Windows 7��
-echo Windows 7 רҵ��                       Windows 7 ��ҵ��
+echo Windows 7：
+echo Windows 7 专业版                       Windows 7 企业版
 pause
 cls
 goto start
@@ -654,7 +654,7 @@ cls
 if  "%KMS_Sev%"=="kms-shanghai01.cangshui.net" (
     set KMS_Sev=kms-default.cangshui.net && goto start1
     ) else (
-    ver | find "�汾" >nul && echo ���ӵ�KMS��/����������ʧ�ܣ����������нű�����������������... || echo Unable to connect to KMS server
+    ver | find "版本" >nul && echo 连接到KMS主/备服务器皆失败，请重新运行脚本或检查计算机网络设置... || echo Unable to connect to KMS server
     )
 pause
 
@@ -665,7 +665,7 @@ cls
 if  "%KMS_Sev%"=="kms-shanghai01.cangshui.net" (
     set KMS_Sev=kms-default.cangshui.net && goto start2
     ) else (
-    ver | find "�汾" >nul && echo ���ӵ�KMS��/����������ʧ�ܣ����������нű�����������������... || echo Unable to connect to KMS server
+    ver | find "版本" >nul && echo 连接到KMS主/备服务器皆失败，请重新运行脚本或检查计算机网络设置... || echo Unable to connect to KMS server
     )
 pause
 
@@ -674,24 +674,24 @@ set /a retrya=1+%retrya%
 if "%retrya%" LEQ "5" (
   goto networkerror2
 ) else (
-  echo ======================================������Ϣ=======================================
-  echo ��������KMS���������ʧ��...������������...
+  echo ======================================错误信息=======================================
+  echo 本机连接KMS服务器多次失败...请检查网络设置...
   goto Feedback
 )
 pause
 exit
 
 :networkerror2
-echo �򱾻�����KMS������ʧ�ܣ����ڽ��е�%retrya%������..
+echo 因本机连接KMS服务器失败，正在进行第%retrya%次重试..
 for /f "delims=" %%i in ('cscript //Nologo %windir%\system32\slmgr.vbs /ato') do set kmsresultd=%%i
-echo %kmsresultd% | find "�޷���ϵ�κ���Կ��������" > NUL  && goto networkerror
+echo %kmsresultd% | find "无法联系任何密钥管理服务" > NUL  && goto networkerror
 echo %kmsresultd% | find "could be contacted" > NUL &&  goto networkerror 
 pause
 exit
 
 :keyerror
-echo ======================================������Ϣ=======================================
-echo �����ܳ״��󣬿����ǽű���֧�����ϵͳ�汾...
+echo ======================================错误信息=======================================
+echo 激活密匙错误，可能是脚本不支持你的系统版本...
 goto Feedback
 pause
 exit
@@ -699,18 +699,18 @@ exit
 
 :Feedback
 echo.
-if "!%EditionID%!"=="" ( echo. > NUL ) else ( echo windows����ʱʹ�õ��ܳ�Ϊ!%EditionID%!  )
-if "%KMS_Sev%"=="" ( echo. > NUL ) else ( echo ����ʹ�õķ�����Ϊ%KMS_Sev%  )
+if "!%EditionID%!"=="" ( echo. > NUL ) else ( echo windows激活时使用的密匙为!%EditionID%!  )
+if "%KMS_Sev%"=="" ( echo. > NUL ) else ( echo 激活使用的服务器为%KMS_Sev%  )
 for /f "tokens=*" %%d in ('reg QUERY "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v "ProductName"') do set ProductNamed=%%d
-echo �汾Ϊ%ProductNamed%
+echo 版本为%ProductNamed%
 for /f "tokens=*" %%f in ('reg QUERY "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v "EditionID"') do set EditionID=%%f
-echo IDΪ%EditionID%
+echo ID为%EditionID%
 where curl > NUL
-if "%errorlevel%"=="0" ( Echo ϵͳ�Ѱ�װcurl���� ) else ( echo ϵͳδ��װcurl���� )
+if "%errorlevel%"=="0" ( Echo 系统已安装curl工具 ) else ( echo 系统未安装curl工具 )
 where tcping > NUL
-if "%errorlevel%"=="0" ( Echo ϵͳ�Ѱ�װTcping���� ) else ( echo ϵͳδ��װTcping���� )
-whoami /groups | find "S-1-16-12288" >NUL && Echo �ű�ӵ�й���ԱȨ��
-echo ======================================������Ϣ=======================================
+if "%errorlevel%"=="0" ( Echo 系统已安装Tcping工具 ) else ( echo 系统未安装Tcping工具 )
+whoami /groups | find "S-1-16-12288" >NUL && Echo 脚本拥有管理员权限
+echo ======================================错误信息=======================================
 pause
 cls
 goto start
@@ -719,7 +719,7 @@ goto start
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" /v 29 /d "%systemroot%\system32\imageres.dll,197" /t reg_sz /f > nul
 taskkill /f /im explorer.exe > nul
 start explorer > nul
-echo ȥ����ݷ�ʽ��ͷ�������...
+echo 去除快捷方式箭头操作完成...
 pause
 cls
 goto start
@@ -728,7 +728,7 @@ goto start
 reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" /v 29 /f > nul
 taskkill /f /im explorer.exe > nul
 start explorer > nul
-echo �ָ���ݷ�ʽ��ͷ�������...
+echo 恢复快捷方式箭头操作完成...
 pause
 cls
 goto start
@@ -739,7 +739,7 @@ goto start
 reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f  > nul
 taskkill /f /im explorer.exe > nul
 start explorer > nul
-echo �л�Ϊ�ִ������Ҽ��˵��������...
+echo 切换为现代桌面右键菜单操作完成...
 pause
 cls
 goto start
@@ -748,7 +748,7 @@ goto start
 reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f  > nul
 taskkill /f /im explorer.exe > nul
 start explorer > nul
-echo �л�Ϊ���������Ҽ��˵��������...
+echo 切换为经典桌面右键菜单操作完成...
 pause
 cls
 goto start
@@ -763,16 +763,16 @@ reg delete HKLM\SOFTWARE\Microsoft\Office\ClickToRun\Configuration /v UpdateToVe
 reg delete HKLM\SOFTWARE\Microsoft\Office\ClickToRun\Updates /v UpdateToVersion /f > nul
 reg delete HKLM\SOFTWARE\Policies\Microsoft\Office\16.0\Common\OfficeUpdate\ /f > nul
 "%CommonProgramFiles%\microsoft shared\ClickToRun\OfficeC2RClient.exe" /update user > nul
-echo ��ȴ�����������Office���´��ڡ��������...
-echo ����ʾ��Ҫ�ر�office������������Ȼ���ٴδ�Office�鿴Ч��...
+echo 请等待“正在下载Office更新窗口”进度完成...
+echo 若提示需要关闭office，请点击继续，然后再次打开Office查看效果...
 pause
 cls
 goto start
 
 :shortcut
 reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer /v Link /t REG_BINARY /d "00000000" /f > nul
-echo ȥ��������ݷ�ʽʱ�ĺ�׺��-��ݷ�ʽ�������ɹ�...
-echo ������Ҫ���������������Ч...
+echo 去除创建快捷方式时的后缀“-快捷方式”操作成功...
+echo 可能需要重启计算机才能生效...
 pause
 cls
 goto start
@@ -782,7 +782,7 @@ goto start
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" /v 77 /d "%systemroot%\system32\imageres.dll,197" /t reg_sz /f > nul
 taskkill /f /im explorer.exe > nul
 start explorer > nul
-echo ȥ����ݷ�ʽ���Ʋ������...
+echo 去除快捷方式盾牌操作完成...
 pause
 cls
 goto start
@@ -792,7 +792,7 @@ goto start
 reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" /v 77 /f > nul
 taskkill /f /im explorer.exe > nul
 start explorer > nul
-echo �ָ���ݷ�ʽ���Ʋ������...
+echo 恢复快捷方式盾牌操作完成...
 pause
 cls
 goto start
@@ -801,7 +801,7 @@ goto start
 :removerunwarn
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Associations /v ModRiskFileTypes /t REG_SZ /d .exe;.bat;.vbs;.py;.cmd;.msi;.ps1;.js /f
 gpupdate /force
-echo ȥ����ִ���ļ��İ�ȫ���浯���������...
+echo 去除可执行文件的安全警告弹窗操作完成...
 pause
 cls
 goto start
@@ -810,7 +810,7 @@ goto start
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" /v "{20D04FE0-3AEA-1069-A2D8-08002B30309D}" /t REG_DWORD /d "0" /f
 taskkill /f /im explorer.exe > nul
 start explorer > nul
-echo ���������ӡ��˵��ԡ�ͼ��������...
+echo 向桌面添加“此电脑”图标操作完成...
 pause
 cls
 goto start

@@ -9,8 +9,8 @@ url = 'http://84.52.16.1/s-admin/login.html'
 
 data = {
     'cloud_dldm': "j289103",
-    'cloud_dlmm': "D2CC32491D85682ABC772328E7A645A8"
-    # 'cloud_dlmm': "xia11111111"
+    # 'cloud_dlmm': "D2CC32491D85682ABC772328E7A645A8"
+    'cloud_dlmm': "xia11111111"
 }
 
 header = {

@@ -3,8 +3,8 @@
 不使用多线程生成数据,速度非常慢.
 我写了一个address_data.py文件，包含了中国行政区划信息，引用了进来，这个要注意。
 """
-from faker.providers import BaseProvider
 from concurrent.futures import ThreadPoolExecutor
+from faker.providers import BaseProvider
 from mysql import connector
 from faker import Faker
 from tqdm import tqdm

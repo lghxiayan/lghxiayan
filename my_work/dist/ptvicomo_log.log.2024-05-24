@@ -1,0 +1,270 @@
+2024-07-22 16:02:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:126 | 连接到 MYSQL 成功!
+2024-07-22 16:02:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 16:02:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:83 | re.compile('累计盈利 (\\d+.\\d+)')
+2024-07-22 16:02:03 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_01.py:88 | 无法获取累计盈利数据!
+2024-07-22 16:02:03 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_01.py:89 | could not convert string to float: '【：358.0：146：523.0】0:0012:00，24:00~~~~67886.0380000(,)146!()'
+Traceback (most recent call last):
+  File "C:\Users\xiayan\OneDrive\python_study\mooc\my_work\selenium_ptvicomo_cookie_01.py", line 86, in my_get_data
+    total = int(float(cleaned_string))
+ValueError: could not convert string to float: '【：358.0：146：523.0】0:0012:00，24:00~~~~67886.0380000(,)146!()'
+2024-07-22 16:02:03 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_01.py:178 | 无法获取销售价格，数据未插入
+2024-07-22 16:07:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:123 | 连接到 MYSQL 成功!
+2024-07-22 16:07:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 16:09:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:123 | 连接到 MYSQL 成功!
+2024-07-22 16:09:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 16:10:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:122 | 连接到 MYSQL 成功!
+2024-07-22 16:10:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 16:37:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:122 | 连接到 MYSQL 成功!
+2024-07-22 16:37:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 16:37:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:158 | 数据插入成功！
+2024-07-22 16:37:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:159 | ------------------------------
+2024-07-22 16:47:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:124 | 连接到 MYSQL 成功!
+2024-07-22 16:47:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 16:47:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:160 | 数据插入成功！
+2024-07-22 16:47:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:161 | ------------------------------
+2024-07-22 16:54:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:125 | 连接到 MYSQL 成功!
+2024-07-22 16:54:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 16:54:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:161 | 数据插入成功！
+2024-07-22 16:54:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:162 | ------------------------------
+2024-07-22 16:57:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:125 | 连接到 MYSQL 成功!
+2024-07-22 16:57:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 16:57:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:161 | 数据插入成功！
+2024-07-22 16:57:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:162 | ------------------------------
+2024-07-22 16:58:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:125 | 连接到 MYSQL 成功!
+2024-07-22 16:58:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 16:58:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:161 | 数据插入成功！
+2024-07-22 16:58:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:162 | ------------------------------
+2024-07-22 17:03:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:126 | 连接到 MYSQL 成功!
+2024-07-22 17:03:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 17:03:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:84 | 获取成功累计盈利：67886
+2024-07-22 17:04:42 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:126 | 连接到 MYSQL 成功!
+2024-07-22 17:04:53 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 17:04:53 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:84 | 获取成功累计盈利：67886
+2024-07-22 17:04:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:162 | 数据插入成功！
+2024-07-22 17:04:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:163 | ------------------------------
+2024-07-22 17:06:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:128 | 连接到 MYSQL 成功!
+2024-07-22 17:06:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:84 | 获取成功累计盈利：67886
+2024-07-22 17:06:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:107 | 获取蔬菜名称成功:鲜红象胡萝卜条
+2024-07-22 17:06:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:111 | 获取市场单价成功:358
+2024-07-22 17:06:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:164 | 数据插入成功！
+2024-07-22 17:06:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:165 | ------------------------------
+2024-07-22 17:08:13 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:128 | 连接到 MYSQL 成功!
+2024-07-22 17:08:13 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 17:08:13 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:84 | 获取【累计盈利】成功：67886
+2024-07-22 17:08:13 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:107 | 获取【蔬菜名称】成功:鲜红象胡萝卜条
+2024-07-22 17:08:13 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:111 | 获取【市场单价】成功:358
+2024-07-22 17:08:13 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:164 | 数据插入成功！
+2024-07-22 17:08:13 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:165 | ------------------------------
+2024-07-22 17:13:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:128 | 连接到 MYSQL 成功!
+2024-07-22 17:13:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 17:13:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:84 | 获取【累计盈利】成功：67886
+2024-07-22 17:13:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:107 | 获取【蔬菜名称】成功:鲜红象胡萝卜条
+2024-07-22 17:13:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:111 | 获取【市场单价】成功:358
+2024-07-22 17:13:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:164 | 数据插入成功！
+2024-07-22 17:13:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:165 | ------------------------------
+2024-07-22 17:16:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:128 | 连接到 MYSQL 成功!
+2024-07-22 17:16:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 17:16:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:84 | 获取【累计盈利】成功：67886
+2024-07-22 17:16:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:107 | 获取【蔬菜名称】成功:鲜红象胡萝卜条
+2024-07-22 17:16:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:111 | 获取【市场单价】成功:358
+2024-07-22 17:16:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:164 | 数据插入:鲜红象胡萝卜条,2024-07-22 17:16:55, 358, 67886
+2024-07-22 17:16:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:165 | 数据插入成功！
+2024-07-22 17:16:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:166 | ------------------------------
+2024-07-22 17:31:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:129 | 连接到 MYSQL 成功!
+2024-07-22 17:31:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 17:31:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:84 | 获取【累计盈利】成功：67886
+2024-07-22 17:31:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:108 | 获取【蔬菜名称】成功:鲜红象胡萝卜条
+2024-07-22 17:31:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:112 | 获取【市场单价】成功:358
+2024-07-22 17:31:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:165 | 数据插入成功！
+2024-07-22 17:31:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:166 | ------------------------------
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:129 | 连接到 MYSQL 成功!
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 1, 软嫩象豆苗, 2024-05-31 18:27:05, 334, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 4, 软嫩象豆苗, 2024-06-01 15:12:01, 362, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 5, 软嫩象豆苗, 2024-06-01 15:47:11, 310, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 9, 软嫩象豆苗, 2024-06-01 17:00:25, 313, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 10, 清香象芹菜, 2024-06-02 10:02:00, 2562, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 14, 清香象芹菜, 2024-06-03 12:28:49, 2331, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 23, 清香象芹菜, 2024-06-04 08:35:54, 2280, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 24, 清香象芹菜, 2024-06-04 15:03:34, 2254, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 25, 清香象芹菜, 2024-06-05 08:31:12, 2164, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 38, 清香象芹菜, 2024-06-05 15:17:20, 2126, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 47, 清香象芹菜, 2024-06-06 08:20:06, 2024, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 51, 清香象芹菜, 2024-06-06 12:05:35, 2011, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 65, 清香象芹菜, 2024-06-07 00:05:14, 1947, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 66, 清香象芹菜, 2024-06-07 12:33:42, 1883, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 67, 清香象芹菜, 2024-06-08 15:16:28, 1806, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 69, 香辣象青椒丝, 2024-06-09 08:43:15, 2422, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 71, 香辣象青椒丝, 2024-06-10 00:05:21, 1756, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 72, 香辣象青椒丝, 2024-06-10 12:05:13, 1828, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 73, 香辣象青椒丝, 2024-06-11 00:05:19, 1962, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 74, 香辣象青椒丝, 2024-06-11 12:05:09, 2107, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 75, 香辣象青椒丝, 2024-06-12 00:05:18, 1938, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 76, 香辣象青椒丝, 2024-06-12 12:05:23, 1998, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 77, 香辣象青椒丝, 2024-06-13 00:05:36, 2858, -729
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 78, 香辣象青椒丝, 2024-06-13 12:05:19, 2579, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 79, 香辣象青椒丝, 2024-06-14 00:05:28, 2918, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 80, 香辣象青椒丝, 2024-06-14 12:05:10, 2918, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 81, 香辣象青椒丝, 2024-06-15 00:05:18, 2918, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 82, 香辣象青椒丝, 2024-06-15 12:05:11, 1780, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 83, 酸爽象番茄酱, 2024-06-16 00:05:45, 1822, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 84, 酸爽象番茄酱, 2024-06-16 12:05:16, 1822, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 85, 酸爽象番茄酱, 2024-06-17 00:05:20, 1894, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 86, 酸爽象番茄酱, 2024-06-17 12:05:13, 1922, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 87, 酸爽象番茄酱, 2024-06-18 00:05:17, 1904, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 88, 酸爽象番茄酱, 2024-06-18 12:05:12, 2068, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 89, 酸爽象番茄酱, 2024-06-19 00:05:27, 1466, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 90, 酸爽象番茄酱, 2024-06-19 12:05:17, 1476, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 91, 酸爽象番茄酱, 2024-06-20 00:05:47, 1512, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 92, 酸爽象番茄酱, 2024-06-20 12:05:15, 1986, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 93, 酸爽象番茄酱, 2024-06-21 00:05:18, 1503, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 94, 酸爽象番茄酱, 2024-06-21 12:05:17, 1503, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 95, 酸爽象番茄酱, 2024-06-22 00:05:20, 1995, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 96, 酸爽象番茄酱, 2024-06-22 12:05:18, 1913, -293
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 97, 酸爽象番茄酱, 2024-06-22 18:43:08, 1913, 4257
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 98, 结实象西葫芦, 2024-06-23 00:05:27, 2274, 4257
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 99, 结实象西葫芦, 2024-06-23 12:05:18, 2274, 4257
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 100, 结实象西葫芦, 2024-06-24 00:05:29, 2138, 4257
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 101, 结实象西葫芦, 2024-06-24 12:05:21, 1922, 4257
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 102, 结实象西葫芦, 2024-06-25 00:05:28, 2228, 4257
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 103, 结实象西葫芦, 2024-06-25 12:05:15, 2274, 4257
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 104, 结实象西葫芦, 2024-06-26 00:05:17, 2728, 4257
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 105, 结实象西葫芦, 2024-06-26 12:05:14, 2728, 4257
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 106, 结实象西葫芦, 2024-06-26 12:43:08, 2728, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 107, 结实象西葫芦, 2024-06-27 00:05:19, 2728, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 108, 结实象西葫芦, 2024-06-27 12:05:17, 1864, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 109, 结实象西葫芦, 2024-06-28 00:05:28, 1740, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 110, 结实象西葫芦, 2024-06-28 12:05:12, 1682, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 111, 结实象西葫芦, 2024-06-29 00:05:20, 1569, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 112, 结实象西葫芦, 2024-06-29 12:05:15, 1898, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 113, 鲜美象海带, 2024-06-30 00:05:16, 1661, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 114, 鲜美象海带, 2024-06-30 12:05:19, 1661, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 115, 鲜美象海带, 2024-07-01 00:05:18, 1536, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 116, 鲜美象海带, 2024-07-01 12:05:13, 1536, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 117, 鲜美象海带, 2024-07-02 00:05:18, 1494, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 118, 鲜美象海带, 2024-07-02 12:05:10, 1462, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 119, 鲜美象海带, 2024-07-03 00:05:27, 1578, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 120, 鲜美象海带, 2024-07-03 12:05:14, 2284, 8797
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 121, 鲜美象海带, 2024-07-04 00:05:26, 4592, 71097
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 122, 鲜美象海带, 2024-07-04 12:05:11, 2051, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 123, 鲜美象海带, 2024-07-05 00:05:20, 1943, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 124, 鲜美象海带, 2024-07-05 12:05:10, 1494, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 125, 鲜美象海带, 2024-07-06 00:05:20, 1262, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 126, 鲜美象海带, 2024-07-06 12:05:22, 1212, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 127, 紫色象甜薯叶, 2024-07-07 00:05:21, 801, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 128, 紫色象甜薯叶, 2024-07-07 12:05:17, 801, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 129, 紫色象甜薯叶, 2024-07-08 00:05:16, 744, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 130, 紫色象甜薯叶, 2024-07-08 12:05:13, 728, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 131, 紫色象甜薯叶, 2024-07-09 00:05:18, 716, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 132, 紫色象甜薯叶, 2024-07-09 12:05:12, 716, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 133, 紫色象甜薯叶, 2024-07-10 00:05:16, 692, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 134, 紫色象甜薯叶, 2024-07-10 12:05:15, 676, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 135, 紫色象甜薯叶, 2024-07-11 00:05:20, 660, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 136, 紫色象甜薯叶, 2024-07-11 12:05:14, 640, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 137, 紫色象甜薯叶, 2024-07-12 00:05:22, 616, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 138, 紫色象甜薯叶, 2024-07-12 12:05:15, 600, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 139, 紫色象甜薯叶, 2024-07-13 00:05:18, 588, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 140, 紫色象甜薯叶, 2024-07-13 12:05:17, 576, 74028
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 141, 沙拉用象生菜, 2024-07-14 00:05:22, 1432, 40278
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 142, 沙拉用象生菜, 2024-07-14 12:05:20, 1432, 40278
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 147, 沙拉用象生菜, 2024-07-15 00:05:19, 1432, 40278
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 148, 沙拉用象生菜, 2024-07-15 12:05:22, 1439, 40278
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 149, 沙拉用象生菜, 2024-07-16 12:05:17, 1718, 40278
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 150, 沙拉用象生菜, 2024-07-18 00:05:51, 1131, 40278
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 151, 沙拉用象生菜, 2024-07-19 00:05:22, 1288, 68178
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 152, 沙拉用象生菜, 2024-07-19 12:05:12, 1217, 68178
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 153, 沙拉用象生菜, 2024-07-20 00:05:31, 1496, 68178
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 154, 鲜红象胡萝卜条, 2024-07-21 21:51:50, 523, 68178
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 155, 鲜红象胡萝卜条, 2024-07-21 22:02:08, 523, 68178
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 156, 鲜红象胡萝卜条, 2024-07-21 22:12:37, 523, 68178
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 157, 鲜红象胡萝卜条, 2024-07-22 16:37:08, 358, 67886
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 158, 鲜红象胡萝卜条, 2024-07-22 16:47:31, 358, 67886
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 159, 鲜红象胡萝卜条, 2024-07-22 16:54:22, 358, 67886
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 160, 鲜红象胡萝卜条, 2024-07-22 16:57:27, 358, 67886
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 161, 鲜红象胡萝卜条, 2024-07-22 16:58:14, 358, 67886
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 162, 鲜红象胡萝卜条, 2024-07-22 17:04:53, 358, 67886
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 163, 鲜红象胡萝卜条, 2024-07-22 17:06:46, 358, 67886
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 164, 鲜红象胡萝卜条, 2024-07-22 17:08:13, 358, 67886
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 165, 鲜红象胡萝卜条, 2024-07-22 17:13:03, 358, 67886
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 166, 鲜红象胡萝卜条, 2024-07-22 17:16:55, 358, 67886
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:147 | 167, 鲜红象胡萝卜条, 2024-07-22 17:31:15, 358, 67886
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:84 | 获取【累计盈利】成功：67886
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:108 | 获取【蔬菜名称】成功:鲜红象胡萝卜条
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:112 | 获取【市场单价】成功:358
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:165 | 数据插入成功！
+2024-07-22 17:32:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:166 | ------------------------------
+2024-07-22 18:26:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:129 | 连接到 MYSQL 成功!
+2024-07-22 18:26:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：358.0 库存：146 成本：523.0】
+价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
+开店累计盈利 67886.0 盈利目标 380000(净利润上限, 随用户等级增加)
+
+输入出售数量当前可卖数量为 146 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
+2024-07-22 18:26:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:84 | 获取【累计盈利】成功：67886
+2024-07-22 18:26:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:108 | 获取【蔬菜名称】成功:鲜红象胡萝卜条
+2024-07-22 18:26:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:112 | 获取【市场单价】成功:358
+2024-07-22 18:26:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:165 | 数据插入成功！
+2024-07-22 18:26:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:166 | ------------------------------

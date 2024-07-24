@@ -1,9 +1,0 @@
-2024-06-26 00:05:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:130 | Connected to MariaDB successfully!
-2024-06-26 00:05:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:166 | 数据插入成功！
-2024-06-26 00:05:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:167 | ------------------------------
-2024-06-26 12:05:13 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:130 | Connected to MariaDB successfully!
-2024-06-26 12:05:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:166 | 数据插入成功！
-2024-06-26 12:05:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:167 | ------------------------------
-2024-06-26 12:43:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:130 | Connected to MariaDB successfully!
-2024-06-26 12:43:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:166 | 数据插入成功！
-2024-06-26 12:43:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:167 | ------------------------------

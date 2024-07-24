@@ -1,0 +1,110 @@
+2024-07-16 10:01:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:130 | Connected to MariaDB successfully!
+2024-07-16 10:01:51 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_01.py:92 | 无法获取累计盈利数据!
+2024-07-16 10:01:51 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_01.py:93 | Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF767077032+63090]
+	(No symbol) [0x00007FF766FE2C82]
+	(No symbol) [0x00007FF766E7EC65]
+	(No symbol) [0x00007FF766EC499D]
+	(No symbol) [0x00007FF766EC4ADC]
+	(No symbol) [0x00007FF766F05B37]
+	(No symbol) [0x00007FF766EE701F]
+	(No symbol) [0x00007FF766F03412]
+	(No symbol) [0x00007FF766EE6D83]
+	(No symbol) [0x00007FF766EB83A8]
+	(No symbol) [0x00007FF766EB9441]
+	GetHandleVerifier [0x00007FF7674725AD+4238317]
+	GetHandleVerifier [0x00007FF7674AF70D+4488525]
+	GetHandleVerifier [0x00007FF7674A79EF+4456495]
+	GetHandleVerifier [0x00007FF767150576+953270]
+	(No symbol) [0x00007FF766FEE54F]
+	(No symbol) [0x00007FF766FE9224]
+	(No symbol) [0x00007FF766FE935B]
+	(No symbol) [0x00007FF766FD9B94]
+	BaseThreadInitThunk [0x00007FFE060F257D+29]
+	RtlUserThreadStart [0x00007FFE06E2AF28+40]
+Traceback (most recent call last):
+  File "C:\Users\xiayan\OneDrive\python_study\mooc\selenium\selenium_ptvicomo_cookie_01.py", line 83, in my_get_data
+    sale_turnip_element = WebDriverWait(driver, WAIT_TIMEOUT).until(
+  File "C:\Users\xiayan\.conda\envs\crypto\lib\site-packages\selenium\webdriver\support\wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF767077032+63090]
+	(No symbol) [0x00007FF766FE2C82]
+	(No symbol) [0x00007FF766E7EC65]
+	(No symbol) [0x00007FF766EC499D]
+	(No symbol) [0x00007FF766EC4ADC]
+	(No symbol) [0x00007FF766F05B37]
+	(No symbol) [0x00007FF766EE701F]
+	(No symbol) [0x00007FF766F03412]
+	(No symbol) [0x00007FF766EE6D83]
+	(No symbol) [0x00007FF766EB83A8]
+	(No symbol) [0x00007FF766EB9441]
+	GetHandleVerifier [0x00007FF7674725AD+4238317]
+	GetHandleVerifier [0x00007FF7674AF70D+4488525]
+	GetHandleVerifier [0x00007FF7674A79EF+4456495]
+	GetHandleVerifier [0x00007FF767150576+953270]
+	(No symbol) [0x00007FF766FEE54F]
+	(No symbol) [0x00007FF766FE9224]
+	(No symbol) [0x00007FF766FE935B]
+	(No symbol) [0x00007FF766FD9B94]
+	BaseThreadInitThunk [0x00007FFE060F257D+29]
+	RtlUserThreadStart [0x00007FFE06E2AF28+40]
+
+2024-07-16 10:01:51 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_01.py:182 | 无法获取销售价格，数据未插入
+2024-07-16 10:07:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:130 | Connected to MariaDB successfully!
+2024-07-16 10:07:56 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_01.py:92 | 无法获取累计盈利数据!
+2024-07-16 10:07:56 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_01.py:93 | Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF767077032+63090]
+	(No symbol) [0x00007FF766FE2C82]
+	(No symbol) [0x00007FF766E7EC65]
+	(No symbol) [0x00007FF766EC499D]
+	(No symbol) [0x00007FF766EC4ADC]
+	(No symbol) [0x00007FF766F05B37]
+	(No symbol) [0x00007FF766EE701F]
+	(No symbol) [0x00007FF766F03412]
+	(No symbol) [0x00007FF766EE6D83]
+	(No symbol) [0x00007FF766EB83A8]
+	(No symbol) [0x00007FF766EB9441]
+	GetHandleVerifier [0x00007FF7674725AD+4238317]
+	GetHandleVerifier [0x00007FF7674AF70D+4488525]
+	GetHandleVerifier [0x00007FF7674A79EF+4456495]
+	GetHandleVerifier [0x00007FF767150576+953270]
+	(No symbol) [0x00007FF766FEE54F]
+	(No symbol) [0x00007FF766FE9224]
+	(No symbol) [0x00007FF766FE935B]
+	(No symbol) [0x00007FF766FD9B94]
+	BaseThreadInitThunk [0x00007FFE060F257D+29]
+	RtlUserThreadStart [0x00007FFE06E2AF28+40]
+Traceback (most recent call last):
+  File "C:\Users\xiayan\OneDrive\python_study\mooc\selenium\selenium_ptvicomo_cookie_01.py", line 83, in my_get_data
+    sale_turnip_element = WebDriverWait(driver, WAIT_TIMEOUT).until(
+  File "C:\Users\xiayan\.conda\envs\crypto\lib\site-packages\selenium\webdriver\support\wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF767077032+63090]
+	(No symbol) [0x00007FF766FE2C82]
+	(No symbol) [0x00007FF766E7EC65]
+	(No symbol) [0x00007FF766EC499D]
+	(No symbol) [0x00007FF766EC4ADC]
+	(No symbol) [0x00007FF766F05B37]
+	(No symbol) [0x00007FF766EE701F]
+	(No symbol) [0x00007FF766F03412]
+	(No symbol) [0x00007FF766EE6D83]
+	(No symbol) [0x00007FF766EB83A8]
+	(No symbol) [0x00007FF766EB9441]
+	GetHandleVerifier [0x00007FF7674725AD+4238317]
+	GetHandleVerifier [0x00007FF7674AF70D+4488525]
+	GetHandleVerifier [0x00007FF7674A79EF+4456495]
+	GetHandleVerifier [0x00007FF767150576+953270]
+	(No symbol) [0x00007FF766FEE54F]
+	(No symbol) [0x00007FF766FE9224]
+	(No symbol) [0x00007FF766FE935B]
+	(No symbol) [0x00007FF766FD9B94]
+	BaseThreadInitThunk [0x00007FFE060F257D+29]
+	RtlUserThreadStart [0x00007FFE06E2AF28+40]
+
+2024-07-16 10:07:56 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_01.py:182 | 无法获取销售价格，数据未插入
