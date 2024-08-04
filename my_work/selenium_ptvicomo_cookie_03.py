@@ -7,7 +7,6 @@
 5. 在买入或卖出后，会刷新页面。再次采集页面元素，用以判断其它数据，例如这次买了多少，卖了多少，该次操作盈利多少，
 6. 将数据写入MySQL数据库。
 7. 完成后关闭浏览器。
-
 """
 import logging.config
 import re
@@ -21,7 +20,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from mysql.connector import connect, Error
 # 导入配置文件常量
-from config_ptvicomo_02 import CHROME_DRIVER_PATH, DB_CONFIG, WEB_COOKIE, WEBSITE_URL, WAIT_TIMEOUT, TABLE_NAME, \
+from config_ptvicomo_03 import CHROME_DRIVER_PATH, DB_CONFIG, WEB_COOKIE, WEBSITE_URL, WAIT_TIMEOUT, TABLE_NAME, \
     CURRENT_ACTION, SALE_NUMBER, BUY_NUMBER
 
 # 导入日志配置文件
@@ -33,12 +32,21 @@ chrome_driver_path = CHROME_DRIVER_PATH
 # 初始化Chrome浏览器驱动服务
 service = Service(chrome_driver_path)
 # 创建Chrome浏览器实例
-driver = webdriver.Chrome(service=service)
+# driver = webdriver.Chrome(service=service)
+
+# 创建无头浏览器实例.这个好.
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument('--headless=new')
+chrome_options.add_argument('--disable-gpu')
+prefs = {"profile.managed_default_connect_settings.images": 2}
+chrome_options.add_experimental_option("prefs", prefs)
+# 创建Chrome浏览器实例
+driver = webdriver.Chrome(service=service, options=chrome_options)
 
 # 预编译正则表达式，用于匹配购买和销售的相关信息
 buy_name_pattern = re.compile('[\u4e00-\u9fff]+(?=的价格是)')
 buy_price_pattern = re.compile(r"(?<=价格是)\d+")
-buy_other_number_pattern = re.compile(r"(?<= 剩余配货量为)\d+")
+buy_other_number_pattern = re.compile(r"(?<=剩余配货量为)\d+")
 
 sale_name_pattern = re.compile(r"(?<=象岛新鲜蔬菜店 【)(.+)(?=\s市场单价)")
 sale_price_pattern = re.compile(r"(?<=市场单价：)\d+")
@@ -63,8 +71,8 @@ def get_cookies():
     """
     try:
         logger.info(driver.get_cookies())
-    except NoSuchElementException:
-        logger.error("NoSuchElementException")
+    except NoSuchElementException as e:
+        logger.error(f"NoSuchElementException: {e}")
 
 
 def set_cookies(cookies):
@@ -201,17 +209,26 @@ def extract_data_from_sunday_text(text, current_time, week_number):
     buy_other_number = int(buy_other_number)
     logger.info(f'获取【剩余配货量】成功:{buy_other_number}')
     # 购买动作
+    buy_total_money = 0
+    buy_action_name = CURRENT_ACTION['get_data']
     if buy_other_number > 0:
-        # 计算总购买金额
-        logger.info(f'当前购买数量{buy_other_number}')
-        buy_total_money = buy_action(BUY_NUMBER, buy_price)
-        logger.info(f'购买成功，购买总金额为{buy_total_money}')
-        buy_action_name = CURRENT_ACTION['buy']
-        logger.info(f'获取【当前操作】成功：{buy_action_name}')
+        if buy_other_number > BUY_NUMBER:
+            # 计算总购买金额
+            logger.info(f'当前购买数量{BUY_NUMBER}')
+            buy_total_money = buy_action(BUY_NUMBER, buy_price)
+            logger.info(f'购买成功，购买总金额为{buy_total_money}')
+            buy_action_name = CURRENT_ACTION['buy']
+        else:
+            logger.info(f'当前购买数量{buy_other_number}')
+            buy_total_money = buy_action(buy_other_number, buy_price)
+            logger.info(f'购买成功，购买总金额为{buy_total_money}')
+            buy_action_name = CURRENT_ACTION['buy']
         # 返回：名称, 市场单价, 累计盈利, 当前可卖数量, 成本,
         # 单笔盈利, 当前操作, 当前时间, 当前周数
-        return (buy_name, buy_price, 0, 0, buy_price,
-                buy_total_money, buy_action_name, current_time, week_number, buy_other_number)
+
+    logger.info(f'获取【当前操作】成功：{buy_action_name}')
+    return (buy_name, buy_price, 0, 0, buy_price,
+            buy_total_money, buy_action_name, current_time, week_number, buy_other_number)
 
 
 def extract_data_from_weekday_text(text, current_time, week_number):
@@ -243,26 +260,63 @@ def extract_data_from_weekday_text(text, current_time, week_number):
         sale_cost = sale_cost_pattern.search(text).group()
         sale_cost = int(sale_cost)
         logger.info(f'获取【成本】成功：{sale_cost}')
+
         # 出售动作
+        sale_profit = 0
+        sale_action_name = CURRENT_ACTION['get_data']
+        remaining_stock = 0
         # 如果距离星期天还不到12个小时,或者,当前利润超过10%,清仓
-        if hours_until_next_sunday() < 12 or sale_price / sale_cost > 1.1:
-            sale_profit = sale_action(sale_current_number, sale_price, sale_cost)
-            return (sale_name, sale_price, sale_total_profit, sale_current_number, sale_cost,
-                    sale_profit, '卖出', current_time, week_number, 0)
-        elif sale_current_number > 0 and sale_current_number >= SALE_NUMBER > 0:
-            sale_profit = sale_action(SALE_NUMBER, sale_price, sale_cost)
-            # 返回：名称, 市场单价, 累计盈利, 当前可卖数量, 成本, 单笔盈利, 当前操作, 当前时间, 当前周数, 剩余配货量
-            return (sale_name, sale_price, sale_total_profit, sale_current_number, sale_cost,
-                    sale_profit, '卖出', current_time, week_number, 0)
-        else:
-            sale_profit = 0
-            # logger.info(f'计算【单笔盈利】成功：{sale_profit}')
-            sale_action_name = CURRENT_ACTION['get_data']
-            logger.info(f'获取【当前操作】成功：{sale_action_name}')
-            return (sale_name, sale_price, sale_total_profit, sale_current_number, sale_cost,
-                    sale_profit, sale_action_name, current_time, week_number, 0)
+        if sale_current_number > 0:
+            if is_sale_condition_met(hours_until_next_sunday, sale_current_number, sale_price, sale_cost, SALE_NUMBER):
+                sale_profit = sale_action(sale_current_number, sale_price, sale_cost)
+                sale_action_name = CURRENT_ACTION['卖出']
+            elif sale_current_number >= SALE_NUMBER > 0:
+                sale_profit = sale_action(SALE_NUMBER, sale_price, sale_cost)
+                sale_action_name = CURRENT_ACTION['卖出']
+        logger.info(f'计算【单笔盈利】成功：{sale_profit}')
+        logger.info(f'获取【当前操作】成功：{sale_action_name}')
+        return build_return_value(sale_name, sale_price, sale_total_profit, sale_current_number, sale_cost,
+                                  sale_profit, sale_action_name, current_time, week_number, remaining_stock)
     except Exception as e:
-        logger.error(f'获取数据失败:{e}')
+        logger.error(f'函数执行过程中发生异常,获取数据失败:{e}')
+        return None
+
+
+def is_sale_condition_met(hours_until_next_sunday_, sale_current_number, sale_price, sale_cost, sale_number):
+    """
+    判断是否满足销售条件。
+    :return: True/False
+    """
+    try:
+        # 检查是否离下个周日不足12小时或利润空间超过10%
+        if hours_until_next_sunday_() < 12 or sale_price / sale_cost > 1.1:
+            return True
+        # 检查当前可销售数量是否达到或超过预设的SALE_NUMBER
+        if sale_current_number >= sale_number > 0:
+            return True
+    except Exception as e:
+        logger.error(f"判断销售条件时发生异常：{e}")
+    return False
+
+
+def build_return_value(sale_name, sale_price, sale_total_profit, sale_current_number, sale_cost,
+                       sale_profit, sale_action_name, current_time, week_number, remaining_stock):
+    """
+    构建返回值。
+    :param sale_name:名称
+    :param sale_price:市场单价
+    :param sale_total_profit:累计盈利
+    :param sale_current_number:当前可卖数量
+    :param sale_cost:成本
+    :param sale_profit:单笔盈利
+    :param sale_action_name:当前操作
+    :param current_time:当前时间
+    :param week_number:当前周数
+    :param remaining_stock:剩余配货量
+    :return:名称, 市场单价, 累计盈利, 当前可卖数量, 成本, 单笔盈利, 当前操作, 当前时间, 当前周数, 剩余配货量
+    """
+    return (sale_name, sale_price, sale_total_profit, sale_current_number, sale_cost,
+            sale_profit, sale_action_name, current_time, week_number, remaining_stock)
 
 
 def get_data():
@@ -296,7 +350,7 @@ def get_data():
         # 如果找到，则处理并返回星期天的数据
         if sunday_element:
             sunday_text = sunday_element[0].text
-            logger.info(sunday_text)
+            # logger.info(sunday_text)
             return extract_data_from_sunday_text(sunday_text, current_time, week_number)
         # 如果没找到星期天的数据，尝试查找工作日的数据元素
         else:
@@ -373,6 +427,24 @@ def insert_data_to_mysql(conn, data_tuple):
         conn.commit()
         logger.info("数据插入成功！")
         logger.info('-' * 30)
+
+
+# def run_main():
+#     initialize_browser()
+#     set_cookies(WEB_COOKIE)
+#     my_conn = connect_to_mysql()
+#     if my_conn is not None:
+#         # query_from_mysql(my_conn)
+#         data = get_data()
+#         if data is not None:
+#             insert_data_to_mysql(my_conn, data)
+#         else:
+#             logger.error("无法获取数据，数据未插入")
+#     else:
+#         logger.error("无法连接到数据库,未进行数据插入")
+#
+#     driver.close()
+#     driver.quit()
 
 
 if __name__ == '__main__':

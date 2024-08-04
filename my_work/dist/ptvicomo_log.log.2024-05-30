@@ -1,0 +1,30 @@
+2024-07-28 16:24:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:383 | 连接到 MYSQL 成功!
+2024-07-28 16:24:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:335 | 获取【星期几】成功:星期日
+2024-07-28 16:24:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:339 | 获取【当前时间】成功:2024-07-28 16:24:39
+2024-07-28 16:24:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:343 | 获取【当前周数】成功:30
+2024-07-28 16:24:42 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:351 | 象岛农庄 【脆爽象芦荟尖 - 作物成熟 - 开售中】
+农作物已成熟，保质期至下周六晚24:00
+脆爽象芦荟尖的价格是2104.0，保质期至下周六晚24:00，要马上进货吗？
+
+输入进货数量(剩余配货量为0kg 提升等级以获得更高配货量) 点击进货 !
+2024-07-28 16:24:42 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:200 | 获取【蔬菜名称】成功:脆爽象芦荟尖
+2024-07-28 16:24:42 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:204 | 获取【市场单价】成功:2104
+2024-07-28 16:24:42 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:208 | 获取【剩余配货量】成功:0
+2024-07-28 16:24:42 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:227 | 获取【当前操作】成功：提取数据
+2024-07-28 16:24:42 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:426 | 数据插入成功！
+2024-07-28 16:24:42 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:427 | ------------------------------
+2024-07-28 16:27:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:383 | 连接到 MYSQL 成功!
+2024-07-28 16:27:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:335 | 获取【星期几】成功:星期日
+2024-07-28 16:27:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:339 | 获取【当前时间】成功:2024-07-28 16:27:26
+2024-07-28 16:27:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:343 | 获取【当前周数】成功:30
+2024-07-28 16:27:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:351 | 象岛农庄 【脆爽象芦荟尖 - 作物成熟 - 开售中】
+农作物已成熟，保质期至下周六晚24:00
+脆爽象芦荟尖的价格是2104.0，保质期至下周六晚24:00，要马上进货吗？
+
+输入进货数量(剩余配货量为0kg 提升等级以获得更高配货量) 点击进货 !
+2024-07-28 16:27:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:200 | 获取【蔬菜名称】成功:脆爽象芦荟尖
+2024-07-28 16:27:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:204 | 获取【市场单价】成功:2104
+2024-07-28 16:27:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:208 | 获取【剩余配货量】成功:0
+2024-07-28 16:27:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:227 | 获取【当前操作】成功：提取数据
+2024-07-28 16:27:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:426 | 数据插入成功！
+2024-07-28 16:27:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:427 | ------------------------------

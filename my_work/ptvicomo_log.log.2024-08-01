@@ -1,0 +1,196 @@
+2024-08-01 08:22:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
+2024-08-01 08:22:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期四
+2024-08-01 08:22:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-01 08:22:39
+2024-08-01 08:22:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:30
+2024-08-01 08:22:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:292 | 获取【名称】成功:脆爽象芦荟尖
+2024-08-01 08:22:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:296 | 获取【市场单价】成功:2125
+2024-08-01 08:22:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:300 | 获取【累计盈利】成功：60904
+2024-08-01 08:22:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【当前可卖数量】成功：0
+2024-08-01 08:22:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【成本】成功：2104
+2024-08-01 08:22:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:321 | 获取【利润率】成功：1.0%
+2024-08-01 08:22:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【距离下个星期日还有多少小时】成功:63
+2024-08-01 08:22:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【当前操作】成功：提取数据
+2024-08-01 08:22:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | 数据插入成功！
+2024-08-01 08:22:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | ------------------------------
+2024-08-01 08:28:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
+2024-08-01 08:28:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期四
+2024-08-01 08:28:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-01 08:28:43
+2024-08-01 08:28:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:30
+2024-08-01 08:28:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:292 | 获取【名称】成功:脆爽象芦荟尖
+2024-08-01 08:28:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:296 | 获取【市场单价】成功:2125
+2024-08-01 08:28:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:300 | 获取【累计盈利】成功：60904
+2024-08-01 08:28:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【当前可卖数量】成功：0
+2024-08-01 08:28:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【成本】成功：2104
+2024-08-01 08:28:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:321 | 获取【利润率】成功：1.0%
+2024-08-01 08:28:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【距离下个星期日还有多少小时】成功:63
+2024-08-01 08:28:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【当前操作】成功：提取数据
+2024-08-01 08:28:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | 数据插入成功！
+2024-08-01 08:28:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | ------------------------------
+2024-08-01 08:36:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
+2024-08-01 08:36:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期四
+2024-08-01 08:36:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-01 08:36:17
+2024-08-01 08:36:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:30
+2024-08-01 08:36:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:292 | 获取【名称】成功:脆爽象芦荟尖
+2024-08-01 08:36:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:296 | 获取【市场单价】成功:2125
+2024-08-01 08:36:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:300 | 获取【累计盈利】成功：60904
+2024-08-01 08:36:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【当前可卖数量】成功：0
+2024-08-01 08:36:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【成本】成功：2104
+2024-08-01 08:36:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:321 | 获取【利润率】成功：1.0%
+2024-08-01 08:36:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【距离下个星期日还有多少小时】成功:63
+2024-08-01 08:36:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【当前操作】成功：提取数据
+2024-08-01 08:36:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | 数据插入成功！
+2024-08-01 08:36:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | ------------------------------
+2024-08-01 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
+2024-08-01 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期四
+2024-08-01 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-01 08:36:25
+2024-08-01 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:30
+2024-08-01 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:292 | 获取【名称】成功:脆爽象芦荟尖
+2024-08-01 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:296 | 获取【市场单价】成功:2125
+2024-08-01 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:300 | 获取【累计盈利】成功：60904
+2024-08-01 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【当前可卖数量】成功：0
+2024-08-01 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【成本】成功：2104
+2024-08-01 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:321 | 获取【利润率】成功：1.0%
+2024-08-01 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【距离下个星期日还有多少小时】成功:63
+2024-08-01 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【当前操作】成功：提取数据
+2024-08-01 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | 数据插入成功！
+2024-08-01 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | ------------------------------
+2024-08-01 08:37:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
+2024-08-01 08:37:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期四
+2024-08-01 08:37:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-01 08:37:14
+2024-08-01 08:37:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:30
+2024-08-01 08:37:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:292 | 获取【名称】成功:脆爽象芦荟尖
+2024-08-01 08:37:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:296 | 获取【市场单价】成功:2125
+2024-08-01 08:37:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:300 | 获取【累计盈利】成功：60904
+2024-08-01 08:37:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【当前可卖数量】成功：0
+2024-08-01 08:37:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【成本】成功：2104
+2024-08-01 08:37:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:321 | 获取【利润率】成功：1.0%
+2024-08-01 08:37:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【距离下个星期日还有多少小时】成功:63
+2024-08-01 08:37:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【当前操作】成功：提取数据
+2024-08-01 08:37:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | 数据插入成功！
+2024-08-01 08:37:14 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | ------------------------------
+2024-08-01 08:37:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
+2024-08-01 08:37:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期四
+2024-08-01 08:37:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-01 08:37:28
+2024-08-01 08:37:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:30
+2024-08-01 08:37:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:292 | 获取【名称】成功:脆爽象芦荟尖
+2024-08-01 08:37:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:296 | 获取【市场单价】成功:2125
+2024-08-01 08:37:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:300 | 获取【累计盈利】成功：60904
+2024-08-01 08:37:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【当前可卖数量】成功：0
+2024-08-01 08:37:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【成本】成功：2104
+2024-08-01 08:37:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:321 | 获取【利润率】成功：1.0%
+2024-08-01 08:37:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【距离下个星期日还有多少小时】成功:63
+2024-08-01 08:37:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【当前操作】成功：提取数据
+2024-08-01 08:37:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | 数据插入成功！
+2024-08-01 08:37:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | ------------------------------
+2024-08-01 08:40:53 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
+2024-08-01 08:40:53 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期四
+2024-08-01 08:40:53 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-01 08:40:53
+2024-08-01 08:40:53 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:30
+2024-08-01 08:40:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:292 | 获取【名称】成功:脆爽象芦荟尖
+2024-08-01 08:40:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:296 | 获取【市场单价】成功:2125
+2024-08-01 08:40:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:300 | 获取【累计盈利】成功：60904
+2024-08-01 08:40:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【当前可卖数量】成功：0
+2024-08-01 08:40:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【成本】成功：2104
+2024-08-01 08:40:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:321 | 获取【利润率】成功：1.0%
+2024-08-01 08:40:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【距离下个星期日还有多少小时】成功:63
+2024-08-01 08:40:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【当前操作】成功：提取数据
+2024-08-01 08:40:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | 数据插入成功！
+2024-08-01 08:40:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | ------------------------------
+2024-08-01 08:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
+2024-08-01 08:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期四
+2024-08-01 08:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-01 08:41:06
+2024-08-01 08:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:30
+2024-08-01 08:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:292 | 获取【名称】成功:脆爽象芦荟尖
+2024-08-01 08:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:296 | 获取【市场单价】成功:2125
+2024-08-01 08:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:300 | 获取【累计盈利】成功：60904
+2024-08-01 08:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【当前可卖数量】成功：0
+2024-08-01 08:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【成本】成功：2104
+2024-08-01 08:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:321 | 获取【利润率】成功：1.0%
+2024-08-01 08:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【距离下个星期日还有多少小时】成功:63
+2024-08-01 08:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【当前操作】成功：提取数据
+2024-08-01 08:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | 数据插入成功！
+2024-08-01 08:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | ------------------------------
+2024-08-01 08:56:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
+2024-08-01 08:56:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期四
+2024-08-01 08:56:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-01 08:56:27
+2024-08-01 08:56:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:30
+2024-08-01 08:56:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:292 | 获取【名称】成功:脆爽象芦荟尖
+2024-08-01 08:56:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:296 | 获取【市场单价】成功:2125
+2024-08-01 08:56:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:300 | 获取【累计盈利】成功：60904
+2024-08-01 08:56:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【当前可卖数量】成功：0
+2024-08-01 08:56:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【成本】成功：2104
+2024-08-01 08:56:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:321 | 获取【利润率】成功：1.0%
+2024-08-01 08:56:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【距离下个星期日还有多少小时】成功:63
+2024-08-01 08:56:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【当前操作】成功：提取数据
+2024-08-01 08:56:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | 数据插入成功！
+2024-08-01 08:56:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | ------------------------------
+2024-08-01 10:16:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
+2024-08-01 10:16:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期四
+2024-08-01 10:16:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-01 10:16:35
+2024-08-01 10:16:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:30
+2024-08-01 10:16:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:292 | 获取【名称】成功:脆爽象芦荟尖
+2024-08-01 10:16:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:296 | 获取【市场单价】成功:2125
+2024-08-01 10:16:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:300 | 获取【累计盈利】成功：60904
+2024-08-01 10:16:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【当前可卖数量】成功：0
+2024-08-01 10:16:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【成本】成功：2104
+2024-08-01 10:16:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:321 | 获取【利润率】成功：1.0%
+2024-08-01 10:16:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【距离下个星期日还有多少小时】成功:61
+2024-08-01 10:16:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【当前操作】成功：提取数据
+2024-08-01 10:16:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | 数据插入成功！
+2024-08-01 10:16:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | ------------------------------
+2024-08-01 10:16:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
+2024-08-01 10:16:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期四
+2024-08-01 10:16:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-01 10:16:40
+2024-08-01 10:16:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:30
+2024-08-01 10:16:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:292 | 获取【名称】成功:脆爽象芦荟尖
+2024-08-01 10:16:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:296 | 获取【市场单价】成功:2125
+2024-08-01 10:16:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:300 | 获取【累计盈利】成功：60904
+2024-08-01 10:16:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【当前可卖数量】成功：0
+2024-08-01 10:16:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【成本】成功：2104
+2024-08-01 10:16:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:321 | 获取【利润率】成功：1.0%
+2024-08-01 10:16:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【距离下个星期日还有多少小时】成功:61
+2024-08-01 10:16:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【当前操作】成功：提取数据
+2024-08-01 10:16:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | 数据插入成功！
+2024-08-01 10:16:40 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | ------------------------------
+2024-08-01 10:18:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
+2024-08-01 10:18:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期四
+2024-08-01 10:18:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-01 10:18:09
+2024-08-01 10:18:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:30
+2024-08-01 10:18:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:292 | 获取【名称】成功:脆爽象芦荟尖
+2024-08-01 10:18:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:296 | 获取【市场单价】成功:2125
+2024-08-01 10:18:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:300 | 获取【累计盈利】成功：60904
+2024-08-01 10:18:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【当前可卖数量】成功：0
+2024-08-01 10:18:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【成本】成功：2104
+2024-08-01 10:18:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:321 | 获取【利润率】成功：1.0%
+2024-08-01 10:18:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【距离下个星期日还有多少小时】成功:61
+2024-08-01 10:18:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【当前操作】成功：提取数据
+2024-08-01 10:18:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | 数据插入成功！
+2024-08-01 10:18:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | ------------------------------
+2024-08-01 11:12:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
+2024-08-01 11:12:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期四
+2024-08-01 11:12:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-01 11:12:10
+2024-08-01 11:12:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:30
+2024-08-01 11:12:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:292 | 获取【名称】成功:脆爽象芦荟尖
+2024-08-01 11:12:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:296 | 获取【市场单价】成功:2125
+2024-08-01 11:12:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:300 | 获取【累计盈利】成功：60904
+2024-08-01 11:12:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【当前可卖数量】成功：0
+2024-08-01 11:12:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【成本】成功：2104
+2024-08-01 11:12:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:321 | 获取【利润率】成功：1.0%
+2024-08-01 11:12:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【距离下个星期日还有多少小时】成功:60
+2024-08-01 11:12:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【当前操作】成功：提取数据
+2024-08-01 11:12:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | 数据插入成功！
+2024-08-01 11:12:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | ------------------------------
+2024-08-01 13:02:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
+2024-08-01 13:02:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期四
+2024-08-01 13:02:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-01 13:02:27
+2024-08-01 13:02:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:30
+2024-08-01 13:02:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:292 | 获取【名称】成功:脆爽象芦荟尖
+2024-08-01 13:02:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:296 | 获取【市场单价】成功:2735
+2024-08-01 13:02:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:300 | 获取【累计盈利】成功：60904
+2024-08-01 13:02:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【当前可卖数量】成功：0
+2024-08-01 13:02:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【成本】成功：2104
+2024-08-01 13:02:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:321 | 获取【利润率】成功：29.99%
+2024-08-01 13:02:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【距离下个星期日还有多少小时】成功:58
+2024-08-01 13:02:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【当前操作】成功：提取数据
+2024-08-01 13:02:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | 数据插入成功！
+2024-08-01 13:02:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | ------------------------------

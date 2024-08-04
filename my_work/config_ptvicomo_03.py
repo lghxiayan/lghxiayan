@@ -13,7 +13,7 @@ DB_CONFIG = {
     'database': os.getenv('DB_NAME', 'easyspide'),
     'charset': 'utf8mb4'
 }
-TABLE_NAME = 'pt_vicomo'
+TABLE_NAME = 'pt_vicomo_01'
 WEB_COOKIE = [
     {'domain': 'ptvicomo.net', 'expiry': 1724921413, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/',
      'sameSite': 'Lax', 'secure': False, 'value': 'bm9wZQ%3D%3D'},
@@ -32,4 +32,8 @@ WAIT_TIMEOUT = 5
 CURRENT_ACTION = {'buy': '买入', 'sale': '卖出', 'get_data': '提取数据'}
 # 买卖数量
 SALE_NUMBER = 0
-BUY_NUMBER = 1
+BUY_NUMBER = 150
+# 卖出利润率
+PROFIT_MARGIN = 10
+# 保存页面
+SAVE_PAGE = False

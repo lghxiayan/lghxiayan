@@ -1,49 +1,33 @@
-2024-07-24 08:51:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:129 | 连接到 MYSQL 成功!
-2024-07-24 08:51:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：564.0 库存：136 成本：523.0】
-价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
-开店累计盈利 68016.0 盈利目标 380000(净利润上限, 随用户等级增加)
+2024-08-04 00:20:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:383 | 连接到 MYSQL 成功!
+2024-08-04 00:20:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:335 | 获取【星期几】成功:星期日
+2024-08-04 00:20:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:339 | 获取【当前时间】成功:2024-08-04 00:20:27
+2024-08-04 00:20:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:343 | 获取【当前周数】成功:31
+2024-08-04 00:20:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:351 | 象岛农庄 【洁白象花菜 - 作物成熟 - 开售中】
+农作物已成熟，保质期至下周六晚24:00
+洁白象花菜的价格是896.0，保质期至下周六晚24:00，要马上进货吗？
 
-输入出售数量当前可卖数量为 136 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
-2024-07-24 08:51:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:84 | 获取【累计盈利】成功：68016
-2024-07-24 08:51:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:108 | 获取【蔬菜名称】成功:鲜红象胡萝卜条
-2024-07-24 08:51:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:112 | 获取【市场单价】成功:564
-2024-07-24 08:51:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:165 | 数据插入成功！
-2024-07-24 08:51:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:166 | ------------------------------
-2024-07-24 08:52:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:331 | 连接到 MYSQL 成功!
-2024-07-24 08:52:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:283 | 获取【星期几】成功:星期三
-2024-07-24 08:52:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:287 | 获取【当前时间】成功:2024-07-24 08:52:34
-2024-07-24 08:52:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:291 | 获取【当前周数】成功:29
-2024-07-24 08:52:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:229 | 获取【名称】成功:鲜红象胡萝卜条
-2024-07-24 08:52:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:233 | 获取【市场单价】成功:564
-2024-07-24 08:52:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:237 | 获取【累计盈利】成功：68016
-2024-07-24 08:52:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:241 | 获取【当前可卖数量】成功：136
-2024-07-24 08:52:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:245 | 获取【成本】成功：523
-2024-07-24 08:52:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:261 | 获取【当前操作】成功：提取数据
-2024-07-24 08:52:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:374 | 数据插入成功！
-2024-07-24 08:52:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:375 | ------------------------------
-2024-07-24 12:05:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:129 | 连接到 MYSQL 成功!
-2024-07-24 12:05:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:80 | 象岛新鲜蔬菜店 【鲜红象胡萝卜条 市场单价：656.0 库存：136 成本：523.0】
-价格每天0:00和12:00波动一次，保质期至周六晚24:00 鲜红象胡萝卜条~ 鲜红象胡萝卜条~ 能涨价就太好了~~
-开店累计盈利 68016.0 盈利目标 380000(净利润上限, 随用户等级增加)
+输入进货数量(剩余配货量为150kg 提升等级以获得更高配货量) 点击进货 !
+2024-08-04 00:20:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:200 | 获取【蔬菜名称】成功:洁白象花菜
+2024-08-04 00:20:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:204 | 获取【市场单价】成功:896
+2024-08-04 00:20:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:208 | 获取【剩余配货量】成功:150
+2024-08-04 00:20:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:220 | 当前购买数量150
+2024-08-04 00:20:29 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:140 | 点击购买按钮成功,购买数量为150,购买单价896,购买总金额为-134400
+2024-08-04 00:20:29 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:222 | 购买成功，购买总金额为-134400
+2024-08-04 00:20:29 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:227 | 获取【当前操作】成功：买入
+2024-08-04 00:20:29 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:426 | 数据插入成功！
+2024-08-04 00:20:29 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:427 | ------------------------------
+2024-08-04 12:20:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:383 | 连接到 MYSQL 成功!
+2024-08-04 12:20:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:335 | 获取【星期几】成功:星期日
+2024-08-04 12:20:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:339 | 获取【当前时间】成功:2024-08-04 12:20:16
+2024-08-04 12:20:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:343 | 获取【当前周数】成功:31
+2024-08-04 12:20:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:351 | 象岛农庄 【洁白象花菜 - 作物成熟 - 开售中】
+农作物已成熟，保质期至下周六晚24:00
+洁白象花菜的价格是896.0，保质期至下周六晚24:00，要马上进货吗？
 
-输入出售数量当前可卖数量为 136 点击出售 ! (超过盈利目标后盈利的库存会自动原价卖出)
-2024-07-24 12:05:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:84 | 获取【累计盈利】成功：68016
-2024-07-24 12:05:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:108 | 获取【蔬菜名称】成功:鲜红象胡萝卜条
-2024-07-24 12:05:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:112 | 获取【市场单价】成功:656
-2024-07-24 12:05:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:165 | 数据插入成功！
-2024-07-24 12:05:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_01.py:166 | ------------------------------
-2024-07-24 12:20:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:331 | 连接到 MYSQL 成功!
-2024-07-24 12:20:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:283 | 获取【星期几】成功:星期三
-2024-07-24 12:20:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:287 | 获取【当前时间】成功:2024-07-24 12:20:09
-2024-07-24 12:20:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:291 | 获取【当前周数】成功:29
-2024-07-24 12:20:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:229 | 获取【名称】成功:鲜红象胡萝卜条
-2024-07-24 12:20:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:233 | 获取【市场单价】成功:656
-2024-07-24 12:20:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:237 | 获取【累计盈利】成功：68016
-2024-07-24 12:20:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:241 | 获取【当前可卖数量】成功：136
-2024-07-24 12:20:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:245 | 获取【成本】成功：523
-2024-07-24 12:20:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:109 | 当前卖出数量136
-2024-07-24 12:20:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:112 | 点击出售按钮成功,出售数量为136
-2024-07-24 12:20:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:115 | 计算【单笔盈利】成功：18088
-2024-07-24 12:20:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:117 | 获取【当前操作】成功：卖出
-2024-07-24 12:20:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:374 | 数据插入成功！
-2024-07-24 12:20:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:375 | ------------------------------
+输入进货数量(剩余配货量为0kg 提升等级以获得更高配货量) 点击进货 !
+2024-08-04 12:20:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:200 | 获取【蔬菜名称】成功:洁白象花菜
+2024-08-04 12:20:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:204 | 获取【市场单价】成功:896
+2024-08-04 12:20:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:208 | 获取【剩余配货量】成功:0
+2024-08-04 12:20:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:227 | 获取【当前操作】成功：提取数据
+2024-08-04 12:20:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:426 | 数据插入成功！
+2024-08-04 12:20:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:427 | ------------------------------

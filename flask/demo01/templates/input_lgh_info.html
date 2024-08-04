@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>龙感湖人员信息录入</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='plugins/bootstrap-5.3.3-dist/css/bootstrap.min.css') }}">
+    <script src="{{ url_for('static', filename='plugins/bootstrap-5.3.3-dist/js/bootstrap.min.js') }}"></script>
+</head>
+<body>
+
+
+<form action="/lgh_info" method="post" class="form-horizontal">
+    <div class="form-group">
+        <label for="name">姓名</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="请输入姓名">
+    </div>
+    <div class="form-group">
+        <label for="id_card_number">身份证号码</label>
+        <input type="text" class="form-control" id="id_card_number" name="id_card_number"
+               placeholder="请输入身份证号码">
+    </div>
+    <div class="form-group">
+        <label for="phone_number">手机号码</label>
+        <input type="text" class="form-control" id="phone_number" name="phone_number" placeholder="请输入手机号码">
+        </input>
+    </div>
+    <div class="form-group">
+        <label for="address">住址</label>
+        <input type="text" class="form-control" id="address" name="address" placeholder="请输入住址">
+    </div>
+    <div class="form-group">
+        <label for="area">办事处</label>
+        <select class="form-control" id="area" name="area">
+            <option>芦柴湖办事处</option>
+            <option>沙湖办事处</option>
+            <option>洋湖办事处</option>
+            <option>严家闸办事处</option>
+            <option>春港办事处</option>
+            <option>塞湖办事处</option>
+            <option>青泥湖办事处</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="remark">备注</label>
+        <textarea class="form-control" id="remark" name="remark" rows="3"></textarea>
+    </div>
+    <div></div>
+    <button type="submit" class="btn btn-primary">提交</button>
+
+
+</form>
+
+</body>
+</html>

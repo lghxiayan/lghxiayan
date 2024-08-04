@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='plugins/bootstrap-5.3.3-dist/css/bootstrap.min.css') }}">
+    <script src="{{ url_for('static', filename='plugins/bootstrap-5.3.3-dist/js/bootstrap.min.js') }}"></script>
+
+</head>
+<body>
+<p>Hello World!{{user['username']}}</p>
+<div>
+    <p>{{data}}</p>
+</div>
+<!--生成bootstarp的多个按钮-->
+<button type="button" class="btn btn-primary" onclick="window.location.href='/input_lgh_info">龙感湖人员信息录入
+</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-link">Link</button>
+
+
+</body>
+</html>
+
+

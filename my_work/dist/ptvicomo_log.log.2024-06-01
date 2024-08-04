@@ -1,0 +1,26 @@
+2024-07-30 00:20:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:383 | 连接到 MYSQL 成功!
+2024-07-30 00:20:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:335 | 获取【星期几】成功:星期二
+2024-07-30 00:20:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:339 | 获取【当前时间】成功:2024-07-30 00:20:22
+2024-07-30 00:20:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:343 | 获取【当前周数】成功:30
+2024-07-30 00:20:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:244 | 获取【名称】成功:脆爽象芦荟尖
+2024-07-30 00:20:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:248 | 获取【市场单价】成功:1904
+2024-07-30 00:20:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:252 | 获取【累计盈利】成功：60904
+2024-07-30 00:20:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:256 | 获取【当前可卖数量】成功：0
+2024-07-30 00:20:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:260 | 获取【成本】成功：2104
+2024-07-30 00:20:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:274 | 计算【单笔盈利】成功：0
+2024-07-30 00:20:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:275 | 获取【当前操作】成功：提取数据
+2024-07-30 00:20:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:426 | 数据插入成功！
+2024-07-30 00:20:22 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:427 | ------------------------------
+2024-07-30 12:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:383 | 连接到 MYSQL 成功!
+2024-07-30 12:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:335 | 获取【星期几】成功:星期二
+2024-07-30 12:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:339 | 获取【当前时间】成功:2024-07-30 12:20:10
+2024-07-30 12:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:343 | 获取【当前周数】成功:30
+2024-07-30 12:20:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:244 | 获取【名称】成功:脆爽象芦荟尖
+2024-07-30 12:20:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:248 | 获取【市场单价】成功:1841
+2024-07-30 12:20:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:252 | 获取【累计盈利】成功：60904
+2024-07-30 12:20:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:256 | 获取【当前可卖数量】成功：0
+2024-07-30 12:20:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:260 | 获取【成本】成功：2104
+2024-07-30 12:20:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:274 | 计算【单笔盈利】成功：0
+2024-07-30 12:20:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:275 | 获取【当前操作】成功：提取数据
+2024-07-30 12:20:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:426 | 数据插入成功！
+2024-07-30 12:20:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_03.py:427 | ------------------------------

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if age > 18 %}
+<h1>成年, 年龄为: $age$</h1>
+{% else %}
+<h1>未成年, 年龄为: $age$ {{age}}</h1>
+{% endif %}
+
+</body>
+</html>

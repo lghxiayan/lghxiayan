@@ -3,6 +3,8 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/2024/KMS-Cangshui.net.bat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ctf/1.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my_work/dist/ptvicomo_log.log" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/my_work/ptvicomo_log.log" charset="GBK" />
     <file url="file://$PROJECT_DIR$/requests/caijia.csv" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

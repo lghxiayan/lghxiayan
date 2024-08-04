@@ -1,0 +1,65 @@
+2024-08-01 13:04:53 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:124 | 输入信息:{'name': '', 'id_card_number': '', 'birthday': '', 'sex': '', 'age': '', 'phone_number': '', 'address': '', 'radio_area': '严家闸办事处'}
+2024-08-01 13:04:53 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:178 | 连接到 MYSQL 成功!
+2024-08-01 13:04:53 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:137 | 查询数据开始
+2024-08-01 13:04:53 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [1, '张建', '320802196810257800', datetime.date(1968, 10, 25), '男', 55, '18783832621', '江苏省淮安市未知地址齐齐哈尔街c座', '严家闸办事处']
+2024-08-01 13:04:53 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [2, '林丽娟', '130401194404086142', datetime.date(1944, 4, 8), '男', 80, '18238978522', '河北省邯郸市未知地址蒋路f座', '芦柴湖办事处']
+2024-08-01 13:04:53 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [3, '刘桂花', '610323198111252691', datetime.date(1981, 11, 25), '女', 42, '15870538647', '陕西省宝鸡市岐山县海门路k座', '严家闸办事处']
+2024-08-01 13:04:53 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [4, '雷秀华', '542200198109180776', datetime.date(1981, 9, 18), '女', 42, '14554128349', '西藏自治区未知地址陈街t座', '沙湖办事处']
+2024-08-01 13:04:53 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [5, '杨梅', '341282196508033869', datetime.date(1965, 8, 3), '男', 58, '15279832386', '安徽省阜阳市界首市徐路c座', '严家闸办事处']
+2024-08-01 13:04:53 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [6, '张玉兰', '522732194006289441', datetime.date(1940, 6, 28), '男', 84, '15650351712', '贵州省黔南布依族苗族自治州三都水族自治县涂路j座', '洋湖办事处']
+2024-08-01 13:04:53 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [7, '唐丹', '230281194003186841', datetime.date(1940, 3, 18), '男', 84, '14539046567', '黑龙江省齐齐哈尔市讷河市潘街y座', '塞湖办事处']
+2024-08-01 13:04:53 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [8, '孙凯', '52011320030102335X', datetime.date(2003, 1, 2), '女', 21, '13611144557', '贵州省贵阳市白云区任街n座', '春港办事处']
+2024-08-01 13:04:53 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [9, '黄艳', '511600193912145710', datetime.date(1939, 12, 14), '女', 84, '14564772029', '四川省广安市陈街q座', '春港办事处']
+2024-08-01 13:04:53 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [10, '刘冬梅', '370200196505289543', datetime.date(1965, 5, 28), '男', 59, '13935750730', '山东省青岛市大冶路N座', '芦柴湖办事处']
+2024-08-01 13:04:53 | lgh_info_log | ERROR    | input_lgh_info_01_in_pywebio.py:203 | 无法获取数据!
+2024-08-01 13:06:41 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:124 | 输入信息:{'name': '刘东梅', 'id_card_number': '370200196505289543', 'birthday': '', 'sex': '', 'age': '', 'phone_number': '', 'address': '', 'radio_area': '严家闸办事处'}
+2024-08-01 13:06:41 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:178 | 连接到 MYSQL 成功!
+2024-08-01 13:06:41 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:137 | 查询数据开始
+2024-08-01 13:06:41 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [1, '张建', '320802196810257800', datetime.date(1968, 10, 25), '男', 55, '18783832621', '江苏省淮安市未知地址齐齐哈尔街c座', '严家闸办事处']
+2024-08-01 13:06:41 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [2, '林丽娟', '130401194404086142', datetime.date(1944, 4, 8), '男', 80, '18238978522', '河北省邯郸市未知地址蒋路f座', '芦柴湖办事处']
+2024-08-01 13:06:41 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [3, '刘桂花', '610323198111252691', datetime.date(1981, 11, 25), '女', 42, '15870538647', '陕西省宝鸡市岐山县海门路k座', '严家闸办事处']
+2024-08-01 13:06:41 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [4, '雷秀华', '542200198109180776', datetime.date(1981, 9, 18), '女', 42, '14554128349', '西藏自治区未知地址陈街t座', '沙湖办事处']
+2024-08-01 13:06:41 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [5, '杨梅', '341282196508033869', datetime.date(1965, 8, 3), '男', 58, '15279832386', '安徽省阜阳市界首市徐路c座', '严家闸办事处']
+2024-08-01 13:06:41 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [6, '张玉兰', '522732194006289441', datetime.date(1940, 6, 28), '男', 84, '15650351712', '贵州省黔南布依族苗族自治州三都水族自治县涂路j座', '洋湖办事处']
+2024-08-01 13:06:41 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [7, '唐丹', '230281194003186841', datetime.date(1940, 3, 18), '男', 84, '14539046567', '黑龙江省齐齐哈尔市讷河市潘街y座', '塞湖办事处']
+2024-08-01 13:06:41 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [8, '孙凯', '52011320030102335X', datetime.date(2003, 1, 2), '女', 21, '13611144557', '贵州省贵阳市白云区任街n座', '春港办事处']
+2024-08-01 13:06:41 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [9, '黄艳', '511600193912145710', datetime.date(1939, 12, 14), '女', 84, '14564772029', '四川省广安市陈街q座', '春港办事处']
+2024-08-01 13:06:41 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [10, '刘冬梅', '370200196505289543', datetime.date(1965, 5, 28), '男', 59, '13935750730', '山东省青岛市大冶路N座', '芦柴湖办事处']
+2024-08-01 13:06:41 | lgh_info_log | ERROR    | input_lgh_info_01_in_pywebio.py:203 | 无法获取数据!
+2024-08-01 13:09:51 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:124 | 输入信息:{'name': '六年过期', 'id_card_number': '370200196505289543', 'birthday': '', 'sex': '', 'age': '', 'phone_number': '', 'address': '', 'radio_area': '严家闸办事处'}
+2024-08-01 13:09:51 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:178 | 连接到 MYSQL 成功!
+2024-08-01 13:09:51 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:137 | 查询数据开始
+2024-08-01 13:09:51 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [10, '刘冬梅', '370200196505289543', datetime.date(1965, 5, 28), '男', 59, '13935750730', '山东省青岛市大冶路N座', '芦柴湖办事处']
+2024-08-01 13:09:51 | lgh_info_log | ERROR    | input_lgh_info_01_in_pywebio.py:204 | 无法获取数据!
+2024-08-01 13:10:51 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:124 | 输入信息:{'name': '六年过期', 'id_card_number': '370200196505289543', 'birthday': '', 'sex': '', 'age': '', 'phone_number': '', 'address': '', 'radio_area': '严家闸办事处'}
+2024-08-01 13:10:51 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:178 | 连接到 MYSQL 成功!
+2024-08-01 13:10:51 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:137 | 查询数据开始
+2024-08-01 13:10:51 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | [10, '刘冬梅', '370200196505289543', datetime.date(1965, 5, 28), '男', 59, '13935750730', '山东省青岛市大冶路N座', '芦柴湖办事处']
+2024-08-01 13:10:51 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:203 | 查询结果:None
+2024-08-01 13:10:51 | lgh_info_log | ERROR    | input_lgh_info_01_in_pywebio.py:205 | 无法获取数据!
+2024-08-01 13:12:14 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:125 | 输入信息:{'name': '刘冬梅', 'id_card_number': '370200196505289543', 'birthday': '', 'sex': '', 'age': '', 'phone_number': '', 'address': '', 'radio_area': '严家闸办事处'}
+2024-08-01 13:12:14 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:179 | 连接到 MYSQL 成功!
+2024-08-01 13:12:14 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:138 | 查询数据开始
+2024-08-01 13:12:14 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:143 | [10, '刘冬梅', '370200196505289543', datetime.date(1965, 5, 28), '男', 59, '13935750730', '山东省青岛市大冶路N座', '芦柴湖办事处']
+2024-08-01 13:12:14 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:204 | 查询结果:None
+2024-08-01 13:12:14 | lgh_info_log | ERROR    | input_lgh_info_01_in_pywebio.py:206 | 无法获取数据!
+2024-08-01 13:16:47 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:125 | 输入信息:{'name': '刘冬梅', 'id_card_number': '370200196505289543', 'birthday': '', 'sex': '', 'age': '', 'phone_number': '', 'address': '', 'radio_area': '严家闸办事处'}
+2024-08-01 13:16:47 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:180 | 连接到 MYSQL 成功!
+2024-08-01 13:16:47 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:138 | 查询数据开始
+2024-08-01 13:16:47 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:143 | [10, '刘冬梅', '370200196505289543', datetime.date(1965, 5, 28), '男', 59, '13935750730', '山东省青岛市大冶路N座', '芦柴湖办事处']
+2024-08-01 13:16:47 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:205 | 查询结果:[10, '刘冬梅', '370200196505289543', datetime.date(1965, 5, 28), '男', 59, '13935750730', '山东省青岛市大冶路N座', '芦柴湖办事处']
+2024-08-01 13:25:49 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | 输入信息:{'name': '刘冬梅', 'id_card_number': '370200196505289543', 'birthday': '', 'sex': '', 'age': '', 'phone_number': '', 'address': '', 'radio_area': '严家闸办事处'}
+2024-08-01 13:25:49 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:197 | 连接到 MYSQL 成功!
+2024-08-01 13:25:49 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:155 | 查询数据开始
+2024-08-01 13:25:49 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:160 | [10, '刘冬梅', '370200196505289543', datetime.date(1965, 5, 28), '男', 59, '13935750730', '山东省青岛市大冶路N座', '芦柴湖办事处']
+2024-08-01 13:25:49 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:222 | 查询结果:[10, '刘冬梅', '370200196505289543', datetime.date(1965, 5, 28), '男', 59, '13935750730', '山东省青岛市大冶路N座', '芦柴湖办事处']
+2024-08-01 13:27:08 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | 输入信息:{'name': '刘冬梅', 'id_card_number': '3702001965052895430', 'birthday': '', 'sex': '', 'age': '', 'phone_number': '', 'address': '', 'radio_area': '严家闸办事处'}
+2024-08-01 13:27:08 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:197 | 连接到 MYSQL 成功!
+2024-08-01 13:27:08 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:155 | 查询数据开始
+2024-08-01 13:27:08 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:222 | 查询结果:None
+2024-08-01 13:27:08 | lgh_info_log | ERROR    | input_lgh_info_01_in_pywebio.py:224 | 无法获取数据!
+2024-08-01 13:27:45 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:142 | 输入信息:{'name': '刘冬梅', 'id_card_number': '370200196505289543', 'birthday': '', 'sex': '', 'age': '', 'phone_number': '', 'address': '', 'radio_area': '严家闸办事处'}
+2024-08-01 13:27:45 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:197 | 连接到 MYSQL 成功!
+2024-08-01 13:27:45 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:155 | 查询数据开始
+2024-08-01 13:27:45 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:160 | [10, '刘冬梅', '370200196505289543', datetime.date(1965, 5, 28), '男', 59, '13935750730', '山东省青岛市大冶路N座', '芦柴湖办事处']
+2024-08-01 13:27:45 | lgh_info_log | INFO     | input_lgh_info_01_in_pywebio.py:222 | 查询结果:[10, '刘冬梅', '370200196505289543', datetime.date(1965, 5, 28), '男', 59, '13935750730', '山东省青岛市大冶路N座', '芦柴湖办事处']

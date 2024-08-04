@@ -84,7 +84,7 @@ def generate_data_parallel(n_records):
 def insert_data_into_db(data, conn):
     cursor = conn.cursor()
     query = (
-        "INSERT INTO validator_test (name, id_card_number,  birthday,sex, age, phone_number,address,  area) "
+        "INSERT INTO validator (name, id_card_number,  birthday,sex, age, phone_number,address,  area) "
         "VALUES (%s,%s,%s,%s,%s,%s,%s,%s)")
     # 使用 tqdm 包裹数据列表，创建一个带进度条的迭代器
     for record in tqdm(data, desc="Inserting records"):
@@ -105,7 +105,7 @@ def connect_to_MYSQL():
 if __name__ == '__main__':
     my_conn = connect_to_MYSQL()
     if my_conn:
-        n_records = 10
+        n_records = 99000
         data = generate_data_parallel(n_records)
         insert_data_into_db(data, my_conn)
         my_conn.close()
