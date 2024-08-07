@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>with页面</title>
+</head>
+<body>
+{# with标签#}
+{% with book1=books.1 %}
+    <h1>{{ book1.name }}</h1>
+    <h1>{{ book1.author }}</h1>
+{% endwith %}
+</body>
+</html>

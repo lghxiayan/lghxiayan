@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>filter_view</title>
+</head>
+<body>
+{#对传过来的值进行过滤，相当于python的filter函数#}
+<H1>{{ great|cut:" " }}</H1>
+
+{#日期过滤器#}
+<H1>{{ birthday|date:"Y-m-d h:i:s" }}</H1>
+
+{#default过滤器#}
+<H1>{{ profile|default:"这家伙很懒，什么都没写" }}</H1>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    这是首页
+{% endblock %}
+
+{% block head %}
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+    {% include 'hot_article.html' %}
+{% endblock %}
