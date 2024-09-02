@@ -33,6 +33,7 @@ urlpatterns = [
     path('', home_views.index, name='index'),
     path('book/', include('book.urls')),
     path('movie/', include('movie.urls')),
+    path('article/', include('article.urls')),
     path('if', home_views.if_view, name='if'),
     path('for', home_views.for_view, name='for'),
     path('with', home_views.with_view, name='with'),
@@ -40,6 +41,7 @@ urlpatterns = [
     path('filter', home_views.filter_view, name='filter'),
     path('new_index', home_views.new_index, name='new_index'),
     path('sta', home_views.static_view, name='static_view'),
+    path('front/', include('front.urls')),
 ]
 
 if settings.DEBUG:

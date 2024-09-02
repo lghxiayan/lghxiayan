@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title %}
+博客详情
+{% endblock title %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'highlight/styles/github-dark.min.css' %}">
+<script src="{% static 'highlight/highlight.min.js' %}"></script>
+{% endblock %}
+
+{% block main %}
+<h1>{{ blog.title }}</h1>
+<hr>
+<div class="mt-2">
+    <img src="{% static 'image/avatar.webp' %}" class="rounded-circle" alt="alt属性" width="30px" height="30px">
+    <span class="ms-2">{{ blog.author.username }}</span>
+    <span class="ms-2">发布于</span>
+    <span class="ms-2">{{ blog.pub_time|date:"Y/m/d h:i:s" }}</span>
+</div>
+<hr>
+<div class="py-2">
+    {{ blog.content|safe }}
+</div>
+<hr>
+<div class="mt-2">
+    <h3>评论（{{ blog.comments.all|length }}）</h3>
+    <form action="{% url 'blog:pub_comment' %}" method="POST">
+        {% csrf_token %}
+        <input type="hidden" name="blog_id" value="{{ blog.id }}">
+        <div class="mt-2">
+            <label for="content" hidden="hidden">评论内容</label>
+            <input type="text" class="form-control" placeholder="请输入评论" name="content" id="content">
+        </div>
+        <div class="text-end mt-2">
+            <button class="btn btn-primary" type="submit">提交评论</button>
+        </div>
+    </form>
+</div>
+<div class="mt-2">
+    <ul class="list-group list-group-flush">
+        {% for comment in blog.comments.all %}
+        <li class="list-group-item">
+            <div class="d-flex justify-content-between mt-2 text-body-secondary">
+                <div class="user-info">
+                    <img src="{% static 'image/avatar.webp' %}" class="rounded-circle" width="40px"
+                         height="40px" alt="alt属性">
+                    <span class="ms-2 mt-2">{{ comment.auth.username }}</span>
+                    <div class="mt-2">{{ comment.content }}</div>
+                </div>
+                <div style="line-height: 40px">
+                    {{ comment.pub_time|date:"Y/m/d h:i:s" }}
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+<script>
+    hljs.highlightAll();
+</script>
+{% endblock %}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+        {% endblock title %}
+    </title>
+</head>
+<body>
+<p>
+    <a href="{% url 'article:index' %}">这里是文章首页</a>
+
+    <a href="{% url 'article:author' %}">这里是作者列表</a>
+</p>
+{% block content %}
+{% endblock content %}
+</body>
+</html>

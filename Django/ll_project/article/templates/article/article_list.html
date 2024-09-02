@@ -1,0 +1,20 @@
+{% extends 'article/base.html' %}
+
+{% block title %}
+    文章列表
+{% endblock title %}
+
+{% block content %}
+    <p>这里是文章列表：{{ author }}</p>
+    <ul>
+        {% for article in articles %}
+            <li>
+                <p>{{ article.date_added }}</p>
+                <p>{{ article.content|linebreaks }}</p>
+                <hr>
+            </li>
+        {% empty %}
+            <p>没有找到作者相应的文章</p>
+        {% endfor %}
+    </ul>
+{% endblock content %}

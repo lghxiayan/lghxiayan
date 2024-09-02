@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learning Log</title>
+
+    {% load django_bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light mb-4 border">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{% url 'learning_logs:index' %}">
+            Learning Log</a>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'learning_logs:topics' %}">
+                        Topics</a></li>
+            </ul> <!-- 定义导航栏左侧链接的代码到此结束 -->
+        
+            <!-- 与账户相关的链接 -->
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <span class="navbar-text me-2">Hello, {{ user.username }}.</span>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'accounts:register' %}"> Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'accounts:login' %}"> Log in</a>
+                    </li>
+                {% endif %}
+            </ul> <!-- 与账户相关的链接到此结束 -->
+        </div> <!-- 定义导航栏可折叠部分的代码到此结束 -->
+    </div> <!-- 定义导航栏容器的代码到此结束 -->
+</nav> <!-- 定义导航栏的代码到此结束 -->
+
+
+<div>
+    <p>
+        <a href="{% url 'learning_logs:index' %}">Learning Log</a> -
+        <a href="{% url 'learning_logs:topics' %}">Topics</a> -
+        {% if user.is_authenticated %}
+            Hello, 【{{ user.username }}】.
+            {#        <hr/>#}
+            <form action="{% url 'accounts:logout' %}" method="post">
+                {% csrf_token %}
+                <button name="submit">Log out</button>
+            </form>
+        {% else %}
+            <a href="{% url 'accounts:register' %}">Register</a> -
+            <a href="{% url 'accounts:login' %}">Log in</a>
+        {% endif %}
+    </p>
+</div>
+{% block content %}
+{% endblock content %}
+</body>
+</html>

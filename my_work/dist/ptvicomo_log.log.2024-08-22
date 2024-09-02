@@ -1,0 +1,45 @@
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:465 | 连接到 MYSQL 成功!
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【星期几】成功:星期四
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:426 | 获取【当前时间】成功:2024-08-22 08:44:43
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:429 | 获取【当前周数】成功:33
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:298 | 获取【名称】成功:细嫩象空心菜
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:302 | 获取【市场单价】成功:2377
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:306 | 获取【累计盈利】成功：248354
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:310 | 获取【当前可卖数量】成功：0
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:323 | 获取【成本】成功：2389
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:327 | 获取【利润率】成功：-0.5%
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:336 | 获取【距离下个星期日还有多少小时】成功:63
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:354 | 获取【当前操作】成功：提取数据
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:504 | ('细嫩象空心菜', 2377, 248354, 0, 2389, 0, '提取数据', '2024-08-22 08:44:43', 33, 0, 0)
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:507 | 数据插入成功！
+2024-08-22 08:44:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:508 | ------------------------------
+2024-08-22 12:01:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:465 | 连接到 MYSQL 成功!
+2024-08-22 12:01:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【星期几】成功:星期四
+2024-08-22 12:01:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:426 | 获取【当前时间】成功:2024-08-22 12:01:11
+2024-08-22 12:01:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:429 | 获取【当前周数】成功:33
+2024-08-22 12:01:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:298 | 获取【名称】成功:细嫩象空心菜
+2024-08-22 12:01:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:302 | 获取【市场单价】成功:2580
+2024-08-22 12:01:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:306 | 获取【累计盈利】成功：248354
+2024-08-22 12:01:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:310 | 获取【当前可卖数量】成功：0
+2024-08-22 12:01:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:323 | 获取【成本】成功：2389
+2024-08-22 12:01:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:327 | 获取【利润率】成功：7.99%
+2024-08-22 12:01:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:336 | 获取【距离下个星期日还有多少小时】成功:59
+2024-08-22 12:01:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:354 | 获取【当前操作】成功：提取数据
+2024-08-22 12:01:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:504 | ('细嫩象空心菜', 2580, 248354, 0, 2389, 0, '提取数据', '2024-08-22 12:01:11', 33, 0, 0)
+2024-08-22 12:01:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:507 | 数据插入成功！
+2024-08-22 12:01:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:508 | ------------------------------
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:465 | 连接到 MYSQL 成功!
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【星期几】成功:星期四
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:426 | 获取【当前时间】成功:2024-08-22 13:21:20
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:429 | 获取【当前周数】成功:33
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:298 | 获取【名称】成功:细嫩象空心菜
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:302 | 获取【市场单价】成功:2580
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:306 | 获取【累计盈利】成功：248354
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:310 | 获取【当前可卖数量】成功：0
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:323 | 获取【成本】成功：2389
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:327 | 获取【利润率】成功：7.99%
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:336 | 获取【距离下个星期日还有多少小时】成功:58
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:354 | 获取【当前操作】成功：提取数据
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:504 | ('细嫩象空心菜', 2580, 248354, 0, 2389, 0, '提取数据', '2024-08-22 13:21:20', 33, 0, 0)
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:507 | 数据插入成功！
+2024-08-22 13:21:20 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:508 | ------------------------------

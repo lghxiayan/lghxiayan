@@ -1,0 +1,14 @@
+2024-08-25 16:12:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:471 | 连接到 MYSQL 成功!
+2024-08-25 16:12:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:429 | 获取【星期几】成功:星期日
+2024-08-25 16:12:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:432 | 获取【当前时间】成功:2024-08-25 16:12:17
+2024-08-25 16:12:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:435 | 获取【当前周数】成功:34
+2024-08-25 16:12:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:248 | 获取【蔬菜名称】成功:鲜嫩象四季豆
+2024-08-25 16:12:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:252 | 获取【市场单价】成功:1738
+2024-08-25 16:12:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:256 | 获取【剩余配货量】成功:247
+2024-08-25 16:12:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:275 | 当前购买数量247
+2024-08-25 16:12:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:187 | 点击购买按钮成功,购买数量为247,购买单价1738,购买总金额为-429286
+2024-08-25 16:12:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:277 | 购买成功，购买总金额为-429286
+2024-08-25 16:12:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:286 | 获取【当前操作】成功：买入
+2024-08-25 16:12:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:510 | ('鲜嫩象四季豆', 1738, 0, 0, 1738, -429286, '买入', '2024-08-25 16:12:17', 34, 247, 250)
+2024-08-25 16:12:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:513 | 数据插入成功！
+2024-08-25 16:12:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:514 | ------------------------------

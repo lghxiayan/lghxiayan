@@ -1,0 +1,20 @@
+{% extends 'pizzas/base.html' %}
+
+{% block title %}
+    分类页
+{% endblock title %}
+
+{% block content %}
+    这是pizzas的目录:
+    <ul>
+        {% for pizza in pizzas %}
+            <li>
+                <a href="{% url 'pizzas:pizza' pizza_id=pizza.id %}">
+                    {{ pizza.name }}
+                </a>
+            </li>
+        {% empty %}
+            <p>没有找到pizza的分类</p>
+        {% endfor %}
+    </ul>
+{% endblock content %}

@@ -8,11 +8,12 @@
 6. 将数据写入MySQL数据库。
 7. 完成后关闭浏览器。
 """
-
+import json
 import logging.config
 import re
 import datetime
 import platform
+import time
 
 # 导入Selenium相关模块，用于自动化浏览器操作
 from selenium import webdriver
@@ -78,12 +79,35 @@ def initialize_browser():
         logger.error(f"Error occurred while opening the website: {e}")
 
 
-def get_cookies():
+def get_cookies_save_to_file():
     """
     打印当前浏览器会话的所有Cookies
     """
     try:
-        logger.info(driver.get_cookies())
+        cookies = driver.get_cookies()
+        # logger.info(cookies)
+
+        with open('config_ptvicomo_04.py', 'r', encoding='utf-8') as file:
+            content = file.read()
+
+        cookie_var_name = 'WEB_COOKIE'
+        pattern = re.compile(fr"(?<={cookie_var_name} = )([^]]+)(?=])")
+        math = re.findall(pattern, content)
+        old_cookies = f"{cookie_var_name} = {math[0]}]"
+        # print(f"正则匹配的结果是：{old_cookies}")
+
+        new_cookies = f"{cookie_var_name} = {cookies}"
+        if cookie_var_name in content:
+            logger.info(f"{cookie_var_name}变量已存在，进行替换操作")
+            content = content.replace(old_cookies, new_cookies)
+        else:
+            logger.info(f"{cookie_var_name}变量不存在，进行添加操作")
+            content += f"\n{cookie_var_name} = {cookies}"
+
+        with open('config_ptvicomo_04.py', 'w', encoding='utf-8') as file:
+            file.write(content)
+            logger.info("config_ptvicomo_04.py文件已更新")
+
     except NoSuchElementException as e:
         logger.error(f"NoSuchElementException: {e}")
 
@@ -254,6 +278,12 @@ def extract_data_from_sunday_text(text, current_time, week_number):
         buy_other_number = buy_other_number_pattern.findall(text)[0]
         buy_other_number = int(buy_other_number)
         logger.info(f'获取【剩余配货量】成功:{buy_other_number}')
+
+        # 获取累计盈利,在这里无法获取。因为传过来的text只包括星期天的购买这一栏（第6栏）的数据，并不包括（第7栏）的数据
+        # logger.info(text)
+        # sale_total_profit = sale_total_profit_pattern.search(text).group()
+        # sale_total_profit = int(sale_total_profit)
+        # logger.info(f'获取【累计盈利】成功：{sale_total_profit}')
 
         # 购买动作
         buy_total_money = 0
@@ -549,6 +579,10 @@ def main():
     except Exception as e:
         logger.error(f"初始化浏览器或设置Cookie失败: {e}")
         return
+
+    # 这里应该有个判断cookie是否过期?如果过期,则使用帐号登录,重新获取cookie.
+    # time.sleep(10)
+    # get_cookies_save_to_file()
 
     try:
         with connect_to_mysql() as my_conn:

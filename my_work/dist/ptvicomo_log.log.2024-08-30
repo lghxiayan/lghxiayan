@@ -1,0 +1,12 @@
+2024-08-30 00:05:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:465 | 连接到 MYSQL 成功!
+2024-08-30 00:05:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【星期几】成功:星期五
+2024-08-30 00:05:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:426 | 获取【当前时间】成功:2024-08-30 00:05:11
+2024-08-30 00:05:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:429 | 获取【当前周数】成功:34
+2024-08-30 00:05:11 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:444 | 今天不是星期天,也找不到非星期天的相关数据
+2024-08-30 00:05:11 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:563 | 无法获取数据!
+2024-08-30 12:05:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:465 | 连接到 MYSQL 成功!
+2024-08-30 12:05:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【星期几】成功:星期五
+2024-08-30 12:05:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:426 | 获取【当前时间】成功:2024-08-30 12:05:12
+2024-08-30 12:05:12 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:429 | 获取【当前周数】成功:34
+2024-08-30 12:05:12 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:444 | 今天不是星期天,也找不到非星期天的相关数据
+2024-08-30 12:05:12 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:563 | 无法获取数据!

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+        {% endblock title %}
+    </title>
+</head>
+<body>
+<p>
+    <a href="{% url 'pizzas:index' %}">pizzas的首页</a>
+    <a href="{% url 'pizzas:pizzas' %}">pizzas的分类</a>
+</p>
+{% block content %}
+{% endblock content %}
+</body>
+</html>

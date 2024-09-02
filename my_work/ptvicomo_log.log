@@ -1,67 +1,626 @@
-2024-08-04 09:53:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:111 | 网页源码已保存到【象岛_星期日.html】文件
-2024-08-04 09:53:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
-2024-08-04 09:53:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期日
-2024-08-04 09:53:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-04 09:53:41
-2024-08-04 09:53:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:31
-2024-08-04 09:53:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:247 | 获取【蔬菜名称】成功:洁白象花菜
-2024-08-04 09:53:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:251 | 获取【市场单价】成功:896
-2024-08-04 09:53:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:255 | 获取【剩余配货量】成功:0
-2024-08-04 09:53:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:274 | 获取【当前操作】成功：提取数据
-2024-08-04 09:53:41 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:503 | 数据插入失败: Not enough parameters for the SQL statement
-2024-08-04 09:55:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
-2024-08-04 09:55:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期日
-2024-08-04 09:55:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-04 09:55:50
-2024-08-04 09:55:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:31
-2024-08-04 09:55:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:247 | 获取【蔬菜名称】成功:洁白象花菜
-2024-08-04 09:55:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:251 | 获取【市场单价】成功:896
-2024-08-04 09:55:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:255 | 获取【剩余配货量】成功:0
-2024-08-04 09:55:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:274 | 获取【当前操作】成功：提取数据
-2024-08-04 09:55:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:498 | ('洁白象花菜', 896, 0, 0, 896, 0, '提取数据', '2024-08-04 09:55:50', 31, 0)
-2024-08-04 09:55:50 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:504 | 数据插入失败: Not enough parameters for the SQL statement
-2024-08-04 09:59:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 连接到 MYSQL 成功!
-2024-08-04 09:59:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:417 | 获取【星期几】成功:星期日
-2024-08-04 09:59:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:420 | 获取【当前时间】成功:2024-08-04 09:59:57
-2024-08-04 09:59:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【当前周数】成功:31
-2024-08-04 09:59:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:247 | 获取【蔬菜名称】成功:洁白象花菜
-2024-08-04 09:59:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:251 | 获取【市场单价】成功:896
-2024-08-04 09:59:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:255 | 获取【剩余配货量】成功:0
-2024-08-04 09:59:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:274 | 获取【当前操作】成功：提取数据
-2024-08-04 09:59:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:498 | ('洁白象花菜', 896, 0, 0, 896, 0, '提取数据', '2024-08-04 09:59:57', 31, 0, 1)
-2024-08-04 09:59:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:501 | 数据插入成功！
-2024-08-04 09:59:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:502 | ------------------------------
-2024-08-04 10:07:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:461 | 连接到 MYSQL 成功!
-2024-08-04 10:07:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:419 | 获取【星期几】成功:星期日
-2024-08-04 10:07:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:422 | 获取【当前时间】成功:2024-08-04 10:07:34
-2024-08-04 10:07:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:425 | 获取【当前周数】成功:31
-2024-08-04 10:07:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:247 | 获取【蔬菜名称】成功:洁白象花菜
-2024-08-04 10:07:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:251 | 获取【市场单价】成功:896
-2024-08-04 10:07:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:255 | 获取【剩余配货量】成功:0
-2024-08-04 10:07:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:257 | 获取【买卖数量】成功:1
-2024-08-04 10:07:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:276 | 获取【当前操作】成功：提取数据
-2024-08-04 10:07:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:500 | ('洁白象花菜', 896, 0, 0, 896, 0, '提取数据', '2024-08-04 10:07:34', 31, 0, 1)
-2024-08-04 10:07:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:503 | 数据插入成功！
-2024-08-04 10:07:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:504 | ------------------------------
-2024-08-04 10:39:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:464 | 连接到 MYSQL 成功!
-2024-08-04 10:39:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:422 | 获取【星期几】成功:星期日
-2024-08-04 10:39:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:425 | 获取【当前时间】成功:2024-08-04 10:39:54
-2024-08-04 10:39:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:428 | 获取【当前周数】成功:31
-2024-08-04 10:39:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:247 | 获取【蔬菜名称】成功:洁白象花菜
-2024-08-04 10:39:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:251 | 获取【市场单价】成功:896
-2024-08-04 10:39:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:255 | 获取【剩余配货量】成功:0
-2024-08-04 10:39:54 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:274 | 因为【剩余配货量】为:0,无法进行买入操作!即使当前【买卖数量】指令为:1
-2024-08-04 10:39:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:279 | 获取【当前操作】成功：提取数据
-2024-08-04 10:39:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:503 | ('洁白象花菜', 896, 0, 0, 896, 0, '提取数据', '2024-08-04 10:39:54', 31, 0, 1)
-2024-08-04 10:39:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:506 | 数据插入成功！
-2024-08-04 10:39:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:507 | ------------------------------
-2024-08-04 10:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:465 | 连接到 MYSQL 成功!
-2024-08-04 10:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:423 | 获取【星期几】成功:星期日
-2024-08-04 10:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:426 | 获取【当前时间】成功:2024-08-04 10:41:06
-2024-08-04 10:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:429 | 获取【当前周数】成功:31
-2024-08-04 10:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:248 | 获取【蔬菜名称】成功:洁白象花菜
-2024-08-04 10:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:252 | 获取【市场单价】成功:896
-2024-08-04 10:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:256 | 获取【剩余配货量】成功:0
-2024-08-04 10:41:06 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:275 | 因为【剩余配货量】为:0,无法进行买入操作!即使当前【买卖数量】指令为:1
-2024-08-04 10:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:280 | 获取【当前操作】成功：提取数据
-2024-08-04 10:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:504 | ('洁白象花菜', 896, 0, 0, 896, 0, '提取数据', '2024-08-04 10:41:06', 31, 0, 1)
-2024-08-04 10:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:507 | 数据插入成功！
-2024-08-04 10:41:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:508 | ------------------------------
+2024-08-31 08:24:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:471 | 连接到 MYSQL 成功!
+2024-08-31 08:24:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:429 | 获取【星期几】成功:星期六
+2024-08-31 08:24:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:432 | 获取【当前时间】成功:2024-08-31 08:24:52
+2024-08-31 08:24:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:435 | 获取【当前周数】成功:34
+2024-08-31 08:24:52 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:450 | 今天不是星期天,也找不到非星期天的相关数据
+2024-08-31 08:24:52 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:569 | 无法获取数据!
+2024-08-31 08:28:49 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:473 | 连接到 MYSQL 成功!
+2024-08-31 08:28:49 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:429 | 获取【星期几】成功:星期六
+2024-08-31 08:28:49 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:432 | 获取【当前时间】成功:2024-08-31 08:28:49
+2024-08-31 08:28:49 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:435 | 获取【当前周数】成功:34
+2024-08-31 08:28:49 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:452 | 今天不是星期天,也找不到非星期天的相关数据
+2024-08-31 08:28:49 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:571 | 无法获取数据!
+2024-08-31 08:31:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:473 | 连接到 MYSQL 成功!
+2024-08-31 08:31:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:429 | 获取【星期几】成功:星期六
+2024-08-31 08:31:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:432 | 获取【当前时间】成功:2024-08-31 08:31:02
+2024-08-31 08:31:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:435 | 获取【当前周数】成功:34
+2024-08-31 08:31:02 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:452 | 今天不是星期天,也找不到非星期天的相关数据
+2024-08-31 08:31:02 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:571 | 无法获取数据!
+2024-08-31 08:35:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:475 | 连接到 MYSQL 成功!
+2024-08-31 08:35:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:431 | 获取【星期几】成功:星期六
+2024-08-31 08:35:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:434 | 获取【当前时间】成功:2024-08-31 08:35:30
+2024-08-31 08:35:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:437 | 获取【当前周数】成功:34
+2024-08-31 08:35:30 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:454 | 今天不是星期天,也找不到非星期天的相关数据
+2024-08-31 08:35:30 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:573 | 无法获取数据!
+2024-08-31 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:474 | 连接到 MYSQL 成功!
+2024-08-31 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:430 | 获取【星期几】成功:星期六
+2024-08-31 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:433 | 获取【当前时间】成功:2024-08-31 08:36:25
+2024-08-31 08:36:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:436 | 获取【当前周数】成功:34
+2024-08-31 08:36:25 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:453 | 今天不是星期天,也找不到非星期天的相关数据
+2024-08-31 08:36:25 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:574 | 无法获取数据!
+2024-08-31 08:43:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:474 | 连接到 MYSQL 成功!
+2024-08-31 08:43:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:430 | 获取【星期几】成功:星期六
+2024-08-31 08:43:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:433 | 获取【当前时间】成功:2024-08-31 08:43:30
+2024-08-31 08:43:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:436 | 获取【当前周数】成功:34
+2024-08-31 08:43:30 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:453 | 今天不是星期天,也找不到非星期天的相关数据
+2024-08-31 08:43:30 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:574 | 无法获取数据!
+2024-08-31 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:474 | 连接到 MYSQL 成功!
+2024-08-31 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:430 | 获取【星期几】成功:星期六
+2024-08-31 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:433 | 获取【当前时间】成功:2024-08-31 08:48:26
+2024-08-31 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:436 | 获取【当前周数】成功:34
+2024-08-31 08:48:26 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:453 | 今天不是星期天,也找不到非星期天的相关数据
+2024-08-31 08:48:26 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:574 | 无法获取数据!
+2024-08-31 08:56:42 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:474 | 连接到 MYSQL 成功!
+2024-08-31 08:56:42 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:430 | 获取【星期几】成功:星期六
+2024-08-31 08:56:42 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:433 | 获取【当前时间】成功:2024-08-31 08:56:42
+2024-08-31 08:56:42 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:436 | 获取【当前周数】成功:34
+2024-08-31 08:56:42 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:453 | 今天不是星期天,也找不到非星期天的相关数据
+2024-08-31 08:56:42 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:574 | 无法获取数据!
+2024-08-31 08:57:23 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:474 | 连接到 MYSQL 成功!
+2024-08-31 08:57:23 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:430 | 获取【星期几】成功:星期六
+2024-08-31 08:57:23 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:433 | 获取【当前时间】成功:2024-08-31 08:57:23
+2024-08-31 08:57:23 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:436 | 获取【当前周数】成功:34
+2024-08-31 08:57:23 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:453 | 今天不是星期天,也找不到非星期天的相关数据
+2024-08-31 08:57:23 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:574 | 无法获取数据!
+2024-08-31 09:05:00 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:474 | 连接到 MYSQL 成功!
+2024-08-31 09:05:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:430 | 获取【星期几】成功:星期六
+2024-08-31 09:05:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:433 | 获取【当前时间】成功:2024-08-31 09:05:01
+2024-08-31 09:05:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:436 | 获取【当前周数】成功:34
+2024-08-31 09:05:01 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:453 | 今天不是星期天,也找不到非星期天的相关数据
+2024-08-31 09:05:01 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:574 | 无法获取数据!
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:87 | [{'domain': 'ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'bm9wZQ%3D%3D'}, {'domain': 'ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'eWVhaA%3D%3D'}, {'domain': 'ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'eWVhaA%3D%3D'}, {'domain': 'ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': 'ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'MjI1MzM%3D'}]
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:474 | 连接到 MYSQL 成功!
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:430 | 获取【星期几】成功:星期六
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:433 | 获取【当前时间】成功:2024-08-31 09:22:45
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:436 | 获取【当前周数】成功:34
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:305 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:309 | 获取【市场单价】成功:2346
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:313 | 获取【累计盈利】成功：248354
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【当前可卖数量】成功：250
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【成本】成功：1738
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:334 | 获取【利润率】成功：34.98%
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:343 | 获取【距离下个星期日还有多少小时】成功:14
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:381 | 距离下个星期日还有14小时,或者 利润空间超过34.98%,满足销售条件,清仓!
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:145 | sale_action函数,当前卖出数量250
+2024-08-31 09:22:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:149 | 输入卖出数量成功,卖出数量为250
+2024-08-31 09:22:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:156 | 点击出售按钮成功,出售数量为250
+2024-08-31 09:22:46 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:174 | 卖出失败: Message: stale element reference: stale element not found
+  (Session info: chrome=123.0.6312.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF710327032+63090]
+	(No symbol) [0x00007FF710292C82]
+	(No symbol) [0x00007FF71012EC65]
+	(No symbol) [0x00007FF71013E78B]
+	(No symbol) [0x00007FF71013EFEA]
+	(No symbol) [0x00007FF710134B29]
+	(No symbol) [0x00007FF71013F028]
+	(No symbol) [0x00007FF710134B29]
+	(No symbol) [0x00007FF710132D3A]
+	(No symbol) [0x00007FF710136462]
+	(No symbol) [0x00007FF7101B4062]
+	(No symbol) [0x00007FF710196FDA]
+	(No symbol) [0x00007FF7101B3412]
+	(No symbol) [0x00007FF710196D83]
+	(No symbol) [0x00007FF7101683A8]
+	(No symbol) [0x00007FF710169441]
+	GetHandleVerifier [0x00007FF7107225AD+4238317]
+	GetHandleVerifier [0x00007FF71075F70D+4488525]
+	GetHandleVerifier [0x00007FF7107579EF+4456495]
+	GetHandleVerifier [0x00007FF710400576+953270]
+	(No symbol) [0x00007FF71029E54F]
+	(No symbol) [0x00007FF710299224]
+	(No symbol) [0x00007FF71029935B]
+	(No symbol) [0x00007FF710289B94]
+	BaseThreadInitThunk [0x00007FFF7702257D+29]
+	RtlUserThreadStart [0x00007FFF7796AF28+40]
+
+2024-08-31 09:22:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:354 | 获取【买卖数量】成功：250
+2024-08-31 09:22:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:361 | 获取【当前操作】成功：卖出
+2024-08-31 09:22:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:363 | 计算【单笔盈利】成功：None
+2024-08-31 09:22:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:513 | ('鲜嫩象四季豆', 2346, 248354, 250, 1738, None, '卖出', '2024-08-31 09:22:45', 34, 0, 250)
+2024-08-31 09:22:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:516 | 数据插入成功！
+2024-08-31 09:22:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:517 | ------------------------------
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:87 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:474 | 连接到 MYSQL 成功!
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:430 | 获取【星期几】成功:星期六
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:433 | 获取【当前时间】成功:2024-08-31 09:31:18
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:436 | 获取【当前周数】成功:34
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:305 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:309 | 获取【市场单价】成功:2346
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:313 | 获取【累计盈利】成功：400354
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:317 | 获取【当前可卖数量】成功：0
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【成本】成功：1738
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:334 | 获取【利润率】成功：34.98%
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:343 | 获取【距离下个星期日还有多少小时】成功:14
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:361 | 获取【当前操作】成功：提取数据
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:513 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 09:31:18', 34, 0, 0)
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:516 | 数据插入成功！
+2024-08-31 09:31:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:517 | ------------------------------
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:95 | WEB_NEW_COOKIE变量已存在，无需添加,进行替换操作
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:103 | config_ptvicomo_04.py文件已更新
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:489 | 连接到 MYSQL 成功!
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:447 | 获取【星期几】成功:星期六
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:450 | 获取【当前时间】成功:2024-08-31 10:00:01
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:453 | 获取【当前周数】成功:34
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:322 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:326 | 获取【市场单价】成功:2346
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【累计盈利】成功：400354
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:334 | 获取【当前可卖数量】成功：0
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:347 | 获取【成本】成功：1738
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:351 | 获取【利润率】成功：34.98%
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【距离下个星期日还有多少小时】成功:13
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:378 | 获取【当前操作】成功：提取数据
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:528 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 10:00:01', 34, 0, 0)
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:531 | 数据插入成功！
+2024-08-31 10:00:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:532 | ------------------------------
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:95 | WEB_NEW_COOKIE变量已存在，无需添加,进行替换操作
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:103 | config_ptvicomo_04.py文件已更新
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:489 | 连接到 MYSQL 成功!
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:447 | 获取【星期几】成功:星期六
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:450 | 获取【当前时间】成功:2024-08-31 10:01:08
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:453 | 获取【当前周数】成功:34
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:322 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:326 | 获取【市场单价】成功:2346
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【累计盈利】成功：400354
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:334 | 获取【当前可卖数量】成功：0
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:347 | 获取【成本】成功：1738
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:351 | 获取【利润率】成功：34.98%
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【距离下个星期日还有多少小时】成功:13
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:378 | 获取【当前操作】成功：提取数据
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:528 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 10:01:08', 34, 0, 0)
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:531 | 数据插入成功！
+2024-08-31 10:01:08 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:532 | ------------------------------
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:98 | WEB_NEW_COOKIE变量不存在，进行添加操作
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:103 | config_ptvicomo_04.py文件已更新
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:489 | 连接到 MYSQL 成功!
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:447 | 获取【星期几】成功:星期六
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:450 | 获取【当前时间】成功:2024-08-31 10:02:32
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:453 | 获取【当前周数】成功:34
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:322 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:326 | 获取【市场单价】成功:2346
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【累计盈利】成功：400354
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:334 | 获取【当前可卖数量】成功：0
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:347 | 获取【成本】成功：1738
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:351 | 获取【利润率】成功：34.98%
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【距离下个星期日还有多少小时】成功:13
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:378 | 获取【当前操作】成功：提取数据
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:528 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 10:02:32', 34, 0, 0)
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:531 | 数据插入成功！
+2024-08-31 10:02:32 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:532 | ------------------------------
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:95 | WEB_NEW_COOKIE变量已存在，无需添加,进行替换操作
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:103 | config_ptvicomo_04.py文件已更新
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:489 | 连接到 MYSQL 成功!
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:447 | 获取【星期几】成功:星期六
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:450 | 获取【当前时间】成功:2024-08-31 10:04:17
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:453 | 获取【当前周数】成功:34
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:322 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:326 | 获取【市场单价】成功:2346
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【累计盈利】成功：400354
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:334 | 获取【当前可卖数量】成功：0
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:347 | 获取【成本】成功：1738
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:351 | 获取【利润率】成功：34.98%
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【距离下个星期日还有多少小时】成功:13
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:378 | 获取【当前操作】成功：提取数据
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:528 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 10:04:17', 34, 0, 0)
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:531 | 数据插入成功！
+2024-08-31 10:04:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:532 | ------------------------------
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:95 | WEB_NEW_COOKIE变量已存在，无需添加,进行替换操作
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:103 | config_ptvicomo_04.py文件已更新
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:489 | 连接到 MYSQL 成功!
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:447 | 获取【星期几】成功:星期六
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:450 | 获取【当前时间】成功:2024-08-31 10:04:51
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:453 | 获取【当前周数】成功:34
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:322 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:326 | 获取【市场单价】成功:2346
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【累计盈利】成功：400354
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:334 | 获取【当前可卖数量】成功：0
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:347 | 获取【成本】成功：1738
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:351 | 获取【利润率】成功：34.98%
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【距离下个星期日还有多少小时】成功:13
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:378 | 获取【当前操作】成功：提取数据
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:528 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 10:04:51', 34, 0, 0)
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:531 | 数据插入成功！
+2024-08-31 10:04:51 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:532 | ------------------------------
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:95 | WEB_NEW_COOKIE变量已存在，无需添加,进行替换操作
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:103 | config_ptvicomo_04.py文件已更新
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:489 | 连接到 MYSQL 成功!
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:447 | 获取【星期几】成功:星期六
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:450 | 获取【当前时间】成功:2024-08-31 10:09:27
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:453 | 获取【当前周数】成功:34
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:322 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:326 | 获取【市场单价】成功:2346
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【累计盈利】成功：400354
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:334 | 获取【当前可卖数量】成功：0
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:347 | 获取【成本】成功：1738
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:351 | 获取【利润率】成功：34.98%
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【距离下个星期日还有多少小时】成功:13
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:378 | 获取【当前操作】成功：提取数据
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:528 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 10:09:27', 34, 0, 0)
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:531 | 数据插入成功！
+2024-08-31 10:09:27 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:532 | ------------------------------
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:96 | WEB_NEW_COOKIE变量已存在，进行替换操作
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:104 | config_ptvicomo_04.py文件已更新
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:490 | 连接到 MYSQL 成功!
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:448 | 获取【星期几】成功:星期六
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:451 | 获取【当前时间】成功:2024-08-31 10:24:33
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:454 | 获取【当前周数】成功:34
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:323 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:327 | 获取【市场单价】成功:2346
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:331 | 获取【累计盈利】成功：400354
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:335 | 获取【当前可卖数量】成功：0
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:348 | 获取【成本】成功：1738
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:352 | 获取【利润率】成功：34.98%
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:361 | 获取【距离下个星期日还有多少小时】成功:13
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:379 | 获取【当前操作】成功：提取数据
+2024-08-31 10:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:529 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 10:24:33', 34, 0, 0)
+2024-08-31 10:24:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:532 | 数据插入成功！
+2024-08-31 10:24:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:533 | ------------------------------
+2024-08-31 10:30:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 10:30:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:91 | [
+  {
+    "domain": ".ptvicomo.net",
+    "expiry": 1732843350,
+    "httpOnly": true,
+    "name": "c_secure_uid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "MjI1MzM%3D"
+  },
+  {
+    "domain": ".ptvicomo.net",
+    "expiry": 1732843350,
+    "httpOnly": true,
+    "name": "c_secure_pass",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "14c96bacdf049a639abbe1b38199655d"
+  },
+  {
+    "domain": ".ptvicomo.net",
+    "expiry": 1732843350,
+    "httpOnly": true,
+    "name": "c_secure_tracker_ssl",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "eWVhaA%3D%3D"
+  },
+  {
+    "domain": ".ptvicomo.net",
+    "expiry": 1732843350,
+    "httpOnly": true,
+    "name": "c_secure_ssl",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "eWVhaA%3D%3D"
+  },
+  {
+    "domain": ".ptvicomo.net",
+    "expiry": 1732843350,
+    "httpOnly": true,
+    "name": "c_secure_login",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "bm9wZQ%3D%3D"
+  }
+]
+2024-08-31 10:30:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:99 | WEB_NEW_COOKIE变量已存在，进行替换操作
+2024-08-31 10:30:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:107 | config_ptvicomo_04.py文件已更新
+2024-08-31 10:30:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:493 | 连接到 MYSQL 成功!
+2024-08-31 10:30:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:451 | 获取【星期几】成功:星期六
+2024-08-31 10:30:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:454 | 获取【当前时间】成功:2024-08-31 10:30:31
+2024-08-31 10:30:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:457 | 获取【当前周数】成功:34
+2024-08-31 10:30:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:326 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 10:30:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【市场单价】成功:2346
+2024-08-31 10:30:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:334 | 获取【累计盈利】成功：400354
+2024-08-31 10:30:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:338 | 获取【当前可卖数量】成功：0
+2024-08-31 10:30:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:351 | 获取【成本】成功：1738
+2024-08-31 10:30:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:355 | 获取【利润率】成功：34.98%
+2024-08-31 10:30:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:364 | 获取【距离下个星期日还有多少小时】成功:13
+2024-08-31 10:30:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:382 | 获取【当前操作】成功：提取数据
+2024-08-31 10:30:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:532 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 10:30:31', 34, 0, 0)
+2024-08-31 10:30:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:535 | 数据插入成功！
+2024-08-31 10:30:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:536 | ------------------------------
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:91 | [
+  {
+    "domain": ".ptvicomo.net",
+    "expiry": 1732843350,
+    "httpOnly": true,
+    "name": "c_secure_uid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "MjI1MzM%3D"
+  },
+  {
+    "domain": ".ptvicomo.net",
+    "expiry": 1732843350,
+    "httpOnly": true,
+    "name": "c_secure_pass",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "14c96bacdf049a639abbe1b38199655d"
+  },
+  {
+    "domain": ".ptvicomo.net",
+    "expiry": 1732843350,
+    "httpOnly": true,
+    "name": "c_secure_tracker_ssl",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "eWVhaA%3D%3D"
+  },
+  {
+    "domain": ".ptvicomo.net",
+    "expiry": 1732843350,
+    "httpOnly": true,
+    "name": "c_secure_ssl",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "eWVhaA%3D%3D"
+  },
+  {
+    "domain": ".ptvicomo.net",
+    "expiry": 1732843350,
+    "httpOnly": true,
+    "name": "c_secure_login",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "bm9wZQ%3D%3D"
+  }
+]
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:103 | WEB_NEW_COOKIE变量已存在，进行替换操作
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:111 | config_ptvicomo_04.py文件已更新
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:497 | 连接到 MYSQL 成功!
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:455 | 获取【星期几】成功:星期六
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:458 | 获取【当前时间】成功:2024-08-31 10:45:43
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:461 | 获取【当前周数】成功:34
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:334 | 获取【市场单价】成功:2346
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:338 | 获取【累计盈利】成功：400354
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:342 | 获取【当前可卖数量】成功：0
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:355 | 获取【成本】成功：1738
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:359 | 获取【利润率】成功：34.98%
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:368 | 获取【距离下个星期日还有多少小时】成功:13
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:386 | 获取【当前操作】成功：提取数据
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:536 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 10:45:43', 34, 0, 0)
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:539 | 数据插入成功！
+2024-08-31 10:45:43 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:540 | ------------------------------
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:100 | WEB_NEW_COOKIE变量已存在，进行替换操作
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:108 | config_ptvicomo_04.py文件已更新
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:494 | 连接到 MYSQL 成功!
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:452 | 获取【星期几】成功:星期六
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:455 | 获取【当前时间】成功:2024-08-31 10:54:06
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:458 | 获取【当前周数】成功:34
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:327 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:331 | 获取【市场单价】成功:2346
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:335 | 获取【累计盈利】成功：400354
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:339 | 获取【当前可卖数量】成功：0
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:352 | 获取【成本】成功：1738
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:356 | 获取【利润率】成功：34.98%
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:365 | 获取【距离下个星期日还有多少小时】成功:13
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:383 | 获取【当前操作】成功：提取数据
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:533 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 10:54:06', 34, 0, 0)
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:536 | 数据插入成功！
+2024-08-31 10:54:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:537 | ------------------------------
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:100 | WEB_NEW_COOKIE变量已存在，进行替换操作
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:108 | config_ptvicomo_04.py文件已更新
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:494 | 连接到 MYSQL 成功!
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:452 | 获取【星期几】成功:星期六
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:455 | 获取【当前时间】成功:2024-08-31 10:55:11
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:458 | 获取【当前周数】成功:34
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:327 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:331 | 获取【市场单价】成功:2346
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:335 | 获取【累计盈利】成功：400354
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:339 | 获取【当前可卖数量】成功：0
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:352 | 获取【成本】成功：1738
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:356 | 获取【利润率】成功：34.98%
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:365 | 获取【距离下个星期日还有多少小时】成功:13
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:383 | 获取【当前操作】成功：提取数据
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:533 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 10:55:11', 34, 0, 0)
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:536 | 数据插入成功！
+2024-08-31 10:55:11 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:537 | ------------------------------
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:100 | WEB_NEW_COOKIE变量已存在，进行替换操作
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:108 | config_ptvicomo_04.py文件已更新
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:494 | 连接到 MYSQL 成功!
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:452 | 获取【星期几】成功:星期六
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:455 | 获取【当前时间】成功:2024-08-31 10:57:07
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:458 | 获取【当前周数】成功:34
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:327 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:331 | 获取【市场单价】成功:2346
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:335 | 获取【累计盈利】成功：400354
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:339 | 获取【当前可卖数量】成功：0
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:352 | 获取【成本】成功：1738
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:356 | 获取【利润率】成功：34.98%
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:365 | 获取【距离下个星期日还有多少小时】成功:13
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:383 | 获取【当前操作】成功：提取数据
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:533 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 10:57:07', 34, 0, 0)
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:536 | 数据插入成功！
+2024-08-31 10:57:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:537 | ------------------------------
+2024-08-31 10:58:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 10:58:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:100 | WEB_NEW_COOKIE变量已存在，进行替换操作
+2024-08-31 10:58:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:108 | config_ptvicomo_04.py文件已更新
+2024-08-31 10:58:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:494 | 连接到 MYSQL 成功!
+2024-08-31 10:58:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:452 | 获取【星期几】成功:星期六
+2024-08-31 10:58:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:455 | 获取【当前时间】成功:2024-08-31 10:58:17
+2024-08-31 10:58:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:458 | 获取【当前周数】成功:34
+2024-08-31 10:58:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:327 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 10:58:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:331 | 获取【市场单价】成功:2346
+2024-08-31 10:58:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:335 | 获取【累计盈利】成功：400354
+2024-08-31 10:58:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:339 | 获取【当前可卖数量】成功：0
+2024-08-31 10:58:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:352 | 获取【成本】成功：1738
+2024-08-31 10:58:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:356 | 获取【利润率】成功：34.98%
+2024-08-31 10:58:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:365 | 获取【距离下个星期日还有多少小时】成功:13
+2024-08-31 10:58:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:383 | 获取【当前操作】成功：提取数据
+2024-08-31 10:58:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:533 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 10:58:17', 34, 0, 0)
+2024-08-31 10:58:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:536 | 数据插入成功！
+2024-08-31 10:58:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:537 | ------------------------------
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:100 | WEB_NEW_COOKIE变量已存在，进行替换操作
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:108 | config_ptvicomo_04.py文件已更新
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:494 | 连接到 MYSQL 成功!
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:452 | 获取【星期几】成功:星期六
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:455 | 获取【当前时间】成功:2024-08-31 10:59:21
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:458 | 获取【当前周数】成功:34
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:327 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:331 | 获取【市场单价】成功:2346
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:335 | 获取【累计盈利】成功：400354
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:339 | 获取【当前可卖数量】成功：0
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:352 | 获取【成本】成功：1738
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:356 | 获取【利润率】成功：34.98%
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:365 | 获取【距离下个星期日还有多少小时】成功:13
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:383 | 获取【当前操作】成功：提取数据
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:533 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 10:59:21', 34, 0, 0)
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:536 | 数据插入成功！
+2024-08-31 10:59:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:537 | ------------------------------
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:103 | WEB_NEW_COOKIE变量已存在，进行替换操作
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:111 | config_ptvicomo_04.py文件已更新
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:497 | 连接到 MYSQL 成功!
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:455 | 获取【星期几】成功:星期六
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:458 | 获取【当前时间】成功:2024-08-31 11:01:57
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:461 | 获取【当前周数】成功:34
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:334 | 获取【市场单价】成功:2346
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:338 | 获取【累计盈利】成功：400354
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:342 | 获取【当前可卖数量】成功：0
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:355 | 获取【成本】成功：1738
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:359 | 获取【利润率】成功：34.98%
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:368 | 获取【距离下个星期日还有多少小时】成功:12
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:386 | 获取【当前操作】成功：提取数据
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:536 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 11:01:57', 34, 0, 0)
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:539 | 数据插入成功！
+2024-08-31 11:01:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:540 | ------------------------------
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:103 | WEB_NEW_COOKIE变量已存在，进行替换操作
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:111 | config_ptvicomo_04.py文件已更新
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:497 | 连接到 MYSQL 成功!
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:455 | 获取【星期几】成功:星期六
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:458 | 获取【当前时间】成功:2024-08-31 11:30:19
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:461 | 获取【当前周数】成功:34
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:330 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:334 | 获取【市场单价】成功:2346
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:338 | 获取【累计盈利】成功：400354
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:342 | 获取【当前可卖数量】成功：0
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:355 | 获取【成本】成功：1738
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:359 | 获取【利润率】成功：34.98%
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:368 | 获取【距离下个星期日还有多少小时】成功:12
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:386 | 获取【当前操作】成功：提取数据
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:536 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 11:30:19', 34, 0, 0)
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:539 | 数据插入成功！
+2024-08-31 11:30:19 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:540 | ------------------------------
+2024-08-31 11:31:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 11:31:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:100 | 正则匹配的结果是：<re.Match object; span=(1895, 2068), match="[\n    {'domain': '.ptvicomo.net', 'expiry': 1732>
+2024-08-31 11:31:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:104 | WEB_NEW_COOKIE变量已存在，进行替换操作
+2024-08-31 11:31:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:112 | config_ptvicomo_04.py文件已更新
+2024-08-31 11:31:54 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:498 | 连接到 MYSQL 成功!
+2024-08-31 11:31:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:456 | 获取【星期几】成功:星期六
+2024-08-31 11:31:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 获取【当前时间】成功:2024-08-31 11:31:55
+2024-08-31 11:31:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:462 | 获取【当前周数】成功:34
+2024-08-31 11:31:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:331 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 11:31:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:335 | 获取【市场单价】成功:2346
+2024-08-31 11:31:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:339 | 获取【累计盈利】成功：400354
+2024-08-31 11:31:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:343 | 获取【当前可卖数量】成功：0
+2024-08-31 11:31:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:356 | 获取【成本】成功：1738
+2024-08-31 11:31:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【利润率】成功：34.98%
+2024-08-31 11:31:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:369 | 获取【距离下个星期日还有多少小时】成功:12
+2024-08-31 11:31:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:387 | 获取【当前操作】成功：提取数据
+2024-08-31 11:31:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:537 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 11:31:55', 34, 0, 0)
+2024-08-31 11:31:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:540 | 数据插入成功！
+2024-08-31 11:31:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:541 | ------------------------------
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:100 | 正则匹配的结果是：["[\n    {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/',\n     'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}"]
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:104 | WEB_NEW_COOKIE变量已存在，进行替换操作
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:112 | config_ptvicomo_04.py文件已更新
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:498 | 连接到 MYSQL 成功!
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:456 | 获取【星期几】成功:星期六
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 获取【当前时间】成功:2024-08-31 11:34:15
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:462 | 获取【当前周数】成功:34
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:331 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:335 | 获取【市场单价】成功:2346
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:339 | 获取【累计盈利】成功：400354
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:343 | 获取【当前可卖数量】成功：0
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:356 | 获取【成本】成功：1738
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【利润率】成功：34.98%
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:369 | 获取【距离下个星期日还有多少小时】成功:12
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:387 | 获取【当前操作】成功：提取数据
+2024-08-31 11:34:15 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:537 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 11:34:15', 34, 0, 0)
+2024-08-31 11:34:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:540 | 数据插入成功！
+2024-08-31 11:34:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:541 | ------------------------------
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:102 | WEB_NEW_COOKIE变量已存在，进行替换操作
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:110 | config_ptvicomo_04.py文件已更新
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:496 | 连接到 MYSQL 成功!
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:454 | 获取【星期几】成功:星期六
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:457 | 获取【当前时间】成功:2024-08-31 11:39:45
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:460 | 获取【当前周数】成功:34
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:329 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:333 | 获取【市场单价】成功:2346
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:337 | 获取【累计盈利】成功：400354
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:341 | 获取【当前可卖数量】成功：0
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:354 | 获取【成本】成功：1738
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:358 | 获取【利润率】成功：34.98%
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:367 | 获取【距离下个星期日还有多少小时】成功:12
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:385 | 获取【当前操作】成功：提取数据
+2024-08-31 11:39:45 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:535 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 11:39:45', 34, 0, 0)
+2024-08-31 11:39:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:538 | 数据插入成功！
+2024-08-31 11:39:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:539 | ------------------------------
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:88 | [{'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_uid', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'MjI1MzM%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_pass', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': '14c96bacdf049a639abbe1b38199655d'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_tracker_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_ssl', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'eWVhaA%3D%3D'}, {'domain': '.ptvicomo.net', 'expiry': 1732843350, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/', 'sameSite': 'Lax', 'secure': True, 'value': 'bm9wZQ%3D%3D'}]
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:101 | WEB_NEW_COOKIE变量已存在，进行替换操作
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:109 | config_ptvicomo_04.py文件已更新
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:495 | 连接到 MYSQL 成功!
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:453 | 获取【星期几】成功:星期六
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:456 | 获取【当前时间】成功:2024-08-31 11:41:56
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 获取【当前周数】成功:34
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:328 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:332 | 获取【市场单价】成功:2346
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:336 | 获取【累计盈利】成功：400354
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:340 | 获取【当前可卖数量】成功：0
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:353 | 获取【成本】成功：1738
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:357 | 获取【利润率】成功：34.98%
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:366 | 获取【距离下个星期日还有多少小时】成功:12
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:384 | 获取【当前操作】成功：提取数据
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:534 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 11:41:56', 34, 0, 0)
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:537 | 数据插入成功！
+2024-08-31 11:41:56 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:538 | ------------------------------
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:101 | WEB_COOKIE变量已存在，进行替换操作
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:109 | config_ptvicomo_04.py文件已更新
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:495 | 连接到 MYSQL 成功!
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:453 | 获取【星期几】成功:星期六
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:456 | 获取【当前时间】成功:2024-08-31 11:45:04
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 获取【当前周数】成功:34
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:328 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:332 | 获取【市场单价】成功:2346
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:336 | 获取【累计盈利】成功：400354
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:340 | 获取【当前可卖数量】成功：0
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:353 | 获取【成本】成功：1738
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:357 | 获取【利润率】成功：34.98%
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:366 | 获取【距离下个星期日还有多少小时】成功:12
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:384 | 获取【当前操作】成功：提取数据
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:534 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 11:45:04', 34, 0, 0)
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:537 | 数据插入成功！
+2024-08-31 11:45:04 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:538 | ------------------------------
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:495 | 连接到 MYSQL 成功!
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:453 | 获取【星期几】成功:星期六
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:456 | 获取【当前时间】成功:2024-08-31 11:47:01
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 获取【当前周数】成功:34
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:328 | 获取【名称】成功:鲜嫩象四季豆
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:332 | 获取【市场单价】成功:2346
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:336 | 获取【累计盈利】成功：400354
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:340 | 获取【当前可卖数量】成功：0
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:353 | 获取【成本】成功：1738
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:357 | 获取【利润率】成功：34.98%
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:366 | 获取【距离下个星期日还有多少小时】成功:12
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:384 | 获取【当前操作】成功：提取数据
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:534 | ('鲜嫩象四季豆', 2346, 400354, 0, 1738, 0, '提取数据', '2024-08-31 11:47:01', 34, 0, 0)
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:537 | 数据插入成功！
+2024-08-31 11:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:538 | ------------------------------

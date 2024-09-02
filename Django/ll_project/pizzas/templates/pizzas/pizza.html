@@ -1,0 +1,18 @@
+{% extends 'pizzas/base.html' %}
+
+{% block title %}
+    详情页
+{% endblock title %}
+
+{% block content %}
+    这是pizzas的目录:{{ pizza }}
+    <ul>
+        {% for topping in toppings %}
+            <li>
+                {{ topping.name }}
+            </li>
+        {% empty %}
+            <p>没有找到pizza的分类</p>
+        {% endfor %}
+    </ul>
+{% endblock content %}

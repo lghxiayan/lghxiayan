@@ -1,0 +1,20 @@
+{% extends 'article/base.html' %}
+
+{% block title %}
+    作者首页
+{% endblock title %}
+
+{% block content %}
+    <p>这里是作者首页</p>
+    <ul>
+        {% for author in authors %}
+            <li>
+                <a href="{% url 'article:article_list' auth_id=author.id %}">
+                    {{ author }}
+                </a>
+            </li>
+        {% empty %}
+            <p>没有找到相应的作者</p>
+        {% endfor %}
+    </ul>
+{% endblock content %}
