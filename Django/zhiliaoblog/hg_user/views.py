@@ -8,8 +8,8 @@ from django.shortcuts import render, redirect, reverse
 from django.views.decorators.http import require_http_methods
 from django.contrib.auth import get_user_model, login, logout, authenticate
 
-from hg_user.forms import LoginForm, RegisterForm
-from hg_user.models import CaptchaModel
+from .forms import LoginForm, RegisterForm
+from .models import CaptchaModel
 from .utils import Message
 from django.conf import settings
 

@@ -1,19 +1,31 @@
 {% extends 'learning_logs/base.html' %}
+{% load django_bootstrap5 %}
 
 {% block title %}
     登录
 {% endblock title %}
 
-{% block content %}
-    {% if form.errors %}
-        <p>Your username and password didn't mathc. Please try again.</p>
-    {% endif %}
+{% block page_header %}
+    <h2>帐号登录</h2>
+{% endblock %}
 
-    <form action="{% url 'accounts:login' %}" method="post">
-        {% csrf_token %}
-        {{ form.as_div }}
-        <button name="submit">Log in</button>
-    </form>
+{% block content %}
+    {#    {% if form.errors %}#}
+    {#        <p>Your username and password didn't mathc. Please try again.</p>#}
+    {#    {% endif %}#}
+    <div style="width: 500px" class="mx-auto">
+        <form action="{% url 'accounts:login' %}" method="post">
+            {% csrf_token %}
+            {% bootstrap_form form %}
+            {% bootstrap_button button_type='submit' content="Login" style='width: 100%;' %}
+        </form>
+    </div>
+
+
+
+
+
+
 
 
 {% endblock content %}

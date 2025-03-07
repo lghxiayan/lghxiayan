@@ -1,0 +1,14 @@
+2025-02-25 12:50:15 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-02-25 12:50:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:541 | 连接到 MYSQL 成功!
+2025-02-25 12:50:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:613 | 表创建成功 pt_vicomo_01
+2025-02-25 12:50:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:499 | 获取【星期几】成功:星期二
+2025-02-25 12:50:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:502 | 获取【当前时间】成功:2025-02-25 12:50:16
+2025-02-25 12:50:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:505 | 获取【当前周数】成功:8
+2025-02-25 12:50:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:372 | 获取【名称】成功:细嫩象芹菜笋
+2025-02-25 12:50:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:376 | 获取【市场单价】成功:2383
+2025-02-25 12:50:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:380 | 获取【累计盈利】成功：876280
+2025-02-25 12:50:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:384 | 获取【当前可卖数量】成功：0
+2025-02-25 12:50:16 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:397 | 获取【成本】成功：0
+2025-02-25 12:50:16 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_05.py:436 | 函数执行过程中发生异常,获取数据失败:division by zero
+2025-02-25 12:50:16 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_05.py:654 | 无法获取数据!

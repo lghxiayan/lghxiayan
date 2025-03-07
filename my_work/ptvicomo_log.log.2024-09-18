@@ -1,0 +1,15 @@
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:498 | 连接到 MYSQL 成功!
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:456 | 获取【星期几】成功:星期三
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:459 | 获取【当前时间】成功:2024-09-18 08:19:37
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:462 | 获取【当前周数】成功:37
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:331 | 获取【名称】成功:新鲜象芽菜
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:335 | 获取【市场单价】成功:1734
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:339 | 获取【累计盈利】成功：464354
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:343 | 获取【当前可卖数量】成功：250
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:356 | 获取【成本】成功：1684
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【利润率】成功：2.97%
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:369 | 获取【距离下个星期日还有多少小时】成功:87
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:387 | 获取【当前操作】成功：提取数据
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:537 | ('新鲜象芽菜', 1734, 464354, 250, 1684, 0, '提取数据', '2024-09-18 08:19:37', 37, 0, 0)
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:540 | 数据插入成功！
+2024-09-18 08:19:37 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:541 | ------------------------------

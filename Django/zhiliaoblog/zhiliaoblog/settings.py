@@ -145,3 +145,4 @@ ALIYUN_SIGN_NAME = '阿里云短信测试'  # 签名名称
 ALIYUN_TEMPLATE_CODE = 'SMS_154950909'  # 模板CODE
 
 # AUTH_USER_MODEL = 'hg_user.User'
+DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'

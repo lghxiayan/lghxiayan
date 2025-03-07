@@ -1,7 +1,476 @@
 {% extends 'learning_logs/base.html' %}
+{% load static %}
 
 {% block content %}
-    <p>Learning Log helps you keep track of your learning, for any topic you're
-        interested in.</p>
-{% endblock content %}
+    {#    <p>Learning Log 可以帮助你跟踪你的学习情况，包括你感兴趣的任何主题。</p>#}
 
+    <div class="container">
+        <!-- 用户信息框和事项提醒框开始 -->
+        <div class="row">
+            <div class="col-md-3 ">
+                <div class="user-card mb-3">
+                    <img src="{% static 'images/xiayan.jpg' %}" class="img-thumbnail mx-auto d-block"
+                         id="img-user" style="height:130px; margin-bottom: 10px;" alt="人员照片">
+                    <p class="text-center" id="p-czry-mc"><a href="http://84.52.16.1/s-user/">夏燕</a></p>
+                    <p class="text-center" id="p-swjg-mc" title="龙感湖税务分局办公室">龙感湖税务分局办公室</p>
+                    <p class="text-center">
+                        <a href="http://84.52.16.1/s-user/index.html">个人资料</a>
+                        |
+                        <a href="http://84.52.16.1/s-user/password.html">修改密码</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-9 ">
+                <div class="remind-card">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item" id="remind-0">
+                            <a class="nav-link active" href="javascript:void(0);" onclick="remind(0);">事项提醒</a>
+                        </li>
+                        <li class="nav-item" id="remind-1">
+                            <a class="nav-link" href="javascript:void(0);" onclick="remind(1);"> 通知
+                                <span class="badge" id="badge-1">1</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" id="remind-2">
+                            <a class="nav-link" href="javascript:void(0);" onclick="remind(2);"> 邮件
+                                <span class="badge" id="badge-2">3</span>
+                            </a>
+                        </li>
+                        <!-- <li role="presentation" id="remind-3"><a href="javascript:void(0);" onclick="remind(3);">
+                                信息 <span class="badge"  id="badge-3"></span>
+                            </a></li>
+                        <li role="presentation" id="remind-5" style="display:none;"><a href="javascript:void(0);" onclick="remind(5);">
+                                公文 <span class="badge" id="badge-5"></span>
+                            </a></li>
+                        <li role="presentation" id="remind-6" style="display:none;"><a href="javascript:void(0);" onclick="remind(6);">
+                                进户审批 <span class="badge"  id="badge-6"></span>
+                            </a></li> -->
+                        <li role="presentation" id="remind-7" style="display:none;"><a href="javascript:void(0);"
+                                                                                       onclick="remind(7);">
+                            考勤 <span class="badge" id="badge-7"></span>
+                        </a></li>
+                    </ul>
+                    <div style="min-height: 148px;">
+                        <table class="table table-striped table-hover" id="table-dbsx">
+                            <tbody>
+                            <tr>
+                                <td><span class="fa fa-envelope-o fa-fw"></span></td>
+                                <td style="font-weight:bold">
+                                    <div class="c-mail-title" style="width:380px;" title="请假及外出审批相关表格"><a
+                                            href="http://84.52.16.1/s-email/view.html?type=sjx&amp;jsdxlx=3&amp;yjbh=912574">请假及外出审批相关表格</a>
+                                    </div>
+                                </td>
+                                <td style="font-weight:bold">龙感湖 - 夏宇婷</td>
+                                <td style="font-weight:bold">2024-09-11</td>
+                            </tr>
+                            <tr>
+                                <td><span class="fa fa-envelope-o fa-fw"></span></td>
+                                <td style="font-weight:bold">
+                                    <div class="c-mail-title" style="width:380px;" title="9月主题党日学习资料"><a
+                                            href="http://84.52.16.1/s-email/view.html?type=sjx&amp;jsdxlx=3&amp;yjbh=912047">9月主题党日学习资料</a>
+                                    </div>
+                                </td>
+                                <td style="font-weight:bold">龙感湖 - 韩俊涛</td>
+                                <td style="font-weight:bold">2024-09-10</td>
+                            </tr>
+                            <tr>
+                                <td><span class="fa fa-envelope-o fa-fw"></span></td>
+                                <td style="font-weight:bold">
+                                    <div class="c-mail-title" style="width:380px;"
+                                         title="龙感湖税务分局 9月份“三会一课”及支部主题党日学习活动"><a
+                                            href="http://84.52.16.1/s-email/view.html?type=sjx&amp;jsdxlx=3&amp;yjbh=911946">龙感湖税务分局
+                                        9月份“三会一课”及支部主题党日</a></div>
+                                </td>
+                                <td style="font-weight:bold">龙感湖 - 韩俊涛</td>
+                                <td style="font-weight:bold">2024-09-09</td>
+                            </tr>
+                            <tr>
+                                <td><span class="fa fa-bullhorn fa-fw"></span></td>
+                                <td style="font-weight:bold">
+                                    <div class="c-mail-title" style="width:380px;"
+                                         title="学习宣传贯彻党的二十届三中全会精神工作计划"><a
+                                            href="http://84.52.16.1/s-notify/view.html?tzbh=9890">学习宣传贯彻党的二十届三中全会精神工作计划</a>
+                                    </div>
+                                </td>
+                                <td style="font-weight:bold">龙感湖 - 吉爱虹</td>
+                                <td style="font-weight:bold">2024-09-09</td>
+                            </tr>
+                            <tr>
+                                <td><span class="fa fa-envelope-o fa-fw"></span></td>
+                                <td>
+                                    <div class="c-mail-title" style="width:380px;" title="图片"><a
+                                            href="http://84.52.16.1/s-email/view.html?type=sjx&amp;jsdxlx=3&amp;yjbh=910285">图片</a>
+                                    </div>
+                                </td>
+                                <td>龙感湖 - 董文文</td>
+                                <td>2024-09-02</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-right" id="dbsx-more" style="display: none; margin-top: 5px;">
+                        <a class="btn btn-info" id="btn-dbsx-more" href="http://84.52.16.1/s-admin/index.html#"
+                           target="_blank" role="button">更多内容</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- 用户信息框和事项提醒框结束 -->
+        <!-- 省局最新重要通知和市局最新公文开始-->
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <div class="card" style="border-color: #ebccd1;">
+                    <div class="card-header" style="background: #f2dede;">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <p class="card-title" style="color:#a94442; font-weight: bold">省局通知公告</p>
+                            </div>
+                            <div class="col-md-3" style="text-align: right; padding-right: 10px;">
+                                <a id="sheng-tzgg-more"
+                                   href="http://148.12.64.192/web/index.jsp?url=/nwmh/gkxx/tzgg/index.html"
+                                   target="_blank">更多...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body" style="min-height: 246px;">
+                        <ul class="list-unstyled c-article-list" id="sheng-tzgg">
+                            <li>
+                                <div class="c-article-title"><a
+                                        href="http://148.12.73.19:7018/nwmh/gkxx/tzgg/2548991.htm"
+                                        title="关于召开出口退税服务监管新机制领导小组工作例会的通知 (08-27)"
+                                        target="_blank">关于召开出口退税服务监管新机制领导小组工作例会的通知</a><span
+                                        style="color:#999"> (08-27)</span></div>
+                            </li>
+                            <li>
+                                <div class="c-article-title"><a
+                                        href="http://148.12.73.19:7018/nwmh/gkxx/tzgg/2548912.htm"
+                                        title="关于召开全省所得税条线“月讲月会”视频会议的通知 (08-27)" target="_blank">关于召开全省所得税条线“月讲月会”视频会议的通知</a><span
+                                        style="color:#999"> (08-27)</span></div>
+                            </li>
+                            <li>
+                                <div class="c-article-title"><a
+                                        href="http://148.12.73.19:7018/nwmh/gkxx/tzgg/2547987.htm"
+                                        title="关于召开湖北省税务局党委理论学习中心组学习（扩大）会议的通知 (08-26)"
+                                        target="_blank">关于召开湖北省税务局党委理论学习中心组学习（扩大）会议的通知</a><span
+                                        style="color:#999"> (08-26)</span></div>
+                            </li>
+                            <li>
+                                <div class="c-article-title"><a
+                                        href="http://148.12.73.19:7018/nwmh/gkxx/tzgg/2547119.htm"
+                                        title="关于召开重点风险事项一体化综合监督防控试点工作汇报会的补充通知 (08-21)"
+                                        target="_blank">关于召开重点风险事项一体化综合监督防控试点工作汇报会的补充通知</a><span
+                                        style="color:#999"> (08-21)</span></div>
+                            </li>
+                            <li>
+                                <div class="c-article-title"><a
+                                        href="http://148.12.73.19:7018/nwmh/gkxx/tzgg/2546767.htm"
+                                        title="关于召开重点风险事项一体化综合监督防控试点工作汇报会的通知 (08-21)"
+                                        target="_blank">关于召开重点风险事项一体化综合监督防控试点工作汇报会的通知</a><span
+                                        style="color:#999"> (08-21)</span></div>
+                            </li>
+                            <li>
+                                <div class="c-article-title"><a
+                                        href="http://148.12.73.19:7018/nwmh/gkxx/tzgg/2517191.htm"
+                                        title="关于召开党的二十大届期中共国家税务总局湖北省税务局委员会第三轮巡察动员部署（视频）会议的通知 (08-08)"
+                                        target="_blank">关于召开党的二十大届期中共国家税务总局湖北省税务局委员会第三轮巡察动员部署（视频）会议的通知</a><span
+                                        style="color:#999"> (08-08)</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card" style="border-color: #d6e9c6;">
+                    <div class="card-header" style="background-color: #dff0d8;">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <p class="card-title" style="color: #3c763d;font-weight: bold">市局通知公告</p>
+                            </div>
+                            <div class="col-md-3" style="text-align: right; padding-right: 10px;">
+                                <a id="shi-tzgg-more"
+                                   href="http://148.12.73.19:7018/nwmh/huanggang/gkxx/tzgg/index.html" target="_blank">更多...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body" style="min-height: 246px;">
+                        <ul class="list-unstyled c-article-list" id="shi-tzgg">
+                            <li>
+                                <div class="c-article-title"><a
+                                        href="http://148.12.73.19:7018/nwmh/huanggang/gkxx/tzgg/2551638.htm"
+                                        title="关于召开党委扩大会、全市税务系统组织收入工作会的通知 (08-29)"
+                                        target="_blank">关于召开党委扩大会、全市税务系统组织收入工作会的通知</a><span
+                                        style="color:#999"> (08-29)</span></div>
+                            </li>
+                            <li>
+                                <div class="c-article-title"><a
+                                        href="http://148.12.73.19:7018/nwmh/huanggang/gkxx/tzgg/2548875.htm"
+                                        title="关于开展全市税务系统基层党组织书记和党务干部履职能力专题培训的通知 (08-27)"
+                                        target="_blank">关于开展全市税务系统基层党组织书记和党务干部履职能力专题培训的通知</a><span
+                                        style="color:#999"> (08-27)</span></div>
+                            </li>
+                            <li>
+                                <div class="c-article-title"><a
+                                        href="http://148.12.73.19:7018/nwmh/huanggang/gkxx/tzgg/2533378.htm"
+                                        title="关于召开全市组织收入工作视频会议的通知 (08-12)" target="_blank">关于召开全市组织收入工作视频会议的通知</a><span
+                                        style="color:#999"> (08-12)</span></div>
+                            </li>
+                            <li>
+                                <div class="c-article-title"><a
+                                        href="http://148.12.73.19:7018/nwmh/huanggang/gkxx/tzgg/2476759.htm"
+                                        title="关于召开党委扩大会、全市税务系统征管质量工作会的通知 (07-18)"
+                                        target="_blank">关于召开党委扩大会、全市税务系统征管质量工作会的通知</a><span
+                                        style="color:#999"> (07-18)</span></div>
+                            </li>
+                            <li>
+                                <div class="c-article-title"><a
+                                        href="http://148.12.73.19:7018/nwmh/huanggang/gkxx/tzgg/2435222.htm"
+                                        title="关于召开全市税务系统警示教育暨廉政（监督）谈话会的通知 (06-06)"
+                                        target="_blank">关于召开全市税务系统警示教育暨廉政（监督）谈话会的通知</a><span
+                                        style="color:#999"> (06-06)</span></div>
+                            </li>
+                            <li>
+                                <div class="c-article-title"><a
+                                        href="http://148.12.73.19:7018/nwmh/huanggang/gkxx/tzgg/2428564.htm"
+                                        title="关于做好2024年度国家工作人员学法用法工作的通知 (06-05)" target="_blank">关于做好2024年度国家工作人员学法用法工作的通知</a><span
+                                        style="color:#999"> (06-05)</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 省局最新重要通知和市局最新通知结束 -->
+        <div class="row mt-3">
+            <!-- 最新动态开始 -->
+            <div class="col-md-12">
+                <div class="card" style="border-color: #bce8f1;">
+                    <div class="card-header" style="background-color: #d9edf7;">
+                        <p class="card-title" style="color: #31708f;font-weight: bold">最新工作动态</p>
+                    </div>
+                    <div class="card-body">
+                        <ol class="c-index-nav-dept-list" id="channel-list-sj">
+                            <li><a class="c-index-nav-link active" href="javascript:void(0);" id="200"
+                                   imgid="400">市局</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="201"
+                                   imgid="400">办公室（党委办公室）</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="202" imgid="400">法制科</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="203"
+                                   imgid="400">货物和劳务税科</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="204" imgid="400">所得税科</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="205"
+                                   imgid="400">财产和行为税科</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="206"
+                                   imgid="400">社会保险费和非税收入科</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="207"
+                                   imgid="400">收入核算科</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="208"
+                                   imgid="400">纳税服务科</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="209"
+                                   imgid="400">征收管理科</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="210"
+                                   imgid="400">税收经济分析科</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="212"
+                                   imgid="400">财务管理科</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="213"
+                                   imgid="400">督察内审科</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="214"
+                                   imgid="400">组织人事科</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="215"
+                                   imgid="400">考核考评科</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="218"
+                                   imgid="400">党建工作科</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="216" imgid="400">机关党委</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="217" imgid="400">老干部科</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="219"
+                                   imgid="400">党委纪检组</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="220" imgid="400">纳税服务中心（税收宣传中心）</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="221" imgid="400">信息中心</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="222"
+                                   imgid="400">机关服务中心</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="223"
+                                   imgid="400">第一税务分局</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="224"
+                                   imgid="400">第二税务分局</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="211" imgid="400">第三税务分局（税收风险管理局）</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="225"
+                                   imgid="400">龙感湖税务分局</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="226" imgid="400">稽查局</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="227"
+                                   imgid="400">第一稽查局</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="228"
+                                   imgid="400">第二稽查局</a></li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="229"
+                                   imgid="400">第三稽查局</a></li>
+                            <br>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="301" imgid="401">黄州区</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="302" imgid="402">麻城</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="303" imgid="403">武穴</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="304" imgid="404">红安</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="305" imgid="405">罗田</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="306" imgid="406">英山</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="307" imgid="407">浠水</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="308" imgid="408">蕲春</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="309" imgid="409">黄梅</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="310" imgid="410">团风</a>
+                            </li>
+                            <li><a class="c-index-nav-link" href="javascript:void(0);" id="311" imgid="411">高新区</a>
+                            </li>
+                        </ol>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <!-- 嵌套布局，显示4个缩略图 -->
+                                <div class="row" id="sz-tplb">
+                                    <div class="col-md-6">
+                                        <div class="thumbnail"><a
+                                                href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2560251.htm"
+                                                target="_blank"><img class="img-slt"
+                                                                     src="{% static 'images/1.jpg' %}"
+                                                                     title="市税务局联合邢家湾社区开展党的二十届三中全会精神宣讲活动"
+                                                                     style="width:173px; height:115px;"></a>
+                                            <div class="caption">
+                                                <div class="c-article-title text-center"><a
+                                                        href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2560251.htm"
+                                                        title="市税务局联合邢家湾社区开展党的二十届三中全会精神宣讲活动"
+                                                        target="_blank">市税务局联合邢家湾社区开展党的二十届三中全会精神宣讲活动</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="thumbnail"><a
+                                                href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2553738.htm"
+                                                target="_blank"><img class="img-slt"
+                                                                     src="{% static 'images/2.jpg' %}"
+                                                                     title="市税务局召开党委扩大会议"
+                                                                     style="width:173px; height:115px;"></a>
+                                            <div class="caption">
+                                                <div class="c-article-title text-center"><a
+                                                        href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2553738.htm"
+                                                        title="市税务局召开党委扩大会议"
+                                                        target="_blank">市税务局召开党委扩大会议</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="thumbnail"><a
+                                                href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2552134.htm"
+                                                target="_blank"><img class="img-slt"
+                                                                     src="{% static 'images/3.jpg' %}"
+                                                                     title="市局开展机关党建工作督导检查暨党建业务专题培训"
+                                                                     style="width:173px; height:115px;"></a>
+                                            <div class="caption">
+                                                <div class="c-article-title text-center"><a
+                                                        href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2552134.htm"
+                                                        title="市局开展机关党建工作督导检查暨党建业务专题培训"
+                                                        target="_blank">市局开展机关党建工作督导检查暨党建业务专题培训</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="thumbnail"><a
+                                                href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2547346.htm"
+                                                target="_blank"><img class="img-slt"
+                                                                     src="{% static 'images/4.jpg' %}"
+                                                                     title="市委常委、市政府党组副书记陈俊来我局调研指导工作"
+                                                                     style="width:173px; height:115px;"></a>
+                                            <div class="caption">
+                                                <div class="c-article-title text-center"><a
+                                                        href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2547346.htm"
+                                                        title="市委常委、市政府党组副书记陈俊来我局调研指导工作"
+                                                        target="_blank">市委常委、市政府党组副书记陈俊来我局调研指导工作</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <ul class="list-unstyled c-article-list" id="sz-wzlb" style="min-height: 288px;">
+                                    <li>
+                                        <div class="c-article-title"><a
+                                                href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2560251.htm"
+                                                title="市局联合邢家湾社区开展党的二十届三中全会精神宣讲活动 (09-11)"
+                                                target="_blank">市局联合邢家湾社区开展党的二十届三中全会精神宣讲活动</a><span
+                                                style="color:#999"> (09-11)</span></div>
+                                    </li>
+                                    <li>
+                                        <div class="c-article-title"><a
+                                                href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2553738.htm"
+                                                title="市税务局召开党委扩大会议 (09-03)"
+                                                target="_blank">市税务局召开党委扩大会议</a><span style="color:#999"> (09-03)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="c-article-title"><a
+                                                href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2552134.htm"
+                                                title="市局开展机关党建工作督导检查暨党建业务专题培训 (08-30)"
+                                                target="_blank">市局开展机关党建工作督导检查暨党建业务专题培训</a><span
+                                                style="color:#999"> (08-30)</span></div>
+                                    </li>
+                                    <li>
+                                        <div class="c-article-title"><a
+                                                href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2547346.htm"
+                                                title="市委常委、市政府党组副书记陈俊来我局调研指导工作 (08-22)"
+                                                target="_blank">市委常委、市政府党组副书记陈俊来我局调研指导工作</a><span
+                                                style="color:#999"> (08-22)</span></div>
+                                    </li>
+                                    <li>
+                                        <div class="c-article-title"><a
+                                                href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2546479.htm"
+                                                title="市税务局召开党委理论学习中心组学习（扩大）会议学习贯彻党的二十届三中全会精神 (08-20)"
+                                                target="_blank">市税务局召开党委理论学习中心组学习（扩大）会议学习贯彻党的二十届三中全会精神</a><span
+                                                style="color:#999"> (08-20)</span></div>
+                                    </li>
+                                    <li>
+                                        <div class="c-article-title"><a
+                                                href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2529067.htm"
+                                                title="市税务局召开2024年全市税务系统财务采购工作会议 (08-09)"
+                                                target="_blank">市税务局召开2024年全市税务系统财务采购工作会议</a><span
+                                                style="color:#999"> (08-09)</span></div>
+                                    </li>
+                                    <li>
+                                        <div class="c-article-title"><a
+                                                href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2501490.htm"
+                                                title="市税务局到团风县看守所开展警示教育活动 (07-31)" target="_blank">市税务局到团风县看守所开展警示教育活动</a><span
+                                                style="color:#999"> (07-31)</span></div>
+                                    </li>
+                                    <li>
+                                        <div class="c-article-title"><a
+                                                href="http://148.12.73.19:7018/nwmh/huanggang/xwdt/swxw/2490872.htm"
+                                                title="市税务局荣获2023年度市直单位领导班子年度目标责任考核优胜单位 (07-25)"
+                                                target="_blank">市税务局荣获2023年度市直单位领导班子年度目标责任考核优胜单位</a><span
+                                                style="color:#999"> (07-25)</span></div>
+                                    </li>
+                                </ul>
+                                <div class="text-right" style="text-align: right">
+                                    <a class="btn btn-info" id="btn-moreinfo-sz"
+                                       href="http://148.12.73.19:7018/nwmh/huanggang/index.html" target="_blank"
+                                       role="button">更多</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 最新动态结束 -->
+        </div>
+    </div>
+{% endblock content %}

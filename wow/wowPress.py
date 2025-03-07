@@ -1,6 +1,7 @@
 # 最小化也能用，厉害
 import ctypes, win32con, win32api, win32gui
-from netAssist import time
+# from netAssist import time
+import time
 from pykeyboard import PyKeyboardEvent
 
 hwnd_title = dict()

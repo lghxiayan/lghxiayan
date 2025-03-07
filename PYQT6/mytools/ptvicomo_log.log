@@ -1,0 +1,17 @@
+2024-12-10 17:14:45 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:541 | 连接到 MYSQL 成功!
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:499 | 获取【星期几】成功:星期二
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:502 | 获取【当前时间】成功:2024-12-10 17:14:46
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:505 | 获取【当前周数】成功:49
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:372 | 获取【名称】成功:酸爽象番茄汁
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:376 | 获取【市场单价】成功:2662
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:380 | 获取【累计盈利】成功：710935
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:384 | 获取【当前可卖数量】成功：241
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:397 | 获取【成本】成功：2420
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:401 | 获取【利润率】成功：10.0%
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:410 | 获取【距离下个星期日还有多少小时】成功:102
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:428 | 获取【当前操作】成功：提取数据
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:580 | ('酸爽象番茄汁', 2662, 710935, 241, 2420, 0, '提取数据', '2024-12-10 17:14:46', 49, 0, 0)
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:583 | 数据插入成功！
+2024-12-10 17:14:46 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:584 | ------------------------------

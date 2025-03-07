@@ -1,0 +1,606 @@
+a {
+    text-decoration: None;
+}
+
+/* 首页面用户信息面板*/
+.user-card {
+    height: 270px;
+    padding: 10px;
+    /*margin-bottom: 10px;*/
+    background-color: #FFF;
+}
+
+/* 首页面事项提醒面板*/
+.remind-card {
+    height: 270px;
+    padding: 10px;
+    /*margin-bottom: 10px;*/
+    background-color: #FFF;
+}
+
+.badge {
+    background-color: #f37b1d;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/**********************************************/
+/*                             调整Bootstrap部分样式
+/**********************************************/
+/*调整导航条标题文字颜色为白色*/
+.navbar-inverse .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #ffff00;
+}
+
+.navbar-inverse .navbar-text {
+    color: #fff;
+}
+
+/*调整栅格系统间距*/
+[class*=col-md-] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+/*调整面板组件的下边距*/
+.panel {
+    margin-bottom: 10px;
+}
+
+/*调整缩略图组件的下边距*/
+.thumbnail {
+    margin-bottom: 10px;
+}
+
+/*调整小徽章背景色为橙色*/
+.badge {
+    background-color: #f37b1d;
+}
+
+/*调整标签页导航的左右边距*/
+.nav-tabs > li > a {
+    padding: 8px 10px;
+}
+
+/*调整标签页导航当前焦点的背景色*/
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #fff;
+    background-color: #337ab7;
+}
+
+/*为巨幕增加背景图片，减少下边距*/
+.jumbotron {
+    /*background: url(../images/bg.jpg) center -60px no-repeat;*/
+    background-color: transparent;
+    margin-bottom: 10px;
+    padding: 20px 0;
+}
+
+/*调整列表组下边距*/
+.list-group {
+    margin-bottom: 0px;
+}
+
+/*去掉table的下边距*/
+.table {
+    margin-bottom: 0px;
+}
+
+/*调整表单间距，与栅格系统相匹配*/
+.form-horizontal .form-group {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+/**调整tooltips样式*/
+.tooltip {
+    border-width: 0px;
+}
+
+.tooltip.in {
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.tooltip-inner {
+    max-width: 300px;
+    color: #000;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #848684;
+    line-height: 20px;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #848684;
+}
+
+/**改变对话框的默认宽度*/
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 800px;
+        margin: 30px auto;
+    }
+}
+
+/**********************************************/
+/*            解决Bootstrap部分样式与EasyUI的冲突
+/**********************************************/
+.panel-body {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.panel-header .panel-title {
+    font-size: 14px; /**修正easyUI message对话框标题字体过大的问题*/
+    height: 25px;
+    line-height: 25px;
+}
+
+/**使easyUI的文本框与Bootstrap风格保持一致*/
+.textbox {
+    color: #555;
+}
+
+.textbox .textbox-text {
+    font-size: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.textbox .textbox-prompt {
+    font-size: 14px;
+}
+
+/**使easyUI的下拉列表框与Bootstrap风格保持一致*/
+.combobox-item, .combobox-group {
+    font-size: 14px;
+}
+
+.panel-header, .panel-body {
+    border-style: none; /**避免bootstrap面板出现双线边框*/
+}
+
+.datagrid, .combo-p {
+    border: solid 1px #D4D4D4; /**为EasyUI的下拉列表和数据表格增加灰色边框*/
+}
+
+/**修正EasyUI中datagrid中checkbox列错位的问题*/
+.datagrid-header-check input, .datagrid-cell-check input {
+    height: 16px;
+}
+
+.panel-body-noheader {
+    padding: 0px; /**避免easyUI的combo出现padding*/
+}
+
+.datebox-button {
+    height: 24px; /**修正easyUI的datebox“今天、关闭”区域高度不够的问题*/
+}
+
+/**调整easyUI的tree插件部分样式*/
+.tree-node {
+    height: 22px;
+}
+
+.tree-title {
+    font-size: 14px;
+}
+
+.textbox-text-readonly {
+    background-color: #eee; /**为textbox的只读属性增加背景色*/
+}
+
+.validatebox-readonly {
+    background-color: #eee; /**为textbox的只读属性增加背景色*/
+}
+
+.textbox-text[readonly] {
+    background-color: #eee;
+}
+
+/**调整easyUI的datagrid插件部分样式*/
+.datagrid-header .datagrid-cell span {
+    font-size: 14px;
+}
+
+.datagrid-cell, .datagrid-cell-group, .datagrid-header-rownumber, .datagrid-cell-rownumber {
+    font-size: 14px;
+}
+
+.datagrid-header-row, .datagrid-row {
+    height: 30px;
+}
+
+/**调整easyUI的linkbutton插件部分样式*/
+.l-btn-text {
+    font-size: 14px;
+}
+
+/**调整easyUI的pagination插件部分样式*/
+.pagination span {
+    font-size: 14px;
+}
+
+.pagination-info {
+    font-size: 14px;
+}
+
+/**调整easyUI的window插件部分样式*/
+.window .window-body {
+    border-width: 0px;
+}
+
+.window {
+    background-color: #fff;
+    background: -webkit-linear-gradient(top, #ffffff 0, #FFF 20%);
+}
+
+.window .window-header {
+    padding: 5px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.window-header .panel-title {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.tabs-panels {
+    border-color: #ccc;
+}
+
+.tabs-title {
+    font-size: 14px;
+}
+
+/**解决easyUI的Tooltip与Bootstrap冲突的问题*/
+.tooltip {
+    position: absolute;
+    display: none;
+    z-index: 9900000;
+    outline: none;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.tooltip-content {
+    font-size: 14px;
+}
+
+/**解决easyUI的datagrid带title时表格与边框有间距的问题*/
+.datagrid-wrap {
+    padding: 0px;
+}
+
+/**解决message对话框太高的问题*/
+.messager-body {
+    padding: 10px;
+    overflow: auto;
+    max-height: 300px;
+}
+
+/**去除1.5.3版本messager按钮区域的背景*/
+.dialog-button {
+    background: #FFF;
+    border: none;
+}
+
+/**********************************************/
+/*                             用户样式
+/**********************************************/
+/*导航条顶部固定*/
+body {
+    font-family: "Segoe UI", "Lucida Grande", "Microsoft YaHei", Helvetica, Arial, FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+    color: #333;
+    padding-top: 60px;
+    background: url(images/bg.jpg) center 0 no-repeat;
+    background-color: #eeedeb;
+    background-attachment: fixed;
+}
+
+/**含有浮动元素的父元素，指定该样式可以在最后清除浮动*/
+.clear-float:after {
+    clear: both;
+    visibility: hidden;
+    display: block;
+    height: 0;
+    content: ".";
+}
+
+/*版权信息*/
+.c-bottom {
+    background-color: #ccc;
+}
+
+.c-bottom p {
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*登录页面头部*/
+.login-header {
+    background: url(../images/menuBg.jpg) top repeat-x;
+    height: 87px;
+    border: 1px solid #518dbe;
+}
+
+/* 首页面机构部门导航面板*/
+.c-index-panel-nav {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+    height: auto;
+}
+
+/* 首页面最新动态部门列表*/
+.c-index-nav-dept-list {
+    padding: 10px;
+    margin-bottom: 0px;
+    height: auto;
+}
+
+.c-index-nav-dept-list li {
+    display: inline-block;
+}
+
+.c-index-nav-dept-list li .active {
+    color: #fff;
+    background-color: #337ab7;
+    border-radius: 3px;
+}
+
+.c-index-nav-link {
+    display: block;
+    padding: 5px;
+    float: left;
+    color: #000;
+    text-decoration: none;
+}
+
+.c-index-nav-link:after {
+    clear: both;
+}
+
+.c-index-nav-link:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+/* 首页面用户信息面板*/
+.c-index-panel-user {
+    height: 260px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+}
+
+/* 用户所属税务部门名称*/
+#p-swjg-mc {
+    width: 90%;
+    padding-left: 5%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* 首页面事项提醒面板*/
+.c-index-panel-remind {
+    height: 240px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+}
+
+/* 文章列表 */
+.c-article-list li {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px #ccc dashed;
+}
+
+/* 文章标题 */
+.c-article-title {
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.c-article-list a {
+    color: #333;
+}
+
+.c-article-list a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+/*用于分隔的标题*/
+.c-split-title {
+    border-left: 5px solid #ce4844;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-radius: 3px;
+    color: #ce4844;
+    background-color: #fff;
+    margin-top: 0px;
+    padding: 15px;
+}
+
+/*通知、邮件列表*/
+.c-mail-table td {
+    white-space: nowrap;
+}
+
+/*通知、邮件相关的图标样式*/
+.c-mail {
+    width: 18px;
+    height: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    float: left;
+}
+
+.c-mail-unread {
+    background: url(../images/mail.png) 0 0 no-repeat;
+}
+
+.c-mail-read {
+    background: url(../images/mail.png) 0 -16px no-repeat;
+}
+
+.c-mail-unfeedback {
+    background: url(../images/mail.png) 0 -48px no-repeat;
+}
+
+.c-mail-feedback {
+    background: url(../images/mail.png) 0 -32px no-repeat;
+}
+
+/*通知、邮件标题*/
+.c-mail-title {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/*用户选择对话框，组件框*/
+.c-user-select-div {
+    height: 400px;
+    overflow: auto;
+    padding: 15px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+/*用户选择对话框，机构、归口、通讯组下拉列表*/
+.c-user-select-combox {
+    margin-bottom: 5px;
+}
+
+/*用户选择对话框，分组标题*/
+.c-user-select-group-title {
+    font-weight: bold;
+    padding: 5px;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+/*用户选择对话框，用户列表*/
+.c-user-select-list {
+    width: 100px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*已经被选择了的用户*/
+.c-user-selected {
+    background-color: #ddd;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    width: 170px;
+    height: 29px;
+    overflow: hidden;
+    float: left;
+    border-radius: 5px;
+}
+
+/*显示通知页面 - 通知的副标题*/
+.c-notify-subtitle {
+    padding: 10px;
+}
+
+/**黑色无下划线链接*/
+.link_black {
+    font-size: 14px;
+    color: #000000;
+}
+
+a.link_black:link {
+    color: #000000;
+}
+
+a.link_black:visited {
+    color: #000000;
+}
+
+a.link_black:hover {
+    color: #cc0000;
+    TEXT-DECORATION: underline;
+}
+
+a.link_black:active {
+    color: #000000;
+}
+
+/*任务管理*/
+.row-btn-group {
+    padding: 10px;
+}
+
+/*竖列显示文字 */
+.shuli {
+    left: 30px;
+    top: 80px;
+    width: 10px;
+}
+
+/*设备管理 - 面板 */
+.c_sbgl_panel {
+    height: 400px;
+}
+
+/*设备管理 - 我的设备图标*/
+.sbgl-sbtb {
+    width: 100%;
+}
+
+/*我的设备 - 设备卡片文字信息*/
+.sbkp-text p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/*设备卡片 - 设备型号*/
+.sbkp-sbxh {
+    width: 100%;
+    font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}

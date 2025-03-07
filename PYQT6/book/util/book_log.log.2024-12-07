@@ -1,0 +1,122 @@
+2024-12-07 11:50:25 | book_log     | INFO     | dbUtil.py:22 | 连接到 MYSQL 成功!
+2024-12-07 11:50:25 | book_log     | INFO     | dbUtil.py:46 | 查询数据开始
+2024-12-07 11:50:25 | book_log     | INFO     | dbUtil.py:51 | [1, 'xiayan', '1234']
+2024-12-07 12:54:45 | book_log     | INFO     | dbUtil.py:22 | 连接到 MYSQL 成功!
+2024-12-07 12:54:45 | book_log     | INFO     | dbUtil.py:38 | 查询数据开始
+2024-12-07 12:54:45 | book_log     | INFO     | dbUtil.py:43 | [1, 'xiayan', '1234']
+2024-12-07 12:55:26 | book_log     | INFO     | dbUtil.py:22 | 连接到 MYSQL 成功!
+2024-12-07 12:55:26 | book_log     | INFO     | dbUtil.py:38 | 查询数据开始
+2024-12-07 12:55:26 | book_log     | INFO     | dbUtil.py:43 | [1, 'xiayan', '1234']
+2024-12-07 12:55:26 | book_log     | INFO     | dbUtil.py:44 | 查询数据结束！
+2024-12-07 12:56:01 | book_log     | INFO     | dbUtil.py:22 | 连接到 MYSQL 成功!
+2024-12-07 12:56:01 | book_log     | INFO     | dbUtil.py:38 | 查询数据开始！表名：t_user
+2024-12-07 12:56:01 | book_log     | INFO     | dbUtil.py:43 | [1, 'xiayan', '1234']
+2024-12-07 12:56:01 | book_log     | INFO     | dbUtil.py:44 | 查询数据结束！
+2024-12-07 16:18:16 | book_log     | INFO     | dbUtil.py:22 | 连接到 MYSQL 成功!
+2024-12-07 16:18:16 | book_log     | INFO     | dbUtil.py:38 | 查询数据开始！表名：t_user
+2024-12-07 16:18:16 | book_log     | INFO     | dbUtil.py:43 | [1, 'xiayan', '1234']
+2024-12-07 16:18:16 | book_log     | INFO     | dbUtil.py:44 | 查询数据结束！
+2024-12-07 16:19:32 | book_log     | INFO     | dbUtil.py:22 | 连接到 MYSQL 成功!
+2024-12-07 16:19:32 | book_log     | INFO     | dbUtil.py:38 | 查询数据开始！表名：t_user
+2024-12-07 16:19:32 | book_log     | INFO     | dbUtil.py:43 | [1, 'xiayan', '1234']
+2024-12-07 16:19:32 | book_log     | INFO     | dbUtil.py:44 | 查询数据结束！
+2024-12-07 16:30:16 | book_log     | INFO     | dbUtil.py:26 | 连接到 MYSQL 成功!
+2024-12-07 16:30:16 | book_log     | INFO     | dbUtil.py:42 | 查询数据开始！表名：t_user
+2024-12-07 16:30:16 | book_log     | INFO     | dbUtil.py:47 | [1, 'xiayan', '1234']
+2024-12-07 16:30:16 | book_log     | INFO     | dbUtil.py:48 | 查询数据结束！
+2024-12-07 16:30:56 | book_log     | INFO     | dbUtil.py:26 | 连接到 MYSQL 成功!
+2024-12-07 16:30:56 | book_log     | INFO     | dbUtil.py:42 | 查询数据开始！表名：t_user
+2024-12-07 16:30:56 | book_log     | INFO     | dbUtil.py:47 | [1, 'xiayan', '1234']
+2024-12-07 16:30:56 | book_log     | INFO     | dbUtil.py:48 | 查询数据结束！
+2024-12-07 16:35:42 | book_log     | INFO     | dbUtil.py:26 | 连接到 MYSQL 成功!
+2024-12-07 16:35:42 | book_log     | INFO     | dbUtil.py:42 | 查询数据开始！表名：t_user
+2024-12-07 16:35:42 | book_log     | INFO     | dbUtil.py:47 | [1, 'xiayan', '1234']
+2024-12-07 16:35:42 | book_log     | INFO     | dbUtil.py:48 | 查询数据结束！
+2024-12-07 16:37:36 | book_log     | INFO     | dbUtil.py:23 | 连接到 MYSQL 成功!
+2024-12-07 16:37:36 | book_log     | INFO     | dbUtil.py:39 | 查询数据开始！表名：t_user
+2024-12-07 16:37:36 | book_log     | INFO     | dbUtil.py:44 | [1, 'xiayan', '1234']
+2024-12-07 16:37:36 | book_log     | INFO     | dbUtil.py:45 | 查询数据结束！
+2024-12-07 16:38:58 | book_log     | INFO     | dbUtil.py:36 | 连接到 MYSQL 成功!
+2024-12-07 16:38:58 | book_log     | INFO     | dbUtil.py:52 | 查询数据开始！表名：t_user
+2024-12-07 16:38:58 | book_log     | INFO     | dbUtil.py:57 | [1, 'xiayan', '1234']
+2024-12-07 16:38:58 | book_log     | INFO     | dbUtil.py:58 | 查询数据结束！
+2024-12-07 16:40:08 | book_log     | INFO     | dbUtil.py:36 | 连接到 MYSQL 成功!
+2024-12-07 16:40:08 | book_log     | INFO     | dbUtil.py:52 | 查询数据开始！表名：t_user
+2024-12-07 16:40:08 | book_log     | INFO     | dbUtil.py:57 | [1, 'xiayan', '1234']
+2024-12-07 16:40:08 | book_log     | INFO     | dbUtil.py:58 | 查询数据结束！
+2024-12-07 16:42:38 | book_log     | INFO     | dbUtil.py:36 | 连接到 MYSQL 成功!
+2024-12-07 16:42:38 | book_log     | INFO     | dbUtil.py:52 | 查询数据开始！表名：t_user
+2024-12-07 16:42:38 | book_log     | INFO     | dbUtil.py:57 | [1, 'xiayan', '1234']
+2024-12-07 16:42:38 | book_log     | INFO     | dbUtil.py:58 | 查询数据结束！
+2024-12-07 16:43:19 | book_log     | INFO     | dbUtil.py:36 | 连接到 MYSQL 成功!
+2024-12-07 16:43:19 | book_log     | INFO     | dbUtil.py:52 | 查询数据开始！表名：t_user
+2024-12-07 16:43:19 | book_log     | INFO     | dbUtil.py:57 | [1, 'xiayan', '1234']
+2024-12-07 16:43:19 | book_log     | INFO     | dbUtil.py:58 | 查询数据结束！
+2024-12-07 16:44:14 | book_log     | INFO     | dbUtil.py:25 | 连接到 MYSQL 成功!
+2024-12-07 16:44:14 | book_log     | INFO     | dbUtil.py:41 | 查询数据开始！表名：t_user
+2024-12-07 16:44:14 | book_log     | INFO     | dbUtil.py:46 | [1, 'xiayan', '1234']
+2024-12-07 16:44:14 | book_log     | INFO     | dbUtil.py:47 | 查询数据结束！
+2024-12-07 16:53:43 | book_log     | INFO     | dbUtil.py:28 | 连接到 MYSQL 成功!
+2024-12-07 16:53:43 | book_log     | INFO     | dbUtil.py:44 | 查询数据开始！表名：t_user
+2024-12-07 16:53:43 | book_log     | INFO     | dbUtil.py:49 | [1, 'xiayan', '1234']
+2024-12-07 16:53:43 | book_log     | INFO     | dbUtil.py:50 | 查询数据结束！
+2024-12-07 16:56:37 | book_log     | INFO     | dbUtil.py:28 | 连接到 MYSQL 成功!
+2024-12-07 16:56:37 | book_log     | INFO     | dbUtil.py:44 | 查询数据开始！表名：t_user
+2024-12-07 16:56:37 | book_log     | INFO     | dbUtil.py:49 | [1, 'xiayan', '1234']
+2024-12-07 16:56:37 | book_log     | INFO     | dbUtil.py:50 | 查询数据结束！
+2024-12-07 17:04:11 | book_log     | INFO     | dbUtil.py:28 | 连接到 MYSQL 成功!
+2024-12-07 17:04:11 | book_log     | INFO     | dbUtil.py:44 | 查询数据开始！表名：t_user
+2024-12-07 17:04:11 | book_log     | INFO     | dbUtil.py:49 | [1, 'xiayan', '1234']
+2024-12-07 17:04:11 | book_log     | INFO     | dbUtil.py:50 | 查询数据结束！
+2024-12-07 17:04:51 | book_log     | INFO     | dbUtil.py:28 | 连接到 MYSQL 成功!
+2024-12-07 17:04:51 | book_log     | INFO     | dbUtil.py:44 | 查询数据开始！表名：t_user
+2024-12-07 17:04:51 | book_log     | INFO     | dbUtil.py:49 | [1, 'xiayan', '1234']
+2024-12-07 17:04:51 | book_log     | INFO     | dbUtil.py:50 | 查询数据结束！
+2024-12-07 17:05:21 | book_log     | INFO     | dbUtil.py:28 | 连接到 MYSQL 成功!
+2024-12-07 17:05:21 | book_log     | INFO     | dbUtil.py:44 | 查询数据开始！表名：t_user
+2024-12-07 17:05:21 | book_log     | INFO     | dbUtil.py:49 | [1, 'xiayan', '1234']
+2024-12-07 17:05:21 | book_log     | INFO     | dbUtil.py:50 | 查询数据结束！
+2024-12-07 17:06:23 | book_log     | INFO     | dbUtil.py:29 | 连接到 MYSQL 成功!
+2024-12-07 17:06:23 | book_log     | INFO     | dbUtil.py:45 | 查询数据开始！表名：t_user
+2024-12-07 17:06:23 | book_log     | INFO     | dbUtil.py:50 | [1, 'xiayan', '1234']
+2024-12-07 17:06:23 | book_log     | INFO     | dbUtil.py:51 | 查询数据结束！
+2024-12-07 17:06:51 | book_log     | INFO     | dbUtil.py:29 | 连接到 MYSQL 成功!
+2024-12-07 17:06:51 | book_log     | INFO     | dbUtil.py:45 | 查询数据开始！表名：t_user
+2024-12-07 17:06:51 | book_log     | INFO     | dbUtil.py:50 | [1, 'xiayan', '1234']
+2024-12-07 17:06:51 | book_log     | INFO     | dbUtil.py:51 | 查询数据结束！
+2024-12-07 17:07:16 | book_log     | INFO     | dbUtil.py:29 | 连接到 MYSQL 成功!
+2024-12-07 17:07:16 | book_log     | INFO     | dbUtil.py:45 | 查询数据开始！表名：t_user
+2024-12-07 17:07:16 | book_log     | INFO     | dbUtil.py:50 | [1, 'xiayan', '1234']
+2024-12-07 17:07:16 | book_log     | INFO     | dbUtil.py:51 | 查询数据结束！
+2024-12-07 17:07:36 | book_log     | INFO     | dbUtil.py:29 | 连接到 MYSQL 成功!
+2024-12-07 17:07:36 | book_log     | INFO     | dbUtil.py:45 | 查询数据开始！表名：t_user
+2024-12-07 17:07:36 | book_log     | INFO     | dbUtil.py:50 | [1, 'xiayan', '1234']
+2024-12-07 17:07:36 | book_log     | INFO     | dbUtil.py:51 | 查询数据结束！
+2024-12-07 17:13:29 | book_log     | INFO     | dbUtil.py:29 | 连接到 MYSQL 成功!
+2024-12-07 17:13:29 | book_log     | INFO     | dbUtil.py:45 | 查询数据开始！表名：t_user
+2024-12-07 17:13:29 | book_log     | INFO     | dbUtil.py:50 | [1, 'xiayan', '1234']
+2024-12-07 17:13:29 | book_log     | INFO     | dbUtil.py:51 | 查询数据结束！
+2024-12-07 17:17:13 | book_log     | INFO     | dbUtil.py:38 | 连接到 MYSQL 成功!
+2024-12-07 17:17:13 | book_log     | INFO     | dbUtil.py:54 | 查询数据开始！表名：t_user
+2024-12-07 17:17:13 | book_log     | INFO     | dbUtil.py:59 | [1, 'xiayan', '1234']
+2024-12-07 17:17:13 | book_log     | INFO     | dbUtil.py:60 | 查询数据结束！
+2024-12-07 17:18:26 | book_log     | INFO     | dbUtil.py:38 | 连接到 MYSQL 成功!
+2024-12-07 17:18:26 | book_log     | INFO     | dbUtil.py:54 | 查询数据开始！表名：t_user
+2024-12-07 17:18:26 | book_log     | INFO     | dbUtil.py:59 | [1, 'xiayan', '1234']
+2024-12-07 17:18:26 | book_log     | INFO     | dbUtil.py:60 | 查询数据结束！
+2024-12-07 17:19:25 | book_log     | INFO     | dbUtil.py:38 | 连接到 MYSQL 成功!
+2024-12-07 17:19:25 | book_log     | INFO     | dbUtil.py:54 | 查询数据开始！表名：t_user
+2024-12-07 17:19:25 | book_log     | INFO     | dbUtil.py:59 | [1, 'xiayan', '1234']
+2024-12-07 17:19:25 | book_log     | INFO     | dbUtil.py:60 | 查询数据结束！
+2024-12-07 17:22:01 | book_log     | INFO     | dbUtil.py:38 | 连接到 MYSQL 成功!
+2024-12-07 17:22:01 | book_log     | INFO     | dbUtil.py:54 | 查询数据开始！表名：t_user
+2024-12-07 17:22:01 | book_log     | INFO     | dbUtil.py:59 | [1, 'xiayan', '1234']
+2024-12-07 17:22:01 | book_log     | INFO     | dbUtil.py:60 | 查询数据结束！
+2024-12-07 17:22:22 | book_log     | INFO     | dbUtil.py:38 | 连接到 MYSQL 成功!
+2024-12-07 17:22:22 | book_log     | INFO     | dbUtil.py:54 | 查询数据开始！表名：t_user
+2024-12-07 17:22:22 | book_log     | INFO     | dbUtil.py:59 | [1, 'xiayan', '1234']
+2024-12-07 17:22:22 | book_log     | INFO     | dbUtil.py:60 | 查询数据结束！
+2024-12-07 17:23:32 | book_log     | INFO     | dbUtil.py:38 | 连接到 MYSQL 成功!
+2024-12-07 17:23:32 | book_log     | INFO     | dbUtil.py:54 | 查询数据开始！表名：t_user
+2024-12-07 17:23:32 | book_log     | INFO     | dbUtil.py:59 | [1, 'xiayan', '1234']
+2024-12-07 17:23:32 | book_log     | INFO     | dbUtil.py:60 | 查询数据结束！

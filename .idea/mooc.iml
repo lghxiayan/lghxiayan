@@ -5,7 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/requests/img" />
       <excludeFolder url="file://$MODULE_DIR$/requests/video" />
     </content>
-    <orderEntry type="jdk" jdkName="crypto" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7 (wowjump)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

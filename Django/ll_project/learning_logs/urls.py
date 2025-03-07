@@ -6,6 +6,7 @@ app_name = 'learning_logs'
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('index1/', views.index1, name='index1'),
     path('topics/', views.topics, name='topics'),
     path('topics/<int:topic_id>', views.topic, name='topic'),
     path('new_topic/', views.new_topic, name='new_topic'),

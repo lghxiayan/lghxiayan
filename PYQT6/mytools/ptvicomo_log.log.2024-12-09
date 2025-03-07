@@ -1,0 +1,243 @@
+2024-12-09 08:06:34 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:527 | 连接到 MYSQL 成功!
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:485 | 获取【星期几】成功:星期一
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:488 | 获取【当前时间】成功:2024-12-09 08:06:35
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:491 | 获取【当前周数】成功:49
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【名称】成功:酸爽象番茄汁
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:364 | 获取【市场单价】成功:2178
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:368 | 获取【累计盈利】成功：710935
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:372 | 获取【当前可卖数量】成功：241
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:385 | 获取【成本】成功：2420
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:389 | 获取【利润率】成功：-10.0%
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:398 | 获取【距离下个星期日还有多少小时】成功:135
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:416 | 获取【当前操作】成功：提取数据
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:566 | ('酸爽象番茄汁', 2178, 710935, 241, 2420, 0, '提取数据', '2024-12-09 08:06:35', 49, 0, 0)
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:569 | 数据插入成功！
+2024-12-09 08:06:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:570 | ------------------------------
+2024-12-09 08:39:28 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 08:39:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:527 | 连接到 MYSQL 成功!
+2024-12-09 08:39:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:485 | 获取【星期几】成功:星期一
+2024-12-09 08:39:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:488 | 获取【当前时间】成功:2024-12-09 08:39:28
+2024-12-09 08:39:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:491 | 获取【当前周数】成功:49
+2024-12-09 08:39:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【名称】成功:酸爽象番茄汁
+2024-12-09 08:39:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:364 | 获取【市场单价】成功:2178
+2024-12-09 08:39:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:368 | 获取【累计盈利】成功：710935
+2024-12-09 08:39:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:372 | 获取【当前可卖数量】成功：241
+2024-12-09 08:39:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:385 | 获取【成本】成功：2420
+2024-12-09 08:39:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:389 | 获取【利润率】成功：-10.0%
+2024-12-09 08:39:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:398 | 获取【距离下个星期日还有多少小时】成功:135
+2024-12-09 08:39:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:416 | 获取【当前操作】成功：提取数据
+2024-12-09 08:39:28 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:566 | ('酸爽象番茄汁', 2178, 710935, 241, 2420, 0, '提取数据', '2024-12-09 08:39:28', 49, 0, 0)
+2024-12-09 08:39:29 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:569 | 数据插入成功！
+2024-12-09 08:39:29 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:570 | ------------------------------
+2024-12-09 08:40:03 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:108 | Error occurred while opening the website: HTTPConnectionPool(host='localhost', port=3788): Max retries exceeded with url: /session/b294eaec9aba3f1d70fc87d9cfe1f227/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000235829E8C50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:40:19 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:614 | 初始化浏览器或设置Cookie失败: HTTPConnectionPool(host='localhost', port=3788): Max retries exceeded with url: /session/b294eaec9aba3f1d70fc87d9cfe1f227/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000235829E8C10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:40:53 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:108 | Error occurred while opening the website: HTTPConnectionPool(host='localhost', port=3788): Max retries exceeded with url: /session/b294eaec9aba3f1d70fc87d9cfe1f227/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000235829E9E10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:41:10 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:614 | 初始化浏览器或设置Cookie失败: HTTPConnectionPool(host='localhost', port=3788): Max retries exceeded with url: /session/b294eaec9aba3f1d70fc87d9cfe1f227/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000235829ECA50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:42:46 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 08:42:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:527 | 连接到 MYSQL 成功!
+2024-12-09 08:42:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:485 | 获取【星期几】成功:星期一
+2024-12-09 08:42:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:488 | 获取【当前时间】成功:2024-12-09 08:42:47
+2024-12-09 08:42:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:491 | 获取【当前周数】成功:49
+2024-12-09 08:42:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【名称】成功:酸爽象番茄汁
+2024-12-09 08:42:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:364 | 获取【市场单价】成功:2178
+2024-12-09 08:42:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:368 | 获取【累计盈利】成功：710935
+2024-12-09 08:42:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:372 | 获取【当前可卖数量】成功：241
+2024-12-09 08:42:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:385 | 获取【成本】成功：2420
+2024-12-09 08:42:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:389 | 获取【利润率】成功：-10.0%
+2024-12-09 08:42:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:398 | 获取【距离下个星期日还有多少小时】成功:135
+2024-12-09 08:42:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:416 | 获取【当前操作】成功：提取数据
+2024-12-09 08:42:47 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:566 | ('酸爽象番茄汁', 2178, 710935, 241, 2420, 0, '提取数据', '2024-12-09 08:42:47', 49, 0, 0)
+2024-12-09 08:42:48 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:569 | 数据插入成功！
+2024-12-09 08:42:48 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:570 | ------------------------------
+2024-12-09 08:43:19 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:108 | Error occurred while opening the website: HTTPConnectionPool(host='localhost', port=4799): Max retries exceeded with url: /session/28f73beef367a2aa9fde50d5a69e2b67/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023460A786D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:43:35 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:614 | 初始化浏览器或设置Cookie失败: HTTPConnectionPool(host='localhost', port=4799): Max retries exceeded with url: /session/28f73beef367a2aa9fde50d5a69e2b67/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023460A78750>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:48:25 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:527 | 连接到 MYSQL 成功!
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:485 | 获取【星期几】成功:星期一
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:488 | 获取【当前时间】成功:2024-12-09 08:48:26
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:491 | 获取【当前周数】成功:49
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【名称】成功:酸爽象番茄汁
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:364 | 获取【市场单价】成功:2178
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:368 | 获取【累计盈利】成功：710935
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:372 | 获取【当前可卖数量】成功：241
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:385 | 获取【成本】成功：2420
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:389 | 获取【利润率】成功：-10.0%
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:398 | 获取【距离下个星期日还有多少小时】成功:135
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:416 | 获取【当前操作】成功：提取数据
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:566 | ('酸爽象番茄汁', 2178, 710935, 241, 2420, 0, '提取数据', '2024-12-09 08:48:26', 49, 0, 0)
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:569 | 数据插入成功！
+2024-12-09 08:48:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:570 | ------------------------------
+2024-12-09 08:48:58 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:108 | Error occurred while opening the website: HTTPConnectionPool(host='localhost', port=6221): Max retries exceeded with url: /session/59f037976b5b19125cafb4ae9685ad7b/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000239CD188350>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:49:14 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:614 | 初始化浏览器或设置Cookie失败: HTTPConnectionPool(host='localhost', port=6221): Max retries exceeded with url: /session/59f037976b5b19125cafb4ae9685ad7b/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000239CD1887D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:50:01 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:108 | Error occurred while opening the website: HTTPConnectionPool(host='localhost', port=6221): Max retries exceeded with url: /session/59f037976b5b19125cafb4ae9685ad7b/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000239CD189E90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:50:17 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:614 | 初始化浏览器或设置Cookie失败: HTTPConnectionPool(host='localhost', port=6221): Max retries exceeded with url: /session/59f037976b5b19125cafb4ae9685ad7b/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000239CD18C050>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:51:21 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:108 | Error occurred while opening the website: HTTPConnectionPool(host='localhost', port=6221): Max retries exceeded with url: /session/59f037976b5b19125cafb4ae9685ad7b/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000239CD1958D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:51:38 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:614 | 初始化浏览器或设置Cookie失败: HTTPConnectionPool(host='localhost', port=6221): Max retries exceeded with url: /session/59f037976b5b19125cafb4ae9685ad7b/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000239CD19A7D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:52:02 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 08:52:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:527 | 连接到 MYSQL 成功!
+2024-12-09 08:52:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:485 | 获取【星期几】成功:星期一
+2024-12-09 08:52:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:488 | 获取【当前时间】成功:2024-12-09 08:52:02
+2024-12-09 08:52:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:491 | 获取【当前周数】成功:49
+2024-12-09 08:52:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【名称】成功:酸爽象番茄汁
+2024-12-09 08:52:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:364 | 获取【市场单价】成功:2178
+2024-12-09 08:52:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:368 | 获取【累计盈利】成功：710935
+2024-12-09 08:52:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:372 | 获取【当前可卖数量】成功：241
+2024-12-09 08:52:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:385 | 获取【成本】成功：2420
+2024-12-09 08:52:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:389 | 获取【利润率】成功：-10.0%
+2024-12-09 08:52:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:398 | 获取【距离下个星期日还有多少小时】成功:135
+2024-12-09 08:52:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:416 | 获取【当前操作】成功：提取数据
+2024-12-09 08:52:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:566 | ('酸爽象番茄汁', 2178, 710935, 241, 2420, 0, '提取数据', '2024-12-09 08:52:02', 49, 0, 0)
+2024-12-09 08:52:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:569 | 数据插入成功！
+2024-12-09 08:52:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:570 | ------------------------------
+2024-12-09 08:52:35 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:108 | Error occurred while opening the website: HTTPConnectionPool(host='localhost', port=7222): Max retries exceeded with url: /session/3d2edfd498520a273d56d9d438d00380/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AB2F188650>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:52:51 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:614 | 初始化浏览器或设置Cookie失败: HTTPConnectionPool(host='localhost', port=7222): Max retries exceeded with url: /session/3d2edfd498520a273d56d9d438d00380/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AB2F188790>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:54:43 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:527 | 连接到 MYSQL 成功!
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:485 | 获取【星期几】成功:星期一
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:488 | 获取【当前时间】成功:2024-12-09 08:54:44
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:491 | 获取【当前周数】成功:49
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:360 | 获取【名称】成功:酸爽象番茄汁
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:364 | 获取【市场单价】成功:2178
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:368 | 获取【累计盈利】成功：710935
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:372 | 获取【当前可卖数量】成功：241
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:385 | 获取【成本】成功：2420
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:389 | 获取【利润率】成功：-10.0%
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:398 | 获取【距离下个星期日还有多少小时】成功:135
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:416 | 获取【当前操作】成功：提取数据
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:566 | ('酸爽象番茄汁', 2178, 710935, 241, 2420, 0, '提取数据', '2024-12-09 08:54:44', 49, 0, 0)
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:569 | 数据插入成功！
+2024-12-09 08:54:44 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:570 | ------------------------------
+2024-12-09 08:55:16 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:108 | Error occurred while opening the website: HTTPConnectionPool(host='localhost', port=9515): Max retries exceeded with url: /session/4ca9f64570124e8629226a6647e73f4c/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024D4E909390>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 08:55:32 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:614 | 初始化浏览器或设置Cookie失败: HTTPConnectionPool(host='localhost', port=9515): Max retries exceeded with url: /session/4ca9f64570124e8629226a6647e73f4c/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024D4E908110>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-12-09 12:23:18 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:23:24 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:23:24 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:622 | 浏览器初始化完成
+2024-12-09 12:23:24 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:23:29 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:23:29 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:23:38 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:538 | 连接到 MYSQL 成功!
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:496 | 获取【星期几】成功:星期一
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:499 | 获取【当前时间】成功:2024-12-09 12:23:39
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:502 | 获取【当前周数】成功:49
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:372 | 获取【名称】成功:酸爽象番茄汁
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:376 | 获取【市场单价】成功:1802
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:380 | 获取【累计盈利】成功：710935
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:384 | 获取【当前可卖数量】成功：241
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:397 | 获取【成本】成功：2420
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:401 | 获取【利润率】成功：-25.54%
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:410 | 获取【距离下个星期日还有多少小时】成功:131
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:428 | 获取【当前操作】成功：提取数据
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:577 | ('酸爽象番茄汁', 1802, 710935, 241, 2420, 0, '提取数据', '2024-12-09 12:23:39', 49, 0, 0)
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:580 | 数据插入成功！
+2024-12-09 12:23:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:581 | ------------------------------
+2024-12-09 12:23:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:23:59 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:23:59 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:622 | 浏览器初始化完成
+2024-12-09 12:23:59 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:24:02 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:24:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:24:05 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:538 | 连接到 MYSQL 成功!
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:496 | 获取【星期几】成功:星期一
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:499 | 获取【当前时间】成功:2024-12-09 12:24:06
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:502 | 获取【当前周数】成功:49
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:372 | 获取【名称】成功:酸爽象番茄汁
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:376 | 获取【市场单价】成功:1802
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:380 | 获取【累计盈利】成功：710935
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:384 | 获取【当前可卖数量】成功：241
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:397 | 获取【成本】成功：2420
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:401 | 获取【利润率】成功：-25.54%
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:410 | 获取【距离下个星期日还有多少小时】成功:131
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:428 | 获取【当前操作】成功：提取数据
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:577 | ('酸爽象番茄汁', 1802, 710935, 241, 2420, 0, '提取数据', '2024-12-09 12:24:06', 49, 0, 0)
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:580 | 数据插入成功！
+2024-12-09 12:24:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:581 | ------------------------------
+2024-12-09 12:24:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:24:26 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:24:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:622 | 浏览器初始化完成
+2024-12-09 12:24:26 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:24:29 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:24:29 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:24:33 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:538 | 连接到 MYSQL 成功!
+2024-12-09 12:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:496 | 获取【星期几】成功:星期一
+2024-12-09 12:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:499 | 获取【当前时间】成功:2024-12-09 12:24:33
+2024-12-09 12:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:502 | 获取【当前周数】成功:49
+2024-12-09 12:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:372 | 获取【名称】成功:酸爽象番茄汁
+2024-12-09 12:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:376 | 获取【市场单价】成功:1802
+2024-12-09 12:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:380 | 获取【累计盈利】成功：710935
+2024-12-09 12:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:384 | 获取【当前可卖数量】成功：241
+2024-12-09 12:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:397 | 获取【成本】成功：2420
+2024-12-09 12:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:401 | 获取【利润率】成功：-25.54%
+2024-12-09 12:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:410 | 获取【距离下个星期日还有多少小时】成功:131
+2024-12-09 12:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:428 | 获取【当前操作】成功：提取数据
+2024-12-09 12:24:33 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:577 | ('酸爽象番茄汁', 1802, 710935, 241, 2420, 0, '提取数据', '2024-12-09 12:24:33', 49, 0, 0)
+2024-12-09 12:24:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:580 | 数据插入成功！
+2024-12-09 12:24:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:581 | ------------------------------
+2024-12-09 12:24:48 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:24:55 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:24:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:622 | 浏览器初始化完成
+2024-12-09 12:24:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:24:58 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:24:58 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:25:01 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:538 | 连接到 MYSQL 成功!
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:496 | 获取【星期几】成功:星期一
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:499 | 获取【当前时间】成功:2024-12-09 12:25:02
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:502 | 获取【当前周数】成功:49
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:372 | 获取【名称】成功:酸爽象番茄汁
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:376 | 获取【市场单价】成功:1802
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:380 | 获取【累计盈利】成功：710935
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:384 | 获取【当前可卖数量】成功：241
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:397 | 获取【成本】成功：2420
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:401 | 获取【利润率】成功：-25.54%
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:410 | 获取【距离下个星期日还有多少小时】成功:131
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:428 | 获取【当前操作】成功：提取数据
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:577 | ('酸爽象番茄汁', 1802, 710935, 241, 2420, 0, '提取数据', '2024-12-09 12:25:02', 49, 0, 0)
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:580 | 数据插入成功！
+2024-12-09 12:25:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:581 | ------------------------------
+2024-12-09 12:25:17 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:25:21 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:25:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:622 | 浏览器初始化完成
+2024-12-09 12:25:21 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:25:24 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:25:24 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:81 | 开始初始化浏览器
+2024-12-09 12:25:30 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_05.py:108 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:538 | 连接到 MYSQL 成功!
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:496 | 获取【星期几】成功:星期一
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:499 | 获取【当前时间】成功:2024-12-09 12:25:31
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:502 | 获取【当前周数】成功:49
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:372 | 获取【名称】成功:酸爽象番茄汁
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:376 | 获取【市场单价】成功:1802
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:380 | 获取【累计盈利】成功：710935
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:384 | 获取【当前可卖数量】成功：241
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:397 | 获取【成本】成功：2420
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:401 | 获取【利润率】成功：-25.54%
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:410 | 获取【距离下个星期日还有多少小时】成功:131
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:428 | 获取【当前操作】成功：提取数据
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:577 | ('酸爽象番茄汁', 1802, 710935, 241, 2420, 0, '提取数据', '2024-12-09 12:25:31', 49, 0, 0)
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:580 | 数据插入成功！
+2024-12-09 12:25:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_05.py:581 | ------------------------------

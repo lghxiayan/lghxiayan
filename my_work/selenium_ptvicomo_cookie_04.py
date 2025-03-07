@@ -7,7 +7,22 @@
 5. 在买入或卖出后，会刷新页面。再次采集页面元素，用以判断其它数据，例如这次买了多少，卖了多少，该次操作盈利多少，
 6. 将数据写入MySQL数据库。
 7. 完成后关闭浏览器。
+
+
+改进：
+还是要做web界面。里面一定在有这两个按钮：立即卖出，立即买入。或者一个按钮【立即执行】
+碰到过好几次cookie失效，只要重新运行本程序（需要关闭无头模式才行）进行登录，会自动更新cookie。登录完成后就可以继续启用无头模式了。
+
+这里可以改进为：
+一种是：直接使用用户名密码登录，但要进行验证码认证，这个涉及到图形识别模块。（这种方式更好）。AI回答说频繁登录并不是一个好主意。每天登录只登录一次？
+另一种是：先用cookie登录，如果提示“无法取得数据”，则提示【手工登录】。
+
+还有一个就是：检测数据库记录，每1个小时检测一次，是否有本周期的数据。没有的话，则采集数据。
+
+
+现在象岛首页增加了蔬菜的走势图，应该可以通过selenium来抓取。
 """
+
 import json
 import logging.config
 import re
@@ -26,7 +41,7 @@ from mysql.connector import connect, Error
 
 # 导入配置文件常量
 from config_ptvicomo_04 import CHROME_DRIVER_PATH, DB_CONFIG, WEB_COOKIE, WEBSITE_URL, WAIT_TIMEOUT, TABLE_NAME, \
-    CURRENT_ACTION, SALE_NUMBER, BUY_NUMBER, PROFIT_MARGIN, SAVE_PAGE
+    CURRENT_ACTION, SALE_NUMBER, BUY_NUMBER, PROFIT_MARGIN, SAVE_PAGE, HEAD_LESS
 
 # 导入日志配置文件
 logging.config.fileConfig('logging_ptvicomo.conf', encoding='utf-8')
@@ -38,21 +53,24 @@ logger.setLevel(logging.INFO)
 chrome_driver_path = CHROME_DRIVER_PATH
 # 初始化Chrome浏览器驱动服务
 service = Service(chrome_driver_path)
-# 创建Chrome浏览器实例
-# driver = webdriver.Chrome(service=service)
 
-# 创建无头浏览器实例.这个好.
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('--headless=new')  # 启用无头模式
-chrome_options.add_argument('--disable-gpu')  # 禁用GPU加速
-chrome_options.add_argument('--no-sandbox')
-chrome_options.add_argument('--disable-dev-shm-usage')
-if platform.system() == 'Linux':
-    chrome_options.binary_location = "/opt/chrome-linux64/chrome"
-prefs = {"profile.managed_default_content_settings.images": 2}
-chrome_options.add_experimental_option("prefs", prefs)  # 禁止加载图片
-# 创建Chrome浏览器实例
-driver = webdriver.Chrome(service=service, options=chrome_options)
+# 是否启用无头模式
+if HEAD_LESS:
+    # 创建无头模式参数.
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument('--headless=new')  # 启用无头模式
+    chrome_options.add_argument('--disable-gpu')  # 禁用GPU加速
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    if platform.system() == 'Linux':
+        chrome_options.binary_location = "/opt/chrome-linux64/chrome"
+    prefs = {"profile.managed_default_content_settings.images": 2}
+    chrome_options.add_experimental_option("prefs", prefs)  # 禁止加载图片
+    # 创建无头模式Chrome浏览器实例
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+else:
+    # 创建正常模式Chrome浏览器实例
+    driver = webdriver.Chrome(service=service)
 
 # 预编译正则表达式，用于匹配购买和销售的相关信息
 buy_name_pattern = re.compile('[\u4e00-\u9fff]+(?=的价格是)')
@@ -75,6 +93,14 @@ def initialize_browser():
         driver.get(WEBSITE_URL)
         WebDriverWait(driver, WAIT_TIMEOUT).until(ec.presence_of_element_located((By.XPATH, '//body')))
         driver.maximize_window()
+        if not HEAD_LESS:
+            logger.warning("非无头模式，如果没有登录，将有30秒时间进行登录！")
+            time.sleep(30)
+        else:
+            logger.warning(
+                "无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！\n"
+                "这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。")
+
     except Exception as e:
         logger.error(f"Error occurred while opening the website: {e}")
 
@@ -85,7 +111,7 @@ def get_cookies_save_to_file():
     """
     try:
         cookies = driver.get_cookies()
-        # logger.info(cookies)
+        logger.info(cookies)
 
         with open('config_ptvicomo_04.py', 'r', encoding='utf-8') as file:
             content = file.read()
@@ -177,21 +203,24 @@ def sale_action(number, sale_price, sale_cost):
         if not sell_bottom.get_attribute('disabled'):
             sell_bottom.click()
             logger.info(f"点击出售按钮成功,出售数量为{number}")
+            sale_profit = sale_price * number
+            return sale_profit
         else:
             logger.error("出售按钮处于禁用状态")
 
-        if not sell_input_num.get_attribute('disabled') and not sell_bottom.get_attribute('disabled'):
-            # 计算单笔盈利
-            sale_profit = (sale_price - sale_cost) * number
-            logger.info(f'sale_action函数,计算【单笔盈利】成功：{sale_profit}')
-            sale_action_name = CURRENT_ACTION['sale']
-            logger.info(f'sale_action函数,获取【当前操作】成功：{sale_action_name}')
-            return sale_profit
-        else:
-            # logger.error("卖出数量输入框或出售按钮处于禁用状态,无法卖出！测试数据")  # todo 测试数据,完成后return 0
-            # # 计算单笔盈利
-            # sale_profit = (sale_price - sale_cost) * number
-            return 0
+        # # 下面这段代码其实没有运行，因为一点击上面的出售按钮，就相当于卖出了所有的库存，就会让下面的2个元素被禁用。
+        # if not sell_input_num.get_attribute('disabled') and not sell_bottom.get_attribute('disabled'):
+        #     # 计算单笔盈利
+        #     sale_profit = (sale_price - sale_cost) * number
+        #     logger.info(f'sale_action函数,计算【单笔盈利】成功：{sale_profit}')
+        #     sale_action_name = CURRENT_ACTION['sale']
+        #     logger.info(f'sale_action函数,获取【当前操作】成功：{sale_action_name}')
+        #     return sale_profit
+        # else:
+        #     # logger.error("卖出数量输入框或出售按钮处于禁用状态,无法卖出！测试数据")  # todo 测试数据,完成后return 0
+        #     # # 计算单笔盈利
+        #     # sale_profit = (sale_price - sale_cost) * number
+        #     return 0
 
     except Exception as e:
         logger.error(f"卖出失败: {e}")
@@ -353,8 +382,13 @@ def extract_data_from_weekday_text(text, current_time, week_number):
         logger.info(f'获取【成本】成功：{sale_cost}')
 
         # 计算当前利润率
-        profit_margin = round((sale_price / sale_cost - 1) * 100, 2)
-        logger.info(f'获取【利润率】成功：{profit_margin}%')
+        # 这里要考虑如果周未没有购买蔬菜的情况
+        if sale_cost == 0:
+            profit_margin = 0
+            logger.info(f'本周没有购买蔬菜，【利润率】为【0】')
+        else:
+            profit_margin = round((sale_price / sale_cost - 1) * 100, 2)
+            logger.info(f'获取【利润率】成功：{profit_margin}%')
 
         # 出售动作
         sale_profit = 0
@@ -572,6 +606,8 @@ def main():
     try:
         day_of_week = get_day_of_week('chinese')
         initialize_browser()
+        if not HEAD_LESS:
+            get_cookies_save_to_file()
         set_cookies(WEB_COOKIE)
         if SAVE_PAGE:
             save_page(day_of_week)

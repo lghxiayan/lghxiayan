@@ -1,0 +1,6 @@
+2025-02-20 00:05:14 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:100 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-02-20 00:05:16 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:638 | 程序运行失败:Failed raising error.
+2025-02-20 12:05:10 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:100 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-02-20 12:05:11 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:638 | 程序运行失败:Failed raising error.

@@ -1,0 +1,44 @@
+2024-12-08 17:11:02 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-08 17:11:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:527 | 连接到 MYSQL 成功!
+2024-12-08 17:11:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:485 | 获取【星期几】成功:星期日
+2024-12-08 17:11:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:488 | 获取【当前时间】成功:2024-12-08 17:11:02
+2024-12-08 17:11:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:491 | 获取【当前周数】成功:49
+2024-12-08 17:11:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【蔬菜名称】成功:酸爽象番茄汁
+2024-12-08 17:11:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:308 | 获取【市场单价】成功:2420
+2024-12-08 17:11:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:312 | 获取【剩余配货量】成功:0
+2024-12-08 17:11:02 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:337 | 因为【剩余配货量】为:0,无法进行买入操作!即使当前【买入数量】指令为:350
+2024-12-08 17:11:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:342 | 获取【当前操作】成功：提取数据
+2024-12-08 17:11:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:566 | ('酸爽象番茄汁', 2420, 0, 0, 2420, 0, '提取数据', '2024-12-08 17:11:02', 49, 0, 350)
+2024-12-08 17:11:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:569 | 数据插入成功！
+2024-12-08 17:11:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:570 | ------------------------------
+2024-12-08 17:12:34 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-08 17:12:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:527 | 连接到 MYSQL 成功!
+2024-12-08 17:12:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:485 | 获取【星期几】成功:星期日
+2024-12-08 17:12:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:488 | 获取【当前时间】成功:2024-12-08 17:12:34
+2024-12-08 17:12:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:491 | 获取【当前周数】成功:49
+2024-12-08 17:12:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【蔬菜名称】成功:酸爽象番茄汁
+2024-12-08 17:12:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:308 | 获取【市场单价】成功:2420
+2024-12-08 17:12:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:312 | 获取【剩余配货量】成功:0
+2024-12-08 17:12:34 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:337 | 因为【剩余配货量】为:0,无法进行买入操作!即使当前【买入数量】指令为:350
+2024-12-08 17:12:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:342 | 获取【当前操作】成功：提取数据
+2024-12-08 17:12:34 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:566 | ('酸爽象番茄汁', 2420, 0, 0, 2420, 0, '提取数据', '2024-12-08 17:12:34', 49, 0, 350)
+2024-12-08 17:12:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:569 | 数据插入成功！
+2024-12-08 17:12:35 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:570 | ------------------------------
+2024-12-08 21:46:54 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2024-12-08 21:46:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:527 | 连接到 MYSQL 成功!
+2024-12-08 21:46:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:485 | 获取【星期几】成功:星期日
+2024-12-08 21:46:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:488 | 获取【当前时间】成功:2024-12-08 21:46:57
+2024-12-08 21:46:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:491 | 获取【当前周数】成功:49
+2024-12-08 21:46:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:304 | 获取【蔬菜名称】成功:酸爽象番茄汁
+2024-12-08 21:46:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:308 | 获取【市场单价】成功:2420
+2024-12-08 21:46:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:312 | 获取【剩余配货量】成功:1
+2024-12-08 21:46:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:331 | 当前购买数量1
+2024-12-08 21:47:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:243 | 点击购买按钮成功,购买数量为1,购买单价2420,购买总金额为-2420
+2024-12-08 21:47:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:333 | 购买成功，购买总金额为-2420
+2024-12-08 21:47:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:342 | 获取【当前操作】成功：买入
+2024-12-08 21:47:02 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:566 | ('酸爽象番茄汁', 2420, 0, 0, 2420, -2420, '买入', '2024-12-08 21:46:57', 49, 1, 350)
+2024-12-08 21:47:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:569 | 数据插入成功！
+2024-12-08 21:47:03 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:570 | ------------------------------

@@ -15,6 +15,10 @@ def index(request):
     return render(request, 'learning_logs/index.html')
 
 
+def index1(request):
+    return render(request, 'learning_logs/index1.html')
+
+
 @login_required
 def topics(request):
     topics = Topic.objects.filter(owner=request.user).order_by('date_added')
