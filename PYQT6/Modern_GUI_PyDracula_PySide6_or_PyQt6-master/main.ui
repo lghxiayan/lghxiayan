@@ -2771,17 +2771,17 @@ background-repeat: no-repeat;</string>
                          <property name="frameShadow">
                           <enum>QFrame::Shadow::Raised</enum>
                          </property>
-                         <widget class="QPlainTextEdit" name="plainTextEdit_wowjump_1">
+                         <widget class="QTextEdit" name="textEdit_wowjump_1">
                           <property name="geometry">
                            <rect>
                             <x>10</x>
                             <y>70</y>
-                            <width>1101</width>
+                            <width>1158</width>
                             <height>191</height>
                            </rect>
                           </property>
                          </widget>
-                         <widget class="QWidget" name="">
+                         <widget class="QWidget" name="layoutWidget">
                           <property name="geometry">
                            <rect>
                             <x>10</x>
@@ -2809,7 +2809,8 @@ background-repeat: no-repeat;</string>
                               <string>执行</string>
                              </property>
                              <property name="icon">
-                              <iconset theme="QIcon::ThemeIcon::MediaPlaybackStart"/>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/icons/images/icons/cil-media-play.png</normaloff>:/icons/images/icons/cil-media-play.png</iconset>
                              </property>
                              <property name="flat">
                               <bool>false</bool>
@@ -2850,7 +2851,8 @@ background-repeat: no-repeat;</string>
                               <string>停止</string>
                              </property>
                              <property name="icon">
-                              <iconset theme="QIcon::ThemeIcon::MediaPlaybackStop"/>
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/icons/images/icons/cil-media-stop.png</normaloff>:/icons/images/icons/cil-media-stop.png</iconset>
                              </property>
                              <property name="flat">
                               <bool>false</bool>

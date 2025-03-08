@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'mainqLjxfC.ui'
+## Form generated from reading UI file 'mainFEbIHI.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.8.2
 ##
@@ -1402,21 +1402,22 @@ class Ui_MainWindow(object):
         self.frame_wowjump_1.setObjectName(u"frame_wowjump_1")
         self.frame_wowjump_1.setFrameShape(QFrame.Shape.StyledPanel)
         self.frame_wowjump_1.setFrameShadow(QFrame.Shadow.Raised)
-        self.plainTextEdit_wowjump_1 = QPlainTextEdit(self.frame_wowjump_1)
-        self.plainTextEdit_wowjump_1.setObjectName(u"plainTextEdit_wowjump_1")
-        self.plainTextEdit_wowjump_1.setGeometry(QRect(10, 70, 1101, 191))
-        self.widget = QWidget(self.frame_wowjump_1)
-        self.widget.setObjectName(u"widget")
-        self.widget.setGeometry(QRect(10, 10, 411, 32))
-        self.horizontalLayout_6 = QHBoxLayout(self.widget)
+        self.textEdit_wowjump_1 = QTextEdit(self.frame_wowjump_1)
+        self.textEdit_wowjump_1.setObjectName(u"textEdit_wowjump_1")
+        self.textEdit_wowjump_1.setGeometry(QRect(10, 70, 1158, 191))
+        self.layoutWidget = QWidget(self.frame_wowjump_1)
+        self.layoutWidget.setObjectName(u"layoutWidget")
+        self.layoutWidget.setGeometry(QRect(10, 10, 411, 32))
+        self.horizontalLayout_6 = QHBoxLayout(self.layoutWidget)
         self.horizontalLayout_6.setObjectName(u"horizontalLayout_6")
         self.horizontalLayout_6.setContentsMargins(0, 0, 0, 0)
-        self.pushButton_wowjump_run = QPushButton(self.widget)
+        self.pushButton_wowjump_run = QPushButton(self.layoutWidget)
         self.pushButton_wowjump_run.setObjectName(u"pushButton_wowjump_run")
         self.pushButton_wowjump_run.setMinimumSize(QSize(150, 30))
         self.pushButton_wowjump_run.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
         self.pushButton_wowjump_run.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon6 = QIcon(QIcon.fromTheme(QIcon.ThemeIcon.MediaPlaybackStart))
+        icon6 = QIcon()
+        icon6.addFile(u":/icons/images/icons/cil-media-play.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         self.pushButton_wowjump_run.setIcon(icon6)
         self.pushButton_wowjump_run.setFlat(False)
 
@@ -1426,12 +1427,13 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_6.addItem(self.horizontalSpacer)
 
-        self.pushButton_wowjump_stop = QPushButton(self.widget)
+        self.pushButton_wowjump_stop = QPushButton(self.layoutWidget)
         self.pushButton_wowjump_stop.setObjectName(u"pushButton_wowjump_stop")
         self.pushButton_wowjump_stop.setMinimumSize(QSize(150, 30))
         self.pushButton_wowjump_stop.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
         self.pushButton_wowjump_stop.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon7 = QIcon(QIcon.fromTheme(QIcon.ThemeIcon.MediaPlaybackStop))
+        icon7 = QIcon()
+        icon7.addFile(u":/icons/images/icons/cil-media-stop.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         self.pushButton_wowjump_stop.setIcon(icon7)
         self.pushButton_wowjump_stop.setFlat(False)
 
