@@ -20,7 +20,8 @@
 还有一个就是：检测数据库记录，每1个小时检测一次，是否有本周期的数据。没有的话，则采集数据。
 
 
-现在象岛首页增加了蔬菜的走势图，应该可以通过selenium来抓取。
+现在象岛首页增加了蔬菜的走势图，应该可以通过selenium来抓取。首页地址为：https://ptvicomo.net/index.php，通过它可以获取历史数据。
+定义了一个get_history_data函数，先从首页提取数据。如果达到了条件，就转到买卖页面进行操作。
 """
 
 import logging.config
@@ -472,6 +473,9 @@ class DataExtractor:
                 sale_profit, sale_action_name, current_time, week_number, remaining_stock,
                 num_sale_and_buy)
 
+    def get_history_data(self):
+        pass
+
     def get_data(self):
         """
         从网页获取交易数据。
@@ -658,5 +662,11 @@ class Application:
 
 if __name__ == '__main__':
     # for i in tqdm.tqdm(range(1, 100), desc='进度'):
+    import sys
+    import os
+
+    print(f"Python版本: {sys.version}")
+    print(f"当前工作目录: {os.getcwd()}")
+
     app = Application()
     app.main()

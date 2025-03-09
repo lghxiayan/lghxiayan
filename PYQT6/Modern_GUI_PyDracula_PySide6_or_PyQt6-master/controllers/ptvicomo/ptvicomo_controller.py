@@ -48,7 +48,7 @@ class PtvicomoController:
         self.ui = ui
         self.setup_connections()
         self.process = None
-        self.file_name = "selenium_ptvicomo_cookie_04.py"
+        self.file_name = "selenium_ptvicomo_cookie_04_test.py.py"
 
         # 配置日志记录器
         config_file_path = os.path.join(os.path.dirname(__file__), 'logging_ptvicomo.conf')
@@ -62,7 +62,7 @@ class PtvicomoController:
     def setup_connections(self):
         self.ui.pushButton_ptvicomo_run.clicked.connect(self.on_run_button_clicked)
         self.ui.pushButton_ptvicomo_stop.clicked.connect(self.on_stop_button_clicked)
-        self.ui.pushButton_ptvicomo_setting.clicked.connect(self.on_setting_button_clicked)
+        # self.ui.pushButton_ptvicomo_setting.clicked.connect(self.on_setting_button_clicked)
 
     def on_run_button_clicked(self):
         print("ptvicomo 页面里面的 pushButton[run] 被点击了！")
@@ -81,7 +81,7 @@ class PtvicomoController:
             # 添加 CSS 样式规则
             global css_styles
 
-            self.logger.info(f"运行脚本：{file_path}")
+            print(f"运行脚本：{file_path}")
             self.process = subprocess.Popen(
                 ['python', file_path],
                 stdout=subprocess.PIPE,
@@ -91,6 +91,7 @@ class PtvicomoController:
             )
             while True:
                 output = self.process.stdout.readline()
+                print(f"94line:{output}")  # 结果居然是空的。为什么
                 if output == '' and self.process.poll() is not None:
                     break
                 if output:
@@ -118,7 +119,7 @@ class PtvicomoController:
         if self.process and self.process.poll() is None:
             self.process.terminate()
             self.process.wait()
-            self.logger.info("子进程已终止")
+            print("子进程已终止")
 
     def on_setting_button_clicked(self):
         print("ptvicomo 页面里面的 pushButton[setting] 被点击了！")

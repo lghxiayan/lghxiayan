@@ -90,6 +90,7 @@ class WoWJumpController:
             )
             while True:
                 output = self.process.stdout.readline()
+                print(f"93line:{output}")
                 if output == '' and self.process.poll() is not None:
                     break
                 if output:
