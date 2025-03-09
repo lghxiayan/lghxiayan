@@ -43,31 +43,32 @@ class OutputSignal(QObject):
     output_writer = Signal(str)
 
 
-class WoWJumpController:
+class PtvicomoController:
     def __init__(self, ui):
         self.ui = ui
         self.setup_connections()
         self.process = None
-        self.file_name = "wow_jump_02_单人_kook加速器_v3.py"
+        self.file_name = "selenium_ptvicomo_cookie_04.py"
 
         # 配置日志记录器
-        config_file_path = os.path.join(os.path.dirname(__file__), 'logging_wowjump.conf')
+        config_file_path = os.path.join(os.path.dirname(__file__), 'logging_ptvicomo.conf')
         logging.config.fileConfig(config_file_path, encoding='utf-8')
-        self.logger = logging.getLogger('wowjump_log')
+        self.logger = logging.getLogger('ptvicomo_log')
         self.logger.setLevel(logging.INFO)
 
         self.output_signal = OutputSignal()
         self.output_signal.output_writer.connect(self.append_output_to_textedit)
 
     def setup_connections(self):
-        self.ui.pushButton_wowjump_run.clicked.connect(self.on_run_button_clicked)
-        self.ui.pushButton_wowjump_stop.clicked.connect(self.on_stop_button_clicked)
+        self.ui.pushButton_ptvicomo_run.clicked.connect(self.on_run_button_clicked)
+        self.ui.pushButton_ptvicomo_stop.clicked.connect(self.on_stop_button_clicked)
+        self.ui.pushButton_ptvicomo_setting.clicked.connect(self.on_setting_button_clicked)
 
     def on_run_button_clicked(self):
-        print("wowjump 页面里面的 pushButton[run] 被点击了！")
-        textedit_wowjump_1 = self.ui.textEdit_wowjump_1
-        textedit_wowjump_1.insertPlainText("wowjump 页面里面的 pushButton[run] 被点击了！\n")
-        self.scroll_to_end(textedit_wowjump_1)
+        print("ptvicomo 页面里面的 pushButton[run] 被点击了！")
+        textedit_ptvicomo_1 = self.ui.textEdit_ptvicomo_1
+        textedit_ptvicomo_1.insertPlainText("ptvicomo 页面里面的 pushButton[run] 被点击了！\n")
+        self.scroll_to_end(textedit_ptvicomo_1)
 
         script_dir = os.path.dirname(__file__)
         file_path = os.path.join(script_dir, self.file_name)
@@ -80,7 +81,7 @@ class WoWJumpController:
             # 添加 CSS 样式规则
             global css_styles
 
-            print(f"运行脚本：{file_path}")
+            self.logger.info(f"运行脚本：{file_path}")
             self.process = subprocess.Popen(
                 ['python', file_path],
                 stdout=subprocess.PIPE,
@@ -109,15 +110,26 @@ class WoWJumpController:
             print(f"发生异常：{e}")
 
     def on_stop_button_clicked(self):
-        print("wowjump 页面里面的 pushButton[stop] 被点击了！")
-        textedit_wowjump_1 = self.ui.textEdit_wowjump_1
-        textedit_wowjump_1.insertPlainText("wowjump 页面里面的 pushButton[stop] 被点击了！\n")
-        self.scroll_to_end(textedit_wowjump_1)
+        print("ptvicomo 页面里面的 pushButton[stop] 被点击了！")
+        textedit_ptvicomo_1 = self.ui.textEdit_ptvicomo_1
+        textedit_ptvicomo_1.insertPlainText("ptvicomo 页面里面的 pushButton[stop] 被点击了！\n")
+        self.scroll_to_end(textedit_ptvicomo_1)
 
         if self.process and self.process.poll() is None:
             self.process.terminate()
             self.process.wait()
-            print("子进程已终止")
+            self.logger.info("子进程已终止")
+
+    def on_setting_button_clicked(self):
+        print("ptvicomo 页面里面的 pushButton[setting] 被点击了！")
+        textedit_ptvicomo_1 = self.ui.textEdit_ptvicomo_1
+        textedit_ptvicomo_1.insertPlainText("ptvicomo 页面里面的 pushButton[setting] 被点击了！\n")
+        self.scroll_to_end(textedit_ptvicomo_1)
+
+        if self.process and self.process.poll() is None:
+            self.process.terminate()
+            self.process.wait()
+            print("setting按钮被点击")
 
     @staticmethod
     def scroll_to_end(text_edit):
@@ -129,11 +141,11 @@ class WoWJumpController:
 
     def append_output_to_textedit(self, output):
         try:
-            cursor = self.ui.textEdit_wowjump_1.textCursor()
+            cursor = self.ui.textEdit_ptvicomo_1.textCursor()
             cursor.movePosition(QTextCursor.MoveOperation.End, QTextCursor.MoveMode.MoveAnchor)
-            self.ui.textEdit_wowjump_1.setTextCursor(cursor)
-            self.ui.textEdit_wowjump_1.insertHtml(output)
-            self.ui.textEdit_wowjump_1.ensureCursorVisible()  # 确保光标可见，即滚动到底部
+            self.ui.textEdit_ptvicomo_1.setTextCursor(cursor)
+            self.ui.textEdit_ptvicomo_1.insertHtml(output)
+            self.ui.textEdit_ptvicomo_1.ensureCursorVisible()  # 确保光标可见，即滚动到底部
         except Exception as e:
             print(f"发生异常：{e}")
             self.logger.error(f"发生异常：{e}")

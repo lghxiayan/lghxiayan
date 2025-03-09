@@ -22,6 +22,7 @@ from modules import *
 # 引入我需要的库
 from controllers.widgets.widgets_controller import WidgetsController
 from controllers.wowjump.wowjump_controller import WoWJumpController
+from controllers.ptvicomo.ptvicomo_controller import PtvicomoController
 
 os.environ["QT_FONT_DPI"] = "96"  # FIX Problem for High DPI and Scale above 100%
 
@@ -44,6 +45,7 @@ class MainWindow(QMainWindow):
         # 我添加的页面控制代码
         self.widgets_controller = WidgetsController(self.ui)
         self.wowjump_controller = WoWJumpController(self.ui)
+        self.ptvicomo_controller = PtvicomoController(self.ui)
 
         # USE CUSTOM TITLE BAR | USE AS "False" FOR MAC OR LINUX
         # ///////////////////////////////////////////////////////////////
@@ -80,6 +82,7 @@ class MainWindow(QMainWindow):
 
         # 我添加的按钮
         widgets.btn_wowjump.clicked.connect(self.buttonClick)
+        widgets.btn_ptvicomo.clicked.connect(self.buttonClick)
 
         # widgets.pushButton.clicked.connect(self.buttonClick)
 
@@ -147,6 +150,12 @@ class MainWindow(QMainWindow):
         # SHOW WOWJUMP PAGE
         if btnName == "btn_wowjump":
             widgets.stackedWidget.setCurrentWidget(widgets.wowjump_page)  # SET PAGE
+            UIFunctions.resetStyle(self, btnName)  # RESET ANOTHERS BUTTONS SELECTED
+            btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))  # SELECT MENU
+
+        # SHOW PTVICOMO PAGE
+        if btnName == "btn_ptvicomo":
+            widgets.stackedWidget.setCurrentWidget(widgets.ptvicomo_page)  # SET PAGE
             UIFunctions.resetStyle(self, btnName)  # RESET ANOTHERS BUTTONS SELECTED
             btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))  # SELECT MENU
 
