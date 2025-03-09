@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'mainFEbIHI.ui'
+## Form generated from reading UI file 'mainowhwIc.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.8.2
 ##
@@ -710,6 +710,18 @@ class Ui_MainWindow(object):
         self.btn_wowjump.setStyleSheet(u"background-image: url(:/icons/images/icons/cil-fire.png);")
 
         self.verticalLayout_8.addWidget(self.btn_wowjump)
+
+        self.btn_ptvicomo = QPushButton(self.topMenu)
+        self.btn_ptvicomo.setObjectName(u"btn_ptvicomo")
+        sizePolicy.setHeightForWidth(self.btn_ptvicomo.sizePolicy().hasHeightForWidth())
+        self.btn_ptvicomo.setSizePolicy(sizePolicy)
+        self.btn_ptvicomo.setMinimumSize(QSize(0, 45))
+        self.btn_ptvicomo.setFont(font)
+        self.btn_ptvicomo.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+        self.btn_ptvicomo.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
+        self.btn_ptvicomo.setStyleSheet(u"background-image: url(:/icons/images/icons/cil-4k.png);")
+
+        self.verticalLayout_8.addWidget(self.btn_ptvicomo)
 
         self.btn_save = QPushButton(self.topMenu)
         self.btn_save.setObjectName(u"btn_save")
@@ -1448,6 +1460,72 @@ class Ui_MainWindow(object):
         self.verticalLayout_21.addWidget(self.label_wowjump)
 
         self.stackedWidget.addWidget(self.wowjump_page)
+        self.ptvicomo_page = QWidget()
+        self.ptvicomo_page.setObjectName(u"ptvicomo_page")
+        self.verticalLayout_211 = QVBoxLayout(self.ptvicomo_page)
+        self.verticalLayout_211.setObjectName(u"verticalLayout_211")
+        self.frame_ptvicomo_1 = QFrame(self.ptvicomo_page)
+        self.frame_ptvicomo_1.setObjectName(u"frame_ptvicomo_1")
+        self.frame_ptvicomo_1.setFrameShape(QFrame.Shape.StyledPanel)
+        self.frame_ptvicomo_1.setFrameShadow(QFrame.Shadow.Raised)
+        self.textEdit_ptvicomo_1 = QTextEdit(self.frame_ptvicomo_1)
+        self.textEdit_ptvicomo_1.setObjectName(u"textEdit_ptvicomo_1")
+        self.textEdit_ptvicomo_1.setGeometry(QRect(10, 70, 1158, 191))
+        self.layoutWidget1 = QWidget(self.frame_ptvicomo_1)
+        self.layoutWidget1.setObjectName(u"layoutWidget1")
+        self.layoutWidget1.setGeometry(QRect(10, 10, 711, 32))
+        self.horizontalLayout_61 = QHBoxLayout(self.layoutWidget1)
+        self.horizontalLayout_61.setObjectName(u"horizontalLayout_61")
+        self.horizontalLayout_61.setContentsMargins(0, 0, 0, 0)
+        self.pushButton_ptvicomo_run = QPushButton(self.layoutWidget1)
+        self.pushButton_ptvicomo_run.setObjectName(u"pushButton_ptvicomo_run")
+        self.pushButton_ptvicomo_run.setMinimumSize(QSize(150, 30))
+        self.pushButton_ptvicomo_run.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+        self.pushButton_ptvicomo_run.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.pushButton_ptvicomo_run.setIcon(icon6)
+        self.pushButton_ptvicomo_run.setFlat(False)
+
+        self.horizontalLayout_61.addWidget(self.pushButton_ptvicomo_run)
+
+        self.horizontalSpacer1 = QSpacerItem(50, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+
+        self.horizontalLayout_61.addItem(self.horizontalSpacer1)
+
+        self.pushButton_ptvicomo_stop = QPushButton(self.layoutWidget1)
+        self.pushButton_ptvicomo_stop.setObjectName(u"pushButton_ptvicomo_stop")
+        self.pushButton_ptvicomo_stop.setMinimumSize(QSize(150, 30))
+        self.pushButton_ptvicomo_stop.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+        self.pushButton_ptvicomo_stop.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.pushButton_ptvicomo_stop.setIcon(icon7)
+        self.pushButton_ptvicomo_stop.setFlat(False)
+
+        self.horizontalLayout_61.addWidget(self.pushButton_ptvicomo_stop)
+
+        self.horizontalSpacer_2 = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+
+        self.horizontalLayout_61.addItem(self.horizontalSpacer_2)
+
+        self.pushButton_ptvicomo_setting = QPushButton(self.layoutWidget1)
+        self.pushButton_ptvicomo_setting.setObjectName(u"pushButton_ptvicomo_setting")
+        self.pushButton_ptvicomo_setting.setMinimumSize(QSize(150, 30))
+        self.pushButton_ptvicomo_setting.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+        self.pushButton_ptvicomo_setting.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        icon8 = QIcon()
+        icon8.addFile(u":/icons/images/icons/cil-media-eject.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        self.pushButton_ptvicomo_setting.setIcon(icon8)
+        self.pushButton_ptvicomo_setting.setFlat(False)
+
+        self.horizontalLayout_61.addWidget(self.pushButton_ptvicomo_setting)
+
+        self.verticalLayout_211.addWidget(self.frame_ptvicomo_1)
+
+        self.label_ptvicomo = QLabel(self.ptvicomo_page)
+        self.label_ptvicomo.setObjectName(u"label_ptvicomo")
+        self.label_ptvicomo.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.verticalLayout_211.addWidget(self.label_ptvicomo)
+
+        self.stackedWidget.addWidget(self.ptvicomo_page)
 
         self.verticalLayout_15.addWidget(self.stackedWidget)
 
@@ -1582,7 +1660,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(3)
+        self.stackedWidget.setCurrentIndex(4)
 
         QMetaObject.connectSlotsByName(MainWindow)
 
@@ -1597,6 +1675,7 @@ class Ui_MainWindow(object):
         self.btn_widgets.setText(QCoreApplication.translate("MainWindow", u"Widgets", None))
         self.btn_new.setText(QCoreApplication.translate("MainWindow", u"New", None))
         self.btn_wowjump.setText(QCoreApplication.translate("MainWindow", u"wowjump", None))
+        self.btn_ptvicomo.setText(QCoreApplication.translate("MainWindow", u"ptvicomo_\u8c61\u5c9b\u519c\u5e84", None))
         self.btn_save.setText(QCoreApplication.translate("MainWindow", u"Save", None))
         self.btn_exit.setText(QCoreApplication.translate("MainWindow", u"Exit", None))
         self.toggleLeftBox.setText(QCoreApplication.translate("MainWindow", u"Left Box", None))
@@ -1716,6 +1795,10 @@ class Ui_MainWindow(object):
         self.pushButton_wowjump_run.setText(QCoreApplication.translate("MainWindow", u"\u6267\u884c", None))
         self.pushButton_wowjump_stop.setText(QCoreApplication.translate("MainWindow", u"\u505c\u6b62", None))
         self.label_wowjump.setText(QCoreApplication.translate("MainWindow", u"WOWJUMP PAGE", None))
+        self.pushButton_ptvicomo_run.setText(QCoreApplication.translate("MainWindow", u"\u6267\u884c", None))
+        self.pushButton_ptvicomo_stop.setText(QCoreApplication.translate("MainWindow", u"\u505c\u6b62", None))
+        self.pushButton_ptvicomo_setting.setText(QCoreApplication.translate("MainWindow", u"\u8bbe\u7f6e", None))
+        self.label_ptvicomo.setText(QCoreApplication.translate("MainWindow", u"ptvicomo PAGE", None))
         self.btn_message.setText(QCoreApplication.translate("MainWindow", u"Message", None))
         self.btn_print.setText(QCoreApplication.translate("MainWindow", u"Print", None))
         self.btn_logout.setText(QCoreApplication.translate("MainWindow", u"Logout", None))

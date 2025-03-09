@@ -1,0 +1,7 @@
+pyside6~=6.8.2.1
+ansiconv~=1.0.0
+pywin32~=308
+pynput~=1.7.7
+chardet~=4.0.0
+pyqt6~=6.8.1
+pygments~=2.19.1

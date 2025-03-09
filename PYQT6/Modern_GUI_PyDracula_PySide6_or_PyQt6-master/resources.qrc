@@ -5,6 +5,7 @@
   </qresource>
   <qresource prefix="icons">
     <file>images/icons/cil-3d.png</file>
+    <file>controllers/ptvicomo/ptvicomo_favicon.ico</file>
     <file>images/icons/cil-4k.png</file>
     <file>images/icons/cil-account-logout.png</file>
     <file>images/icons/cil-action-redo.png</file>
