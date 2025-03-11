@@ -29,6 +29,7 @@ import re
 import datetime
 import platform
 import time
+import os
 
 # 导入Selenium相关模块，用于自动化浏览器操作
 from selenium import webdriver
@@ -42,6 +43,8 @@ from mysql.connector import connect, Error
 # 导入配置文件常量
 from config_ptvicomo_04 import CHROME_DRIVER_PATH, DB_CONFIG, WEB_COOKIE, WEBSITE_URL, WAIT_TIMEOUT, TABLE_NAME, \
     CURRENT_ACTION, SALE_NUMBER, BUY_NUMBER, PROFIT_MARGIN, SAVE_PAGE, HEAD_LESS
+
+os.environ['PYTHONIOENCODING'] = 'utf-8'
 
 # 导入日志配置文件
 logging.config.fileConfig('logging_ptvicomo.conf', encoding='utf-8')

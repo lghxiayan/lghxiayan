@@ -19,10 +19,49 @@ import sys
 # IMPORT / GUI AND MODULES AND WIDGETS
 # ///////////////////////////////////////////////////////////////
 from modules import *
+
+"""
+日志配置文件为logging_app.conf，日志存放目录为根目录下的logs
+"""
 # 引入我需要的库
 from controllers.widgets.widgets_controller import WidgetsController
 from controllers.wowjump.wowjump_controller import WoWJumpController
 from controllers.ptvicomo.ptvicomo_controller import PtvicomoController
+
+import time
+import logging.config
+
+# 确保 Python 解释器和终端使用的默认编码为 UTF-8，因为windows默认使用是GBK
+os.environ['PYTHONIOENCODING'] = 'utf-8'
+# 确保 logs 目录存在
+logs_dir = os.path.join(os.path.dirname(__file__), 'logs')
+if not os.path.exists(logs_dir):
+    os.makedirs(logs_dir)
+
+
+def setup_logging():
+    try:
+        # 获取当前模块的目录
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        # 定义日志文件名
+        log_file_name = f"app_log_{time.strftime('%Y%m%d')}.log"
+        # 构造保存日志文件目录的路径
+        logs_dir = os.path.join(current_dir, 'logs')
+        # 构造日志文件的绝对路径
+        log_file_path = os.path.join(logs_dir, log_file_name).replace('\\', '\\\\')
+        # 使用绝对路径来加载日志配置文件
+        config_file_path = os.path.join(current_dir, 'logging_app.conf').replace('\\', '\\\\')
+        logging.config.fileConfig(config_file_path, encoding='utf-8', defaults={'logfilename': log_file_path})
+        my_logger = logging.getLogger('app_log')
+        my_logger.setLevel(logging.INFO)
+        return my_logger
+    except Exception as e:
+        print(f"加载日志配置文件时出错: {e}")
+        exit(1)
+
+
+logger = setup_logging()
+logger.info("加载正常")
 
 os.environ["QT_FONT_DPI"] = "96"  # FIX Problem for High DPI and Scale above 100%
 
@@ -44,7 +83,7 @@ class MainWindow(QMainWindow):
 
         # 我添加的页面控制代码
         self.widgets_controller = WidgetsController(self.ui)
-        self.wowjump_controller = WoWJumpController(self.ui)
+        self.wowjump_controller = WoWJumpController(self.ui, logger)
         self.ptvicomo_controller = PtvicomoController(self.ui)
 
         # USE CUSTOM TITLE BAR | USE AS "False" FOR MAC OR LINUX

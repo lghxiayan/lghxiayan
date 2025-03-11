@@ -19,5 +19,8 @@ CONFIG = {
     "RETRY_ATTEMPTS": 3,
 
     # 随机睡眠时间范围为1到5秒
-    "SLEEP_TIME_RANGE": (1, 50)
+    "SLEEP_TIME_RANGE": (1, 50),
+
+    # 日志级别
+    "LOG_LEVEL": "INFO"
 }

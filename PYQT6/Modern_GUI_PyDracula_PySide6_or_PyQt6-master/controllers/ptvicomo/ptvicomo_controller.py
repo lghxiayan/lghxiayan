@@ -16,6 +16,7 @@ import ansiconv
 import logging
 import logging.config
 
+os.environ['PYTHONIOENCODING'] = 'utf-8'
 # 添加 CSS 样式规则
 css_styles = """
 <style>
@@ -48,7 +49,7 @@ class PtvicomoController:
         self.ui = ui
         self.setup_connections()
         self.process = None
-        self.file_name = "selenium_ptvicomo_cookie_04_test.py.py"
+        self.file_name = "selenium_ptvicomo_cookie_04_test.py"
 
         # 配置日志记录器
         config_file_path = os.path.join(os.path.dirname(__file__), 'logging_ptvicomo.conf')

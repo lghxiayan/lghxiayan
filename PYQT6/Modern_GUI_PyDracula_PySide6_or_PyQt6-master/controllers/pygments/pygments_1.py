@@ -83,13 +83,13 @@ class MainWindow(QMainWindow):
 
 if __name__ == "__main__":
     ansi_2 = """
-    [32m2025-03-06 17:38:19 | root         | INFO     | wow_jump_02_单人_kook加速器_v3.py:94 | 按下了按键：Key.ctrl_l[0m
-    [32m2025-03-06 17:38:19 | root         | INFO     | wow_jump_02_单人_kook加速器_v3.py:126 | 未找到窗口：魔兽世界，尝试第 1 次重试...[0m
-    [32m2025-03-06 17:38:20 | root         | INFO     | wow_jump_02_单人_kook加速器_v3.py:126 | 未找到窗口：魔兽世界，尝试第 2 次重试...[0m
-    [32m2025-03-06 17:38:21 | root         | INFO     | wow_jump_02_单人_kook加速器_v3.py:126 | 未找到窗口：魔兽世界，尝试第 3 次重试...[0m
-    [31m2025-03-06 17:38:22 | root         | ERROR    | wow_jump_02_单人_kook加速器_v3.py:134 | 经过 3 次尝试后仍未找到窗口：魔兽世界[0m
-    [32m2025-03-06 17:38:36 | root         | INFO     | wow_jump_02_单人_kook加速器_v3.py:94 | 按下了按键：Key.ctrl_l[0m
-    [32m2025-03-06 17:38:37 | root         | INFO     | wow_jump_02_单人_kook加速器_v3.py:94 | 按下了按键：Key.ctrl_l[0m
+    [32m2025-03-06 17:38:19 | root         | INFO     | wow_jump_kook_v3.py.py:94 | 按下了按键：Key.ctrl_l[0m
+    [32m2025-03-06 17:38:19 | root         | INFO     | wow_jump_kook_v3.py.py:126 | 未找到窗口：魔兽世界，尝试第 1 次重试...[0m
+    [32m2025-03-06 17:38:20 | root         | INFO     | wow_jump_kook_v3.py.py:126 | 未找到窗口：魔兽世界，尝试第 2 次重试...[0m
+    [32m2025-03-06 17:38:21 | root         | INFO     | wow_jump_kook_v3.py.py:126 | 未找到窗口：魔兽世界，尝试第 3 次重试...[0m
+    [31m2025-03-06 17:38:22 | root         | ERROR    | wow_jump_kook_v3.py.py:134 | 经过 3 次尝试后仍未找到窗口：魔兽世界[0m
+    [32m2025-03-06 17:38:36 | root         | INFO     | wow_jump_kook_v3.py.py:94 | 按下了按键：Key.ctrl_l[0m
+    [32m2025-03-06 17:38:37 | root         | INFO     | wow_jump_kook_v3.py.py:94 | 按下了按键：Key.ctrl_l[0m
     """
 
     app = QApplication(sys.argv)

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'mainowhwIc.ui'
+## Form generated from reading UI file 'mainvBHSns.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.8.2
 ##
@@ -1462,8 +1462,8 @@ class Ui_MainWindow(object):
         self.stackedWidget.addWidget(self.wowjump_page)
         self.ptvicomo_page = QWidget()
         self.ptvicomo_page.setObjectName(u"ptvicomo_page")
-        self.verticalLayout_211 = QVBoxLayout(self.ptvicomo_page)
-        self.verticalLayout_211.setObjectName(u"verticalLayout_211")
+        self.verticalLayout_22 = QVBoxLayout(self.ptvicomo_page)
+        self.verticalLayout_22.setObjectName(u"verticalLayout_22")
         self.frame_ptvicomo_1 = QFrame(self.ptvicomo_page)
         self.frame_ptvicomo_1.setObjectName(u"frame_ptvicomo_1")
         self.frame_ptvicomo_1.setFrameShape(QFrame.Shape.StyledPanel)
@@ -1474,9 +1474,9 @@ class Ui_MainWindow(object):
         self.layoutWidget1 = QWidget(self.frame_ptvicomo_1)
         self.layoutWidget1.setObjectName(u"layoutWidget1")
         self.layoutWidget1.setGeometry(QRect(10, 10, 711, 32))
-        self.horizontalLayout_61 = QHBoxLayout(self.layoutWidget1)
-        self.horizontalLayout_61.setObjectName(u"horizontalLayout_61")
-        self.horizontalLayout_61.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_7 = QHBoxLayout(self.layoutWidget1)
+        self.horizontalLayout_7.setObjectName(u"horizontalLayout_7")
+        self.horizontalLayout_7.setContentsMargins(0, 0, 0, 0)
         self.pushButton_ptvicomo_run = QPushButton(self.layoutWidget1)
         self.pushButton_ptvicomo_run.setObjectName(u"pushButton_ptvicomo_run")
         self.pushButton_ptvicomo_run.setMinimumSize(QSize(150, 30))
@@ -1485,11 +1485,11 @@ class Ui_MainWindow(object):
         self.pushButton_ptvicomo_run.setIcon(icon6)
         self.pushButton_ptvicomo_run.setFlat(False)
 
-        self.horizontalLayout_61.addWidget(self.pushButton_ptvicomo_run)
+        self.horizontalLayout_7.addWidget(self.pushButton_ptvicomo_run)
 
-        self.horizontalSpacer1 = QSpacerItem(50, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.horizontalSpacer_3 = QSpacerItem(50, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
 
-        self.horizontalLayout_61.addItem(self.horizontalSpacer1)
+        self.horizontalLayout_7.addItem(self.horizontalSpacer_3)
 
         self.pushButton_ptvicomo_stop = QPushButton(self.layoutWidget1)
         self.pushButton_ptvicomo_stop.setObjectName(u"pushButton_ptvicomo_stop")
@@ -1499,11 +1499,11 @@ class Ui_MainWindow(object):
         self.pushButton_ptvicomo_stop.setIcon(icon7)
         self.pushButton_ptvicomo_stop.setFlat(False)
 
-        self.horizontalLayout_61.addWidget(self.pushButton_ptvicomo_stop)
+        self.horizontalLayout_7.addWidget(self.pushButton_ptvicomo_stop)
 
         self.horizontalSpacer_2 = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
 
-        self.horizontalLayout_61.addItem(self.horizontalSpacer_2)
+        self.horizontalLayout_7.addItem(self.horizontalSpacer_2)
 
         self.pushButton_ptvicomo_setting = QPushButton(self.layoutWidget1)
         self.pushButton_ptvicomo_setting.setObjectName(u"pushButton_ptvicomo_setting")
@@ -1515,15 +1515,15 @@ class Ui_MainWindow(object):
         self.pushButton_ptvicomo_setting.setIcon(icon8)
         self.pushButton_ptvicomo_setting.setFlat(False)
 
-        self.horizontalLayout_61.addWidget(self.pushButton_ptvicomo_setting)
+        self.horizontalLayout_7.addWidget(self.pushButton_ptvicomo_setting)
 
-        self.verticalLayout_211.addWidget(self.frame_ptvicomo_1)
+        self.verticalLayout_22.addWidget(self.frame_ptvicomo_1)
 
         self.label_ptvicomo = QLabel(self.ptvicomo_page)
         self.label_ptvicomo.setObjectName(u"label_ptvicomo")
         self.label_ptvicomo.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
-        self.verticalLayout_211.addWidget(self.label_ptvicomo)
+        self.verticalLayout_22.addWidget(self.label_ptvicomo)
 
         self.stackedWidget.addWidget(self.ptvicomo_page)
 
@@ -1660,7 +1660,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(4)
+        self.stackedWidget.setCurrentIndex(3)
 
         QMetaObject.connectSlotsByName(MainWindow)
 
