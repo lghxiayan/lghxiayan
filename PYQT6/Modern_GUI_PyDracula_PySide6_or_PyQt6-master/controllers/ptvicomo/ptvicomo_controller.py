@@ -2,8 +2,6 @@
 全部使用PySide6的库，不要和PyQt6的库混用。它是是有区别的。例如PySide6中，信号用的是Signal，而PyQt6则是pyqtSignal。
 
 todo 1.按钮的效果。按下运行的时候，要有按下去的效果，以便知道当前的状态。而停止按钮，只有在程序运行的时候才变成可按的效果，平时应该是灰色的，不可点击的状态。
-todo 2.关于日志。子程序因为可以独立运行，所以日志是单独的，这个不用修改。但整个程序应该只有一个程序日志，它应该包括wowjump模块、ptvicomo模块、以及其它的模块，它们应该是共用一个日志的。
-todo 3.日志。wowjump模块和独立子程序v3.py文件，共用一个日志，这里会有冲突，要解决。错误提示：【PermissionError: [WinError 32] 另一个程序正在使用此文件】
 
 """
 
@@ -45,7 +43,8 @@ class OutputSignal(QObject):
 
 
 class PtvicomoController:
-    def __init__(self, ui):
+    def __init__(self, ui, logger):
+        self.logger = logger
         self.ui = ui
         self.setup_connections()
         self.process = None

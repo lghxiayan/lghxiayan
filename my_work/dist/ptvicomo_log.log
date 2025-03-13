@@ -1,8 +1,3 @@
-2025-03-11 00:05:07 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:100 | ÎŞÍ·Ä£Ê½£¬Èç¹ûÎŞ·¨²É¼¯Êı¾İ£¬Çë¹Ø±ÕÎŞÍ·Ä£Ê½Ê¹ÓÃÕı³£Ä£Ê½µÇÂ¼Ò»´Î£¡
+2025-03-13 00:05:17 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:100 | ÎŞÍ·Ä£Ê½£¬Èç¹ûÎŞ·¨²É¼¯Êı¾İ£¬Çë¹Ø±ÕÎŞÍ·Ä£Ê½Ê¹ÓÃÕı³£Ä£Ê½µÇÂ¼Ò»´Î£¡
 Õâ½«ÖØĞ´cookieÄÚÈİ£¬ÒÔ±ãÄÜÕı³£µÇÂ¼¡£ĞŞ¸Äconfig.pyÎÄ¼şÖĞµÄHEAD_LESS²ÎÊı¼´¿É¡£
-2025-03-11 00:05:09 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:638 | ³ÌĞòÔËĞĞÊ§°Ü:Failed raising error.
-2025-03-11 12:05:10 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:100 | æ— å¤´æ¨¡å¼ï¼Œå¦‚æœæ— æ³•é‡‡é›†æ•°æ®ï¼Œè¯·å…³é—­æ— å¤´æ¨¡å¼ä½¿ç”¨æ­£å¸¸æ¨¡å¼ç™»å½•ä¸€æ¬¡ï¼
-è¿™å°†é‡å†™cookieå†…å®¹ï¼Œä»¥ä¾¿èƒ½æ­£å¸¸ç™»å½•ã€‚ä¿®æ”¹config.pyæ–‡ä»¶ä¸­çš„HEAD_LESSå‚æ•°å³å¯ã€‚
-2025-03-11 12:05:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:527 | è¿æ¥åˆ° MYSQL å¤±è´¥: 2059 (HY000): Authentication plugin 'mysql_native_password' cannot be loaded: æ‰¾ä¸åˆ°æŒ‡å®šçš„æ¨¡å—ã€‚
-
-2025-03-11 12:05:10 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:638 | ç¨‹åºè¿è¡Œå¤±è´¥:'NoneType' object does not support the context manager protocol
+2025-03-13 00:05:18 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:638 | ³ÌĞòÔËĞĞÊ§°Ü:Failed raising error.

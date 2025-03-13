@@ -2,9 +2,7 @@
 全部使用PySide6的库，不要和PyQt6的库混用。它是是有区别的。例如PySide6中，信号用的是Signal，而PyQt6则是pyqtSignal。
 
 todo 1.按钮的效果。按下运行的时候，要有按下去的效果，以便知道当前的状态。而停止按钮，只有在程序运行的时候才变成可按的效果，平时应该是灰色的，不可点击的状态。
-todo 2.关于日志。子程序因为可以独立运行，所以日志是单独的，这个不用修改。但整个程序应该只有一个程序日志，它应该包括wowjump模块、ptvicomo模块、以及其它的模块，它们应该是共用一个日志的。
-todo 3.日志。wowjump模块和独立子程序v3.py文件，共用一个日志，这里会有冲突，要解决。错误提示：【PermissionError: [WinError 32] 另一个程序正在使用此文件】
-
+todo 2.关于日志。在wowjump_controller.py文件中，on_run_button_clicked()方法中的self.logger.info无法生成日志，但logging.info却可以，不知道为什么。
 """
 
 from PySide6.QtCore import QObject, Signal
@@ -18,36 +16,6 @@ import time
 import logging
 
 os.environ['PYTHONIOENCODING'] = 'utf-8'
-
-#
-# def setup_logging():
-#     try:
-#         # 获取当前模块的目录
-#         current_dir = os.path.dirname(os.path.abspath(__file__))
-#         # print(current_dir)
-#         # 获取项目根目录
-#         project_root_dir = os.path.dirname(os.path.dirname(current_dir))
-#         # print(project_root_dir)
-#         # 定义日志文件名
-#         log_file_name = f"app_log_{time.strftime('%Y%m%d_%H%M%S')}.log"
-#         # 构造保存日志文件目录的路径
-#         logs_dir = os.path.join(project_root_dir, 'logs')
-#         # 构造日志文件的绝对路径
-#         log_file_path = os.path.join(logs_dir, log_file_name).replace('\\', '\\\\')
-#         # print(log_file_path)
-#         # 使用绝对路径来加载日志配置文件
-#         config_file_path = os.path.join(project_root_dir, 'logging_app.conf').replace('\\', '\\\\')
-#         # print(config_file_path)
-#         logging.config.fileConfig(config_file_path, encoding='utf-8', defaults={'logfilename': log_file_path})
-#         my_logger = logging.getLogger('app_log')
-#         my_logger.setLevel(logging.INFO)
-#         return my_logger
-#     except Exception as e:
-#         print(f"加载日志配置文件时出错: {e}")
-#         exit(1)
-#
-#
-# logger = setup_logging()
 
 # 添加 CSS 样式规则
 css_styles = """
@@ -80,10 +48,12 @@ class WoWJumpController:
     def __init__(self, ui, logger):
         self.ui = ui
         self.logger = logger
+        self.logger.info("WoWJumpController加载成功")
         self.setup_connections()
         self.process = None
         self.file_name = "wow_jump_kook_v3.py"
-        self.logger.info("WoWJumpController加载成功")
+
+        # self.on_run_button_clicked()  # 只有把下面的方法加入到__init__中去，才能在终端中显示app_log的日志信息
 
         self.output_signal = OutputSignal()
         self.output_signal.output_writer.connect(self.append_output_to_textedit)
@@ -112,13 +82,24 @@ class WoWJumpController:
             # 添加 CSS 样式规则
             global css_styles
 
+            # print(f"In run_script, self.logger handlers: {self.logger.handlers}")
+            # print(f"self.logger propagate: {self.logger.propagate}")
+            #
+            # self.logger = logging.getLogger('app_log')
+            # print(f"[Debug] Logger有效处理器数量: {len(self.logger.handlers)}")  # 应为 2
+
             print(f"运行脚本：{file_path}")
+            self.logger.info(f"运行脚本：{file_path}")  # 这一行终端没显示，为什么？
+            # 显式刷新所有处理器
+            for handler in self.logger.handlers:
+                handler.flush()
+            # logging.info(f"运行脚本：{file_path}")
             self.process = subprocess.Popen(
                 ['python', file_path],
-                # stdout=subprocess.PIPE,
-                # stderr=subprocess.PIPE,
-                stdout=subprocess.DEVNULL,
-                stderr=subprocess.DEVNULL,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                # stdout=subprocess.DEVNULL,
+                # stderr=subprocess.DEVNULL,
                 text=True,
                 encoding='utf-8'
             )
@@ -170,7 +151,8 @@ class WoWJumpController:
             cursor.movePosition(QTextCursor.MoveOperation.End, QTextCursor.MoveMode.MoveAnchor)
             self.ui.textEdit_wowjump_1.setTextCursor(cursor)
             self.ui.textEdit_wowjump_1.insertHtml(output)
-            self.ui.textEdit_wowjump_1.ensureCursorVisible()  # 确保光标可见，即滚动到底部
+            # 确保光标可见，即滚动到底部
+            self.ui.textEdit_wowjump_1.ensureCursorVisible()
         except Exception as e:
             print(f"append_output_to_textedit发生异常：{e}")
             self.logger.error(f"append_output_to_textedit发生异常：{e}")
