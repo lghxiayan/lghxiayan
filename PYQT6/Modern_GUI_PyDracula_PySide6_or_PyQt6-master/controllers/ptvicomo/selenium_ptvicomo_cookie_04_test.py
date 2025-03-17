@@ -1,42 +1,37 @@
-import logging.config
-
-# import logging
-import sys
-import os
-
-os.environ['PYTHONIOENCODING'] = 'utf-8'
-
-# 导入日志配置文件
-# logging.config.fileConfig('logging_ptvicomo.conf', encoding='utf-8')
-# logger = logging.getLogger('ptvicomo_log')
-# logger.setLevel(logging.INFO)
+import datetime
 
 
-# 配置日志记录器
-logger = logging.getLogger('ptvicomo_log')
-logger.setLevel(logging.INFO)
+def convert_time_strings(date_strs, price_list):
+    """
+    将日期时间字符串转换为具体的日期时间格式
+    :param date_strs: 日期字符串列表
+    :param price_list: 单价列表
+    :return: 转换后的日期时间列表
+    """
+    datetime_list = []
+    for date_str, price in zip(date_strs, price_list):
+        if '上午' in date_str:
+            date_str = date_str.replace('上午', '11:11:11')
+            print(date_str, price)
+        elif '下午' in date_str:
+            date_str = date_str.replace('下午', '22:22:22')
+            print(date_str, price)
+        # datetime_obj = datetime.datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S')
+        datetime_list.append(date_str)
+    return datetime_list
 
-# 创建控制台处理器
-console_handler = logging.StreamHandler(sys.stdout)  # 输出到标准输出
-console_handler.setLevel(logging.INFO)
 
-# 创建文件处理器
-file_handler = logging.FileHandler('selenium_ptvicomo_cookie_04.log', encoding='utf-8')  # 输出到文件
-file_handler.setLevel(logging.INFO)
+date_strs = "'2025-03-16 上午', '2025-03-16 下午', '2025-03-17 上午', '2025-03-17 下午'"
+print(type(date_strs), date_strs)
+price_strs = "2214, 2214, 2291, 2557"
+print(type(price_strs), price_strs)
 
-# 设置日志格式
-formatter = logging.Formatter('%(asctime)s | %(name)s | %(levelname)s | %(message)s')
-console_handler.setFormatter(formatter)
-file_handler.setFormatter(formatter)
+print('-' * 100)
+date_list = [date.replace("'", "") for date in date_strs.split(', ')]
+print(type(date_list), date_list)
 
-# 添加处理器到日志记录器
-logger.addHandler(console_handler)
-logger.addHandler(file_handler)
+price_list = [int(price) for price in price_strs.split(', ')]
+print(type(price_list), price_list)
 
-if __name__ == '__main__':
-    print(f"Python版本: {sys.version}")
-    print(f"当前工作目录: {os.getcwd()}")
-
-    logger.info(f"test!!!")
-    logger.error(f"test error!!!")
-    logger.info(f"test!!!")
+converted_dates = convert_time_strings(date_list, price_list)
+print(converted_dates)

@@ -38,10 +38,12 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
+import sqlite3
 from mysql.connector import connect, Error
 
 # 导入配置文件常量
-from config_ptvicomo_04 import CHROME_DRIVER_PATH, DB_CONFIG, WEB_COOKIE, WEBSITE_URL, WAIT_TIMEOUT, TABLE_NAME, \
+from config_ptvicomo_04 import CHROME_DRIVER_PATH, DB_CONFIG, WEB_COOKIE, WEBSITE_URL, WEBSITE_MAIN_URL, WAIT_TIMEOUT, \
+    TABLE_NAME, DB_TYPE, \
     CURRENT_ACTION, SALE_NUMBER, BUY_NUMBER, PROFIT_MARGIN, SAVE_PAGE, HEAD_LESS
 
 os.environ['PYTHONIOENCODING'] = 'utf-8'
@@ -81,13 +83,12 @@ class BrowserManager:
             # 创建正常模式Chrome浏览器实例
             return webdriver.Chrome(service=self.service)
 
-    def initialize_browser(self):
+    def initialize_browser(self, web_url):
         """
         初始化浏览器，打开目标网址并最大化窗口
         """
         try:
-            # global driver
-            self.driver.get(WEBSITE_URL)
+            self.driver.get(web_url)
             WebDriverWait(self.driver, WAIT_TIMEOUT).until(ec.presence_of_element_located((By.XPATH, '//body')))
             self.driver.maximize_window()
             if not self.head_less:
@@ -131,16 +132,17 @@ class BrowserManager:
         except NoSuchElementException as e:
             logger.error(f"NoSuchElementException: {e}")
 
-    def set_cookies(self, cookies):
+    def set_cookies(self, cookies, url):
         """
         设置Cookies到浏览器会话
+        :param url:
         :param cookies: 需要设置的Cookies列表
         """
         # global driver
         for cookie in cookies:
             self.driver.add_cookie(cookie)
         # 再次访问网页，这时应该已经应用了Cookies
-        self.driver.get(WEBSITE_URL)
+        self.driver.get(url)
 
     def save_page(self, day_of_week):
         """
@@ -163,7 +165,12 @@ class BrowserManager:
 class DataExtractor:
     def __init__(self, driver):
         self.driver = driver
-        # 预编译正则表达式，用于匹配购买和销售的相关信息
+        # 预编译正则表达式，用于主页面，匹配购买和销售的相关信息
+        self.vegetable_name_pattern = re.compile(r".*?(?=价格走势)")
+        self.vegetable_history_date_pattern = re.compile(r"labels:\s*\[(.*?)]")
+        self.vegetable_history_price_pattern = re.compile(r"data:\s*\[(.*?)]")
+
+        # 预编译正则表达式，用于交易页面，匹配购买和销售的相关信息
         self.buy_name_pattern = re.compile('[\u4e00-\u9fff]+(?=的价格是)')
         self.buy_price_pattern = re.compile(r"(?<=价格是)\d+")
         self.buy_other_number_pattern = re.compile(r"(?<=剩余配货量为)\d+")
@@ -173,6 +180,66 @@ class DataExtractor:
         self.sale_total_profit_pattern = re.compile(r"(?<=累计盈利 )\d+")
         self.sale_current_number_pattern = re.compile(r"(?<=当前可卖数量为 )\d+")
         self.sale_cost_pattern = re.compile(r"(?<=成本：)\d+")
+
+    def extract_main_data(self):
+        """
+        提取主页面的数据
+        :return:
+        """
+        try:
+            logger.info(f'获取【主页面数据】开始！')
+            # logger.info(f'页面标题为：【{self.driver.title}】, 页面地址为：【{self.driver.current_url}】')
+            # 取蔬菜名称
+            main_data_element_title = self.driver.find_element(By.XPATH,
+                                                               "//h2[contains(text(), '价格走势')]")
+            main_data_title_text = main_data_element_title.text
+            vegetable_name = self.vegetable_name_pattern.findall(main_data_title_text)[0]
+            logger.info(f'获取主页面蔬菜名称:{vegetable_name}')
+
+            # 取蔬菜历史价格
+            main_data_element_trend = self.driver.find_element(By.XPATH,
+                                                               "//div[@class='menuLeft']/script[1]")
+            main_data_element_trend_text = main_data_element_trend.get_attribute('innerHTML')
+
+            vegetable_history_date = self.vegetable_history_date_pattern.findall(main_data_element_trend_text)[0]
+            logger.info(f'{vegetable_history_date}')
+            vegetable_history_price = self.vegetable_history_price_pattern.findall(main_data_element_trend_text)[
+                0]
+            logger.info(f'{vegetable_history_price}')
+
+            current_week = self.get_current_week()
+            converted_history_dates = self.convert_time_strings(vegetable_name, vegetable_history_date,
+                                                                vegetable_history_price, current_week)
+            return converted_history_dates
+        except Exception as e:
+            logger.error(f"提取主页面数据失败: {e}")
+            return None
+
+    @staticmethod
+    def convert_time_strings(name_str: str, date_strs: str, price_strs: str, current_week: int) -> list:
+        """
+        将日期时间字符串转换为具体的日期时间格式。将'上午'替换为'11:11:11'，将'下午'替换为'22:22:22'
+        :param name_str: 名称字符串
+        :param date_strs: 日期字符串
+        :param price_strs: 单价字符串
+        :param current_week: 当前周数
+        :return: 转换后的可运行SQL插入参数列表
+        """
+        # 对日期字符串进行分割，并替换里面的单引号
+        date_list = [date.replace("'", "") for date in date_strs.split(', ')]
+        # 对单价字符串进行分割，并转换成数字类型
+        price_list = [int(price) for price in price_strs.split(', ')]
+        history_data_list = []
+        for date_str, price in zip(date_list, price_list):
+            # 根据字符串中包含的时段信息替换时间部分
+            if '上午' in date_str:
+                date_str = date_str.replace('上午', '11:11:11')
+            elif '下午' in date_str:
+                date_str = date_str.replace('下午', '22:22:22')
+            # 构造历史数据元组
+            values = name_str, price, 0, 0, price, 0, '提取数据', date_str, current_week, 0, 0
+            history_data_list.append(values)
+        return history_data_list
 
     @staticmethod
     def get_day_of_week(date_format='number'):
@@ -275,17 +342,16 @@ class DataExtractor:
     @staticmethod
     def get_current_week():
         """
-        获取当前是今年的第几周
+        获取当前是今年的第几周。
+        计算周数，从周日开始计算。weekday() 方法返回的是星期几，星期一是0，星期日是6
+        因此，如果今天是周日，则周数加1。如果今天是一年的第一天且是周日，则已经是第一周了
         :return: 当前周数
         """
         # 获取当前日期
         today = datetime.date.today()
         # 计算年份
         year = today.year
-        # 计算周数，从周日开始计算
-        # weekday() 方法返回的是星期几，星期一是0，星期日是6
-        # 因此，如果今天是周日，则周数加1
-        # 如果今天是一年的第一天且是周日，则已经是第一周了
+
         if today.weekday() == 6:
             week_number = (today - datetime.date(year, 1, 1)).days // 7 + 1
         else:
@@ -476,9 +542,6 @@ class DataExtractor:
                 sale_profit, sale_action_name, current_time, week_number, remaining_stock,
                 num_sale_and_buy)
 
-    def get_history_data(self):
-        pass
-
     def get_data(self):
         """
         从网页获取交易数据。
@@ -526,134 +589,269 @@ class DataExtractor:
 
 
 class DatabaseManager:
-    def __init__(self, db_config, table_name):
+    def __init__(self, db_type, db_config, table_name):
+        self.db_type = db_type
         self.db_config = db_config
         self.table_name = table_name
 
-    def connect_to_mysql(self):
+    def connect_to_db(self):
         """
-        连接到MySQL数据库。
+        连接到数据库。根据数据库的类型选择连接方式。
 
         返回:
         - 如果连接成功，则返回数据库连接对象。
         - 如果连接失败，则返回None。
         """
-        try:
-            conn = connect(**self.db_config)
-            logger.info("连接到 MYSQL 成功!")
-            return conn
-        except Error as error:
-            logger.info(f"连接到 MYSQL 失败: {error}")
+        if self.db_type == 'sqlite':
+            try:
+                conn = sqlite3.connect(self.db_config['sqlite']['database'])
+                logger.info("连接到 SQLite 成功！")
+                return conn
+            except Exception as e:
+                logger.error(f'连接到 SQLite 失败：{e}')
+                return None
+        elif self.db_type == 'mysql':
+            try:
+                conn = connect(**self.db_config['mysql'])
+                logger.info("连接到 MYSQL 成功!")
+                return conn
+            except Error as error:
+                logger.info(f"连接到 MYSQL 失败: {error}")
+                return None
+        else:
+            logger.error("未知的数据库类型！")
             return None
 
-    @staticmethod
-    def query_from_mysql(conn):
+    def query_from_db(self, conn):
         """
-        从MySQL数据库中查询所有数据。
-
+        从数据库中查询所有数据。
         参数:
         - conn: 数据库连接对象。
         """
-        try:
-            with conn.cursor() as cursor:
+        if self.db_type == 'sqlite':
+            try:
+                cursor = conn.cursor()
                 logger.info(f'查询数据开始')
-                cursor.execute(f'select * from {TABLE_NAME}')
+                cursor.execute(f'select * from {self.table_name}')
                 db_result = cursor.fetchall()
                 for row in db_result:
                     row_data = list(row)
                     logger.info(f'{row_data}')
-        except Exception as e:
-            logger.error(f'查询数据失败:{e}')
+            except Exception as e:
+                logger.error(f'查询数据失败:{e}')
 
-    def insert_data_to_mysql(self, conn, data_tuple):
+        elif self.db_type == 'mysql':
+            try:
+                with conn.cursor() as cursor:
+                    logger.info(f'查询数据开始')
+                    cursor.execute(f'select * from {self.table_name}')
+                    db_result = cursor.fetchall()
+                    for row in db_result:
+                        row_data = list(row)
+                        logger.info(f'{row_data}')
+            except Exception as e:
+                logger.error(f'查询数据失败:{e}')
+        else:
+            logger.error("不知道的数据库类型")
+
+    def insert_data_to_db(self, conn, data):
         """
-        向MySQL数据库插入数据。
-
+        向数据库插入数据。
         参数:
         - conn: 数据库连接对象。
-        - data_tuple: 包含要插入的数据的元组。
+        - data_tuple: 包含要插入的数据的元组。先要判断传入的是列表还是元组，如果是列表，就迭代。元组则不处理。
         """
-        try:
-            insert_data_query = (
-                f"INSERT INTO {self.table_name} (名称,市场单价,累计盈利,当前可卖数量,成本,本周盈利,当前操作,当前时间,当前周数,剩余配货量,买卖数量) "
-                f"VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s ,%s, %s)")
-            with conn.cursor() as cursor:
-                logger.info(data_tuple)
-                cursor.execute(insert_data_query, data_tuple)
-                conn.commit()
-                logger.info("数据插入成功！")
-                logger.info('-' * 30)
-        except Error as e:
-            logger.error(f"数据插入失败: {e}")
+        # 校验输入数据类型
+        if not isinstance(data, (list, tuple)):
+            logger.error('数据类型不正确，需要列表或元组')
+            return
 
-    def create_table(self, conn):
-        """
-        根据df的字段自动创建MySQL数据库表。
-        """
-        create_table_query = f"""
-        CREATE TABLE IF NOT EXISTS {self.table_name} (
-            id INT auto_increment PRIMARY KEY,
-            名称 VARCHAR(255) NULL,
-            市场单价 INT NULL,
-            累计盈利 INT NULL,
-            当前可卖数量 INT NULL,
-            成本 INT NULL,
-            本周盈利 INT NULL,
-            当前操作 VARCHAR(255) NULL,
-            当前时间 VARCHAR(255) NULL,
-            当前周数 INT NULL,
-            剩余配货量 INT NULL,
-            买卖数量 INT NULL
-        );
-        """
+        # 校验数据内容
+        if isinstance(data, list):
+            if not all(isinstance(item, tuple) and len(item) == 11 for item in data):
+                logger.error("列表中的元素必须是长度为11的元组")
+                return
+
+        # 插入数据
+        if isinstance(data, list):
+            # 如果是列表，则循环插入每个元组
+            for item in data:
+                self._insert_single_record(conn, item)
+        else:
+            # 如果是元组，则直接插入
+            self._insert_single_record(conn, data)
+
+    def _insert_single_record(self, conn, record):
+        # 校验表名安全性
+        if not self.table_name.isidentifier():
+            logger.error(f"表名 {self.table_name} 不合法，可能存在SQL注入风险")
+            return
         try:
-            with conn.cursor() as cursor:
+            if self.db_type == 'sqlite':
+                insert_data_query = (
+                    f"INSERT INTO {self.table_name} (名称,市场单价,累计盈利,当前可卖数量,成本,本周盈利,当前操作,当前时间,当前周数,剩余配货量,买卖数量) "
+                    f"VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")
+                with conn.cursor() as cursor:
+                    # sqlite3.Cursor不支持with,所以要单独写
+                    cursor.execute(insert_data_query, record)
+                    conn.commit()
+                    logger.info(f"数据插入成功！表名: {self.table_name}, 数据: {record}")
+            elif self.db_type == 'mysql':
+                insert_data_query = (
+                    f"INSERT INTO {self.table_name} (名称,市场单价,累计盈利,当前可卖数量,成本,本周盈利,当前操作,当前时间,当前周数,剩余配货量,买卖数量) "
+                    f"VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s ,%s, %s)")
+                with conn.cursor() as cursor:
+                    logger.info(record)
+                    cursor.execute(insert_data_query, record)
+                    conn.commit()
+                    logger.info(f"数据插入成功！表名: {self.table_name}, 数据: {record}")
+            else:
+                logger.error("未知的数据库类型")
+        except Exception as e:
+            logger.error(f"数据插入失败: {e}, 表名: {self.table_name}, 数据: {record}")
+
+    def create_db_table(self, conn):
+        """
+        根据df的字段自动创建数据库表。
+        """
+        if self.db_type == 'sqlite':
+            # sqlite的自增字段跟mysql是不同的语法，所以要分开写
+            create_table_query = f"""
+            CREATE TABLE IF NOT EXISTS {self.table_name} (
+                id INTEGER PRIMARY KEY,
+                名称 VARCHAR(255) NULL,
+                市场单价 INT NULL,
+                累计盈利 INT NULL,
+                当前可卖数量 INT NULL,
+                成本 INT NULL,
+                本周盈利 INT NULL,
+                当前操作 VARCHAR(255) NULL,
+                当前时间 VARCHAR(255) NULL,
+                当前周数 INT NULL,
+                剩余配货量 INT NULL,
+                买卖数量 INT NULL
+            );
+            """
+            try:
+                # sqlite3.Cursor不支持with,所以要单独写
+                cursor = conn.cursor()
                 cursor.execute(create_table_query)
                 conn.commit()
-        except Error as e:
-            logger.error(f"创建表失败: {e}")
+                cursor.close()
+            except Error as e:
+                logger.error(f"创建 sqlite 数据表 {self.table_name} 失败: {e}")
+        elif self.db_type == 'mysql':
+            create_table_query = f"""
+             CREATE TABLE IF NOT EXISTS {self.table_name} (
+                 id INT auto_increment PRIMARY KEY,
+                 名称 VARCHAR(255) NULL,
+                 市场单价 INT NULL,
+                 累计盈利 INT NULL,
+                 当前可卖数量 INT NULL,
+                 成本 INT NULL,
+                 本周盈利 INT NULL,
+                 当前操作 VARCHAR(255) NULL,
+                 当前时间 VARCHAR(255) NULL,
+                 当前周数 INT NULL,
+                 剩余配货量 INT NULL,
+                 买卖数量 INT NULL
+             );
+             """
+            try:
+                with conn.cursor() as cursor:
+                    cursor.execute(create_table_query)
+                    conn.commit()
+            except Error as e:
+                logger.error(f"创建 mysql 数据表 {self.table_name} 失败: {e}")
+        else:
+            logger.error(f"不知道的数据库类型！")
+
+    def check_record_exists_for_current_period(self, conn, current_time):
+        try:
+            current_date = current_time.split()[0]
+            current_hour = int(current_time.split()[1].split(':')[0])
+
+            if current_hour < 12:
+                period_start = f"{current_date} 00:00:00"
+                period_end = f"{current_date} 11:59:59"
+            else:
+                period_start = f"{current_date} 12:00:00"
+                period_end = f"{current_date} 23:59:59"
+
+            query = f"""
+            SELECT COUNT(*) FROM {self.table_name} WHERE 当前时间 BETWEEN ? and ?
+            """
+            if self.db_type == 'sqlite':
+                cursor = conn.cursor()
+                cursor.execute(query, (period_start, period_end))
+                count = cursor.fetchone()[0]
+                conn.commit()
+                return count > 0
+            elif self.db_type == 'mysql':
+                with conn.cursor() as cursor:
+                    cursor.execute(query, (period_start, period_end))
+                    count = cursor.fetchone()[0]
+                    return count > 0
+            else:
+                logger.error(f"不支持的数据库类型： {self.db_type}")
+        except Exception as e:
+            logger.error(f"检查记录时发生错误：{e}")
+            return False
 
 
 class Application:
-    def __init__(self):
+    def __init__(self, url):
+        self.url = url
+        # 创建BrowserManager实例
         self.browser_manager = BrowserManager()
         self.data_extractor = DataExtractor(self.browser_manager.driver)
-        self.database_manager = DatabaseManager(DB_CONFIG, TABLE_NAME)
+        self.database_manager = DatabaseManager(DB_TYPE, DB_CONFIG, TABLE_NAME)
 
     def main(self):
         try:
             day_of_week = self.data_extractor.get_day_of_week('chinese')
-            self.browser_manager.initialize_browser()
+            # 初始化页面
+            self.browser_manager.initialize_browser(self.url)
             if not HEAD_LESS:
                 self.browser_manager.get_cookies_save_to_file()
-            self.browser_manager.set_cookies(WEB_COOKIE)
+            self.browser_manager.set_cookies(WEB_COOKIE, self.url)
             if SAVE_PAGE:
                 self.browser_manager.save_page(day_of_week)
-
         except Exception as e:
             logger.error(f"初始化浏览器或设置Cookie失败: {e}")
             return
 
-        # 这里应该有个判断cookie是否过期?如果过期,则使用帐号登录,重新获取cookie.
-        # time.sleep(10)
-        # get_cookies_save_to_file()
-
         try:
-            with self.database_manager.connect_to_mysql() as my_conn:
+            with self.database_manager.connect_to_db() as my_conn:
                 if my_conn is None:
                     logger.error("无法连接到数据库!")
                     return
+                self.database_manager.create_db_table(my_conn)
 
-                self.database_manager.create_table(my_conn)
-
-                data = self.data_extractor.get_data()
+                # 提取数据，这个应该放到前面去。
+                # 这里要做个判断，因为各个页面的元素是不一样的
+                if self.url == WEBSITE_URL:
+                    data = self.data_extractor.get_data()
+                elif self.url == WEBSITE_MAIN_URL:
+                    data = self.data_extractor.extract_main_data()
                 if data is None:
                     logger.error("无法获取数据!")
                     return
 
                 try:
-                    # query_from_mysql(my_conn)
-                    self.database_manager.insert_data_to_mysql(my_conn, data)
+                    if self.url == WEBSITE_URL:
+                        # self.database_manager.query_from_db(my_conn)
+                        current_time = self.data_extractor.get_current_time()
+                        if not self.database_manager.check_record_exists_for_current_period(my_conn, current_time):
+                            self.database_manager.insert_data_to_db(my_conn, data)
+                        else:
+                            logger.info(f"当前时间段已有记录，不插入新记录。当前时间: {current_time}")
+                    elif self.url == WEBSITE_MAIN_URL:
+                        current_time = self.data_extractor.get_current_time()
+                        if not self.database_manager.check_record_exists_for_current_period(my_conn, current_time):
+                            self.database_manager.insert_data_to_db(my_conn, data)
+                        else:
+                            logger.info(f"当前时间段已有记录，不插入新记录。当前时间: {current_time}")
                 except Error as e:
                     logger.error(f'插入数据失败: {e}')
 
@@ -671,5 +869,12 @@ if __name__ == '__main__':
     print(f"Python版本: {sys.version}")
     print(f"当前工作目录: {os.getcwd()}")
 
-    app = Application()
-    app.main()
+    # 获取主页面历史数据
+    app1 = Application(WEBSITE_MAIN_URL)
+    app1.main()
+
+    print('-' * 150)
+
+    # 获取交易页面数据，并执行买卖操作
+    app2 = Application(WEBSITE_URL)
+    app2.main()
