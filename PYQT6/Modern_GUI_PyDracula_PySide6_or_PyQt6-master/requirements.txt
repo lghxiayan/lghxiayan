@@ -7,3 +7,4 @@ pyqt6~=6.8.1
 pygments~=2.19.1
 selenium~=4.27.1
 mysql-connector-python~=9.1.0
+sqlalchemy~=2.0.39
