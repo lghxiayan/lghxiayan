@@ -58,7 +58,7 @@ CURRENT_ACTION = {'buy': '买入', 'sale': '卖出', 'get_data': '提取数据'}
 SALE_NUMBER = 0
 BUY_NUMBER = 1
 # 卖出利润率
-PROFIT_MARGIN = 30
+PROFIT_MARGIN = 10
 # 保存页面
 SAVE_PAGE = False
 # 无头模式

@@ -33,7 +33,6 @@ import platform
 import time
 import os
 
-import sqlalchemy.orm
 # 导入Selenium相关模块，用于自动化浏览器操作
 from selenium import webdriver
 from selenium.common import NoSuchElementException
@@ -41,20 +40,16 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
-import sqlite3
-from mysql.connector import connect, Error
-
-from sqlalchemy import create_engine, Column, Integer, String, Float, DateTime, Table, MetaData, Sequence
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+# 导入sqlalchemy模块,用于数据库处理
+from sqlalchemy import create_engine, Column, Integer, String, Sequence, inspect
+from sqlalchemy.orm import sessionmaker, declarative_base
 from sqlalchemy.exc import SQLAlchemyError
-
 # 导入配置文件常量
 from config_ptvicomo_04 import CHROME_DRIVER_PATH, DB_CONFIG, WEB_COOKIE, WEBSITE_URL, WEBSITE_MAIN_URL, WAIT_TIMEOUT, \
     TABLE_NAME, DB_TYPE, \
     CURRENT_ACTION, SALE_NUMBER, BUY_NUMBER, PROFIT_MARGIN, SAVE_PAGE, HEAD_LESS
 
-Base = sqlalchemy.orm.declarative_base()
+Base = declarative_base()
 os.environ['PYTHONIOENCODING'] = 'utf-8'
 
 # 导入日志配置文件
@@ -167,15 +162,22 @@ class BrowserManager:
             logger.error(f"Error occurred while saving the page source: {e}")
 
     def close_browser(self):
-        self.driver.close()
-        self.driver.quit()
+        try:
+            self.driver.close()
+        except Exception as e:
+            logger.error(f"关闭浏览器窗口失败:{e}")
+        finally:
+            try:
+                self.driver.quit()
+            except Exception as e:
+                logger.error(f"退出浏览器驱动失败: {e}")
 
 
 class DataExtractor:
     def __init__(self, driver):
         self.driver = driver
         # 预编译正则表达式，用于主页面，匹配购买和销售的相关信息
-        self.vegetable_name_pattern = re.compile(r".*?(?=价格走势)")
+        self.vegetable_name_pattern = re.compile(r"^(.+?)价格走势")
         self.vegetable_history_date_pattern = re.compile(r"labels:\s*\[(.*?)]")
         self.vegetable_history_price_pattern = re.compile(r"data:\s*\[(.*?)]")
 
@@ -190,30 +192,26 @@ class DataExtractor:
         self.sale_current_number_pattern = re.compile(r"(?<=当前可卖数量为 )\d+")
         self.sale_cost_pattern = re.compile(r"(?<=成本：)\d+")
 
-    def extract_main_data(self):
+    def extract_homepage_data(self):
         """
         提取主页面的数据
         :return:
         """
         try:
-            logger.info(f'获取【主页面数据】开始！')
-            # logger.info(f'页面标题为：【{self.driver.title}】, 页面地址为：【{self.driver.current_url}】')
-            # 取蔬菜名称
-            main_data_element_title = self.driver.find_element(By.XPATH,
-                                                               "//h2[contains(text(), '价格走势')]")
-            main_data_title_text = main_data_element_title.text
-            vegetable_name = self.vegetable_name_pattern.findall(main_data_title_text)[0]
+            logger.info("开始提取主页面数据...")
+            homepage_data_title = self.driver.find_element(By.XPATH, "//h2[contains(text(), '价格走势')]").text
+            vegetable_name = self.vegetable_name_pattern.findall(homepage_data_title)[0]
             logger.info(f'获取主页面蔬菜名称:{vegetable_name}')
 
             # 取蔬菜历史价格
-            main_data_element_trend = self.driver.find_element(By.XPATH,
-                                                               "//div[@class='menuLeft']/script[1]")
-            main_data_element_trend_text = main_data_element_trend.get_attribute('innerHTML')
+            homepage_data_trend_script = self.driver.find_element(By.XPATH,
+                                                                  "//div[@class='menuLeft']/script[1]").get_attribute(
+                'innerHTML')
 
-            vegetable_history_date = self.vegetable_history_date_pattern.findall(main_data_element_trend_text)[0]
+            vegetable_history_date = self.vegetable_history_date_pattern.findall(homepage_data_trend_script)[0]
             logger.info(f'{vegetable_history_date}')
-            vegetable_history_price = self.vegetable_history_price_pattern.findall(main_data_element_trend_text)[
-                0]
+
+            vegetable_history_price = self.vegetable_history_price_pattern.findall(homepage_data_trend_script)[0]
             logger.info(f'{vegetable_history_price}')
 
             current_week = self.get_current_week()
@@ -551,17 +549,12 @@ class DataExtractor:
                 sale_profit, sale_action_name, current_time, week_number, remaining_stock,
                 num_sale_and_buy)
 
-    def get_data(self):
+    def get_trade_page_data(self):
         """
-        从网页获取交易数据。
-
+        从交易网页获取数据。
         返回:
         - 如果找到数据，则返回一个包含名称、价格和盈利的元组。
         - 如果找不到数据或出现异常，则返回None。
-        """
-        """
-        从网页获取指定数据，并返回
-        :return: 返回数据的元组，包括名称、价格和累计盈利
         """
         # 获取当天是星期几
         day_of_week = self.get_day_of_week('chinese')
@@ -598,7 +591,7 @@ class DataExtractor:
 
 
 class DataRecord(Base):
-    __tablename__ = 'data_record'
+    __tablename__ = TABLE_NAME
 
     id = Column(Integer, Sequence('data_record_seq'), primary_key=True, autoincrement=True)
     名称 = Column(String(255), nullable=True)  # 商品名称
@@ -636,8 +629,13 @@ class DatabaseManager:
 
     def create_db_table(self):
         try:
-            Base.metadata.create_all(self.engine)
-            logger.info(f"创建表成功！")
+            inspector = inspect(self.engine)
+            table_exists = inspector.has_table(TABLE_NAME)
+            if not table_exists:
+                Base.metadata.create_all(self.engine)
+                logger.info(f"创建表 {TABLE_NAME} 成功！")
+            else:
+                logger.info(f"表 {TABLE_NAME} 已存在，跳过创建操作。")
         except SQLAlchemyError as e:
             logger.error(f"创建表失败: {e}")
 
@@ -676,6 +674,7 @@ class DatabaseManager:
                     剩余配货量=data[9],
                     买卖数量=data[10]
                 )]
+                is_current_data = data[6] != "提取数据"
             elif isinstance(data, list):
                 # 如果是列表，则循环插入每个元组
                 records = [DataRecord(
@@ -691,19 +690,31 @@ class DatabaseManager:
                     剩余配货量=item[9],
                     买卖数量=item[10]
                 ) for item in data]
-
+                is_current_data = all(item[6] != "提取数据" for item in data)
             else:
                 logger.error("数据类型不正确，需要元组或列表")
                 return
 
-            self.session.bulk_save_objects(records)
-            self.session.commit()
-            logger.info(f"数据插入成功！数据: {data}")
+            current_time = data[0][7] if isinstance(data, list) else data[7]
+            if not self.check_record_exists_for_current_period(current_time, is_current_data):
+                self.session.bulk_save_objects(records)
+                self.session.commit()
+                logger.info(f"数据插入成功！数据: {data}")
+            else:
+                logger.info(f"当前时间段已有记录，不插入新记录。当前时间: {current_time}")
         except SQLAlchemyError as e:
             self.session.rollback()
             logger.error(f"数据插入失败: {e},数据: {data}")
 
-    def check_record_exists_for_current_period(self, current_time):
+    def check_record_exists_for_current_period(self, current_time, is_current_data=True):
+        """
+        检查要插入的数据的时间段,在数据库是否有记录.
+        有买卖操作的时候,总是返回True.所以这里做了过滤.
+        只判断操作类型为"数据提取"的操作.有"数据提取"则返回True,否则返回False
+        :param current_time:
+        :param is_current_data:
+        :return:
+        """
         try:
             current_date = current_time.split()[0]
             current_hour = int(current_time.split()[1].split(':')[0])
@@ -715,8 +726,13 @@ class DatabaseManager:
                 period_start = f"{current_date} 12:00:00"
                 period_end = f"{current_date} 23:59:59"
 
-            count = self.session.query(DataRecord).filter(DataRecord.当前时间.between(period_start, period_end)).count()
-
+            query = self.session.query(DataRecord).filter(DataRecord.当前时间.between(period_start, period_end))
+            if is_current_data:
+                # 检查当前时间段是否有当前数据
+                count = query.filter(DataRecord.当前操作 != '提取数据').count()
+            else:
+                # 检查当前时间段是否有历史数据
+                count = query.filter(DataRecord.当前操作 == '提取数据').count()
             return count > 0
         except SQLAlchemyError as e:
             logger.error(f"检查记录时发生错误：{e}")
@@ -751,32 +767,40 @@ class Application:
         try:
             data = None
             self.database_manager.create_db_table()
-            # 提取数据，这个应该放到前面去。
             # 这里要做个判断，因为各个页面的元素是不一样的
             if self.url == WEBSITE_URL:
-                data = self.data_extractor.get_data()
+                # 在提取交易页面的数据的时候,就进行了买卖的操作.
+                data = self.data_extractor.get_trade_page_data()
             elif self.url == WEBSITE_MAIN_URL:
-                data = self.data_extractor.extract_main_data()
+                data = self.data_extractor.extract_homepage_data()
             if data is None:
                 logger.error("无法获取数据!")
                 return
 
-            try:
-                if self.url == WEBSITE_URL:
-                    # self.database_manager.query_from_db(my_conn)
-                    current_time = self.data_extractor.get_current_time()
-                    if not self.database_manager.check_record_exists_for_current_period(current_time):
-                        self.database_manager.insert_data_to_db(data)
-                    else:
-                        logger.info(f"当前时间段已有记录，不插入新记录。当前时间: {current_time}")
-                elif self.url == WEBSITE_MAIN_URL:
-                    current_time = self.data_extractor.get_current_time()
-                    if not self.database_manager.check_record_exists_for_current_period(current_time):
-                        self.database_manager.insert_data_to_db(data)
-                    else:
-                        logger.info(f"当前时间段已有记录，不插入新记录。当前时间: {current_time}")
-            except SQLAlchemyError as e:
-                logger.error(f'插入数据失败: {e}')
+            current_time = self.data_extractor.get_current_time()
+            logger.info(f"当前时间: {current_time}")
+            logger.info(f"提取的数据: {data}")
+
+            if not self.database_manager.check_record_exists_for_current_period(current_time):
+                self.database_manager.insert_data_to_db(data)
+            else:
+                logger.info(f"当前时间段已有记录，不插入新记录。当前时间: {current_time}")
+
+            # try:
+            #     if self.url == WEBSITE_URL:
+            #         current_time = self.data_extractor.get_current_time()
+            #         if not self.database_manager.check_record_exists_for_current_period(current_time):
+            #             self.database_manager.insert_data_to_db(data)
+            #         else:
+            #             logger.info(f"当前时间段已有记录，不插入新记录。当前时间: {current_time}")
+            #     elif self.url == WEBSITE_MAIN_URL:
+            #         current_time = self.data_extractor.get_current_time()
+            #         if not self.database_manager.check_record_exists_for_current_period(current_time):
+            #             self.database_manager.insert_data_to_db(data)
+            #         else:
+            #             logger.info(f"当前时间段已有记录，不插入新记录。当前时间: {current_time}")
+            # except SQLAlchemyError as e:
+            #     logger.error(f'插入数据失败: {e}')
 
         except Exception as e:
             logger.error(f'程序运行失败:{e}')
