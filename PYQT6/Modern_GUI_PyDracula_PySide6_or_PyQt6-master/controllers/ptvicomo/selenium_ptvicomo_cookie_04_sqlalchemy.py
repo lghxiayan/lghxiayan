@@ -634,8 +634,6 @@ class DatabaseManager:
             if not table_exists:
                 Base.metadata.create_all(self.engine)
                 logger.info(f"创建表 {TABLE_NAME} 成功！")
-            else:
-                logger.info(f"表 {TABLE_NAME} 已存在，跳过创建操作。")
         except SQLAlchemyError as e:
             logger.error(f"创建表失败: {e}")
 
@@ -659,81 +657,75 @@ class DatabaseManager:
 
         # 插入数据
         try:
+            records_to_insert = []
             if isinstance(data, tuple):
                 # 如果是元组，则直接插入
-                records = [DataRecord(
-                    名称=data[0],
-                    市场单价=data[1],
-                    累计盈利=data[2],
-                    当前可卖数量=data[3],
-                    成本=data[4],
-                    本周盈利=data[5],
-                    当前操作=data[6],
-                    当前时间=data[7],
-                    当前周数=data[8],
-                    剩余配货量=data[9],
-                    买卖数量=data[10]
-                )]
-                is_current_data = data[6] != "提取数据"
+                record_time = data[7]
+                if not self.check_record_exists_for_period(record_time):
+                    records_to_insert.append(DataRecord(
+                        名称=data[0],
+                        市场单价=data[1],
+                        累计盈利=data[2],
+                        当前可卖数量=data[3],
+                        成本=data[4],
+                        本周盈利=data[5],
+                        当前操作=data[6],
+                        当前时间=data[7],
+                        当前周数=data[8],
+                        剩余配货量=data[9],
+                        买卖数量=data[10]
+                    ))
             elif isinstance(data, list):
-                # 如果是列表，则循环插入每个元组
-                records = [DataRecord(
-                    名称=item[0],
-                    市场单价=item[1],
-                    累计盈利=item[2],
-                    当前可卖数量=item[3],
-                    成本=item[4],
-                    本周盈利=item[5],
-                    当前操作=item[6],
-                    当前时间=item[7],
-                    当前周数=item[8],
-                    剩余配货量=item[9],
-                    买卖数量=item[10]
-                ) for item in data]
-                is_current_data = all(item[6] != "提取数据" for item in data)
+                # 如果是列表，则逐条检查并插入
+                for item in data:
+                    record_time = item[7]
+                    if not self.check_record_exists_for_period(record_time):
+                        records_to_insert.append(DataRecord(
+                            名称=item[0],
+                            市场单价=item[1],
+                            累计盈利=item[2],
+                            当前可卖数量=item[3],
+                            成本=item[4],
+                            本周盈利=item[5],
+                            当前操作=item[6],
+                            当前时间=item[7],
+                            当前周数=item[8],
+                            剩余配货量=item[9],
+                            买卖数量=item[10]
+                        ))
             else:
                 logger.error("数据类型不正确，需要元组或列表")
                 return
 
-            current_time = data[0][7] if isinstance(data, list) else data[7]
-            if not self.check_record_exists_for_current_period(current_time, is_current_data):
-                self.session.bulk_save_objects(records)
+            if records_to_insert:
+                self.session.bulk_save_objects(records_to_insert)
                 self.session.commit()
-                logger.info(f"数据插入成功！数据: {data}")
+                logger.info(f"{len(records_to_insert)} 条数据插入成功！")
             else:
-                logger.info(f"当前时间段已有记录，不插入新记录。当前时间: {current_time}")
+                logger.info(f"所有数据均已存在于数据库中，未插入新记录。")
         except SQLAlchemyError as e:
             self.session.rollback()
             logger.error(f"数据插入失败: {e},数据: {data}")
 
-    def check_record_exists_for_current_period(self, current_time, is_current_data=True):
+    def check_record_exists_for_period(self, record_time):
         """
-        检查要插入的数据的时间段,在数据库是否有记录.
-        有买卖操作的时候,总是返回True.所以这里做了过滤.
-        只判断操作类型为"数据提取"的操作.有"数据提取"则返回True,否则返回False
-        :param current_time:
-        :param is_current_data:
-        :return:
+        检查特定时间点的数据是否已经存在于数据库中。
+        :param record_time: 要检查的时间字符串，格式为 "YYYY-MM-DD HH:MM:SS"
+        :return: 如果存在返回 True，否则返回 False
         """
+        current_date = record_time.split()[0]
+        current_hour = int(record_time.split()[1].split(':')[0])
+
+        if current_hour < 12:
+            period_start = f"{current_date} 00:00:00"
+            period_end = f"{current_date} 11:59:59"
+        else:
+            period_start = f"{current_date} 12:00:00"
+            period_end = f"{current_date} 23:59:59"
+
         try:
-            current_date = current_time.split()[0]
-            current_hour = int(current_time.split()[1].split(':')[0])
-
-            if current_hour < 12:
-                period_start = f"{current_date} 00:00:00"
-                period_end = f"{current_date} 11:59:59"
-            else:
-                period_start = f"{current_date} 12:00:00"
-                period_end = f"{current_date} 23:59:59"
-
             query = self.session.query(DataRecord).filter(DataRecord.当前时间.between(period_start, period_end))
-            if is_current_data:
-                # 检查当前时间段是否有当前数据
-                count = query.filter(DataRecord.当前操作 != '提取数据').count()
-            else:
-                # 检查当前时间段是否有历史数据
-                count = query.filter(DataRecord.当前操作 == '提取数据').count()
-            return count > 0
+            return query.count() > 0
         except SQLAlchemyError as e:
             logger.error(f"检查记录时发生错误：{e}")
             return False
@@ -777,30 +769,7 @@ class Application:
                 logger.error("无法获取数据!")
                 return
 
-            current_time = self.data_extractor.get_current_time()
-            logger.info(f"当前时间: {current_time}")
-            logger.info(f"提取的数据: {data}")
-
-            if not self.database_manager.check_record_exists_for_current_period(current_time):
-                self.database_manager.insert_data_to_db(data)
-            else:
-                logger.info(f"当前时间段已有记录，不插入新记录。当前时间: {current_time}")
-
-            # try:
-            #     if self.url == WEBSITE_URL:
-            #         current_time = self.data_extractor.get_current_time()
-            #         if not self.database_manager.check_record_exists_for_current_period(current_time):
-            #             self.database_manager.insert_data_to_db(data)
-            #         else:
-            #             logger.info(f"当前时间段已有记录，不插入新记录。当前时间: {current_time}")
-            #     elif self.url == WEBSITE_MAIN_URL:
-            #         current_time = self.data_extractor.get_current_time()
-            #         if not self.database_manager.check_record_exists_for_current_period(current_time):
-            #             self.database_manager.insert_data_to_db(data)
-            #         else:
-            #             logger.info(f"当前时间段已有记录，不插入新记录。当前时间: {current_time}")
-            # except SQLAlchemyError as e:
-            #     logger.error(f'插入数据失败: {e}')
+            self.database_manager.insert_data_to_db(data)
 
         except Exception as e:
             logger.error(f'程序运行失败:{e}')
