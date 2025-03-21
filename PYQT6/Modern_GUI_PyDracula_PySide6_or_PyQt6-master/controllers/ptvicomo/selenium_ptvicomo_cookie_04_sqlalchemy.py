@@ -40,10 +40,11 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
-# 导入sqlalchemy模块,用于数据库处理
-from sqlalchemy import create_engine, Column, Integer, String, Sequence, inspect
+# 导入sqlalchemy 2.x 模块,用于数据库处理.跟1.x版本有很多不同.
+from sqlalchemy import create_engine, Column, Integer, String, Sequence, inspect, and_, DDL
 from sqlalchemy.orm import sessionmaker, declarative_base
 from sqlalchemy.exc import SQLAlchemyError
+from sqlalchemy.dialects.mysql import VARCHAR
 # 导入配置文件常量
 from config_ptvicomo_04 import CHROME_DRIVER_PATH, DB_CONFIG, WEB_COOKIE, WEBSITE_URL, WEBSITE_MAIN_URL, WAIT_TIMEOUT, \
     TABLE_NAME, DB_TYPE, \
@@ -241,8 +242,10 @@ class DataExtractor:
             # 根据字符串中包含的时段信息替换时间部分
             if '上午' in date_str:
                 date_str = date_str.replace('上午', '11:11:11')
+                date_str = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
             elif '下午' in date_str:
                 date_str = date_str.replace('下午', '22:22:22')
+                date_str = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
             # 构造历史数据元组
             values = name_str, price, 0, 0, price, 0, '提取数据', date_str, current_week, 0, 0
             history_data_list.append(values)
@@ -326,16 +329,16 @@ class DataExtractor:
             logger.error(f"点击购买按钮失败: {e}")
 
     @staticmethod
-    def get_current_time():
+    def get_current_time() -> datetime:
         """
-        获取当前时间，格式为：年-月-日 时:分:秒
-        :return: 当前时间字符串
+        获取当前日期和时间，格式为：年-月-日 时:分:秒,不要毫秒.
+        :return: 当前日期和时间,不包括毫秒
         """
-        current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        current_time = datetime.datetime.now().replace(microsecond=0)
         return current_time
 
     @staticmethod
-    def get_hours_until_next_sunday():
+    def get_hours_until_next_sunday() -> int:
         """
         计算距离下周星期天的剩余小时数
         :return: 距离下周星期天剩余的小时数
@@ -611,18 +614,22 @@ class DatabaseManager:
     def __init__(self, db_type, db_config):
         self.db_type = db_type
         self.db_config = db_config
-        # self.data = args
         self.engine = self._create_engine()
         self.Session = sessionmaker(bind=self.engine)
         self.session = self.Session()
 
+    def get_engine(self):  # 新增公共方法，提供对外访问 engine 的接口
+        return self.engine
+
     def _create_engine(self):
         if self.db_type == 'sqlite':
-            return create_engine(f'sqlite:///{self.db_config["sqlite"]["database"]}')
+            sqlalchemy_database_url = f'sqlite:///{self.db_config["sqlite"]["database"]}'
+            return create_engine(sqlalchemy_database_url, future=True)
         elif self.db_type == 'mysql':
-            return create_engine(
+            sqlalchemy_database_url = (
                 f'mysql+pymysql://{self.db_config["mysql"]["user"]}:{self.db_config["mysql"]["password"]}'
                 f'@{self.db_config["mysql"]["host"]}/{self.db_config["mysql"]["database"]}')
+            return create_engine(sqlalchemy_database_url, future=True)
         else:
             logger.error("未知的数据库类型！")
             return None
@@ -707,24 +714,26 @@ class DatabaseManager:
             self.session.rollback()
             logger.error(f"数据插入失败: {e},数据: {data}")
 
-    def check_record_exists_for_period(self, record_time):
+    def check_record_exists_for_period(self, record_time: datetime) -> bool:
         """
         检查特定时间点的数据是否已经存在于数据库中。
         :param record_time: 要检查的时间字符串，格式为 "YYYY-MM-DD HH:MM:SS"
         :return: 如果存在返回 True，否则返回 False
         """
-        current_date = record_time.split()[0]
-        current_hour = int(record_time.split()[1].split(':')[0])
+        current_date = datetime.datetime.date(record_time)
+        current_hour = record_time.hour
 
+        period_start = datetime.datetime.strptime(f"{current_date} 00:00:00", "%Y-%m-%d %H:%M:%S")
+        period_end = datetime.datetime.strptime(f"{current_date} 23:59:59", "%Y-%m-%d %H:%M:%S")
         if current_hour < 12:
-            period_start = f"{current_date} 00:00:00"
-            period_end = f"{current_date} 11:59:59"
+            period_end = datetime.datetime.strptime(f"{current_date} 11:59:59", "%Y-%m-%d %H:%M:%S")
         else:
-            period_start = f"{current_date} 12:00:00"
-            period_end = f"{current_date} 23:59:59"
+            period_start = datetime.datetime.strptime(f"{current_date} 12:00:00", "%Y-%m-%d %H:%M:%S")
 
         try:
-            query = self.session.query(DataRecord).filter(DataRecord.当前时间.between(period_start, period_end))
+            # query = self.session.query(DataRecord).filter(DataRecord.当前时间.between(period_start, period_end))
+            query = self.session.query(DataRecord).filter(
+                and_(DataRecord.当前时间 >= period_start, DataRecord.当前时间 <= period_end))
             return query.count() > 0
         except SQLAlchemyError as e:
             logger.error(f"检查记录时发生错误：{e}")
@@ -732,6 +741,52 @@ class DatabaseManager:
 
     def close_session(self):
         self.session.close()
+
+    def alter_table_to_datetime(self, table_name):
+        """
+        将表结构中的字符串类型时间字段转换为DATETIME类型
+        完整执行步骤：
+        1. 检查原字段是否存在
+        2. 重命名字段为临时字段
+        3. 添加新DATETIME字段
+        4. 转换旧数据到新字段
+        5. 删除旧字段
+        6. 重命名新字段
+        :param table_name:
+        :return:
+        """
+
+        inspector = inspect(self.engine)
+        with self.engine.connect() as connection:
+            with connection.begin():
+                # 获取列详细信息（包含数据类型）
+                columns = inspector.get_columns(table_name)
+                time_column = next((col for col in columns if col['name'].lower() == '当前时间'), None)
+                # 验证原始列是否存在
+                if not time_column:
+                    raise ValueError(f"列 '当前时间' 不存在于表 {table_name}['name']")
+                # 获取数据库方言特定类型名称
+                col_type = time_column['type']
+                if not isinstance(col_type, (String, VARCHAR)):  # 兼容不同数据库类型
+                    # logger.info(f"当前时间字段类型已经是 {type(col_type).__name__}，无需转换")
+                    return
+                # 使用方言特定的标识符转义
+                quoted_table = connection.dialect.identifier_preparer.quote(table_name)
+                # 修改 DDL 步骤定义
+                steps = [
+                    DDL(f'ALTER TABLE {quoted_table} RENAME COLUMN "当前时间" TO "当前时间_old"'),
+                    DDL(f'ALTER TABLE {quoted_table} ADD COLUMN 当前时间_new DATETIME'),  # 直接写 SQL
+                    DDL(f'UPDATE {quoted_table} SET "当前时间_new" = "当前时间_old"'),
+                    DDL(f'ALTER TABLE {quoted_table} DROP COLUMN "当前时间_old"'),
+                    DDL(f'ALTER TABLE {quoted_table} RENAME COLUMN "当前时间_new" TO "当前时间33"')
+                ]
+                try:
+                    for step in steps:
+                        connection.execute(step)
+                    logger.info(f"表 {table_name} 的【当前时间】字段已修改为 datetime 类型")
+                except Exception as e:
+                    logger.error(f"数据库操作失败: {str(e)}")
+                    raise RuntimeError(f"数据库操作失败:{str(e)}") from e
 
 
 class Application:
@@ -743,6 +798,7 @@ class Application:
         self.database_manager = DatabaseManager(DB_TYPE, DB_CONFIG)
 
     def main(self):
+        # 浏览器部分
         try:
             day_of_week = self.data_extractor.get_day_of_week('chinese')
             # 初始化页面
@@ -756,6 +812,13 @@ class Application:
             logger.error(f"初始化浏览器或设置Cookie失败: {e}")
             return
 
+        # 修改表结构
+        try:
+            self.database_manager.alter_table_to_datetime(TABLE_NAME)
+        except SQLAlchemyError as e:
+            logger.error(f"数据库操作失败: {e}")
+
+        # 数据库写入操作
         try:
             data = None
             self.database_manager.create_db_table()
