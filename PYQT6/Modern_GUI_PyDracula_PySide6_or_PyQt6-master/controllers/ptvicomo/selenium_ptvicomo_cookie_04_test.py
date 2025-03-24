@@ -1,4 +1,7 @@
 import datetime
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 
 def convert_time_strings(date_strs, price_list):
@@ -35,3 +38,5 @@ print(type(price_list), price_list)
 
 converted_dates = convert_time_strings(date_list, price_list)
 print(converted_dates)
+
+logging.info(converted_dates)

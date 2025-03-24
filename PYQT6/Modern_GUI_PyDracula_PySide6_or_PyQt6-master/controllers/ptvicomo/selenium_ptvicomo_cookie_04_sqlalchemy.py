@@ -53,8 +53,12 @@ from config_ptvicomo_04 import CHROME_DRIVER_PATH, DB_CONFIG, WEB_COOKIE, WEBSIT
 Base = declarative_base()
 os.environ['PYTHONIOENCODING'] = 'utf-8'
 
-# 导入日志配置文件
-logging.config.fileConfig('logging_ptvicomo.conf', encoding='utf-8')
+# 导入日志配置文件,这里使用了绝对路径.以防止在调用的时候出错.
+script_dir = os.path.dirname(os.path.abspath(__file__))
+config_file_path = os.path.join(script_dir, 'logging_ptvicomo.conf')
+if not os.path.exists(config_file_path):
+    print(f"配置文件 {config_file_path} 不存在")
+logging.config.fileConfig(config_file_path, encoding='utf-8')
 logger = logging.getLogger('ptvicomo_log')
 logger.setLevel(logging.INFO)
 
@@ -857,11 +861,11 @@ class Application:
 
 if __name__ == '__main__':
     # for i in tqdm.tqdm(range(1, 100), desc='进度'):
-    import sys
-    import os
+    # import sys
+    # import os
 
-    print(f"Python版本: {sys.version}")
-    print(f"当前工作目录: {os.getcwd()}")
+    # print(f"Python版本: {sys.version}")
+    # print(f"当前工作目录: {os.getcwd()}")
 
     # 获取主页面历史数据
     app1 = Application(WEBSITE_MAIN_URL)

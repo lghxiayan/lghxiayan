@@ -44,17 +44,13 @@ class OutputSignal(QObject):
 
 class PtvicomoController:
     def __init__(self, ui, logger):
-        self.logger = logger
         self.ui = ui
+        self.logger = logger
+        self.logger.info("PtvicomoController加载成功")
         self.setup_connections()
         self.process = None
-        self.file_name = "selenium_ptvicomo_cookie_04_test.py"
-
-        # 配置日志记录器
-        config_file_path = os.path.join(os.path.dirname(__file__), 'logging_ptvicomo.conf')
-        logging.config.fileConfig(config_file_path, encoding='utf-8')
-        self.logger = logging.getLogger('ptvicomo_log')
-        self.logger.setLevel(logging.INFO)
+        # self.file_name = "selenium_ptvicomo_cookie_04_test.py"
+        self.file_name = "selenium_ptvicomo_cookie_04_sqlalchemy.py"
 
         self.output_signal = OutputSignal()
         self.output_signal.output_writer.connect(self.append_output_to_textedit)
@@ -81,17 +77,21 @@ class PtvicomoController:
             # 添加 CSS 样式规则
             global css_styles
 
+            script_dir = os.path.dirname(os.path.abspath(file_path))
+            # print('script_dir:', script_dir)
             print(f"运行脚本：{file_path}")
+            self.logger.info(f"运行脚本：{file_path}")
             self.process = subprocess.Popen(
                 ['python', file_path],
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 text=True,
-                encoding='utf-8'
+                encoding='utf-8',
+                cwd=script_dir,  # 设置子进程的工作目录
             )
             while True:
                 output = self.process.stdout.readline()
-                print(f"94line:{output}")  # 结果居然是空的。为什么
+                # print(f"94line:{output}")  # 结果前面有,后面输出空值。为什么
                 if output == '' and self.process.poll() is not None:
                     break
                 if output:
@@ -107,6 +107,12 @@ class PtvicomoController:
                     self.output_signal.output_writer.emit(full_html.strip())
             rc = self.process.poll()
             print(f'子进程退出码：{rc}')
+
+            # 捕获并打印错误输出
+            errors = self.process.stderr.read()
+            if errors:
+                print(f"子进程错误输出：{errors}")
+
         except Exception as e:
             print(f"发生异常：{e}")
 
