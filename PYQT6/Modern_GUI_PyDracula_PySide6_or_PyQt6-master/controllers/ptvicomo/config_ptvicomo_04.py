@@ -19,7 +19,7 @@ def get_chrome_driver_path():
 
 CHROME_DRIVER_PATH = get_chrome_driver_path()
 
-DB_TYPE = 'sqlite'  # 'sqlite' 或者'mysql'
+DB_TYPE = 'mysql'  # 'sqlite' 或者'mysql'
 DB_CONFIG = {
     'sqlite': {
         'database': 'sqlite_ptvicomo.db'

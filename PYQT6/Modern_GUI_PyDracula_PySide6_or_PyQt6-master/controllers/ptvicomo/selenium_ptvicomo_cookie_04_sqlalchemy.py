@@ -22,14 +22,16 @@
 还有一个就是：检测数据库记录，每1个小时检测一次，是否有本周期的数据。没有的话，则采集数据。
 
 
-现在象岛首页增加了蔬菜的走势图，应该可以通过selenium来抓取。首页地址为：https://ptvicomo.net/index.php，通过它可以获取历史数据。
-定义了一个get_history_data函数，先从首页提取数据。如果达到了条件，就转到买卖页面进行操作。
+# todo 增加字段，库存。
+# todo 星期天上午有提取和买入操作，再买入的时候，提示：所有数据均已存在于数据库中，未插入新记录。
+# todo 无论什么操作，当天上午如果有操作的话，当前时间字段就应该是现在的时间，而不用修改为11:11:11
 """
 
 import logging.config
 import re
 import datetime
 import platform
+import subprocess
 import time
 import os
 
@@ -41,7 +43,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 # 导入sqlalchemy 2.x 模块,用于数据库处理.跟1.x版本有很多不同.
-from sqlalchemy import create_engine, Column, Integer, String, Sequence, inspect, and_, DDL
+from sqlalchemy import create_engine, Column, Integer, String, DateTime, Sequence, inspect, and_, DDL
 from sqlalchemy.orm import sessionmaker, declarative_base
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.dialects.mysql import VARCHAR
@@ -323,7 +325,7 @@ class DataExtractor:
             self.driver.find_element(By.XPATH, '//input[@name="buyTurnipNum"]').send_keys(number)
             self.driver.find_element(By.XPATH, '//input[@value="进货"]').click()
             buy_total_money = -buy_price * number
-            logger.info(f"点击购买按钮成功,购买数量为{number},购买单价{buy_price},购买总金额为{buy_total_money}")
+            logger.info(f"点击购买按钮成功,购买数量为:{number},购买单价:{buy_price},购买总金额为:{buy_total_money}")
             return buy_total_money
         except Exception as e:
             logger.error(f"点击购买按钮失败: {e}")
@@ -404,14 +406,14 @@ class DataExtractor:
             if buy_other_number > 0:
                 if buy_other_number > BUY_NUMBER:
                     # 计算总购买金额
-                    logger.info(f'当前购买数量{BUY_NUMBER}')
+                    logger.info(f'当前购买数量:{BUY_NUMBER}')
                     buy_total_money = self.buy_action(BUY_NUMBER, buy_price)
-                    logger.info(f'购买成功，购买总金额为{buy_total_money}')
+                    logger.info(f'购买成功，购买总金额为:{buy_total_money}')
                     buy_action_name = CURRENT_ACTION['buy']
                 else:
-                    logger.info(f'当前购买数量{buy_other_number}')
+                    logger.info(f'当前购买数量:{buy_other_number}')
                     buy_total_money = self.buy_action(buy_other_number, buy_price)
-                    logger.info(f'购买成功，购买总金额为{buy_total_money}')
+                    logger.info(f'购买成功，购买总金额为:{buy_total_money}')
                     buy_action_name = CURRENT_ACTION['buy']
             else:
                 # 获取买卖数量
@@ -604,7 +606,7 @@ class DataRecord(Base):
     成本 = Column(Integer, nullable=True)  # 成本
     本周盈利 = Column(Integer, nullable=True)  # 本周盈利
     当前操作 = Column(String(255), nullable=True)  # 当前操作
-    当前时间 = Column(String(255), nullable=True)  # 当前时间
+    当前时间 = Column(DateTime, nullable=True)  # 当前时间
     当前周数 = Column(Integer, nullable=True)  # 当前周数
     剩余配货量 = Column(Integer, nullable=True)  # 剩余配货量
     买卖数量 = Column(Integer, nullable=True)  # 买卖数量
@@ -668,7 +670,8 @@ class DatabaseManager:
             if isinstance(data, tuple):
                 # 如果是元组，则直接插入
                 record_time = data[7]
-                if not self.check_record_exists_for_period(record_time):
+                action = data[6]  # 获取操作类型
+                if not self.check_record_exists_for_period(record_time, action):
                     records_to_insert.append(DataRecord(
                         名称=data[0],
                         市场单价=data[1],
@@ -686,7 +689,8 @@ class DatabaseManager:
                 # 如果是列表，则逐条检查并插入
                 for item in data:
                     record_time = item[7]
-                    if not self.check_record_exists_for_period(record_time):
+                    action = data[6]  # 获取操作类型
+                    if not self.check_record_exists_for_period(record_time, action):
                         records_to_insert.append(DataRecord(
                             名称=item[0],
                             市场单价=item[1],
@@ -714,12 +718,19 @@ class DatabaseManager:
             self.session.rollback()
             logger.error(f"数据插入失败: {e},数据: {data}")
 
-    def check_record_exists_for_period(self, record_time: datetime) -> bool:
+    def check_record_exists_for_period(self, record_time: datetime, action: str) -> bool:
         """
         检查特定时间点的数据是否已经存在于数据库中。
+        如果操作类型是"提取数据"，则检查是否存在重复数据。
+        如果操作类型是"买入"或"卖出"，则不检查重复数据。
         :param record_time: 要检查的时间字符串，格式为 "YYYY-MM-DD HH:MM:SS"
+        :param action: 当前操作类型，可以是"提取数据"、"买入"或"卖出"
         :return: 如果存在返回 True，否则返回 False
         """
+        if action in ['买入', '卖出']:
+            # 对于买入和卖出操作，不检查重复数据
+            return False
+
         current_date = datetime.datetime.date(record_time)
         current_hour = record_time.hour
 
@@ -729,11 +740,10 @@ class DatabaseManager:
             period_end = datetime.datetime.strptime(f"{current_date} 11:59:59", "%Y-%m-%d %H:%M:%S")
         else:
             period_start = datetime.datetime.strptime(f"{current_date} 12:00:00", "%Y-%m-%d %H:%M:%S")
-
         try:
-            # query = self.session.query(DataRecord).filter(DataRecord.当前时间.between(period_start, period_end))
             query = self.session.query(DataRecord).filter(
-                and_(DataRecord.当前时间 >= period_start, DataRecord.当前时间 <= period_end))
+                and_(DataRecord.当前时间 >= period_start, DataRecord.当前时间 <= period_end
+                     ))
             return query.count() > 0
         except SQLAlchemyError as e:
             logger.error(f"检查记录时发生错误：{e}")
@@ -741,6 +751,18 @@ class DatabaseManager:
 
     def close_session(self):
         self.session.close()
+
+    @staticmethod
+    def apply_migrations():
+        """
+        数据库迁移脚本
+        :return:
+        """
+        try:
+            subprocess.run(['alembic', 'upgrade', 'head'], check=True)
+            logger.info("数据库迁移应用成功！")
+        except subprocess.CalledProcessError as e:
+            logger.error(f"数据库迁移应用失败: {e}")
 
     def alter_table_to_datetime(self, table_name):
         """
@@ -768,22 +790,31 @@ class DatabaseManager:
                 # 获取数据库方言特定类型名称
                 col_type = time_column['type']
                 if not isinstance(col_type, (String, VARCHAR)):  # 兼容不同数据库类型
-                    # logger.info(f"当前时间字段类型已经是 {type(col_type).__name__}，无需转换")
+                    logger.info(f"当前时间字段类型已经是 {type(col_type).__name__}，无需转换")
                     return
                 # 使用方言特定的标识符转义
                 quoted_table = connection.dialect.identifier_preparer.quote(table_name)
                 # 修改 DDL 步骤定义
-                steps = [
-                    DDL(f'ALTER TABLE {quoted_table} RENAME COLUMN "当前时间" TO "当前时间_old"'),
-                    DDL(f'ALTER TABLE {quoted_table} ADD COLUMN 当前时间_new DATETIME'),  # 直接写 SQL
-                    DDL(f'UPDATE {quoted_table} SET "当前时间_new" = "当前时间_old"'),
-                    DDL(f'ALTER TABLE {quoted_table} DROP COLUMN "当前时间_old"'),
-                    DDL(f'ALTER TABLE {quoted_table} RENAME COLUMN "当前时间_new" TO "当前时间33"')
-                ]
+                if DB_TYPE == 'sqlite':
+                    steps = [
+                        DDL(f'ALTER TABLE {quoted_table} RENAME COLUMN "当前时间" TO "当前时间_old"'),
+                        DDL(f'ALTER TABLE {quoted_table} ADD COLUMN 当前时间_new DATETIME'),  # 直接写 SQL
+                        DDL(f'UPDATE {quoted_table} SET "当前时间_new" = "当前时间_old"'),
+                        DDL(f'ALTER TABLE {quoted_table} DROP COLUMN "当前时间_old"'),
+                        DDL(f'ALTER TABLE {quoted_table} RENAME COLUMN "当前时间_new" TO "当前时间"')
+                    ]
+                elif DB_TYPE == 'mysql':
+                    steps = [
+                        DDL(f'ALTER TABLE {quoted_table} RENAME COLUMN `当前时间` TO `当前时间_old`'),
+                        DDL(f'ALTER TABLE {quoted_table} ADD COLUMN 当前时间_new DATETIME'),  # 直接写 SQL
+                        DDL(f'UPDATE {quoted_table} SET `当前时间_new` = `当前时间_old`'),
+                        DDL(f'ALTER TABLE {quoted_table} DROP COLUMN `当前时间_old`'),
+                        DDL(f'ALTER TABLE {quoted_table} RENAME COLUMN `当前时间_new` TO `当前时间`')
+                    ]
                 try:
                     for step in steps:
                         connection.execute(step)
-                    logger.info(f"表 {table_name} 的【当前时间】字段已修改为 datetime 类型")
+                    logger.info(f"将表 {table_name} 的【当前时间】字段修改为 datetime 类型，完成！")
                 except Exception as e:
                     logger.error(f"数据库操作失败: {str(e)}")
                     raise RuntimeError(f"数据库操作失败:{str(e)}") from e
@@ -811,6 +842,13 @@ class Application:
         except Exception as e:
             logger.error(f"初始化浏览器或设置Cookie失败: {e}")
             return
+
+        # 应用数据库迁移
+        # try:
+        #     self.database_manager.apply_migrations()
+        # except Exception as e:
+        #     logger.error(f"数据库迁移应用失败: {e}")
+        #     return
 
         # 修改表结构
         try:
@@ -856,5 +894,5 @@ if __name__ == '__main__':
     print('-' * 150)
 
     # 获取交易页面数据，并执行买卖操作
-    app2 = Application(WEBSITE_URL)
-    app2.main()
+    # app2 = Application(WEBSITE_URL)
+    # app2.main()
