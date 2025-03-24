@@ -58,7 +58,7 @@ class PtvicomoController:
     def setup_connections(self):
         self.ui.pushButton_ptvicomo_run.clicked.connect(self.on_run_button_clicked)
         self.ui.pushButton_ptvicomo_stop.clicked.connect(self.on_stop_button_clicked)
-        # self.ui.pushButton_ptvicomo_setting.clicked.connect(self.on_setting_button_clicked)
+        self.ui.pushButton_ptvicomo_setting.clicked.connect(self.on_setting_button_clicked)
 
     def on_run_button_clicked(self):
         print("ptvicomo 页面里面的 pushButton[run] 被点击了！")

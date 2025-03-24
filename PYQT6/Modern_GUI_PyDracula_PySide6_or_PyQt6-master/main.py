@@ -54,7 +54,7 @@ class LoggingApp:
             # print(log_file_path)
             # 使用绝对路径来加载日志配置文件
             config_file_path = os.path.join(current_dir, 'logging_app.conf').replace('\\', '\\\\')
-            print(f"加载日志配置文件路径: {config_file_path}")
+            # print(f"加载日志配置文件路径: {config_file_path}")
             logging.config.fileConfig(
                 config_file_path,
                 encoding='utf-8',
@@ -63,8 +63,8 @@ class LoggingApp:
             )
             my_logger = logging.getLogger('app_log')
             my_logger.setLevel(logging.INFO)
-            print(f"app_log handlers: {my_logger.handlers}")
-            print(f"app_log propagate: {my_logger.propagate}")
+            # print(f"app_log handlers: {my_logger.handlers}")
+            # print(f"app_log propagate: {my_logger.propagate}")
             return my_logger
         except Exception as e:
             print(f"加载日志配置文件时出错: {e}")
@@ -154,7 +154,7 @@ class MainWindow(QMainWindow):
         # SET CUSTOM THEME
         # ///////////////////////////////////////////////////////////////
         useCustomTheme = False
-        themeFile = "themes\py_dracula_light.qss"
+        themeFile = "themes\\py_dracula_light.qss"
 
         # SET THEME AND HACKS
         if useCustomTheme:
@@ -198,13 +198,13 @@ class MainWindow(QMainWindow):
         # SHOW WOWJUMP PAGE
         if btnName == "btn_wowjump":
             widgets.stackedWidget.setCurrentWidget(widgets.wowjump_page)  # SET PAGE
-            UIFunctions.resetStyle(self, btnName)  # RESET ANOTHERS BUTTONS SELECTED
+            UIFunctions.resetStyle(self, btnName)  # RESET OTHERS BUTTONS SELECTED
             btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))  # SELECT MENU
 
         # SHOW PTVICOMO PAGE
         if btnName == "btn_ptvicomo":
             widgets.stackedWidget.setCurrentWidget(widgets.ptvicomo_page)  # SET PAGE
-            UIFunctions.resetStyle(self, btnName)  # RESET ANOTHERS BUTTONS SELECTED
+            UIFunctions.resetStyle(self, btnName)  # RESET OTHERS BUTTONS SELECTED
             btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))  # SELECT MENU
 
         if btnName == "btn_save":
