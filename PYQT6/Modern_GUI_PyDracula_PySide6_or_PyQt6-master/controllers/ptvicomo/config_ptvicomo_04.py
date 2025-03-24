@@ -34,8 +34,8 @@ DB_CONFIG = {
     }
 }
 
-TABLE_NAME = 'data_record'
-# TABLE_NAME = 'pt_vicomo_01'
+# TABLE_NAME = 'data_record'
+TABLE_NAME = 'pt_vicomo_01'
 WEB_COOKIE = [{'domain': 'ptvicomo.net', 'expiry': 1749948891, 'httpOnly': True, 'name': 'c_secure_login', 'path': '/',
                'sameSite': 'Lax', 'secure': False, 'value': 'bm9wZQ%3D%3D'},
               {'domain': 'ptvicomo.net', 'expiry': 1749948891, 'httpOnly': True, 'name': 'c_secure_tracker_ssl',

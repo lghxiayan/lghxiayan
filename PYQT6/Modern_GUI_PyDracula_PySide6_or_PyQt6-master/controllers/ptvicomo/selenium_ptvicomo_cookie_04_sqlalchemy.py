@@ -22,9 +22,7 @@
 还有一个就是：检测数据库记录，每1个小时检测一次，是否有本周期的数据。没有的话，则采集数据。
 
 
-# todo 增加字段，库存。
-# todo 星期天上午有提取和买入操作，再买入的时候，提示：所有数据均已存在于数据库中，未插入新记录。
-# todo 无论什么操作，当天上午如果有操作的话，当前时间字段就应该是现在的时间，而不用修改为11:11:11
+# 库存 = 当前可卖数量
 """
 
 import logging.config
@@ -240,17 +238,30 @@ class DataExtractor:
         # 对单价字符串进行分割，并转换成数字类型
         price_list = [int(price) for price in price_strs.split(', ')]
         history_data_list = []
+        date_datetime = None
         for date_str, price in zip(date_list, price_list):
             # 根据字符串中包含的时段信息替换时间部分
             if '上午' in date_str:
                 date_str = date_str.replace('上午', '11:11:11')
-                date_str = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
+                date_datetime = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
             elif '下午' in date_str:
                 date_str = date_str.replace('下午', '22:22:22')
-                date_str = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
-            # 构造历史数据元组
-            values = name_str, price, 0, 0, price, 0, '提取数据', date_str, current_week, 0, 0
-            history_data_list.append(values)
+                date_datetime = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
+            # 构造历史数据对象
+            data_record = DataRecord(
+                名称=name_str,
+                市场单价=price,
+                累计盈利=0,
+                当前可卖数量=0,
+                成本=0,
+                本周盈利=0,
+                当前操作='提取数据',
+                当前时间=date_datetime,
+                当前周数=current_week,
+                剩余配货量=0,
+                买卖数量=0
+            )
+            history_data_list.append(data_record)
         return history_data_list
 
     @staticmethod
@@ -419,12 +430,22 @@ class DataExtractor:
                 # 获取买卖数量
                 logger.warning(
                     f'因为【剩余配货量】为:{buy_other_number},无法进行买入操作!即使当前【买入数量】指令为:{BUY_NUMBER}')
-                # 返回：名称, 市场单价, 累计盈利, 当前可卖数量, 成本,
-                # 单笔盈利, 当前操作, 当前时间, 当前周数, 买卖数量
-
             logger.info(f'获取【当前操作】成功：{buy_action_name}')
-            return (buy_name, buy_price, 0, 0, buy_price,
-                    buy_total_money, buy_action_name, current_time, week_number, buy_other_number, BUY_NUMBER)
+            # 构造 DataRecord 对象
+            data_record = DataRecord(
+                名称=buy_name,
+                市场单价=buy_price,
+                累计盈利=0,
+                当前可卖数量=0,
+                成本=buy_price,
+                本周盈利=buy_total_money,
+                当前操作=buy_action_name,
+                当前时间=current_time,
+                当前周数=week_number,
+                剩余配货量=buy_other_number,
+                买卖数量=BUY_NUMBER
+            )
+            return data_record
         except Exception as e:
             logger.error(f"获取数据失败: {e}")
 
@@ -503,10 +524,21 @@ class DataExtractor:
             logger.info(f'获取【当前操作】成功：{sale_action_name}')
             if sale_action_name != '提取数据':
                 logger.info(f'计算【单笔盈利】成功：{sale_profit}')
-            # :return: 蔬菜名称, 市场单价, 累计盈利, 当前可卖数量, 成本, 单笔盈利, 当前操作, 当前时间, 当前周数, 剩余配货量, 买卖数量
-            return self.build_return_value(sale_name, sale_price, sale_total_profit, sale_current_number, sale_cost,
-                                           sale_profit, sale_action_name, current_time, week_number, remaining_stock,
-                                           num_sale_and_buy)
+            # 构造 DataRecord 对象
+            data_record = DataRecord(
+                名称=sale_name,
+                市场单价=sale_price,
+                累计盈利=sale_total_profit,
+                当前可卖数量=sale_current_number,
+                成本=sale_cost,
+                本周盈利=sale_profit,
+                当前操作=sale_action_name,
+                当前时间=current_time,
+                当前周数=week_number,
+                剩余配货量=remaining_stock,
+                买卖数量=num_sale_and_buy
+            )
+            return data_record
         except Exception as e:
             logger.error(f'函数执行过程中发生异常,获取数据失败:{e}')
             return None
@@ -530,29 +562,6 @@ class DataExtractor:
         except Exception as e:
             logger.error(f"判断销售条件时发生异常：{e}")
         return False
-
-    @staticmethod
-    def build_return_value(sale_name, sale_price, sale_total_profit, sale_current_number, sale_cost,
-                           sale_profit, sale_action_name, current_time, week_number, remaining_stock,
-                           num_sale_and_buy):
-        """
-        构建返回值。
-        :param sale_name:名称
-        :param sale_price:市场单价
-        :param sale_total_profit:累计盈利
-        :param sale_current_number:当前可卖数量
-        :param sale_cost:成本
-        :param sale_profit:单笔盈利
-        :param sale_action_name:当前操作
-        :param current_time:当前时间
-        :param week_number:当前周数
-        :param remaining_stock:剩余配货量
-        :param num_sale_and_buy:买卖数量
-        :return:名称, 市场单价, 累计盈利, 当前可卖数量, 成本, 单笔盈利, 当前操作, 当前时间, 当前周数, 剩余配货量, 买卖数量
-        """
-        return (sale_name, sale_price, sale_total_profit, sale_current_number, sale_cost,
-                sale_profit, sale_action_name, current_time, week_number, remaining_stock,
-                num_sale_and_buy)
 
     def get_trade_page_data(self):
         """
@@ -650,62 +659,29 @@ class DatabaseManager:
         """
         向数据库插入数据。
         参数:
-        - conn: 数据库连接对象。
-        - data: 要插入的数据。先要判断传入的是列表还是元组，如果是列表，就循环。元组则不处理。
+        - data: 要插入的数据。可以是单个 DataRecord 对象或 DataRecord 对象列表。
         """
         # 校验输入数据类型
-        if not isinstance(data, (list, tuple)):
-            logger.error('数据类型不正确，需要列表或元组')
+        if not isinstance(data, (DataRecord, list)):
+            logger.error('数据类型不正确，需要 DataRecord 对象或 DataRecord 对象列表')
             return
-
-        # 校验数据内容
-        if isinstance(data, list):
-            if not all(isinstance(item, tuple) and len(item) == 11 for item in data):
-                logger.error("列表中的元素必须是长度为11的元组")
-                return
 
         # 插入数据
         try:
             records_to_insert = []
-            if isinstance(data, tuple):
-                # 如果是元组，则直接插入
-                record_time = data[7]
-                action = data[6]  # 获取操作类型
+            if isinstance(data, DataRecord):
+                record_time = data.当前时间
+                action = data.当前操作
                 if not self.check_record_exists_for_period(record_time, action):
-                    records_to_insert.append(DataRecord(
-                        名称=data[0],
-                        市场单价=data[1],
-                        累计盈利=data[2],
-                        当前可卖数量=data[3],
-                        成本=data[4],
-                        本周盈利=data[5],
-                        当前操作=data[6],
-                        当前时间=data[7],
-                        当前周数=data[8],
-                        剩余配货量=data[9],
-                        买卖数量=data[10]
-                    ))
+                    records_to_insert.append(data)
             elif isinstance(data, list):
-                # 如果是列表，则逐条检查并插入
                 for item in data:
-                    record_time = item[7]
-                    action = data[6]  # 获取操作类型
+                    record_time = item.当前时间
+                    action = item.当前操作
                     if not self.check_record_exists_for_period(record_time, action):
-                        records_to_insert.append(DataRecord(
-                            名称=item[0],
-                            市场单价=item[1],
-                            累计盈利=item[2],
-                            当前可卖数量=item[3],
-                            成本=item[4],
-                            本周盈利=item[5],
-                            当前操作=item[6],
-                            当前时间=item[7],
-                            当前周数=item[8],
-                            剩余配货量=item[9],
-                            买卖数量=item[10]
-                        ))
+                        records_to_insert.append(item)
             else:
-                logger.error("数据类型不正确，需要元组或列表")
+                logger.error("数据类型不正确，需要 DataRecord 对象或 DataRecord 对象列表")
                 return
 
             if records_to_insert:
@@ -894,5 +870,5 @@ if __name__ == '__main__':
     print('-' * 150)
 
     # 获取交易页面数据，并执行买卖操作
-    # app2 = Application(WEBSITE_URL)
-    # app2.main()
+    app2 = Application(WEBSITE_URL)
+    app2.main()
