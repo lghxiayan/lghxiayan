@@ -1,5 +1,0 @@
-<RCC>
-  <qresource prefix="新前缀">
-    <file>images/PyDracula.png</file>
-  </qresource>
-</RCC>
