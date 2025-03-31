@@ -1,0 +1,12 @@
+2025-03-13 11:28:01 | app_log      | INFO     | main.py:241 | main.py加载正常
+2025-03-13 11:28:01 | app_log      | INFO     | wowjump_controller.py:51 | WoWJumpController加载成功
+2025-03-13 11:28:01 | app_log      | INFO     | wowjump_controller.py:64 | 连接按钮事件成功
+2025-03-13 11:28:47 | app_log      | INFO     | main.py:241 | main.py加载正常
+2025-03-13 11:28:47 | app_log      | INFO     | wowjump_controller.py:51 | WoWJumpController加载成功
+2025-03-13 11:28:47 | app_log      | INFO     | wowjump_controller.py:64 | 连接按钮事件成功
+2025-03-13 11:29:15 | app_log      | INFO     | main.py:241 | main.py加载正常
+2025-03-13 11:29:15 | app_log      | INFO     | wowjump_controller.py:51 | WoWJumpController加载成功
+2025-03-13 11:29:15 | app_log      | INFO     | wowjump_controller.py:64 | 连接按钮事件成功
+2025-03-13 11:34:23 | app_log      | INFO     | main.py:240 | main.py加载正常
+2025-03-13 11:34:23 | app_log      | INFO     | wowjump_controller.py:51 | WoWJumpController加载成功
+2025-03-13 11:34:23 | app_log      | INFO     | wowjump_controller.py:64 | 连接按钮事件成功

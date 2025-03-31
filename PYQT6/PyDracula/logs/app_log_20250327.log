@@ -1,0 +1,26 @@
+2025-03-27 09:09:14 | app_log      | INFO     | main.py:276 | main.py加载正常
+2025-03-27 09:09:15 | app_log      | INFO     | wowjump_controller.py:51 | WoWJumpController加载成功
+2025-03-27 09:09:15 | app_log      | INFO     | wowjump_controller.py:64 | 连接按钮事件成功
+2025-03-27 09:09:15 | app_log      | INFO     | ptvicomo_controller.py:154 | PtvicomoController加载成功
+2025-03-27 09:23:11 | app_log      | INFO     | main.py:277 | main.py加载正常
+2025-03-27 09:23:11 | app_log      | INFO     | wowjump_controller.py:51 | WoWJumpController加载成功
+2025-03-27 09:23:11 | app_log      | INFO     | wowjump_controller.py:64 | 连接按钮事件成功
+2025-03-27 09:23:11 | app_log      | INFO     | ptvicomo_controller.py:154 | PtvicomoController加载成功
+2025-03-27 09:33:59 | app_log      | INFO     | main.py:277 | main.py加载正常
+2025-03-27 09:34:00 | app_log      | INFO     | wowjump_controller.py:51 | WoWJumpController加载成功
+2025-03-27 09:34:00 | app_log      | INFO     | wowjump_controller.py:64 | 连接按钮事件成功
+2025-03-27 09:34:00 | app_log      | INFO     | ptvicomo_controller.py:154 | PtvicomoController加载成功
+2025-03-27 09:35:37 | app_log      | INFO     | main.py:277 | main.py加载正常
+2025-03-27 09:35:37 | app_log      | INFO     | wowjump_controller.py:51 | WoWJumpController加载成功
+2025-03-27 09:35:37 | app_log      | INFO     | wowjump_controller.py:64 | 连接按钮事件成功
+2025-03-27 09:35:37 | app_log      | INFO     | ptvicomo_controller.py:154 | PtvicomoController加载成功
+2025-03-27 17:13:57 | app_log      | INFO     | main.py:277 | main.py加载正常
+2025-03-27 17:13:57 | app_log      | INFO     | wowjump_controller.py:51 | WoWJumpController加载成功
+2025-03-27 17:13:57 | app_log      | INFO     | wowjump_controller.py:64 | 连接按钮事件成功
+2025-03-27 17:13:57 | app_log      | INFO     | ptvicomo_controller.py:154 | PtvicomoController加载成功
+2025-03-27 17:14:09 | app_log      | INFO     | wowjump_controller.py:68 | wowjump 页面里面的 pushButton[run] 被点击了！
+2025-03-27 17:14:09 | app_log      | INFO     | wowjump_controller.py:92 | 运行脚本：C:\Users\xiayan\OneDrive\python_study\mooc\PYQT6\Modern_GUI_PyDracula_PySide6_or_PyQt6-master\controllers\wowjump\wow_jump_kook_v3.py
+2025-03-27 17:14:09 | app_log      | INFO     | wowjump_controller.py:78 | 启动子进程: C:\Users\xiayan\OneDrive\python_study\mooc\PYQT6\Modern_GUI_PyDracula_PySide6_or_PyQt6-master\controllers\wowjump\wow_jump_kook_v3.py
+2025-03-27 17:14:15 | app_log      | INFO     | wowjump_controller.py:130 | wowjump 页面里面的 pushButton[stop] 被点击了！
+2025-03-27 17:14:16 | app_log      | INFO     | wowjump_controller.py:130 | wowjump 页面里面的 pushButton[stop] 被点击了！
+2025-03-27 17:14:23 | app_log      | INFO     | ptvicomo_controller.py:188 | 运行脚本：C:\Users\xiayan\OneDrive\python_study\mooc\PYQT6\Modern_GUI_PyDracula_PySide6_or_PyQt6-master\controllers\ptvicomo\selenium_ptvicomo_cookie_04_sqlalchemy.py

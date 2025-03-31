@@ -1,0 +1,218 @@
+2025-03-24 15:18:56 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:98 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 15:18:58 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:616 | 连接到 MYSQL 成功!
+2025-03-24 15:18:58 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:190 | 获取【主页面数据】开始！
+2025-03-24 15:18:58 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:197 | 获取主页面蔬菜名称:鲜嫩象瓜尖
+2025-03-24 15:18:58 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:205 | '2025-03-23 上午', '2025-03-23 下午', '2025-03-24 上午', '2025-03-24 下午'
+2025-03-24 15:18:58 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:208 | 1801, 1801, 1702, 1666
+2025-03-24 15:18:58 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:798 | 检查记录时发生错误：Not all parameters were used in the SQL statement
+2025-03-24 15:18:58 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:704 | ('鲜嫩象瓜尖', 1801, 0, 0, 1801, 0, '提取数据', '2025-03-23 11:11:11', 12, 0, 0)
+2025-03-24 15:18:58 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:707 | 数据插入成功！表名: pt_vicomo_01, 数据: ('鲜嫩象瓜尖', 1801, 0, 0, 1801, 0, '提取数据', '2025-03-23 11:11:11', 12, 0, 0)
+2025-03-24 15:18:58 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:704 | ('鲜嫩象瓜尖', 1801, 0, 0, 1801, 0, '提取数据', '2025-03-23 22:22:22', 12, 0, 0)
+2025-03-24 15:18:59 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:707 | 数据插入成功！表名: pt_vicomo_01, 数据: ('鲜嫩象瓜尖', 1801, 0, 0, 1801, 0, '提取数据', '2025-03-23 22:22:22', 12, 0, 0)
+2025-03-24 15:18:59 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:704 | ('鲜嫩象瓜尖', 1702, 0, 0, 1702, 0, '提取数据', '2025-03-24 11:11:11', 12, 0, 0)
+2025-03-24 15:18:59 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:707 | 数据插入成功！表名: pt_vicomo_01, 数据: ('鲜嫩象瓜尖', 1702, 0, 0, 1702, 0, '提取数据', '2025-03-24 11:11:11', 12, 0, 0)
+2025-03-24 15:18:59 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:704 | ('鲜嫩象瓜尖', 1666, 0, 0, 1666, 0, '提取数据', '2025-03-24 22:22:22', 12, 0, 0)
+2025-03-24 15:18:59 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:707 | 数据插入成功！表名: pt_vicomo_01, 数据: ('鲜嫩象瓜尖', 1666, 0, 0, 1666, 0, '提取数据', '2025-03-24 22:22:22', 12, 0, 0)
+2025-03-24 15:19:05 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04.py:98 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 15:19:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:616 | 连接到 MYSQL 成功!
+2025-03-24 15:19:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:559 | 获取【星期几】成功:星期一
+2025-03-24 15:19:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:562 | 获取【当前时间】成功:2025-03-24 15:19:06
+2025-03-24 15:19:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:565 | 获取【当前周数】成功:12
+2025-03-24 15:19:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:430 | 获取【名称】成功:鲜嫩象瓜尖
+2025-03-24 15:19:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:434 | 获取【市场单价】成功:1666
+2025-03-24 15:19:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:438 | 获取【累计盈利】成功：1000184
+2025-03-24 15:19:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:442 | 获取【当前可卖数量】成功：6
+2025-03-24 15:19:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:455 | 获取【成本】成功：1801
+2025-03-24 15:19:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:464 | 获取【利润率】成功：-7.5%
+2025-03-24 15:19:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:473 | 获取【距离下个星期日还有多少小时】成功:128
+2025-03-24 15:19:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:491 | 获取【当前操作】成功：提取数据
+2025-03-24 15:19:06 | ptvicomo_log | ERROR    | selenium_ptvicomo_cookie_04.py:798 | 检查记录时发生错误：Not all parameters were used in the SQL statement
+2025-03-24 15:19:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:704 | ('鲜嫩象瓜尖', 1666, 1000184, 6, 1801, 0, '提取数据', '2025-03-24 15:19:06', 12, 0, 0)
+2025-03-24 15:19:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04.py:707 | 数据插入成功！表名: pt_vicomo_01, 数据: ('鲜嫩象瓜尖', 1666, 1000184, 6, 1801, 0, '提取数据', '2025-03-24 15:19:06', 12, 0, 0)
+2025-03-24 15:19:55 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 15:19:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:769 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 15:19:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:202 | 开始提取主页面数据...
+2025-03-24 15:19:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:205 | 获取主页面蔬菜名称:鲜嫩象瓜尖
+2025-03-24 15:19:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:213 | '2025-03-23 上午', '2025-03-23 下午', '2025-03-24 上午', '2025-03-24 下午'
+2025-03-24 15:19:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:216 | 1801, 1801, 1702, 1666
+2025-03-24 15:19:57 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:692 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 15:20:09 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 15:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:769 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 15:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:575 | 获取【星期几】成功:星期一
+2025-03-24 15:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:578 | 获取【当前时间】成功:2025-03-24 15:20:10
+2025-03-24 15:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:581 | 获取【当前周数】成功:12
+2025-03-24 15:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:463 | 获取【名称】成功:鲜嫩象瓜尖
+2025-03-24 15:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:467 | 获取【市场单价】成功:1666
+2025-03-24 15:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:471 | 获取【累计盈利】成功：1000184
+2025-03-24 15:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:475 | 获取【当前可卖数量】成功：6
+2025-03-24 15:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:488 | 获取【成本】成功：1801
+2025-03-24 15:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:497 | 获取【利润率】成功：-7.5%
+2025-03-24 15:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:506 | 获取【距离下个星期日还有多少小时】成功:128
+2025-03-24 15:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:524 | 获取【当前操作】成功：提取数据
+2025-03-24 15:20:10 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:692 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 15:33:47 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:113 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 15:33:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:779 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 15:33:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:212 | 开始提取主页面数据...
+2025-03-24 15:33:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:215 | 获取主页面蔬菜名称:鲜嫩象瓜尖
+2025-03-24 15:33:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:223 | '2025-03-23 上午', '2025-03-23 下午', '2025-03-24 上午', '2025-03-24 下午'
+2025-03-24 15:33:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:226 | 1801, 1801, 1702, 1666
+2025-03-24 15:33:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:702 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 15:35:53 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:113 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 15:35:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:779 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 15:35:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:212 | 开始提取主页面数据...
+2025-03-24 15:35:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:215 | 获取主页面蔬菜名称:鲜嫩象瓜尖
+2025-03-24 15:35:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:223 | '2025-03-23 上午', '2025-03-23 下午', '2025-03-24 上午', '2025-03-24 下午'
+2025-03-24 15:35:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:226 | 1801, 1801, 1702, 1666
+2025-03-24 15:35:55 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:702 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 15:39:19 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 15:39:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:769 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 15:39:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:202 | 开始提取主页面数据...
+2025-03-24 15:39:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:205 | 获取主页面蔬菜名称:鲜嫩象瓜尖
+2025-03-24 15:39:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:213 | '2025-03-23 上午', '2025-03-23 下午', '2025-03-24 上午', '2025-03-24 下午'
+2025-03-24 15:39:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:216 | 1801, 1801, 1702, 1666
+2025-03-24 15:39:25 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:692 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 15:42:21 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 15:42:23 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:769 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 15:42:23 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:202 | 开始提取主页面数据...
+2025-03-24 15:42:24 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:205 | 获取主页面蔬菜名称:鲜嫩象瓜尖
+2025-03-24 15:42:24 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:213 | '2025-03-23 上午', '2025-03-23 下午', '2025-03-24 上午', '2025-03-24 下午'
+2025-03-24 15:42:24 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:216 | 1801, 1801, 1702, 1666
+2025-03-24 15:42:24 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:692 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 15:42:30 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 15:42:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:769 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 15:42:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:575 | 获取【星期几】成功:星期一
+2025-03-24 15:42:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:578 | 获取【当前时间】成功:2025-03-24 15:42:30
+2025-03-24 15:42:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:581 | 获取【当前周数】成功:12
+2025-03-24 15:42:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:463 | 获取【名称】成功:鲜嫩象瓜尖
+2025-03-24 15:42:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:467 | 获取【市场单价】成功:1666
+2025-03-24 15:42:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:471 | 获取【累计盈利】成功：1000184
+2025-03-24 15:42:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:475 | 获取【当前可卖数量】成功：6
+2025-03-24 15:42:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:488 | 获取【成本】成功：1801
+2025-03-24 15:42:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:497 | 获取【利润率】成功：-7.5%
+2025-03-24 15:42:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:506 | 获取【距离下个星期日还有多少小时】成功:128
+2025-03-24 15:42:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:524 | 获取【当前操作】成功：提取数据
+2025-03-24 15:42:30 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:692 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 15:46:58 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 15:47:00 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:769 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 15:47:00 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:202 | 开始提取主页面数据...
+2025-03-24 15:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:205 | 获取主页面蔬菜名称:鲜嫩象瓜尖
+2025-03-24 15:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:213 | '2025-03-23 上午', '2025-03-23 下午', '2025-03-24 上午', '2025-03-24 下午'
+2025-03-24 15:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:216 | 1801, 1801, 1702, 1666
+2025-03-24 15:47:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:692 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 15:47:08 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:103 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 15:47:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:769 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 15:47:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:575 | 获取【星期几】成功:星期一
+2025-03-24 15:47:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:578 | 获取【当前时间】成功:2025-03-24 15:47:09
+2025-03-24 15:47:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:581 | 获取【当前周数】成功:12
+2025-03-24 15:47:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:463 | 获取【名称】成功:鲜嫩象瓜尖
+2025-03-24 15:47:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:467 | 获取【市场单价】成功:1666
+2025-03-24 15:47:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:471 | 获取【累计盈利】成功：1000184
+2025-03-24 15:47:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:475 | 获取【当前可卖数量】成功：6
+2025-03-24 15:47:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:488 | 获取【成本】成功：1801
+2025-03-24 15:47:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:497 | 获取【利润率】成功：-7.5%
+2025-03-24 15:47:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:506 | 获取【距离下个星期日还有多少小时】成功:128
+2025-03-24 15:47:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:524 | 获取【当前操作】成功：提取数据
+2025-03-24 15:47:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:692 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 15:56:46 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:105 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 15:56:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:771 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 15:56:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:204 | 开始提取主页面数据...
+2025-03-24 15:56:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:207 | 获取主页面蔬菜名称:鲜嫩象瓜尖
+2025-03-24 15:56:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:215 | '2025-03-23 上午', '2025-03-23 下午', '2025-03-24 上午', '2025-03-24 下午'
+2025-03-24 15:56:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:218 | 1801, 1801, 1702, 1666
+2025-03-24 15:56:52 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:694 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 15:57:00 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:105 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 15:57:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:771 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 15:57:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:577 | 获取【星期几】成功:星期一
+2025-03-24 15:57:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:580 | 获取【当前时间】成功:2025-03-24 15:57:01
+2025-03-24 15:57:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:583 | 获取【当前周数】成功:12
+2025-03-24 15:57:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:465 | 获取【名称】成功:鲜嫩象瓜尖
+2025-03-24 15:57:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:469 | 获取【市场单价】成功:1666
+2025-03-24 15:57:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:473 | 获取【累计盈利】成功：1000184
+2025-03-24 15:57:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:477 | 获取【当前可卖数量】成功：6
+2025-03-24 15:57:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:490 | 获取【成本】成功：1801
+2025-03-24 15:57:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:499 | 获取【利润率】成功：-7.5%
+2025-03-24 15:57:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:508 | 获取【距离下个星期日还有多少小时】成功:128
+2025-03-24 15:57:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:526 | 获取【当前操作】成功：提取数据
+2025-03-24 15:57:01 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:694 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 16:14:56 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:107 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 16:15:00 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:773 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 16:15:00 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:206 | 开始提取主页面数据...
+2025-03-24 16:15:00 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:209 | 获取主页面蔬菜名称:鲜嫩象瓜尖
+2025-03-24 16:15:00 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:217 | '2025-03-23 上午', '2025-03-23 下午', '2025-03-24 上午', '2025-03-24 下午'
+2025-03-24 16:15:00 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:220 | 1801, 1801, 1702, 1666
+2025-03-24 16:15:00 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:696 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 16:15:06 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:107 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 16:15:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:773 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 16:15:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:579 | 获取【星期几】成功:星期一
+2025-03-24 16:15:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:582 | 获取【当前时间】成功:2025-03-24 16:15:07
+2025-03-24 16:15:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:585 | 获取【当前周数】成功:12
+2025-03-24 16:15:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:467 | 获取【名称】成功:鲜嫩象瓜尖
+2025-03-24 16:15:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:471 | 获取【市场单价】成功:1666
+2025-03-24 16:15:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:475 | 获取【累计盈利】成功：1000184
+2025-03-24 16:15:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:479 | 获取【当前可卖数量】成功：6
+2025-03-24 16:15:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:492 | 获取【成本】成功：1801
+2025-03-24 16:15:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:501 | 获取【利润率】成功：-7.5%
+2025-03-24 16:15:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:510 | 获取【距离下个星期日还有多少小时】成功:127
+2025-03-24 16:15:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:528 | 获取【当前操作】成功：提取数据
+2025-03-24 16:15:07 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:696 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 17:31:39 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:119 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 17:31:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:785 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 17:31:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:218 | 开始提取主页面数据...
+2025-03-24 17:31:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:221 | 获取主页面蔬菜名称:鲜嫩象瓜尖
+2025-03-24 17:31:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:229 | '2025-03-23 上午', '2025-03-23 下午', '2025-03-24 上午', '2025-03-24 下午'
+2025-03-24 17:31:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:232 | 1801, 1801, 1702, 1666
+2025-03-24 17:31:41 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:708 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 17:31:49 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:119 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 17:31:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:785 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 17:31:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:591 | 获取【星期几】成功:星期一
+2025-03-24 17:31:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:594 | 获取【当前时间】成功:2025-03-24 17:31:50
+2025-03-24 17:31:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:597 | 获取【当前周数】成功:12
+2025-03-24 17:31:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:479 | 获取【名称】成功:鲜嫩象瓜尖
+2025-03-24 17:31:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:483 | 获取【市场单价】成功:1666
+2025-03-24 17:31:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:487 | 获取【累计盈利】成功：1000184
+2025-03-24 17:31:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:491 | 获取【当前可卖数量】成功：6
+2025-03-24 17:31:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:504 | 获取【成本】成功：1801
+2025-03-24 17:31:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:513 | 获取【利润率】成功：-7.5%
+2025-03-24 17:31:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:522 | 获取【距离下个星期日还有多少小时】成功:126
+2025-03-24 17:31:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:540 | 获取【当前操作】成功：提取数据
+2025-03-24 17:31:50 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:708 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 20:03:30 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:137 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 20:03:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:803 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 20:03:31 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:236 | 开始提取主页面数据...
+2025-03-24 20:03:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:239 | 获取主页面蔬菜名称:鲜嫩象瓜尖
+2025-03-24 20:03:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:247 | '2025-03-23 上午', '2025-03-23 下午', '2025-03-24 上午', '2025-03-24 下午'
+2025-03-24 20:03:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:250 | 1801, 1801, 1702, 1666
+2025-03-24 20:03:39 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:726 | 所有数据均已存在于数据库中，未插入新记录。
+2025-03-24 20:04:06 | ptvicomo_log | WARNING  | selenium_ptvicomo_cookie_04_sqlalchemy.py:137 | 无头模式，如果无法采集数据，请关闭无头模式使用正常模式登录一次！
+这将重写cookie内容，以便能正常登录。修改config.py文件中的HEAD_LESS参数即可。
+2025-03-24 20:04:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:803 | 当前时间字段类型已经是 DATETIME，无需转换
+2025-03-24 20:04:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:609 | 获取【星期几】成功:星期一
+2025-03-24 20:04:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:612 | 获取【当前时间】成功:2025-03-24 20:04:06
+2025-03-24 20:04:06 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:615 | 获取【当前周数】成功:12
+2025-03-24 20:04:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:497 | 获取【名称】成功:鲜嫩象瓜尖
+2025-03-24 20:04:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:501 | 获取【市场单价】成功:1666
+2025-03-24 20:04:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:505 | 获取【累计盈利】成功：1000184
+2025-03-24 20:04:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:509 | 获取【当前可卖数量】成功：6
+2025-03-24 20:04:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:522 | 获取【成本】成功：1801
+2025-03-24 20:04:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:531 | 获取【利润率】成功：-7.5%
+2025-03-24 20:04:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:540 | 获取【距离下个星期日还有多少小时】成功:123
+2025-03-24 20:04:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:558 | 获取【当前操作】成功：提取数据
+2025-03-24 20:04:09 | ptvicomo_log | INFO     | selenium_ptvicomo_cookie_04_sqlalchemy.py:726 | 所有数据均已存在于数据库中，未插入新记录。

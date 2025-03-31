@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2dcb0ce3-d135-42cc-9b77-f7f3d8c2be96" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$datetime_test.coverage" NAME="datetime_test 覆盖结果" MODIFIED="1742719194702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/ptvicomo" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$subprocess_1.coverage" NAME="subprocess_1 覆盖结果" MODIFIED="1741596346087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/subprocess" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$selenium_ptvicomo_cookie_04_test.coverage" NAME="selenium_ptvicomo_cookie_04_test 覆盖结果" MODIFIED="1742800783679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/ptvicomo" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$wowjump_controller.coverage" NAME="wowjump_controller 覆盖结果" MODIFIED="1741834674703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/wowjump" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$selenium_ptvicomo_cookie_04_main.coverage" NAME="selenium_ptvicomo_cookie_04_main 覆盖结果" MODIFIED="1742175247330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/ptvicomo" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$sqlite_1.coverage" NAME="sqlite_1 覆盖结果" MODIFIED="1742953247077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/ptvicomo" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$wow_jump_kook_v3.coverage" NAME="wow_jump_kook_v3 覆盖结果" MODIFIED="1741825637473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/wowjump" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$textdocument.coverage" NAME="textdocument 覆盖结果" MODIFIED="1741421248009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/pygments" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$wow_jump_kook_v3_test.coverage" NAME="wow_jump_kook_v3_test 覆盖结果" MODIFIED="1741830329068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/wowjump" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$env.coverage" NAME="env 覆盖结果" MODIFIED="1742539587521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/ptvicomo/alembic" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$main_test.coverage" NAME="main_test 覆盖结果" MODIFIED="1741769214420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$main.coverage" NAME="main 覆盖结果" MODIFIED="1743039337122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$pygments_1.coverage" NAME="pygments_1 覆盖结果" MODIFIED="1741419985643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/pygments" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$config_ptvicomo_04.coverage" NAME="config_ptvicomo_04 覆盖结果" MODIFIED="1741853712449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/ptvicomo" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$wow_jump_02__kook_v3.coverage" NAME="wow_jump_02_单人_kook加速器_v3 覆盖结果" MODIFIED="1741664194392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/wowjump" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$colorlog_1.coverage" NAME="colorlog_1 覆盖结果" MODIFIED="1741419979863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/pygments" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$selenium_ptvicomo_cookie_04_sqlalchemy.coverage" NAME="selenium_ptvicomo_cookie_04_sqlalchemy 覆盖结果" MODIFIED="1742865168877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/ptvicomo" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$config_parser_test01.coverage" NAME="config_parser_test01 覆盖结果" MODIFIED="1742891637306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/ptvicomo" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$widgets_controller.coverage" NAME="widgets_controller 覆盖结果" MODIFIED="1741223470376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/widgets" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$selenium_ptvicomo_cookie_04.coverage" NAME="selenium_ptvicomo_cookie_04 覆盖结果" MODIFIED="1742800731183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/ptvicomo" />
+    <SUITE FILE_PATH="coverage/Modern_GUI_PyDracula_PySide6_or_PyQt6_master$ptvicomo_controller.coverage" NAME="ptvicomo_controller 覆盖结果" MODIFIED="1742874520987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers/ptvicomo" />
+  </component>
+</project>
